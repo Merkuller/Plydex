@@ -1,0 +1,350 @@
+/* 1 секция. Вдохновение */
+.sectionOne_page15 {
+    width: 100%;
+    display: block;
+    padding-bottom: 80px;
+}
+.part1Section_page15 {
+    background-color: #fff;
+    padding-bottom: 80px;
+}
+/* 1 секция. Контент. Картинка. Вдохновение */
+.wrapper_page15 {
+    width: 66.146%;
+    margin: 0px auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* 1 секция. Контент. Вдохновение */
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 {
+    width: 100%;
+    padding-top: 70px;
+    display: block;
+}
+/* 1 секция. Контент. Заголовок. Вдохновение */
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 .pageHeadline_page15 {
+    width: 66.146%;
+    margin: 0px auto;
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+    color: #0A0A0A;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 60px;
+}
+/*
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 .pageImg_page15 {
+    width: 100%;
+    height: 1000px;
+    display: block;
+    position: sticky;
+    top: 70px;
+}
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 .pageImg_page15 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.part1Section_page15 {
+    width: 100%;
+    display: block;
+    background-color: #fff;
+    position: relative;
+    z-index: 999;
+}
+*/
+.parallax-window {
+    min-height: 100vh;
+}
+                        /* 1 секция. Контент. 1 часть. Вдохновение */
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 .wrapper_page15 .part1_page15 {
+    width: 100%;
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+                    /* 1 секция. Контент. 1.1 часть. Вдохновение */
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 .wrapper_page15 .part1_page15 .part1_1_page15 {
+    max-width: 350px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #666666;
+    margin-right: 61px;
+    white-space: nowrap;
+}
+                    /* 1 секция. Контент. 1.2 часть. Вдохновение */
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 .wrapper_page15 .part1_page15 .part1_2_page15 {
+    max-width: 757px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 61px;
+}
+                /* 1 секция. Контент. 1.2 часть. Общие стили для строк. Вдохновение */
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 .wrapper_page15 .part1_page15 .part1_2_page15 .part1_2Row_page15 {
+    width: 100%;
+    padding-bottom: 70px;
+}
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 .wrapper_page15 .part1_page15 .part1_2_page15 .part1_2Row_page15:last-of-type {
+    padding-bottom: 0px;
+}
+            /* 1 секция. Контент. 1.2 часть. Общие стили для строк. Заголовок. Вдохновение */
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 .wrapper_page15 .part1_page15 .part1_2_page15 .part1_2Row_page15 .part1_2RowHeadline_page15 {
+    width: 100%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0A0A0A;
+    padding-bottom: 20px;
+}
+            /* 1 секция. Контент. 1.2 часть. Общие стили для строк. Текст. Вдохновение */
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 .wrapper_page15 .part1_page15 .part1_2_page15 .part1_2Row_page15 .part1_2RowText_page15 {
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #0A0A0A;
+}
+/* 1 секция. Контент. 1.2 часть. Высота первой строки. Вдохновение */
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 .wrapper_page15 .part1_page15 .part1_2_page15 .part1_2Row1_page15 {
+    min-height: 144px;
+}
+/* 1 секция. Контент. 1.2 часть. Высота второй строки. Вдохновение */
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 .wrapper_page15 .part1_page15 .part1_2_page15 .part1_2Row2_page15 {
+    min-height: 120px;
+}
+/* 1 секция. Контент. 1.2 часть. Высота третьей строки. Вдохновение */
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 .wrapper_page15 .part1_page15 .part1_2_page15 .part1_2Row3_page15 {
+    min-height: 168px;
+}
+/* 1 секция. Контент. 1.2 часть. Высота третьей строки. Вдохновение */
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 .wrapper_page15 .part1_page15 .part1_2_page15 .part1_2Row4_page15 {
+    min-height: 120px;
+}
+                        /* 1 секция. Контент. 2 часть. Вдохновение */
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 .wrapper_page15 .part2_page15 {
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+                    /* 1 секция. Контент. 2.1 часть. Вдохновение */
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 .wrapper_page15 .part2_page15 .part2_1_page15 {
+    max-width: 757px;
+    padding-top: 177px;
+    padding-bottom: 187px;
+    margin-right: 61px;
+}
+                /* 1 секция. Контент. 2.1.1 часть. Вдохновение */
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 .wrapper_page15 .part2_page15 .part2_1_page15 .part2_1_1_page15 {
+    width: 100%;
+    padding-bottom: 141px;
+    border-bottom: 1px solid #E8E8E8;
+    display: block;
+}
+/* 1 секция. Контент. 2.1.1 часть. Заголовок. Вдохновение */
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 .wrapper_page15 .part2_page15 .part2_1_page15 .part2_1_1_page15 .part2_1_1Headline_page15 {
+    width: 100%;
+    display: inline-block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0A0A0A;
+    margin-bottom: 20px;
+}
+/* 1 секция. Контент. 2.1.1 часть. Заголовок. Вдохновение */
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 .wrapper_page15 .part2_page15 .part2_1_page15 .part2_1_1_page15 .part2_1_1Text_page15 {
+    width: 100%;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    border-bottom: 1px solid #E8E8E8;
+    padding-bottom: 30px;
+}
+/* 1 секция. Контент. 2.1.1 часть. Блок списка. Вдохновение */
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 .wrapper_page15 .part2_page15 .part2_1_page15 .part2_1_1_page15 .part2_1_1List_page15 {
+    width: 100%;
+    display: inline-block;
+    padding-top: 30px;
+}
+/* 1 секция. Контент. 2.1.1 часть. Блок списка. Список. Вдохновение */
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 .wrapper_page15 .part2_page15 .part2_1_page15 .part2_1_1_page15 .part2_1_1List_page15 ul {
+    width: 100%;
+    display: inline-block;
+}
+/* 1 секция. Контент. 2.1.1 часть. Блок списка. Список. Элемент списка. Вдохновение */
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 .wrapper_page15 .part2_page15 .part2_1_page15 .part2_1_1_page15 .part2_1_1List_page15 ul li:first-of-type {
+    width: 100%;
+    display: flex;
+    padding-bottom: 10px;
+}
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 .wrapper_page15 .part2_page15 .part2_1_page15 .part2_1_1_page15 .part2_1_1List_page15 ul li:nth-of-type(2) {
+    width: 100%;
+    display: flex;
+    padding-bottom: 10px;
+}
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 .wrapper_page15 .part2_page15 .part2_1_page15 .part2_1_1_page15 .part2_1_1List_page15 ul li:nth-of-type(3) {
+    width: 100%;
+    display: flex;
+    padding-bottom: 10px;
+}
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 .wrapper_page15 .part2_page15 .part2_1_page15 .part2_1_1_page15 .part2_1_1List_page15 ul li:last-of-type {
+    width: 100%;
+    display: flex;
+}
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 .wrapper_page15 .part2_page15 .part2_1_page15 .part2_1_1_page15 .part2_1_1List_page15 ul li .el1_page15 {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 2.4px;
+}
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 .wrapper_page15 .part2_page15 .part2_1_page15 .part2_1_1_page15 .part2_1_1List_page15 ul li .el2_page15 {
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #0A0A0A;
+}
+                /* 1 секция. Контент. 2.1.2 часть. Вдохновение */
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 .wrapper_page15 .part2_page15 .part2_1_page15 .part2_1_2_page15 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+}
+/* 1 секция. Контент. 2.1.2 часть. Заголовок. Вдохновение */
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 .wrapper_page15 .part2_page15 .part2_1_page15 .part2_1_2_page15 .part2_1_2Headline_page15 {
+    width: 100%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0A0A0A;
+    margin-bottom: 20px;
+}
+/* 1 секция. Контент. 2.1.2 часть. Текст. Вдохновение */
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 .wrapper_page15 .part2_page15 .part2_1_page15 .part2_1_2_page15 .part2_1_2Text_page15 {
+    width: 100%;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #0A0A0A;
+    margin-bottom: 50px;
+}
+/* 1 секция. Контент. 2.1.2 часть. Бизнес-карта. Вдохновение */
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 .wrapper_page15 .part2_page15 .part2_1_page15 .part2_1_2_page15 .part2_1_2businessCard_page15 {
+    max-width: 437px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* 1 секция. Контент. 2.1.2 часть. Бизнес-карта. Аватарка. Вдохновение */
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 .wrapper_page15 .part2_page15 .part2_1_page15 .part2_1_2_page15 .part2_1_2businessCard_page15 .businessCardAvatar_page15 {
+    max-width: 173px;
+    height: 173px;
+    display: block;
+    margin-right: 10px;
+}
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 .wrapper_page15 .part2_page15 .part2_1_page15 .part2_1_2_page15 .part2_1_2businessCard_page15 .businessCardAvatar_page15 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* 1 секция. Контент. 2.1.2 часть. Бизнес-карта. Данные. Ф.И.О. Должность. Вдохновение */
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 .wrapper_page15 .part2_page15 .part2_1_page15 .part2_1_2_page15 .part2_1_2businessCard_page15 .businessCardPersonData_page15 {
+    margin-left: 10px;
+    max-width: 244px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 .wrapper_page15 .part2_page15 .part2_1_page15 .part2_1_2_page15 .part2_1_2businessCard_page15 .businessCardPersonData_page15 .businessCardName_page15 {
+    width: 100%;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #0A0A0A;
+    padding-bottom: 5px;
+}
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 .wrapper_page15 .part2_page15 .part2_1_page15 .part2_1_2_page15 .part2_1_2businessCard_page15 .businessCardPersonData_page15 .businessCardposition_page15 {
+    width: 100%;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+}
+                    /* 1 секция. Контент. 2.1 часть. Слайдер. Вдохновение */
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 .wrapper_page15 .part2_page15 .part2_2_page15 {
+    width: 350px;
+    height: 1351px;
+    display: inline-block;
+    margin-left: 61px;
+    position: relative;
+}
+/* 1 секция. Контент. 2.1 часть. Слайдер. Слайд. Вдохновение */
+.sectionOne_page15 .contentFirstSection_page15 .contentSection_page15 .wrapper_page15 .part2_page15 .part2_2_page15 .slide_page15 {
+    width: 100%;
+    height: 1351px;
+    display: block;
+    text-align: center;
+}
+        /* Стилизация слайдера */
+/* Ограничивающая оболочка */
+.part2_2_page15 .slick-list {
+    overflow: hidden;
+}
+/* Лента слайдов */
+.part2_2_page15 .slick-track {
+    display: flex;
+}
+/* Стрелка */
+.part2_2_page15 .slick-arrow {
+    position: absolute;
+    font-size: 0px;
+    width: 58px;
+    height: 58px;
+    background-color: #E8E8E8;
+    top: 232px;
+    border: none;
+    outline: none;
+}
+/* Стрелка влево */
+.part2_2_page15 .slick-arrow.slick-prev {
+    left: -90px;
+    background-image: url('/img/svg/firstSection_page15/sliderLeftBtn_page15.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.part2_2_page15 .slick-arrow.slick-prev:hover {
+    background-image: url('/img/svg/firstSection_page15/sliderRightBtn_page15.svg');
+    transform: rotate(180deg);
+}
+/* Стрелка вправо */
+.part2_2_page15 .slick-arrow.slick-next {
+    right: -90px;
+    background-image: url('/img/svg/firstSection_page15/sliderLeftBtn_page15.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(180deg);
+}
+.part2_2_page15 .slick-arrow.slick-next:hover {
+    background-image: url('/img/svg/firstSection_page15/sliderRightBtn_page15.svg');
+    transform: none;
+}

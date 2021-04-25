@@ -1,0 +1,1648 @@
+                        /* 1 секция. Главная */
+        /* Слайдер. Главная страница */
+.slider_page1 {
+    position: relative;
+    width: 100%;
+    height: 608px;
+    z-index: 1;
+}
+    /* Панель управления слайдером */
+.slider_page1 .slick-arrow {
+    position: absolute;
+    top: 50%;
+    margin: -30px 0px 0px 0px;
+    z-index: 12;
+    font-size: 0;
+    width: 40px;
+    height: 40px;
+    outline: none;
+    border: none;
+}
+/* Левая стрелка слайдера */
+.slider_page1 .slick-arrow.slick-prev {
+    left: 36px;
+    background:  url('/img//svg/slider_page1/leftArrowSlider_page1.svg') 0 0 / 100% no-repeat;
+}
+/* Правая стрелка слайдера */
+.slider_page1 .slick-arrow.slick-next {
+    right: 36px;
+    background:  url('/img//svg/slider_page1/rightArrowSlider_page1.svg') 0 0 / 100% no-repeat;
+}
+/* Ограничивающая оболочка */
+.slider_page1 .slick-list {
+    overflow: hidden;
+}
+/* Лента слайдов */
+.slider_page1 .slick-track {
+    display: flex;
+    width: 100%;
+    height: 608px;
+}
+/* Слайд */
+.slider_page1 .carousel_page1 .slider_item {
+    width: 100%;
+    height: 608px;
+}
+.slider_page1 .carousel_page1 .slider_item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.sectionOne_page1 {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 6px;
+}
+.sectionOne_page1 .content1FirstSection_page1 {
+    width: 100%;
+    height: 439px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6px;
+    padding-bottom: 3px;
+}
+        /* 1 продукт */
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent1_page1 {
+    height: 430px;
+    width: 636px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent1_page1:hover > .content1Product1Picture img {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+/* Описание 1 продукта */
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent1_page1 .content1Product1Title_page1 {
+    height: 140px;
+    width: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 55px;
+    display: flex;
+    flex-direction: column;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent1_page1 .content1Product1Title_page1 .content1Product1Link1_page1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 32px;
+    line-height: 37px;
+    color: #8D8D8D;
+    text-decoration: none;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent1_page1 .content1Product1Title_page1 .content1Product1Link2_page1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 16px;
+    line-height: 18px;
+    color: #8D8D8D;
+    text-decoration: none;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent1_page1 .content1Product1Title_page1 .content1Product1Link2_page1::before {
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    background-image: url('/img/svg/firstSection_page1/content1ArrowLinkProduct1_page1.svg');
+    margin-bottom: 1px;
+}
+/* Изображение 1 продукта */
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent1_page1 .content1Product1Picture {
+    width: 100%;
+    height: 290px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent1_page1 .content1Product1Picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent1_page1 .content1Product1Picture img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent1_page1 .content1Product1Picture::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    width: 40px;
+    height: 30px;
+    background-image: url('/img/svg/firstSection_page1/content1Product1DescriptionElement_page1.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    bottom: 268px;
+    left: 40px;
+}
+        /* 2 продукт */
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent2_page1 {
+    height: 430px;
+    width: 636px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent2_page1:hover > .content2Product2Picture img {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+/* Описание 2 продукта */
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent2_page1 .content2Product2Title_page1 {
+    height: 140px;
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 35px;
+    display: flex;
+    flex-direction: column;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent2_page1 .content2Product2Title_page1 .content2Product2Link1_page1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 32px;
+    margin: 0px auto;
+    line-height: 37px;
+    color: #8D8D8D;
+    text-decoration: none;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent2_page1 .content2Product2Title_page1 .content2Product2Link2_page1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 16px;
+    margin: 0px auto;
+    line-height: 18px;
+    color: #8D8D8D;
+    text-decoration: none;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent2_page1 .content2Product2Title_page1 .content2Product2Link2_page1::before {
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    background-image: url('/img/svg/firstSection_page1/content1ArrowLinkProduct1_page1.svg');
+    margin-bottom: 1px;
+}
+/* Изображение 2 продукта */
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent2_page1 .content2Product2Picture {
+    width: 100%;
+    height: 290px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent2_page1 .content2Product2Picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent2_page1 .content2Product2Picture img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent2_page1 .content2Product2Picture::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    width: 40px;
+    height: 30px;
+    background-image: url('/img/svg/firstSection_page1/content1Product1DescriptionElement_page1.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    top: 268px;
+    left: 41px;
+}
+        /* 3 продукт */
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent3_page1 {
+    height: 430px;
+    width: 636px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+    cursor: pointer;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent3_page1:hover > .content3Product3Picture img {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+/* Описание 3 продукта */
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent3_page1 .content3Product3Title_page1 {
+    height: 140px;
+    width: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 55px;
+    display: flex;
+    flex-direction: column;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent3_page1 .content3Product3Title_page1 .content3Product3Link1_page1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 32px;
+    line-height: 37px;
+    color: #8D8D8D;
+    text-decoration: none;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent3_page1 .content3Product3Title_page1 .content3Product3Link2_page1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 16px;
+    line-height: 18px;
+    color: #8D8D8D;
+    text-decoration: none;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent3_page1 .content3Product3Title_page1 .content3Product3Link2_page1::before {
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    background-image: url('/img/svg/firstSection_page1/content1ArrowLinkProduct1_page1.svg');
+    margin-bottom: 1px;
+}
+/* Изображение 3 продукта */
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent3_page1 .content3Product3Picture {
+    width: 100%;
+    height: 290px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent3_page1 .content3Product3Picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent3_page1 .content3Product3Picture img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent3_page1 .content3Product3Picture::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    width: 40px;
+    height: 30px;
+    background-image: url('/img/svg/firstSection_page1/content1Product1DescriptionElement_page1.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    bottom: 268px;
+    left: 40px;
+}
+                                /* 2 секция. Главная */
+.sectionOne_page1 .content2FirstSection_page1 {
+    width: 100%;
+    height: 643px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3px;
+}
+        /* 2 секция. 1 часть. Главная */
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1278px;
+    height: 646px;
+    margin-right: 6px;
+    padding-top: 0px;
+    padding-bottom: 6px;
+}
+    /* 2 секция. 1 часть. 1 продукт. Главная */
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content1 {
+    width: 100%;
+    height: 425px;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+    position: relative;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content1 img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content1 .part1Content1Title1_page1 {
+    color: #000;
+    background: #fff;
+    mix-blend-mode: lighten;
+    font-size: 64px;
+    font-weight: bold;
+    text-transform: uppercase;
+    max-width: 766px;
+    padding-left: 75px;
+    padding-right: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 114px;
+    position: absolute;
+    top: 178px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    text-decoration: none;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content1 .part1Content1Title_page1 {
+    width: 100%;
+    position: absolute;
+    z-index: 6;
+    top: 312px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content1 .part1Content1Title_page1 .part1Content1Title2_page1 {
+    width: 100%;
+    text-align: center;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content1 .part1Content1Title_page1 .part1Content1Title2_page1 a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+    /* 2 секция. 1 часть. 2 продукт. Главная */
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content2_page1 {
+    width: 100%;
+    height: 209px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* 2 секция. 1 часть. 2.1 продукт. Главная */
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content2_page1 .content2FirstSectionPart1Content2_1_page1 {
+    width: 100%;
+    height: 209px;
+    display: inline-block;
+    margin-right: 6px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content2_page1 .content2FirstSectionPart1Content2_1_page1:nth-of-type(2) {
+    margin-right: 0px;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content2_page1 .content2FirstSectionPart1Content2_1_page1 img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content2_page1 .content2FirstSectionPart1Content2_1_page1 img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content2_page1 .content2FirstSectionPart1Content2_1_page1 .content2Part1Content2_1Links_page1 {
+    position: absolute;
+    top: 58px;
+    z-index: 2;
+    width: 100%;
+    height: 92px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content2_page1 .content2FirstSectionPart1Content2_1_page1 .content2Part1Content2_1Links_page1 .content2Part1Content2_1Link1_page1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 74px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content2_page1 .content2FirstSectionPart1Content2_1_page1 .content2Part1Content2_1Links_page1 .content2Part1Content2_1Link2_page1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content2_page1 .content2FirstSectionPart1Content2_1_page1 .content2Part1Content2_1Links_page1 .content2Part1Content2_1Link2_page1::before {
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    margin-bottom: 1px;
+    background-image: url('/img/svg/firstSection_page1/content2Part1Content2_1Link2_page1.svg');
+}
+/* 2 секция. 1 часть. 2.2 продукт. Главная */
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content2_page1 .content2FirstSectionPart1Content2_2_page1 {
+    width: 100%;
+    height: 209px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content2_page1 .content2FirstSectionPart1Content2_2_page1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content2_page1 .content2FirstSectionPart1Content2_2_page1 img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content2_page1 .content2FirstSectionPart1Content2_2_page1 .content2Part1Content2_2Link1_page1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 74px;
+    color: #FFFFFF;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    top: 68px;
+    left: 0px;
+    z-index: 3;
+}
+        /* 2 секция. 2 часть. Главная */
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart2_page1 {
+    width: 636px;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart2_page1:hover > .content2Part2ProductPicture_page1 img {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+/* Описание продукта */
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart2_page1 .content2FirstSectionPart2Title_page1 {
+    width: 100%;
+    height: 215px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+    padding-top: 130px;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart2_page1 .content2FirstSectionPart2Title_page1 .content2Part2ProductLink1_page1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+    color: #8D8D8D;
+    width: 100%;
+    text-decoration: none;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart2_page1 .content2FirstSectionPart2Title_page1 .content2Part2ProductLink2_page1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: #8D8D8D;
+    width: 100%;
+    text-decoration: none;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart2_page1 .content2FirstSectionPart2Title_page1 .content2Part2ProductLink2_page1::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    background-image: url('/img/svg/firstSection_page1/content1ArrowLinkProduct1_page1.svg');
+    margin-bottom: 1px;
+}
+/* Изображение продукта */
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart2_page1 .content2Part2ProductPicture_page1 {
+    width: 100%;
+    height: 425px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart2_page1 .content2Part2ProductPicture_page1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart2_page1 .content2Part2ProductPicture_page1 img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart2_page1 .content2Part2ProductPicture_page1::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    background-image: url('/img/svg/firstSection_page1/content1Product1DescriptionElement_page1.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 30px;
+    z-index: 2;
+    bottom: 403px;
+    left: 40px;
+}
+                                /* 3 секция. Главная */
+.sectionOne_page1 .content3FirstSection_page1 {
+    width: 100%;
+    height: 436px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+        /* 1 продукт */
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_1_page1 {
+    height: 430px;
+    width: 636px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_1_page1:hover > .content3Product1Picture img {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+/* Описание 1 продукта */
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_1_page1 .content3Product1Title_page1 {
+    height: 140px;
+    width: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 55px;
+    display: flex;
+    flex-direction: column;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_1_page1 .content3Product1Title_page1 .content3Product1Link1_page1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 32px;
+    line-height: 37px;
+    color: #8D8D8D;
+    text-decoration: none;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_1_page1 .content3Product1Title_page1 .content3Product1Link2_page1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 16px;
+    line-height: 18px;
+    color: #8D8D8D;
+    text-decoration: none;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_1_page1 .content3Product1Title_page1 .content3Product1Link2_page1::before {
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    background-image: url('/img/svg/firstSection_page1/content1ArrowLinkProduct1_page1.svg');
+    margin-bottom: 1px;
+}
+/* Изображение 1 продукта */
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_1_page1 .content3Product1Picture {
+    width: 100%;
+    height: 290px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_1_page1 .content3Product1Picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_1_page1 .content3Product1Picture img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_1_page1 .content3Product1Picture::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    width: 40px;
+    height: 30px;
+    background-image: url('/img/svg/firstSection_page1/content1Product1DescriptionElement_page1.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    bottom: 268px;
+    left: 40px;
+}
+        /* 2 продукт */
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_2_page1 {
+    height: 430px;
+    width: 636px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_2_page1:hover > .content3Product2Picture img {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+/* Описание 2 продукта */
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_2_page1 .content3Product2Title_page1 {
+    height: 140px;
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 35px;
+    display: inline-block;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_2_page1 .content3Product2Title_page1 .content3Product2Link1_page1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 32px;
+    margin: 0px auto;
+    line-height: 37px;
+    color: #8D8D8D;
+    text-decoration: none;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_2_page1 .content3Product2Title_page1 .content3Product2Link2_page1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 16px;
+    margin: 0px auto;
+    line-height: 18px;
+    color: #8D8D8D;
+    text-decoration: none;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_2_page1 .content3Product2Title_page1 .content3Product2Link2_page1::before {
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    background-image: url('/img/svg/firstSection_page1/content1ArrowLinkProduct1_page1.svg');
+    margin-bottom: 1px;
+}
+/* Изображение 2 продукта */
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_2_page1 .content3Product2Picture {
+    width: 100%;
+    height: 290px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_2_page1 .content3Product2Picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_2_page1 .content3Product2Picture img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_2_page1 .content3Product2Picture::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    width: 40px;
+    height: 30px;
+    background-image: url('/img/svg/firstSection_page1/content1Product1DescriptionElement_page1.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    top: 268px;
+    left: 41px;
+}
+        /* 3 продукт */
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_3_page1 {
+    height: 430px;
+    width: 636px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+    cursor: pointer;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_3_page1:hover > .content3Product3Picture img {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+/* Описание 3 продукта */
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_3_page1 .content3Product3_3Title_page1 {
+    height: 140px;
+    width: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 55px;
+    display: inline-block;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_3_page1 .content3Product3_3Title_page1 .content3Product3_3Link1_page1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 32px;
+    line-height: 37px;
+    color: #8D8D8D;
+    text-decoration: none;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_3_page1 .content3Product3_3Title_page1 .content3Product3Link2_page1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 16px;
+    line-height: 18px;
+    color: #8D8D8D;
+    text-decoration: none;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_3_page1 .content3Product3_3Title_page1 .content3Product3Link2_page1::before {
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    background-image: url('/img/svg/firstSection_page1/content1ArrowLinkProduct1_page1.svg');
+    margin-bottom: 1px;
+}
+/* Изображение 3 продукта */
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_3_page1 .content3Product3Picture {
+    width: 100%;
+    height: 290px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_3_page1 .content3Product3Picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_3_page1 .content3Product3Picture img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_3_page1 .content3Product3Picture::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    width: 40px;
+    height: 30px;
+    background-image: url('/img/svg/firstSection_page1/content1Product1DescriptionElement_page1.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    bottom: 268px;
+    left: 40px;
+}
+                                /* 4 секция. Главная */
+.sectionOne_page1 .content4FirstSection_page1 {
+    width: 100%;
+    height: 646px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+        /* 4 секция. 1 часть. Главная */
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1278px;
+    height: 646px;
+    margin-right: 6px;
+    padding-top: 0px;
+    padding-bottom: 6px;
+}
+    /* 4 секция. 1 часть. 1 продукт. Главная */
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_1 {
+    width: 100%;
+    height: 425px;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_1 img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_1 .part1Content4_1Title_page1 {
+    width: 100%;
+    height: 92px;
+    position: absolute;
+    z-index: 6;
+    top: 167px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_1 .part1Content4_1Title_page1 .part1Content4_1Title1_page1 {
+    display: flex;
+    height: 74px;
+    align-items: center;
+    justify-content: center;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_1 .part1Content4_1Title_page1 .part1Content4_1Title1_page1 a {
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 74px;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 555;
+    transform: none;
+    text-decoration: none;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_1 .part1Content4_1Title_page1 .part1Content4_1Title2_page1 {
+    width: 100%;
+    text-align: center;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_1 .part1Content4_1Title_page1 .part1Content4_1Title2_page1 a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_1 .part1Content4_1Title_page1 .part1Content4_1Title2_page1 a::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    margin-bottom: 1px;
+    background-image: url('/img/svg/firstSection_page1/content2Part1Content2_1Link2_page1.svg');
+}
+    /* 4 секция. 1 часть. 2 продукт. Главная */
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_2_page1 {
+    width: 100%;
+    height: 209px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* 4 секция. 1 часть. 2.1 продукт. Главная */
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_2_page1 .content4FirstSectionPart1Content4_2_1_page1 {
+    width: 100%;
+    height: 209px;
+    display: inline-block;
+    margin-right: 6px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_2_page1 .content4FirstSectionPart1Content4_2_1_page1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_2_page1 .content4FirstSectionPart1Content4_2_1_page1 img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_2_page1 .content4FirstSectionPart1Content4_2_1_page1 .content4Part1Content4_2_1Links_page1 {
+    position: absolute;
+    top: 58px;
+    z-index: 2;
+    width: 100%;
+    height: 92px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_2_page1 .content4FirstSectionPart1Content4_2_1_page1 .content4Part1Content4_2_1Links_page1 .content4Part1Content4_2_1Link1_page1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 74px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_2_page1 .content4FirstSectionPart1Content4_2_1_page1 .content4Part1Content4_2_1Links_page1 .content4Part1Content4_2_1Link2_page1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_2_page1 .content4FirstSectionPart1Content4_2_1_page1 .content4Part1Content4_2_1Links_page1 .content4Part1Content4_2_1Link2_page1::before {
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    margin-bottom: 1px;
+    background-image: url('/img/svg/firstSection_page1/content2Part1Content2_1Link2_page1.svg');
+}
+/* 4 секция. 1 часть. 2.2 продукт. Главная */
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_2_page1 .content4FirstSectionPart1Content4_2_2_page1 {
+    width: 100%;
+    height: 209px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_2_page1 .content4FirstSectionPart1Content4_2_2_page1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_2_page1 .content4FirstSectionPart1Content4_2_2_page1 img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_2_page1 .content4FirstSectionPart1Content4_2_2_page1 .content4Part1Content4_2_2Link1_page1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 74px;
+    color: #FFFFFF;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    top: 68px;
+    left: 0px;
+    z-index: 3;
+}
+        /* 4 секция. 2 часть. Главная */
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart2_page1 {
+    width: 636px;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart2_page1:hover > .content4Part2ProductPicture_page1 img {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+/* Описание продукта */
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart2_page1 .content4FirstSectionPart2Title_page1 {
+    width: 100%;
+    height: 215px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+    padding-top: 130px;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart2_page1 .content4FirstSectionPart2Title_page1 .content4Part2ProductLink1_page1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+    color: #8D8D8D;
+    width: 100%;
+    text-decoration: none;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart2_page1 .content4FirstSectionPart2Title_page1 .content4Part2ProductLink2_page1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: #8D8D8D;
+    width: 100%;
+    text-decoration: none;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart2_page1 .content4FirstSectionPart2Title_page1 .content4Part2ProductLink2_page1::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    background-image: url('/img/svg/firstSection_page1/content1ArrowLinkProduct1_page1.svg');
+    margin-bottom: 1px;
+}
+/* Изображение продукта */
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart2_page1 .content4Part2ProductPicture_page1 {
+    width: 100%;
+    height: 425px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart2_page1 .content4Part2ProductPicture_page1 img {
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart2_page1 .content4Part2ProductPicture_page1 img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart2_page1 .content4Part2ProductPicture_page1::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    background-image: url('/img/svg/firstSection_page1/content1Product1DescriptionElement_page1.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 30px;
+    z-index: 2;
+    bottom: 403px;
+    left: 40px;
+}
+                                /* 5 секция. Главная */
+.sectionOne_page1 .content5FirstSection_page1 {
+    width: 100%;
+    height: 436px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+        /* 1 продукт */
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_1_page1 {
+    height: 430px;
+    width: 636px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_1_page1:hover > .content5Product1Picture img {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+/* Описание 1 продукта */
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_1_page1 .content5Product1Title_page1 {
+    height: 140px;
+    width: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 55px;
+    display: flex;
+    flex-direction: column;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_1_page1 .content5Product1Title_page1 .content5Product1Link1_page1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 32px;
+    line-height: 37px;
+    color: #8D8D8D;
+    text-decoration: none;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_1_page1 .content5Product1Title_page1 .content5Product1Link2_page1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 16px;
+    line-height: 18px;
+    color: #8D8D8D;
+    text-decoration: none;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_1_page1 .content5Product1Title_page1 .content5Product1Link2_page1::before {
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    background-image: url('/img/svg/firstSection_page1/content1ArrowLinkProduct1_page1.svg');
+    margin-bottom: 1px;
+}
+/* Изображение 1 продукта */
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_1_page1 .content5Product1Picture {
+    width: 100%;
+    height: 290px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_1_page1 .content5Product1Picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_1_page1 .content5Product1Picture img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_1_page1 .content5Product1Picture::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    width: 40px;
+    height: 30px;
+    background-image: url('/img/svg/firstSection_page1/content1Product1DescriptionElement_page1.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    bottom: 268px;
+    left: 40px;
+}
+        /* 2 продукт */
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_2_page1 {
+    height: 430px;
+    width: 636px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_2_page1:hover > .content5Product2Picture img {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+/* Описание 2 продукта */
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_2_page1 .content5Product2Title_page1 {
+    height: 140px;
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 35px;
+    display: flex;
+    flex-direction: column;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_2_page1 .content5Product2Title_page1 .content5Product2Link1_page1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 32px;
+    margin: 0px auto;
+    line-height: 37px;
+    color: #8D8D8D;
+    text-decoration: none;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_2_page1 .content5Product2Title_page1 .content5Product2Link2_page1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    width: 100%;
+    margin: 0px auto;
+    color: #8D8D8D;
+    text-decoration: none;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_2_page1 .content5Product2Title_page1 .content5Product2Link2_page1::before {
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    background-image: url('/img/svg/firstSection_page1/content1ArrowLinkProduct1_page1.svg');
+    margin-bottom: 1px;
+}
+/* Изображение 2 продукта */
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_2_page1 .content5Product2Picture {
+    width: 100%;
+    height: 290px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_2_page1 .content5Product2Picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_2_page1 .content5Product2Picture img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_2_page1 .content5Product2Picture::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    width: 40px;
+    height: 30px;
+    background-image: url('/img/svg/firstSection_page1/content1Product1DescriptionElement_page1.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    top: 268px;
+    left: 41px;
+}
+        /* 3 продукт */
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_3_page1 {
+    height: 430px;
+    width: 636px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+    cursor: pointer;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_3_page1:hover > .content5Product3Picture img {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+/* Описание 3 продукта */
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_3_page1 .content5Product3Title_page1 {
+    height: 140px;
+    width: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 55px;
+    display: flex;
+    flex-direction: column;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_3_page1 .content5Product3Title_page1 .content5Product3Link1_page1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 32px;
+    line-height: 37px;
+    color: #8D8D8D;
+    text-decoration: none;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_3_page1 .content5Product3Title_page1 .content5Product3Link2_page1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 16px;
+    line-height: 18px;
+    color: #8D8D8D;
+    text-decoration: none;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_3_page1 .content5Product3Title_page1 .content5Product3Link2_page1::before {
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    background-image: url('/img/svg/firstSection_page1/content1ArrowLinkProduct1_page1.svg');
+    margin-bottom: 1px;
+}
+/* Изображение 3 продукта */
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_3_page1 .content5Product3Picture {
+    width: 100%;
+    height: 290px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_3_page1 .content5Product3Picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_3_page1 .content5Product3Picture img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_3_page1 .content5Product3Picture::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    width: 40px;
+    height: 30px;
+    background-image: url('/img/svg/firstSection_page1/content1Product1DescriptionElement_page1.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    bottom: 268px;
+    left: 40px;
+}
+                                /* 6 секция. Главная */
+.sectionOne_page1 .content6FirstSection_page1 {
+    width: 100%;
+    height: 649px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3px;
+    padding-bottom: 6px;
+}
+        /* 6 секция. 1 часть. Главная */
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1278px;
+    height: 646px;
+    margin-right: 6px;
+    padding-top: 0px;
+    padding-bottom: 6px;
+}
+    /* 6 секция. 1 часть. 1 продукт. Главная */
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_1 {
+    width: 100%;
+    height: 425px;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_1 img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_1 .part1Content6_1Title_page1 {
+    width: 100%;
+    height: 92px;
+    position: absolute;
+    z-index: 6;
+    top: 167px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_1 .part1Content6_1Title_page1 .part1Content6_1Title1_page1 {
+    display: flex;
+    height: 74px;
+    align-items: center;
+    justify-content: center;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_1 .part1Content6_1Title_page1 .part1Content6_1Title1_page1 a {
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 74px;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 555;
+    transform: none;
+    text-decoration: none;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_1 .part1Content6_1Title_page1 .part1Content6_1Title2_page1 {
+    width: 100%;
+    text-align: center;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_1 .part1Content6_1Title_page1 .part1Content6_1Title2_page1 a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_1 .part1Content6_1Title_page1 .part1Content6_1Title2_page1 a::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    margin-bottom: 1px;
+    background-image: url('/img/svg/firstSection_page1/content2Part1Content2_1Link2_page1.svg');
+}
+    /* 6 секция. 1 часть. 2 продукт. Главная */
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_2_page1 {
+    width: 100%;
+    height: 209px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* 6 секция. 1 часть. 2.1 продукт. Главная */
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_2_page1 .content6FirstSectionPart1Content6_2_1_page1 {
+    width: 100%;
+    height: 209px;
+    display: inline-block;
+    margin-right: 6px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_2_page1 .content6FirstSectionPart1Content6_2_1_page1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_2_page1 .content6FirstSectionPart1Content6_2_1_page1 img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_2_page1 .content6FirstSectionPart1Content6_2_1_page1 .content6Part1Content6_2_1Links_page1 {
+    position: absolute;
+    top: 58px;
+    z-index: 2;
+    width: 100%;
+    height: 92px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_2_page1 .content6FirstSectionPart1Content6_2_1_page1 .content6Part1Content6_2_1Links_page1 .content6Part1Content6_2_1Link1_page1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 74px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_2_page1 .content6FirstSectionPart1Content6_2_1_page1 .content6Part1Content6_2_1Links_page1 .content6Part1Content6_2_1Link2_page1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_2_page1 .content6FirstSectionPart1Content6_2_1_page1 .content6Part1Content6_2_1Links_page1 .content6Part1Content6_2_1Link2_page1::before {
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    margin-bottom: 1px;
+    background-image: url('/img/svg/firstSection_page1/content2Part1Content2_1Link2_page1.svg');
+}
+/* 6 секция. 1 часть. 2.2 продукт. Главная */
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_2_page1 .content6FirstSectionPart1Content6_2_2_page1 {
+    width: 100%;
+    height: 209px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_2_page1 .content6FirstSectionPart1Content6_2_2_page1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_2_page1 .content6FirstSectionPart1Content6_2_2_page1 img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_2_page1 .content6FirstSectionPart1Content6_2_2_page1 .content6Part1Content6_2_2Link1_page1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 74px;
+    color: #FFFFFF;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    top: 68px;
+    left: 0px;
+    z-index: 3;
+}
+        /* 6 секция. 2 часть. Главная */
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart2_page1 {
+    width: 636px;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart2_page1:hover > .content6Part2ProductPicture_page1 img {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+/* Описание продукта */
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart2_page1 .content6FirstSectionPart2Title_page1 {
+    width: 100%;
+    height: 215px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+    padding-top: 130px;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart2_page1 .content6FirstSectionPart2Title_page1 .content6Part2ProductLink1_page1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+    color: #8D8D8D;
+    width: 100%;
+    text-decoration: none;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart2_page1 .content6FirstSectionPart2Title_page1 .content6Part2ProductLink2_page1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: #8D8D8D;
+    width: 100%;
+    text-decoration: none;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart2_page1 .content6FirstSectionPart2Title_page1 .content6Part2ProductLink2_page1::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    background-image: url('/img/svg/firstSection_page1/content1ArrowLinkProduct1_page1.svg');
+    margin-bottom: 1px;
+}
+/* Изображение продукта */
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart2_page1 .content6Part2ProductPicture_page1 {
+    width: 100%;
+    height: 425px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart2_page1 .content6Part2ProductPicture_page1 img {
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart2_page1 .content6Part2ProductPicture_page1 img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart2_page1 .content6Part2ProductPicture_page1::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    background-image: url('/img/svg/firstSection_page1/content1Product1DescriptionElement_page1.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 30px;
+    z-index: 2;
+    bottom: 403px;
+    left: 40px;
+}

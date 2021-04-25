@@ -1,0 +1,248 @@
+                        /* Подвал */
+footer {
+    width: 100%;
+    height: 466px;
+    display: block;
+    position: relative;
+    background-color: #1D1D1D;
+}
+footer .footerMenu {
+    width: 100%;
+    height: 466px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 35px;
+    padding-right: 53px;
+    padding-top: 60px;
+    background-color: inherit;
+}
+/* 1 раздел подвала */
+footer .footerMenu .footerMenu1 {
+    width: 440px;
+    height: 174px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer .footerMenu .footerMenu1 .footerMenu1_headline {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    width: 100%;
+    height: 28px;
+    color: #BDBDBD;
+}
+footer .footerMenu .footerMenu1 .footerMenu1_list {
+    width: 100%;
+    height: 136px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer .footerMenu .footerMenu1 .footerMenu1_list li {
+    width: 100%;
+    height: 24px;
+}
+footer .footerMenu .footerMenu1 .footerMenu1_list li a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #BDBDBD;
+    width: 100%;
+    text-decoration: none;
+}
+footer .footerMenu .footerMenu1 .footerMenu1_list li a:hover {
+    color: #D5B36A;
+}
+footer .footerMenu .footerMenu1 .footerMenu1_list li a::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    background-image: url('/img/svg/footer/leftArrowFooter.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 1px;
+}
+/* 2 раздел подвала */
+footer .footerMenu .footerMenu2 {
+    width: 440px;
+    height: 314px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer .footerMenu .footerMenu2 .footerMenu2_headline {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    width: 100%;
+    height: 28px;
+    color: #BDBDBD;
+}
+footer .footerMenu .footerMenu2 .footerMenu2_list {
+    width: 100%;
+    height: 276px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer .footerMenu .footerMenu2 .footerMenu2_list li {
+    width: 100%;
+    height: 24px;
+}
+footer .footerMenu .footerMenu2 .footerMenu2_list li a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #BDBDBD;
+    width: 100%;
+    text-decoration: none;
+}
+footer .footerMenu .footerMenu2 .footerMenu2_list li a:hover {
+    color: #D5B36A;
+}
+footer .footerMenu .footerMenu2 .footerMenu2_list li a::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    background-image: url('/img/svg/footer/leftArrowFooter.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 1px;
+}
+/* 3 раздел подвала */
+footer .footerMenu .footerMenu3 {
+    width: 440px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer .footerMenu .footerMenu3 .footerMenu3_headline {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    width: 100%;
+    height: 28px;
+    color: #BDBDBD;
+}
+footer .footerMenu .footerMenu3 .footerMenu3_list {
+    width: 100%;
+    height: 192px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer .footerMenu .footerMenu3 .footerMenu3_list li {
+    width: 100%;
+    height: 24px;
+}
+footer .footerMenu .footerMenu3 .footerMenu3_list li a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #BDBDBD;
+    width: 100%;
+    text-decoration: none;
+}
+footer .footerMenu .footerMenu3 .footerMenu3_list li a:hover {
+    color: #D5B36A;
+}
+footer .footerMenu .footerMenu3 .footerMenu3_list li a::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    background-image: url('/img/svg/footer/leftArrowFooter.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 1px;
+}
+/* 4 раздел меню */
+footer .footerMenu .footerMenuMap {
+    width: 440px;
+    height: 311px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer .footerMenu .footerMenuMap .footerMenuMap_headline {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    width: 100%;
+    height: 28px;
+    color: #BDBDBD;
+    display: inline-block;
+}
+footer .footerMenu .footerMenuMap .footerMap {
+    width: 100%;
+    height: 270px;
+    display: inline-block;
+}
+footer .footerMenu .footerMenuMap .footerMap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+        /* Дополнительная информация подвала */
+footer .footerAdditionalInf {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+    position: absolute;
+    bottom: 20px;
+}
+    /* Ссылки подвала */
+footer .footerAdditionalInf .footerLinks {
+    height: 15px;
+    width: 67px;
+    display: flex;
+    justify-content: space-between;
+}
+/* Facebook */
+footer .footerAdditionalInf .footerLinks .footerFacebookLink {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+}
+/* Youtube */
+footer .footerAdditionalInf .footerLinks .footerYoutubeLink {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+}
+/* Instagram */
+footer .footerAdditionalInf .footerLinks .footerInstaLink {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+}
+/* Авторское право */
+footer .footerAdditionalInf .footerCopyright {
+    height: 15px;
+    width: 114px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    display: inline-block;
+}
+.dropdown-menu.collapsing {
+    display: block;
+}

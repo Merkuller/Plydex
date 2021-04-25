@@ -1,0 +1,614 @@
+                                /* 1 секция. Готовое решение 2 */
+.wrapper_page14 {
+    width: 82.5527%;
+    margin: 0px auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.sectionOne_page14 {
+    width: 100%;
+    display: block;
+}
+.sectionOne_page14 .contentFirstSection_page14 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+                            /* 1 секция. Контент. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 {
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 90px;
+}
+                        /* 1 секция. Контент. 1 часть. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part1_page14 {
+    width: 100%;
+    display: inline-block;
+}
+                    /* 1 секция. Контент. 1 часть. Заголовок. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part1_page14 .part1Headline_page14 {
+    width: 100%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+    padding-bottom: 40px;
+}
+                    /* 1 секция. Контент. 1 часть. Содержание. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part1_page14 .part1Content_page14 {
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+                /* 1 секция. Контент. 1 часть. Содержание 1. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part1_page14 .part1Content_page14 .part1Content1_page14 {
+    width: 48.997%;
+    margin-right: 15px;
+}             
+            /* 1 секция. Контент. 1 часть. Содержание 1. Текст. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part1_page14 .part1Content_page14 .part1Content1_page14 .part1Content1Text_page14 {
+    width: 100%;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1D1D1D;
+    padding-bottom: 50px;
+}
+            /* 1 секция. Контент. 1 часть. Содержание 1. Блок слайдера. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part1_page14 .part1Content_page14 .part1Content1_page14 .part1Content1Slider_page14 {
+    width: 100%;
+    display: inline-block;
+}
+/* 1 секция. Контент. 1 часть. Содержание 1. Блок слайдера. Заголовок. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part1_page14 .part1Content_page14 .part1Content1_page14 .part1Content1Slider_page14 .sliderName_page14 {
+    width: 100%;
+    display: inline-block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1D1D1D;
+    padding-bottom: 30px;
+}
+/* 1 секция. Контент. 1 часть. Содержание 1. Блок слайдера. Слайдер. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part1_page14 .part1Content_page14 .part1Content1_page14 .part1Content1Slider_page14 .slides_page14 {
+    width: 100%;
+    height: 264px;
+    position: relative;
+}
+    /* 1 секция. Контент. 1 часть. Содержание 1. Блок слайдера. Слайдер. Стилизация слайдера. Готовое решение 2 */
+/* Ограничивающая оболочка */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part1_page14 .part1Content_page14 .part1Content1_page14 .part1Content1Slider_page14 .slides_page14 .slick-list {
+    overflow: hidden;
+}
+/* Лента слайдов */
+.slides_page14 .slick-track {
+    display: flex;
+    justify-content: space-around;
+}
+/* Общие стили для слайдов */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part1_page14 .part1Content_page14 .part1Content1_page14 .part1Content1Slider_page14 .slides_page14 .slide_page14 {
+    max-width: 232px;
+    min-width: 232px;
+    height: 264px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part1_page14 .part1Content_page14 .part1Content1_page14 .part1Content1Slider_page14 .slides_page14 .slide_page14 img {
+    width: 100%;
+    height: 200px;
+}
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part1_page14 .part1Content_page14 .part1Content1_page14 .part1Content1Slider_page14 .slides_page14 .slide_page14 .slideName_page14 {
+    width: 100%;
+    height: 24px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+    padding-top: 10px;
+}
+/* Стрелка. Общие стили */
+.slides_page14 .slick-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 8;
+    font-size: 0px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+    width: 50px;
+    height: 50px;
+    margin: -55px 0px 0px 0px;
+}
+/* Стрелка влево */
+.slides_page14 .slick-arrow.slick-prev {
+    left: 20px;
+    background-image: url('/img/svg/firstSection_page14/sliderLeftArrow_page14.svg');
+    background-position: 43% 50%;
+    background-repeat: no-repeat;
+}
+/* Стрелка вправо */
+.slides_page14 .slick-arrow.slick-next {
+    right: 20px;
+    background-image: url('/img/svg/firstSection_page14/sliderRightArrow_page14.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* 1 секция. Контент. 1 часть. Содержание 1. Блок слайдера. Подсказка. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part1_page14 .part1Content_page14 .part1Content1_page14 .part1Content1Slider_page14 .part1Content1Hint_page14 {
+    width: 100%;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #8D8D8D;
+    padding-top: 20px;
+}
+                /* 1 секция. Контент. 1 часть. Содержание 2. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part1_page14 .part1Content_page14 .part1Content2_page14 {
+    width: 49.7%;
+    margin-left: 15px;
+}
+/* 1 секция. Контент. 1 часть. Содержание 2. Картинка. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part1_page14 .part1Content_page14 .part1Content2_page14 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+                        /* 1 секция. Контент. 2 часть. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part2_page14 {
+    width: 100%;
+    min-height: 850px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+                    /* 1 секция. Контент. 2 часть. Содержание 1. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part2_page14 .part2Content1_page14 {
+    width: 49.635%;
+    display: inline-block;
+    margin-right: 15px;
+}
+/* 1 секция. Контент. 2 часть. Содержание 1. Картинка. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part2_page14 .part2Content1_page14 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+                    /* 1 секция. Контент. 2 часть. Содержание 2. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part2_page14 .part2Content2_page14 {
+    width: 49.7%;
+    margin-left: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+        /* 1 секция. Контент. 2 часть. Содержание 2. 1 строка. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row1_page14 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 38px;
+}
+/* 1 секция. Контент. 2 часть. Содержание 2. 1 строка. Заголовок. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row1_page14 .part2Content2Row1Headline_page14 {
+    width: 100%;
+    display: inline-block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1D1D1D;
+    padding-bottom: 30px;
+}
+/* 1 секция. Контент. 2 часть. Содержание 2. 1 строка. Текст. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row1_page14 .part2Content2Row1Text_page14 {
+    width: 100%;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1D1D1D;
+}
+        /* 1 секция. Контент. 2 часть. Содержание 2. 2 строка. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row2_page14 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+/* 1 секция. Контент. 2 часть. Содержание 2. 2 строка. Заголовок. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row2_page14 .part2Content2Row2Headline_page14 {
+    width: 100%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+}
+/* 1 секция. Контент. 2 часть. Содержание 2. 2 строка. Иконка. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row2_page14 .part2Content2Row2Headline_page14::before {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 61px;
+    background-image: url('/img/svg/firstSection_page14/part2Content2Row2Icon_page14.svg');
+    margin-right: 30px;
+    background-position: center;
+}
+/* 1 секция. Контент. 2 часть. Содержание 2. 2 строка. Текст. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row2_page14 .part2Content2Row2Text_page14 {
+    width: 100%;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+    padding-left: 90px;
+}
+        /* 1 секция. Контент. 2 часть. Содержание 2. 3 строка. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row3_page14 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+/* 1 секция. Контент. 2 часть. Содержание 2. 3 строка. Заголовок. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row3_page14 .part2Content2Row3Headline_page14 {
+    width: 100%;
+    display: inline-block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+}
+/* 1 секция. Контент. 2 часть. Содержание 2. 3 строка. Иконка. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row3_page14 .part2Content2Row3Headline_page14::before {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-image: url('/img/svg/firstSection_page14/part4Content2Row2Card2Icon_page14.svg');
+    margin-right: 30px;
+}
+/* 1 секция. Контент. 2 часть. Содержание 2. 3 строка. Текст. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row3_page14 .part2Content2Row3Text_page14 {
+    width: 100%;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+    padding-left: 90px;
+    padding-top: 14px;
+}
+        /* 1 секция. Контент. 2 часть. Содержание 2. 4 строка. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row4_page14 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+/* 1 секция. Контент. 2 часть. Содержание 2. 4 строка. Заголовок. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row4_page14 .part2Content2Row4Headline_page14 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+/* 1 секция. Контент. 2 часть. Содержание 2. 4 строка. Иконка. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row4_page14 .part2Content2Row4Headline_page14::before {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-image: url('/img/svg/firstSection_page14/part4Content2Row2Card3Icon_page14.svg');
+    margin-right: 30px;
+}
+/* 1 секция. Контент. 2 часть. Содержание 2. 4 строка. Текст. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row4_page14 .part2Content2Row4Text_page14 {
+    width: 100%;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+    padding-left: 90px;
+    padding-top: 14px;
+}
+        /* 1 секция. Контент. 2 часть. Содержание 2. Кнопка. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Btn_page14 {
+    width: 285px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #0A0A0A;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Btn_page14 .part2Content2BtnText_page14 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    height: 24px;
+    display: flex;
+    align-items: center;
+}
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Btn_page14 .part2Content2BtnText_page14::after {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('/img/svg/firstSection_page14/linkArrow_page14.svg');
+    margin-left: 15px;
+}
+                        /* 1 секция. Контент. 3 часть. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part3_page14 {
+    width: 100%;
+    min-height: 850px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+                    /* 1 секция. Контент. 3 часть. Содержание 1. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part3_page14 .part3Content1_page14 {
+    width: 48.997%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+    padding-top: 117px;
+    padding-bottom: 112px;
+}
+        /* 1 секция. Контент. 3 часть. Содержание 1. 1 строка. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part3_page14 .part3Content1_page14 .part3Content1Row1_page14 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+/* 1 секция. Контент. 3 часть. Содержание 1. 1 строка. Заголовок. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part3_page14 .part3Content1_page14 .part3Content1Row1_page14 .part3Content1Row1Headline_page14 {
+    width: 100%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1D1D1D;
+    padding-bottom: 30px;
+}
+/* 1 секция. Контент. 3 часть. Содержание 1. 1 строка. Текст. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part3_page14 .part3Content1_page14 .part3Content1Row1_page14 .part3Content1Row1Text_page14 {
+    width: 100%;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1D1D1D;
+}
+        /* 1 секция. Контент. 3 часть. Содержание 1. 2 строка. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part3_page14 .part3Content1_page14 .part3Content1Row2_page14 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+/* 1 секция. Контент. 3 часть. Содержание 1. 2 строка. Общие стили для карточки. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part3_page14 .part3Content1_page14 .part3Content1Row2_page14 .part3Content1Row2Card_page14 {
+    max-width: 363px;
+    display: flex;
+    flex-direction: column;
+}
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part3_page14 .part3Content1_page14 .part3Content1Row2_page14 .part3Content1Row2Card_page14:first-of-type {
+    margin-right: 30px;
+}
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part3_page14 .part3Content1_page14 .part3Content1Row2_page14 .part3Content1Row2Card_page14 .part3Content1Row2CardImg_page14 {
+    width: 100%;
+    min-height: 170px;
+    display: inline-block;
+}
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part3_page14 .part3Content1_page14 .part3Content1Row2_page14 .part3Content1Row2Card_page14 .part3Content1Row2CardImg_page14 img {
+    width: 100%;
+    height: 100%;
+    min-height: 170px;
+    object-fit: cover;
+}
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part3_page14 .part3Content1_page14 .part3Content1Row2_page14 .part3Content1Row2Card_page14 .part3Content1Row2Cardtext_page14 {
+    width: 100%;
+    padding: 30px;
+    display: inline-block;
+    background-color: #E8E8E8;
+    color: #666666;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+}
+        /* 1 секция. Контент. 3 часть. Содержание 1. Кнопка. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part3_page14 .part3Content1_page14 .part3Content1Row2Btn_page14 {
+    width: 285px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0A0A0A;
+    text-decoration: none;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part3_page14 .part3Content1_page14 .part3Content1Row2Btn_page14 .part3Content1Row2BtnText_page14 {
+    height: 24px;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part3_page14 .part3Content1_page14 .part3Content1Row2Btn_page14 .part3Content1Row2BtnText_page14::after {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('/img/svg/firstSection_page14/linkArrow_page14.svg');
+    margin-left: 15px;
+}
+                    /* 1 секция. Контент. 3 часть. Содержание 2. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part3_page14 .part3Content2_page14 {
+    width: 48.997%;
+    margin-left: 15px;
+    display: inline-block;
+}
+/* 1 секция. Контент. 3 часть. Содержание 2. Картинка. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part3_page14 .part3Content2_page14 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+                        /* 1 секция. Контент. 4 часть. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part4_page14 {
+    width: 100%;
+    min-height: 850px;
+    display: flex;
+    justify-content: space-between;
+}
+                    /* 1 секция. Контент. 4 часть. Содержание 1. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part4_page14 .part4Content1_page14 {
+    width: 48.997%;
+    margin-right: 15px;
+    display: inline-block;
+}
+/* 1 секция. Контент. 4 часть. Содержание 1. Картинка. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part4_page14 .part4Content1_page14 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+                    /* 1 секция. Контент. 4 часть. Содержание 2. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part4_page14 .part4Content2_page14 {
+    width: 48.997%;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+        /* 1 секция. Контент. 4 часть. Содержание 2. 1 строка. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part4_page14 .part4Content2_page14 .part4Content2Row1_page14 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 38px;
+}
+/* 1 секция. Контент. 4 часть. Содержание 2. 1 строка. Заголовок. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part4_page14 .part4Content2_page14 .part4Content2Row1_page14 .part4Content2Row1Headline_page14 {
+    width: 100%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1D1D1D;
+    padding-bottom: 30px;
+}
+/* 1 секция. Контент. 4 часть. Содержание 2. 1 строка. Текст. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part4_page14 .part4Content2_page14 .part4Content2Row1_page14 .part4Content2Row1Text_page14 {
+    width: 100%;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1D1D1D;
+}
+        /* 1 секция. Контент. 4 часть. Содержание 2. 2 строка. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part4_page14 .part4Content2_page14 .part4Content2Row2_page14 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 42px;
+}
+/* 1 секция. Контент. 4 часть. Содержание 2. 2 строка. Общие стили для карточек. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part4_page14 .part4Content2_page14 .part4Content2Row2_page14 .part4Content2Row2Card_page14 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 84px;
+    background-color: #E8E8E8;
+}
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part4_page14 .part4Content2_page14 .part4Content2Row2_page14 .part4Content2Row2Card_page14:not(:last-of-type) {
+    margin-right: 30px;
+}
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part4_page14 .part4Content2_page14 .part4Content2Row2_page14 .part4Content2Row2Card_page14 .part4Content2Row2CardIcon_page14 {
+    width: 60px;
+    display: inline-block;
+    margin: 0px auto;
+    margin-bottom: 83px;
+}
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part4_page14 .part4Content2_page14 .part4Content2Row2_page14 .part4Content2Row2Card_page14 .part4Content2Row2CardText_page14 {
+    max-width: 172px;
+    margin: 0px auto;
+    text-align: center;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+}
+        /* 1 секция. Контент. 4 часть. Содержание 2. Кнопка. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part4_page14 .part4Content2_page14 .part4Content2Row2Btn_page14 {
+    width: 285px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0A0A0A;
+    text-decoration: none;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part4_page14 .part4Content2_page14 .part4Content2Row2Btn_page14 .part4Content2Row2BtnText_page14 {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.sectionOne_page14 .contentFirstSection_page14 .wrapper_page14 .contentSection_page14 .part4_page14 .part4Content2_page14 .part4Content2Row2Btn_page14 .part4Content2Row2BtnText_page14::after {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('/img/svg/firstSection_page14/linkArrow_page14.svg');
+    margin-left: 27px;
+}

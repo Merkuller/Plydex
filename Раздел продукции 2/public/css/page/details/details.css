@@ -1,0 +1,2040 @@
+                                /* 1 секция. Раздел продукции */
+.sectionOne_page3 {
+    width: 100%;
+    display: block;
+    position: relative;
+    transition: all .2s ease;
+    height: auto;
+}
+.sectionOne_page3 .contentFirstSection_page3 {
+    width: 100%;
+    display: block;
+    padding-bottom: 80px;
+}
+                            /* 1 секция. Контент. Раздел продукции */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+}
+                        /* 1 секция. Контент. 1 часть. Раздел продукции */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 {
+    width: 75.417%;
+    padding-top: 70px;
+    padding-left: 188px;
+    padding-right: 30px;
+    padding-bottom: 80px;
+    display: block;
+}
+                    /* 1 секция. Контент. 1_1 часть. Раздел продукции */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 907px;
+}
+        /* Слайдеры */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuSlider_page3 {
+    width: 48.781%;
+    height: 480px;
+    margin-right: 20px;
+    position: relative;
+}
+    /* Общие стили для слайдов */
+/* Флекс элемент */
+.flex_column {
+    min-width: 0;
+}
+    /* Слайдер 1*/
+/* Ограничивающая оболочка */
+.contentPart1_1MenuSlider_1_page3 .slick-list {
+    overflow: hidden;
+}
+/* Лента слайдов */
+.contentPart1_1MenuSlider_1_page3 .slick-track {
+    display: flex;
+}
+    /* Слайдер_1 */
+.contentPart1_1MenuSlider_1_page3 {
+    position: relative;
+    height: 360px;
+    width: 100%;
+    margin-bottom: 30px;
+    z-index: -1;
+}
+/* Слайд */
+.contentPart1_1MenuSlider_1_page3 .slick-slide {
+    height: 360px;
+    width: 100%;
+}
+.contentPart1_1MenuSlider_1_page3 .slick-slide img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+    /* Слайдер_2 */
+/* Ограничивающая оболочка */
+.contentPart1_2MenuSlider_2_page3 .slick-list {
+    overflow: hidden;
+}
+/* Лента слайдов */
+.contentPart1_2MenuSlider_2_page3 .slick-track {
+    display: flex;
+    justify-content: space-between;
+}
+    /* Слайдер_2 */
+.contentPart1_2MenuSlider_2_page3 {
+    height: 90px;
+    width: 100%;
+}
+/* Слайд */
+.contentPart1_2MenuSlider_2_page3 .slick-slide {
+    height: 90px;
+    max-width: 127px;
+    min-width: 127px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.contentPart1_2MenuSlider_2_page3 .slick-slide:hover {
+    cursor: pointer;
+}
+.contentPart1_2MenuSlider_2_page3 .slick-slide img {
+    width: 100%;
+    height: 100%;
+}
+/* Стрелки */
+.contentPart1_2MenuSlider_2_page3 .slick-arrow {
+    position: absolute;
+    top: 50%;
+    margin: -60px 0px 0px 0px;
+    z-index: 1;
+    font-size: 0px;
+}
+/* Стрелка влево */
+.contentPart1_2MenuSlider_2_page3 .slick-arrow.slick-prev {
+    left: 30px;
+    background: url('/img/svg/firstSection_page1/contentPart1Menu_page3/slider1LeftArrow_page3.svg') center no-repeat;
+    width: 20px;
+    height: 20px;
+    border: none;
+    outline: none;
+}
+/* Стрелка вправо */
+.contentPart1_2MenuSlider_2_page3 .slick-arrow.slick-next {
+    right: 30px;
+    background: url('/img/svg/firstSection_page1/contentPart1Menu_page3/slider1RightArrow_page3.svg') center no-repeat;
+    width: 20px;
+    height: 20px;
+    border: none;
+    outline: none;
+}
+
+        /* 1_1. Описание. Характеристики. Доставка и оплата. Доп информация */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 {
+    width: 45.529%;
+    min-height: 907px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+    /* 1_1. Описание */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP1_page3 {
+    width: 100%;
+    min-height: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+/* 1_1. Описание_Заголовок */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP1_page3 .P1_1MenuDescriptionP1Headline_page3 {
+    width: 100%;
+    height: 28px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #666666;
+    margin-bottom: 20px;
+}
+/* 1_1. Описание_Текст */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP1_page3 .P1_1MenuDescriptionP1Text_page3 {
+    width: 100%;
+    min-height: 77px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+    /* 1_1. Характеристики */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 {
+    width: 100%;
+    min-height: 422px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* 1_1. Характеристики_1 */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 266px;
+    margin-bottom: 30px;
+}
+/* 1_1. Характеристики_1. Заголовок */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Headline_page3 {
+    width: 100%;
+    height: 28px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #666666;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+/* 1_1. Характеристики_1. Описание */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 218px;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description1_page3 {
+    width: 100%;
+    min-height: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description1_page3 .P1_1MenuDescriptionP2_1Description1Text1_page3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    color: #666666;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description1_page3 .P1_1MenuDescriptionP2_1Description1Text2_page3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    color: #0A0A0A;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description2_page3 {
+    width: 100%;
+    min-height: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description2_page3 .P1_1MenuDescriptionP2_1Description2Text1_page3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    color: #666666;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description2_page3 .P1_1MenuDescriptionP2_1Description2Text2_page3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    color: #0A0A0A;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description3_page3 {
+    width: 100%;
+    min-height: 48px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description3_page3 .P1_1MenuDescriptionP2_1Description3Text1_page3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    color: #666666;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description3_page3 .P1_1MenuDescriptionP2_1Description3Text2_page3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    color: #0A0A0A;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description4_page3 {
+    width: 100%;
+    min-height: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    position: relative;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description4_page3 .P1_1MenuDescriptionP2_1Description4Text1_page3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    color: #666666;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description4_page3 .P1_1MenuDescriptionP2_1Description4Text2_page3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    color: #0A0A0A;
+}
+    /* Попапы */
+/* Попап. Покрытие. Масло */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description4_page3 .popup1_page3 {
+    display: none;
+    max-width: 450px;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    background-color: #fff;
+    box-shadow: rgba(10, 10, 10, 0.25) 0px 0px 6px;
+    z-index: 33;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description4_page3 .popup1_page3 .popup1Text1_page3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+    padding: 20px 30px;
+    border-bottom: 1px solid rgb(232, 232, 232);
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description4_page3 .popup1_page3 .popup1Text1_page3 .popup1Btn_page3 {
+    width: 24px;
+    height: 24px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description4_page3 .popup1_page3 .popup1Text1_page3 .popup1Btn_page3 img {
+    width: 100%;
+    height: 100%;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description4_page3 .popup1_page3 .popup1Text2_page3 {
+    padding: 20px 30px;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgb(10, 10, 10);
+}
+/* Попап. Покрытие. Морилка и лак */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description4_page3 .popup2_page3 {
+    display: none;
+    max-width: 450px;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    background-color: #fff;
+    box-shadow: rgba(10, 10, 10, 0.25) 0px 0px 6px;
+    z-index: 33;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description4_page3 .popup2_page3 .popup2Text1_page3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+    padding: 20px 30px;
+    border-bottom: 1px solid rgb(232, 232, 232);
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description4_page3 .popup2_page3 .popup2Text1_page3 .popup2Btn_page3 {
+    width: 24px;
+    height: 24px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description4_page3 .popup2_page3 .popup2Text1_page3 .popup2Btn_page3 img {
+    width: 100%;
+    height: 100%;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description4_page3 .popup2_page3 .popup2Text2_page3 {
+    padding: 20px 30px;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgb(10, 10, 10);
+}
+/* Попап. Покрытие. Лофт и масло */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description4_page3 .popup3_page3 {
+    display: none;
+    max-width: 450px;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    background-color: #fff;
+    box-shadow: rgba(10, 10, 10, 0.25) 0px 0px 6px;
+    z-index: 33;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description4_page3 .popup3_page3 .popup3Text1_page3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+    padding: 20px 30px;
+    border-bottom: 1px solid rgb(232, 232, 232);
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description4_page3 .popup3_page3 .popup3Text1_page3 .popup3Btn_page3 {
+    width: 24px;
+    height: 24px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description4_page3 .popup3_page3 .popup3Text1_page3 .popup3Btn_page3 img {
+    width: 100%;
+    height: 100%;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description4_page3 .popup3_page3 .popup3Text2_page3 {
+    padding: 20px 30px;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgb(10, 10, 10);
+}
+/* Показать попап */
+.showPopup_page3 {
+    display: block !important;
+}
+
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description4_page3 .P1_1MenuDescriptionP2_1Description4Text2_page3 span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description5_page3 {
+    width: 100%;
+    min-height: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    position: relative;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description5_page3 .P1_1MenuDescriptionP2_1Description5Text1_page3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    color: #666666;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description5_page3 .P1_1MenuDescriptionP2_1Description5Text2_page3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    color: #0A0A0A;
+}
+/* Попап. Соединение. Стык в стык */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description5_page3 .popup4_page3 {
+    display: none;
+    max-width: 450px;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    background-color: #fff;
+    box-shadow: rgba(10, 10, 10, 0.25) 0px 0px 6px;
+    z-index: 33;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description5_page3 .popup4_page3 .popup4Text1_page3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+    padding: 20px 30px;
+    border-bottom: 1px solid rgb(232, 232, 232);
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description5_page3 .popup4_page3 .popup4Text1_page3 .popup4Btn_page3 {
+    width: 24px;
+    height: 24px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description5_page3 .popup4_page3 .popup4Text1_page3 .popup4Btn_page3 img {
+    width: 100%;
+    height: 100%;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description5_page3 .popup4_page3 .popup4Text2_page3 {
+    padding: 20px 30px;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgb(10, 10, 10);
+}
+/* Попап. СОединение. Шип-паз */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description5_page3 .popup6_page3 {
+    display: none;
+    max-width: 450px;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    background-color: #fff;
+    box-shadow: rgba(10, 10, 10, 0.25) 0px 0px 6px;
+    z-index: 33;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description5_page3 .popup6_page3 .popup6Text1_page3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+    padding: 20px 30px;
+    border-bottom: 1px solid rgb(232, 232, 232);
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description5_page3 .popup6_page3 .popup6Text1_page3 .popup6Btn_page3 {
+    width: 24px;
+    height: 24px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description5_page3 .popup6_page3 .popup6Text1_page3 .popup6Btn_page3 img {
+    width: 100%;
+    height: 100%;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description5_page3 .popup6_page3 .popup6Text2_page3 {
+    padding: 20px 30px;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgb(10, 10, 10);
+}
+/* Попап. Соединение. Механическое */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description5_page3 .popup7_page3 {
+    display: none;
+    max-width: 450px;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    background-color: #fff;
+    box-shadow: rgba(10, 10, 10, 0.25) 0px 0px 6px;
+    z-index: 33;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description5_page3 .popup7_page3 .popup7Text1_page3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+    padding: 20px 30px;
+    border-bottom: 1px solid rgb(232, 232, 232);
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description5_page3 .popup7_page3 .popup7Text1_page3 .popup7Btn_page3 {
+    width: 24px;
+    height: 24px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description5_page3 .popup7_page3 .popup7Text1_page3 .popup7Btn_page3 img {
+    width: 100%;
+    height: 100%;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description5_page3 .popup7_page3 .popup7Text2_page3 {
+    padding: 20px 30px;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgb(10, 10, 10);
+}
+/* Попап. Соединение. Клей */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description5_page3 .popup5_page3 {
+    display: none;
+    max-width: 450px;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    background-color: #fff;
+    box-shadow: rgba(10, 10, 10, 0.25) 0px 0px 6px;
+    z-index: 33;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description5_page3 .popup5_page3 .popup5Text1_page3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+    padding: 20px 30px;
+    border-bottom: 1px solid rgb(232, 232, 232);
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description5_page3 .popup5_page3 .popup5Text1_page3 .popup5Btn_page3 {
+    width: 24px;
+    height: 24px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description5_page3 .popup5_page3 .popup5Text1_page3 .popup5Btn_page3 img {
+    width: 100%;
+    height: 100%;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description5_page3 .popup5_page3 .popup5Text2_page3 {
+    padding: 20px 30px;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgb(10, 10, 10);
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description5_page3 .P1_1MenuDescriptionP2_1Description5Text2_page3 span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description6_page3 {
+    width: 100%;
+    min-height: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    position: relative;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description6_page3 .P1_1MenuDescriptionP2_1Description6Text1_page3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    color: #666666;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description6_page3 .P1_1MenuDescriptionP2_1Description6Text2_page3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    color: #0A0A0A;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description6_page3 .P1_1MenuDescriptionP2_1Description6Text2_page3 span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* Попап. Гарантия. 5 лет */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description6_page3 .popup8_page3 {
+    display: none;
+    max-width: 450px;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    background-color: #fff;
+    box-shadow: rgba(10, 10, 10, 0.25) 0px 0px 6px;
+    z-index: 33;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description6_page3 .popup8_page3 .popup8Text1_page3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+    padding: 20px 30px;
+    border-bottom: 1px solid rgb(232, 232, 232);
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description6_page3 .popup8_page3 .popup8Text1_page3 .popup8Btn_page3 {
+    width: 24px;
+    height: 24px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description6_page3 .popup8_page3 .popup8Text1_page3 .popup8Btn_page3 img {
+    width: 100%;
+    height: 100%;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_1_page3 .P1_1MenuDescriptionP2_1Description_page3 .P1_1MenuDescriptionP2_1Description6_page3 .popup8_page3 .popup8Text2_page3 {
+    padding: 20px 30px;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgb(10, 10, 10);
+}
+/* 1_1. Характеристики_2. Доставка и оплата */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_2_page3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 106px;
+    margin-bottom: 30px;
+}
+/* 1_1. Характеристики_2. Доставка и оплата. Заголовок */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_2_page3 .P1_1MenuDescriptionP2_2Headline_page3 {
+    width: 100%;
+    min-height: 28px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #666666;
+    margin-bottom: 20px;
+}
+/* 1_1. Характеристики_2. Доставка и оплата. Описание */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_2_page3 .P1_1MenuDescriptionP2_2Description_page3 {
+    width: 100%;
+    min-height: 58px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_2_page3 .P1_1MenuDescriptionP2_2Description_page3 .P1_1MenuDescriptionP2_2Description1_page3 {
+    width: 100%;
+    min-height: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    position: relative;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_2_page3 .P1_1MenuDescriptionP2_2Description_page3 .P1_1MenuDescriptionP2_2Description1_page3 .P1_1MenuDescriptionP2_2Description1Text1_page3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    color: #666666;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_2_page3 .P1_1MenuDescriptionP2_2Description_page3 .P1_1MenuDescriptionP2_2Description1_page3 .P1_1MenuDescriptionP2_2Description1Text2_page3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    color: #0A0A0A;
+    text-decoration: underline;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_2_page3 .P1_1MenuDescriptionP2_2Description_page3 .P1_1MenuDescriptionP2_2Description1_page3 .P1_1MenuDescriptionP2_2Description1Text2_page3 span {
+    cursor: pointer;
+}
+/* Попап. Оплата. Наличными */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_2_page3 .P1_1MenuDescriptionP2_2Description_page3 .P1_1MenuDescriptionP2_2Description1_page3 .popup9_page3 {
+    display: none;
+    max-width: 450px;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    background-color: #fff;
+    box-shadow: rgba(10, 10, 10, 0.25) 0px 0px 6px;
+    z-index: 33;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_2_page3 .P1_1MenuDescriptionP2_2Description_page3 .P1_1MenuDescriptionP2_2Description1_page3 .popup9_page3 .popup9Text1_page3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+    padding: 20px 30px;
+    border-bottom: 1px solid rgb(232, 232, 232);
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_2_page3 .P1_1MenuDescriptionP2_2Description_page3 .P1_1MenuDescriptionP2_2Description1_page3 .popup9_page3 .popup9Text1_page3 .popup9Btn_page3 {
+    width: 24px;
+    height: 24px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_2_page3 .P1_1MenuDescriptionP2_2Description_page3 .P1_1MenuDescriptionP2_2Description1_page3 .popup9_page3 .popup9Text1_page3 .popup9Btn_page3 img {
+    width: 100%;
+    height: 100%;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_2_page3 .P1_1MenuDescriptionP2_2Description_page3 .P1_1MenuDescriptionP2_2Description1_page3 .popup9_page3 .popup9Text2_page3 {
+    padding: 20px 30px;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgb(10, 10, 10);
+}
+/* Попап. Оплата. Банковской картой */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_2_page3 .P1_1MenuDescriptionP2_2Description_page3 .P1_1MenuDescriptionP2_2Description1_page3 .popup10_page3 {
+    display: none;
+    max-width: 450px;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    background-color: #fff;
+    box-shadow: rgba(10, 10, 10, 0.25) 0px 0px 6px;
+    z-index: 33;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_2_page3 .P1_1MenuDescriptionP2_2Description_page3 .P1_1MenuDescriptionP2_2Description1_page3 .popup10_page3 .popup10Text1_page3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+    padding: 20px 30px;
+    border-bottom: 1px solid rgb(232, 232, 232);
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_2_page3 .P1_1MenuDescriptionP2_2Description_page3 .P1_1MenuDescriptionP2_2Description1_page3 .popup10_page3 .popup10Text1_page3 .popup10Btn_page3 {
+    width: 24px;
+    height: 24px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_2_page3 .P1_1MenuDescriptionP2_2Description_page3 .P1_1MenuDescriptionP2_2Description1_page3 .popup10_page3 .popup10Text1_page3 .popup10Btn_page3 img {
+    width: 100%;
+    height: 100%;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_2_page3 .P1_1MenuDescriptionP2_2Description_page3 .P1_1MenuDescriptionP2_2Description1_page3 .popup10_page3 .popup10Text2_page3 {
+    padding: 20px 30px;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgb(10, 10, 10);
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_2_page3 .P1_1MenuDescriptionP2_2Description_page3 .P1_1MenuDescriptionP2_2Description2_page3 {
+    width: 100%;
+    min-height: 24px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_2_page3 .P1_1MenuDescriptionP2_2Description_page3 .P1_1MenuDescriptionP2_2Description2_page3 .P1_1MenuDescriptionP2_2Description2Text1_page3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    color: #666666;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_2_page3 .P1_1MenuDescriptionP2_2Description_page3 .P1_1MenuDescriptionP2_2Description2_page3 .P1_1MenuDescriptionP2_2Description2Text2_page3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    color: #0A0A0A;
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* Попап. Доставка. По всей России */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_2_page3 .P1_1MenuDescriptionP2_2Description_page3 .P1_1MenuDescriptionP2_2Description2_page3 .popup11_page3 {
+    display: none;
+    max-width: 450px;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    background-color: #fff;
+    box-shadow: rgba(10, 10, 10, 0.25) 0px 0px 6px;
+    z-index: 33;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_2_page3 .P1_1MenuDescriptionP2_2Description_page3 .P1_1MenuDescriptionP2_2Description2_page3 .popup11_page3 .popup11Text1_page3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+    padding: 20px 30px;
+    border-bottom: 1px solid rgb(232, 232, 232);
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_2_page3 .P1_1MenuDescriptionP2_2Description_page3 .P1_1MenuDescriptionP2_2Description2_page3 .popup11_page3 .popup11Text1_page3 .popup11Btn_page3 {
+    width: 24px;
+    height: 24px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_2_page3 .P1_1MenuDescriptionP2_2Description_page3 .P1_1MenuDescriptionP2_2Description2_page3 .popup11_page3 .popup11Text1_page3 .popup11Btn_page3 img {
+    width: 100%;
+    height: 100%;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP2_page3 .P1_1MenuDescriptionP2_2_page3 .P1_1MenuDescriptionP2_2Description_page3 .P1_1MenuDescriptionP2_2Description2_page3 .popup11_page3 .popup11Text2_page3 {
+    padding: 20px 30px;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgb(10, 10, 10);
+}
+    /* Преимущества */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP3_page3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 260px;
+}
+/* 1-е*/
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP3_page3 .P1_1MenuDescriptionP3Element1_page3 {
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP3_page3 .P1_1MenuDescriptionP3Element1_page3 span {
+    max-width: 490px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    white-space: normal;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP3_page3 .P1_1MenuDescriptionP3Element1_page3::before {
+    content: "";
+    display: inline-block;
+    min-width: 50px;
+    height: 50px;
+    background-image: url('/img/svg/firstSection_page1/contentPart1Menu_page3/P1_1MenuDescriptionP3Element1_page3.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:  #0A0A0A;
+    margin-right: 10px;
+}
+/* 2-е*/
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP3_page3 .P1_1MenuDescriptionP3Element2_page3 {
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP3_page3 .P1_1MenuDescriptionP3Element2_page3 span {
+    max-width: 490px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    white-space: normal;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP3_page3 .P1_1MenuDescriptionP3Element2_page3::before {
+    content: "";
+    display: inline-block;
+    min-width: 50px;
+    height: 50px;
+    background-image: url('/img/svg/firstSection_page1/contentPart1Menu_page3/P1_1MenuDescriptionP3Element2_page3.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:  #0A0A0A;
+    margin-right: 10px;
+}
+/* 3-е*/
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP3_page3 .P1_1MenuDescriptionP3Element3_page3 {
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP3_page3 .P1_1MenuDescriptionP3Element3_page3 span {
+    max-width: 490px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    white-space: normal;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP3_page3 .P1_1MenuDescriptionP3Element3_page3::before {
+    content: "";
+    display: inline-block;
+    min-width: 50px;
+    height: 50px;
+    background-image: url('/img/svg/firstSection_page1/contentPart1Menu_page3/P1_1MenuDescriptionP3Element3_page3.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:  #0A0A0A;
+    margin-right: 10px;
+}
+/* 4-е*/
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP3_page3 .P1_1MenuDescriptionP3Element4_page3 {
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP3_page3 .P1_1MenuDescriptionP3Element4_page3 span {
+    max-width: 490px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    white-space: normal;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_1Menu_page3 .contentPart1_1MenuDescription_page3 .P1_1MenuDescriptionP3_page3 .P1_1MenuDescriptionP3Element4_page3::before {
+    content: "";
+    display: inline-block;
+    min-width: 50px;
+    height: 50px;
+    background-image: url('/img/svg/firstSection_page1/contentPart1Menu_page3/P1_1MenuDescriptionP3Element4_page3.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:  #0A0A0A;
+    margin-right: 10px;
+}
+                    /* 1 секция. Контент. 1_2 часть. Раздел продукции */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_2Menu_page3 {
+    width: 100%;
+    min-height: 803px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* Заголовок */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_2Menu_page3 .contentPart1_2Menu_1_page3 {
+    width: 100%;
+    height: 28px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #666666;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+/* Контент с карточками */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_2Menu_page3 .contentPart1_2Menu_2_page3 {
+    display: flex;
+    width: 100%;
+    min-height: 586px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+/* Общие стили для строк контента с карточками */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_2Menu_page3 .contentPart1_2Menu_2_page3 .contentPart1_2Menu_2Row_page3 {
+    width: 100%;
+    min-height: 124px;
+    display: flex;
+    justify-content: space-between;
+}
+/* Общие стили для карточек товара */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_2Menu_page3 .contentPart1_2Menu_2_page3 .contentPart1_2Menu_2Row_page3 .contentPart1_2Menu_2_Card_page3 {
+    min-height: 124px;
+    max-width: 285px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_2Menu_page3 .contentPart1_2Menu_2_page3 .contentPart1_2Menu_2Row_page3 .contentPart1_2Menu_2_Card_page3:not(:last-of-type) {
+    margin-right: 20px;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_2Menu_page3 .contentPart1_2Menu_2_page3 .contentPart1_2Menu_2Row_page3 .contentPart1_2Menu_2_Card_page3 .contentPart1_2Menu_2_CardImg_page3 {
+    max-width: 100%;
+    height: 90px;
+    display: inline-block;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_2Menu_page3 .contentPart1_2Menu_2_page3 .contentPart1_2Menu_2Row_page3 .contentPart1_2Menu_2_Card_page3 .contentPart1_2Menu_2_CardImg_page3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_2Menu_page3 .contentPart1_2Menu_2_page3 .contentPart1_2Menu_2Row_page3 .contentPart1_2Menu_2_Card_page3 .contentPart1_2Menu_2_CardText_page3 {
+    width: 100%;
+    min-height: 24px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #0A0A0A;
+}
+/* Ссылка на "смотеть все цвета" */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_2Menu_page3 .contentPart1_2Menu_3_page3 {
+    width: 100%;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_2Menu_page3 .contentPart1_2Menu_3_page3 a {
+    display: flex;
+    width: 173px;
+    align-items: center;
+    justify-content: space-between;
+    height: 18px;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #0A0A0A;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_2Menu_page3 .contentPart1_2Menu_3_page3 a::after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-image: url('/img/svg/firstSection_page1/contentPart1Menu_page3/contentPart1_2Menu_3Link_page3.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* 1 секция. Контент. 1_2_5 часть. Фильтр продукции */
+.contentPart1_2_5Menu_page3 {
+    margin-top: 50px;
+    display: block;
+    width: 100%;
+  }
+  .tabsMenu_page3 {
+    border-bottom: none;
+  }
+  .filterTab_page3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(232, 232, 232);
+    transition: background-color .15s ease-in-out;
+  }
+  .filterTab_page3 a {
+    padding: 16px 50px;
+  }
+  .showFilterTab_page3 {
+    background-color: rgb(232, 232, 232);
+  }
+  .filterTab_page3:active {
+    background-color: rgb(232, 232, 232);
+    transition: background-color .2s ease-in-out;
+  }
+  .filterTab_page3:focus {
+    background-color: rgb(232, 232, 232);
+    transition: background-color .2s ease-in-out;
+  }
+  .filterTab_page3:first-of-type {
+    border-right: none;
+  }
+  .filterTab_page3 a {
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+    text-transform: uppercase;
+  }
+                /* 1 секция. Контент. 1_2_5 часть. Фильтр продукции. 1 вкладка */
+            /* 1 секция. Контент. 1_2_5 часть. Фильтр продукции. 1 вкладка. Характеристики длинны */
+  .firstTab_page3 {
+    padding-top: 32px;
+    display: block;
+    width: 100%;
+  }
+  .lengthCharacteristics_page3 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 32px;
+  }
+  .lengthCharacteristicTitle_page3 {
+    margin-right: 50px;
+    font-size: 16px;
+    line-height: 18px;
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+  }
+  .lengthCharacteristic_page3 {
+    padding: 4px 10px;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgb(102, 102, 102);
+    background: none;
+    cursor: pointer;
+    user-select: none;
+    transition: all .1s ease-in-out;
+  }
+  .lengthCharacteristic_page3:not(:nth-of-type(2)) {
+    margin-left: 20px;
+  }
+            /* 1 секция. Контент. 1_2_5 часть. Фильтр продукции. 1 вкладка. Характеристики ширины */
+  .widthCharacteristics_page3 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 32px;
+  }
+  .widthCharacteristicTitle_page3 {
+    margin-right: 50px;
+    font-size: 16px;
+    line-height: 18px;
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+  }
+  .widthCharacteristick_page3 {
+    padding: 4px 10px;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgb(102, 102, 102);
+    background: none;
+    cursor: pointer;
+    user-select: none;
+    transition: all .1s ease-in-out;
+  }
+  .widthCharacteristick_page3:not(:nth-of-type(2)) {
+    margin-left: 20px;
+  }
+  .buttonOn_page3 {
+    background-color: rgb(10, 10, 10);
+    color: rgb(255, 255, 255);
+  }
+            /* 1 секция. Контент. 1_2_5 часть. Фильтр продукции. 1 вкладка. Наименование панели. Заголовок */
+  .firstTabTitle_page3 {
+    font-size: 32px;
+    line-height: 37px;
+    color: rgb(104, 43, 42);
+    margin-bottom: 30px;
+    cursor: pointer;
+  }
+  .firstTabImgGeometryControl_page3 {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    height: 350px;
+    background-image: url('/img/jpg/contentPart1_2Menu_page3/panelPic_page3.jpg');
+    background-repeat: no-repeat;
+  }
+                /* 1 секция. Контент. 1_2_5 часть. Фильтр продукции. 1 вкладка */
+            /* 1 секция. Контент. 1_2_5 часть. Фильтр продукции. 1 вкладка. Характеристики длинны */
+  .secondTab_page3 {
+    padding-top: 32px;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .panelLayoutBtns_page3 {
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .panelLayout_page3 {
+    border: none;
+    outline: none;
+    background-color: inherit;
+    margin-right: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .panelLayout_page3:focus {
+    border: none;
+    outline: none;
+  }
+  .secondTabResult_page3 {
+    width: 100%;
+    display: block;
+  }
+                    /* 1 секция. Контент. 1_3 часть. Раздел продукции */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_3Menu_page3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 81px;
+}
+/* Контент */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_3Menu_page3 .contentPart1_3Menu_2_page3 {
+    width: 100%;
+    min-height: 830px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+/* 1я часть контента */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_3Menu_page3 .contentPart1_3Menu_2_page3 .contentPart1_3Menu_2_1_page3 {
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* 2я часть контента */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_3Menu_page3 .contentPart1_3Menu_2_page3 .contentPart1_3Menu_2_2_page3 {
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* Общие стили контента */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_3Menu_page3 .contentPart1_3Menu_2_page3 .contentPart1_3Menu_2_1_page3 .contentPart1_3Menu_2_Card_page3 {
+    max-width: 100%;
+    height: 400px;
+    display: inline-block;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_3Menu_page3 .contentPart1_3Menu_2_page3 .contentPart1_3Menu_2_1_page3 .contentPart1_3Menu_2_Card_page3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_3Menu_page3 .contentPart1_3Menu_2_page3 .contentPart1_3Menu_2_1_page3 .contentPart1_3Menu_2_Card_page3:first-of-type {
+    margin-right: 20px;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_3Menu_page3 .contentPart1_3Menu_2_page3 .contentPart1_3Menu_2_2_page3 .contentPart1_3Menu_2_Card_page3 {
+    max-width: 100%;
+    height: 400px;
+    display: inline-block;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_3Menu_page3 .contentPart1_3Menu_2_page3 .contentPart1_3Menu_2_2_page3 .contentPart1_3Menu_2_Card_page3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_3Menu_page3 .contentPart1_3Menu_2_page3 .contentPart1_3Menu_2_2_page3 .contentPart1_3Menu_2_Card_page3:first-of-type {
+    margin-right: 20px;
+}
+/* Текст */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_3Menu_page3 .contentPart1_3Menu_3_page3 {
+    width: 100%;
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+    color: #666666;
+    padding-bottom: 30px;
+}
+/* Визитка */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_3Menu_page3 .contentPart1_3Menu_4_page3 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_3Menu_page3 .contentPart1_3Menu_4_page3 .contentPart1_3MenuAvatar_4_page3 {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_3Menu_page3 .contentPart1_3Menu_4_page3 .contentPart1_3MenuAvatar_4_page3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_3Menu_page3 .contentPart1_3Menu_4_page3 .contentPart1_3MenuWho_4_page3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_3Menu_page3 .contentPart1_3Menu_4_page3 .contentPart1_3MenuWho_4_page3 .contentPart1_3MenuName_4_page3 {
+    width: 100%;
+    display: inline-block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: #0A0A0A;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_3Menu_page3 .contentPart1_3Menu_4_page3 .contentPart1_3MenuWho_4_page3 .contentPart1_3MenuPosition_4_page3 {
+    width: 100%;
+    min-height: 24px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+}
+                    /* 1 секция. Контент. 1_4 часть. Раздел продукции */
+.sectionOne_page3 .contentFirstSection_page3 .contentPart1_4Menu_page3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 99px;
+    padding-left: 188px;
+    position: relative;
+    background-color: #E8E8E8;
+    z-index: 4;
+    margin-bottom: 81px;
+}
+/* Заголовок */
+.sectionOne_page3 .contentFirstSection_page3 .contentPart1_4Menu_page3 .contentPart1_4Menu_1_page3 {
+    width: 100%;
+    display: inline-block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #666666;
+    padding-bottom: 30px;
+}
+    /* Калькулятор */
+.sectionOne_page3 .contentFirstSection_page3 .contentPart1_4Menu_page3 .contentPart1_4Menu_2_page3 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Первое поле ввода */
+.sectionOne_page3 .contentFirstSection_page3 .contentPart1_4Menu_page3 .contentPart1_4Menu_2_page3 .entryField1container_page3 {
+    width: 285px;
+    height: 83px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentPart1_4Menu_page3 .contentPart1_4Menu_2_page3 .entryField1container_page3 .entryField1containerHeadline_page3 {
+    width: 100%;
+    height: 18px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #666666;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentPart1_4Menu_page3 .contentPart1_4Menu_2_page3 .entryField1container_page3 .entryField1_page3 {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 19px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #0A0A0A;
+    border: 1px solid #8D8D8D;
+    background: #E8E8E8;
+    outline: none;
+}
+/* Второе поле ввода */
+.sectionOne_page3 .contentFirstSection_page3 .contentPart1_4Menu_page3 .contentPart1_4Menu_2_page3 .entryField2container_page3 {
+    width: 285px;
+    height: 83px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentPart1_4Menu_page3 .contentPart1_4Menu_2_page3 .entryField2container_page3 .entryField2containerHeadline_page3 {
+    width: 100%;
+    height: 18px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #666666;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentPart1_4Menu_page3 .contentPart1_4Menu_2_page3 .entryField2container_page3 .entryField2_page3 {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 19px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #0A0A0A;
+    border: 1px solid #8D8D8D;
+    background: #E8E8E8;
+    outline: none;
+}
+/* Тип покрытия */
+.sectionOne_page3 .contentFirstSection_page3 .contentPart1_4Menu_page3 .contentPart1_4Menu_2_page3 .entryField3container_page3 {
+    width: 285px;
+    height: 83px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentPart1_4Menu_page3 .contentPart1_4Menu_2_page3 .entryField3container_page3 .entryField3containerHeadline_page3 {
+    width: 100%;
+    height: 18px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #666666;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentPart1_4Menu_page3 .contentPart1_4Menu_2_page3 .entryField3container_page3 .panelType_page3 {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 19px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #0A0A0A;
+    border: 1px solid #8D8D8D;
+    background: #E8E8E8;
+    outline: none;
+    border-radius: 0px;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentPart1_4Menu_page3 .contentPart1_4Menu_2_page3 .entryField3container_page3 .panelType_page3:focus {
+    box-shadow: none;
+}
+/* Кнопка расчитать */
+.sectionOne_page3 .contentFirstSection_page3 .contentPart1_4Menu_page3 .contentPart1_4Menu_2_page3 .contentPart1_4MenuBtn_page3 {
+    width: 285px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #0A0A0A;
+    border: 1px solid #8D8D8D;
+    background: #1D1D1D;
+    color: #fff;
+    outline: none;
+    border-radius: 0px;
+    margin-top: auto;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentPart1_4Menu_page3 .contentPart1_4MenuBtn_page3:active {
+    box-shadow: none;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentPart1_4Menu_page3 .contentPart1_4MenuBtn_page3:focus {
+    box-shadow: none;
+}
+#selectPanel_page3 option {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+/* Модальное окно */
+.modal-open {
+    padding-right: 0px !important;
+}
+#exampleModalCenter {
+    transition: all 0.2s ease-in-out;
+    background-color: rgba(102, 102, 102, 0.7);
+}
+.modal-header {
+    height: 32px;
+    padding: 0px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-bottom: none;
+}
+.modal-title {
+    display: none;
+}
+#closeModalWindow_page13 {
+    padding: 0px;
+    outline: none;
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    padding-top: 10px;
+    padding-right: 10px;
+    user-select: none;
+}
+.modal-body {
+    padding: 10px;
+    padding-top: 0px;
+    text-align: center;
+}
+.modal-dialog {
+    display: flex;
+    justify-content: center;
+}
+.modal-content {
+    width: 300px;
+}
+.modalRow1_page13 {
+    padding-bottom: 10px;
+}
+.modalRow2_page13 {
+    padding-bottom: 10px;
+}
+.modalRow3_page13 {
+    padding-bottom: 5px;
+}
+.modal-footer {
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-top: none;
+}
+.panelPrice_page13 {
+    font-weight: bold;
+}
+#buyBtnModal_page13 {
+    margin: 0px auto;
+    width: 100%;
+    border-radius: 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    border: 1px solid #8D8D8D;
+    background: #1D1D1D;
+    outline: none;
+}
+#buyBtnModal_page13:focus {
+    box-shadow: none;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1_4MenuBackground_page3 {
+    width: 100%;
+    height: 320px;
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    top: 3081px;
+}
+                    /* 1 секция. Контент. 1_5 часть. Раздел продукции */
+.sectionOne_page3 .contentFirstSection_page3 .contentPart1_5Menu_page3 {
+    width: 100%;
+    padding-left: 188px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+/* Заголовок */
+.sectionOne_page3 .contentFirstSection_page3 .contentPart1_5Menu_page3 .contentPart1_5Menu_1_page3 {
+    width: 100%;
+    height: 28px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #666666;
+    margin-bottom: 20px;
+}
+/* Контент с карточками */
+.sectionOne_page3 .contentFirstSection_page3 .contentPart1_5Menu_page3 .contentPart1_5Menu_2_page3 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Общие стили контента */
+.sectionOne_page3 .contentFirstSection_page3 .contentPart1_5Menu_page3 .contentPart1_5Menu_2_page3 .contentPart1_5Menu_2_Card_page3 {
+    display: block;
+    width: 285px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentPart1_5Menu_page3 .contentPart1_5Menu_2_page3 .contentPart1_5Menu_2_Card_page3:last-of-type {
+    margin-right: 0px;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentPart1_5Menu_page3 .contentPart1_5Menu_2_page3 .contentPart1_5Menu_2_Card_page3 .contentPart1_5Menu_2_CardImg_page3 {
+    width: 100%;
+    height: 285px;
+    display: inline-block;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentPart1_5Menu_page3 .contentPart1_5Menu_2_page3 .contentPart1_5Menu_2_Card_page3 .contentPart1_5Menu_2_CardImg_page3 a img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentPart1_5Menu_page3 .contentPart1_5Menu_2_page3 .contentPart1_5Menu_2_Card_page3 .contentPart1_5Menu_2_CardText_page3 {
+    width: 100%;
+    min-height: 16px;
+    display: inline-block;
+    padding-top: 10px;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentPart1_5Menu_page3 .contentPart1_5Menu_2_page3 .contentPart1_5Menu_2_Card_page3 .contentPart1_5Menu_2_CardText_page3 a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 100%;
+    color: #666666;
+    text-decoration: none;
+    text-transform:uppercase;
+} 
+                        /* 1 секция. Контент. 2 часть. Раздел продукции */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart2Menu_page3 {
+    width: 460px;
+    max-height: 400px;
+    padding-top: 70px;
+    padding-right: 187px;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 60px;
+}
+/* 1 секция. Контент. 2 часть. Заголовок. Раздел продукции */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart2Menu_page3 .contentPart2MenuHeadline_page3 {
+    width: 100%;
+    min-height: 37px;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+    color: #0A0A0A;
+    text-transform: uppercase;
+}
+/* 1 секция. Контент. 2 часть. Размеры панели. Раздел продукции */
+.contentPart2Size_page3 {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #0A0A0A;
+}
+.panelLength_page3 {
+    color: #666666;
+    font-weight: 600;
+}
+.panelWidth_page3 {
+    color: #666666;
+    font-weight: 600;
+}
+/* 1 секция. Контент. 2 часть. Цена. Раздел продукции */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart2Menu_page3 .contentPart2MenuCost_page3 {
+    width: 100%;
+    min-height: 28px;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0A0A0A;
+}
+/* 1 секция. Контент. 2 часть. Бренд панели. Раздел продукции */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart2Menu_page3 .contentPart2MenuProductBrand_page3 {
+    width: 100%;
+    min-height: 24px;
+    display: inline-block;
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #0A0A0A;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart2Menu_page3 .contentPart2MenuProductBrand_page3 .contentPart2MenuProductBrandLink_page3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+    text-decoration: underline;
+}
+/* 1 секция. Контент. 2 часть. Кнопка "купить". Раздел продукции */
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart2Menu_page3 .contentPart2MenuBuyBtn_page3 {
+    width: 100%;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0A0A0A;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    margin-bottom: 12px;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart2Menu_page3 .contentPart2MenuAskQuestionBtn_page3 {
+    width: 100%;
+    height: 58px;
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    background: inherit;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    font-size: 16px;
+    line-height: 150%;
+    color: #0A0A0A;
+    border: 1px solid #0A0A0A;
+    margin-bottom: 31px;
+}
+        /* Модальное окно для кнопки "ХОЧУ ЗАДАТЬ ВОПРОС" */
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+    background-color: rgba(0, 0, 0, .1);
+}
+.popup {
+    position: fixed;
+    width: 600px;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -70%);
+    padding: 40px 50px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: #000000;
+}
+.close-popup {
+    position: absolute;
+    top: 43px;
+    right: 42px;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+.close-popup:before {
+    content: '';
+    background-color: #000000;
+    position: absolute;
+    height: 2px;
+    width: 20px;
+    top: 11px;
+    left: -4px;
+    transform: rotate(-45deg);
+}
+.close-popup:after {
+    content: '';
+    background-color: #000000;
+    position: absolute;
+    height: 2px;
+    width: 20px;
+    top: 11px;
+    transform: rotate(45deg);
+    left: -4px;
+}
+.overlayTitle_page3 {
+    font-family: Arial;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000000;
+}
+.overlayText_page3 {
+    margin-bottom: 24px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgb(102, 102, 102);
+}
+.overlayLoginForm_page3 {
+    width: 100%;
+    display: block;
+}
+.overlayButtons_page3 {
+    display: flex;
+    width: 100%;
+}
+.overlayMailBtn_page3 {
+    padding: 10px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 150%;
+    cursor: pointer;
+    color: rgb(10, 10, 10);
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: #ffffff;
+    margin-right: 20px;
+    outline: 1px solid rgb(232, 232, 232);
+    transition: all 0.1s ease-in-out;
+}
+.overlayMailBtn_page3:active {
+    outline: none;
+}
+.overlayMailBtn_page3:hover {
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+}
+.overlayMailBtn_page3 img {
+    margin-right: 10px;
+    transition: all 0.1s ease-in-out;
+}
+.overlayPhoneBtn_page3 {
+    padding: 10px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 150%;
+    cursor: pointer;
+    color: rgb(10, 10, 10);
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: #ffffff;
+    outline: 1px solid rgb(232, 232, 232);
+    transition: all 0.1s ease-in-out;
+}
+.overlayPhoneBtn_page3:active {
+    outline: none;
+}
+.overlayPhoneBtn_page3:hover {
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+}
+.overlayPhoneBtn_page3 img {
+    margin-right: 10px;
+    transition: all 0.1s ease-in-out;
+}
+.showOverlayBtn_page3 {
+    color: #ffffff;
+    background-color: rgb(10, 10, 10);
+    outline: none;
+    border: none;
+}
+.showOverlayBtn_page3:hover {
+    color: #ffffff;
+}
+.showOverlayForm {
+    display: block !important;
+}
+#name_page3 {
+    margin-top: 40px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(189, 189, 189);
+    outline: none;
+    padding-bottom: 10px;
+}
+#mail_page3 {
+    margin-top: 40px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(189, 189, 189);
+    outline: none;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    display: none;
+}
+#phoneNumber_page3 {
+    margin-top: 40px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(189, 189, 189);
+    outline: none;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    display: none;
+}
+#sendYourQuestion_page3 {
+    width: 100%;
+    margin-top: 40px;
+    border: none;
+    border-bottom: 1px solid rgb(189, 189, 189);
+    outline: none;
+    display: block;
+    padding-bottom: 10px;
+}
+.overlayAccept_page3 {
+    margin: 20px 0px 10px;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 150%;
+    color: rgb(10, 10, 10);
+    display: flex;
+    align-items: center;
+}
+.overlayAccept_page3 input {
+    margin-right: 10px;
+}
+.overlayLink_page3 {
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 150%;
+    text-decoration: underline;
+    color: #232323;
+    padding-left: 5px;
+}
+.overlaySubmitBtn_page3 {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background: black;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 150%;
+    outline: none;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart2Menu_page3 .contentPart2MenuDownloadFile_page3 {
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+    white-space: normal;
+}
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart2Menu_page3 .contentPart2MenuDownloadFile_page3::before {
+    content: "";
+    min-width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-right: 20px;
+    background-image: url('/img/svg/firstSection_page1/contentPart2Menu_page3/contentPart2MenuDownloadFile_page3.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}

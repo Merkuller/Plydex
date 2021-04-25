@@ -1,0 +1,220 @@
+                               /* 1 секция. Раздел продукции */
+                               .sectionOne_page7 {
+                                width: 100%;
+                                display: block;
+                            }
+                            .sectionOne_page7 .contentFirstSection_page7 {
+                                width: 100%;
+                                height: 4834px;
+                                display: flex;
+                                flex-direction: column;
+                            }
+                                /* Хлебные крошки */
+                            .sectionOne_page7 .contentFirstSection_page7 .contentBreadcrum_page7 {
+                                width: 100%;
+                                height: 54px;
+                                padding-left: 30px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: flex-start;
+                                border-bottom: 1px solid #E8E8E8;;
+                            }
+                            /* Общие стили ссылок */
+                            .sectionOne_page7 .contentFirstSection_page7 .contentBreadcrum_page7 li a {
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 16px;
+                                line-height: 150%;
+                                display: inline-block;
+                                text-align: none;
+                                text-decoration: none;
+                                margin-right: 20px;
+                                color: #BDBDBD;
+                            }
+                            .sectionOne_page7 .contentFirstSection_page7 .contentBreadcrum_page7 li:last-of-type a {
+                                color: #0A0A0A;
+                            }
+                            .sectionOne_page7 .contentFirstSection_page7 .contentBreadcrum_page7 li:not(:last-of-type) a::after {
+                                content: "";
+                                display: inline-block;
+                                width: 10px;
+                                height: 10px;
+                                margin-left: 20px;
+                                background-image: url('/img/svg/firstSection_page6/breadcrumRightArrow_page6.svg');
+                                background-position: center;
+                                background-repeat: no-repeat;
+                            }
+                                                        /* 1 секция. Контент. Монтаж */
+                            .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 {
+                                width: 100%;
+                                height: 4780px;
+                                display: flex;
+                                flex-direction: column;
+                                padding-top: 70px;
+                            }
+                                                    /* 1 секция. Контент. 1 часть. Монтаж */
+                            .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .whatItsAllAbout_page7 {
+                                width: 100%;
+                                height: 379px;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: space-between;
+                                padding-bottom: 70px;
+                                border-bottom: 1px solid #E8E8E8;
+                            }
+                                                /* 1 секция. Контент. 1 часть. 1 половина контейнера. Монтаж */
+                            .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .whatItsAllAbout_page7 .whatItsAllAboutContainer_page7 {
+                                width: 100%;
+                                height: 139px;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: space-between;
+                            }
+                            /* 1 секция. Контент. 1 часть. 1 половина контейнера. Заголовок. Монтаж */
+                            .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .whatItsAllAbout_page7 .whatItsAllAboutContainer_page7 .whatItsAllAboutHeadline_page7 {
+                                width: 100%;
+                                height: 37px;
+                                display: inline-block;
+                                font-size: 32px;
+                                line-height: 37px;
+                                font-weight: bold;
+                                color: #0A0A0A;
+                            }
+                            /* 1 секция. Контент. 1 часть. 1 половина контейнера. Текст. Монтаж */
+                            .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .whatItsAllAbout_page7 .whatItsAllAboutContainer_page7 .whatItsAllAboutText_page7 {
+                                width: 100%;
+                                height: 72px;
+                                display: inline-block;
+                                font-size: 16px;
+                                line-height: 150%;
+                                color: #0A0A0A;
+                            }
+                                                /* 1 секция. Контент. 1 часть. 2 половина контейнера. Монтаж */
+                            .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .whatItsAllAbout_page7 .additionalInf_page7 {
+                                width: 100%;
+                                height: 120px;
+                                display: flex;
+                                justify-content: space-between;
+                            }
+                                /* 1 секция. Контент. 1 часть. 2.1 половина контейнера. Монтаж */
+                            .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .whatItsAllAbout_page7 .additionalInf_page7 .addInfImportant_page7 {
+                                max-width: 757px;
+                                height: 120px;
+                                display: flex;
+                                flex-direction: column;
+                                margin-right: 10px;
+                            }
+                            /* 1 секция. Контент. 1 часть. 2.1 половина контейнера. Заголовок. Монтаж */
+                            .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .whatItsAllAbout_page7 .additionalInf_page7 .addInfImportant_page7 .addInfImportantHeadline_page7 {
+                                width: 100%;
+                                height: 28px;
+                                display: inline-block;
+                                font-size: 24px;
+                                line-height: 28px;
+                                font-weight: bold;
+                                color: #0A0A0A;
+                                margin-bottom: 20px;
+                            }
+                            /* 1 секция. Контент. 1 часть. 2.1 половина контейнера. Текст. Монтаж */
+                            .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .whatItsAllAbout_page7 .additionalInf_page7 .addInfImportant_page7 .addInfImportantText_page7 {
+                                width: 100%;
+                                font-size: 16px;
+                                line-height: 150%;
+                                height: 48px;
+                                display: inline-block;
+                                color: #0A0A0A;
+                            }
+                                /* 1 секция. Контент. 1 часть. 2.2 половина контейнера. Монтаж */
+                            .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .whatItsAllAbout_page7 .additionalInf_page7 .addInfWarning_page7 {
+                                max-width: 757px;
+                                height: 120px;
+                                display: flex;
+                                flex-direction: column;
+                                margin-left: 10px;
+                            }
+                            /* 1 секция. Контент. 1 часть. 2.2 половина контейнера. Заголовок. Монтаж */
+                            .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .whatItsAllAbout_page7 .additionalInf_page7 .addInfWarning_page7 .addInfWarningHeadline_page7 {
+                                width: 100%;
+                                height: 28px;
+                                display: inline-block;
+                                font-size: 24px;
+                                line-height: 28px;
+                                color: #0A0A0A;
+                                margin-bottom: 20px;
+                                font-weight: bold;
+                            }
+                            /* 1 секция. Контент. 1 часть. 2.2 половина контейнера. Текст. Монтаж */
+                            .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .whatItsAllAbout_page7 .additionalInf_page7 .addInfWarning_page7 .addInfWarningText_page7 {
+                                width: 100%;
+                                height: 72px;
+                                display: inline-block;
+                                font-size: 16px;
+                                line-height: 150%;
+                                color: #0A0A0A;
+                            }
+                                                    /* 1 секция. Контент. 2 часть. Монтаж */
+                            .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .steps_page7 {
+                                padding-top: 70px;
+                                width: 100%;
+                                height: 4250px;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: space-between;
+                            }
+                                                /* 1 секция. Контент. 2 часть. Общие стили контента. Монтаж */
+                                            /* 1 секция. Контент. 2 часть. Общие стили контента. Контейнер. Монтаж */
+                            .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .steps_page7 .step_page7 {
+                                width: 100%;
+                                height: 400px;
+                                display: flex;
+                                justify-content: space-between;
+                            }
+                                        /* 1 секция. Контент. 2 часть. Общие стили контента. Контейнер. 1 часть. Монтаж */
+                            .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .steps_page7 .step_page7 .stepPart1_page7 {
+                                height: 400px;
+                                max-width: 757px;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: flex-start;
+                                margin-right: 10px;
+                            }
+                            /* 1 секция. Контент. 2 часть. Общие стили контента. Контейнер. 1 часть. Заголовок. Монтаж */
+                            .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .steps_page7 .step_page7 .stepPart1_page7 .stepPart1Title_page7 {
+                                width: 126px;
+                                height: 40px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                font-size: 16px;
+                                line-height: 150%;
+                                color: #FFFFFF;
+                                background-color: #0A0A0A;
+                                margin-bottom: 20px;
+                            }
+                            /* 1 секция. Контент. 2 часть. Общие стили контента. Контейнер. 1 часть. Текст. Монтаж */
+                            .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .steps_page7 .step_page7 .stepPart1_page7 .stepPart1Text_page7 {
+                                height: 192px;
+                                width: 100%;
+                                font-size: 16px;
+                                line-height: 150%;
+                                color: #0A0A0A;
+                                display: inline-block;
+                                text-align: left;
+                            }
+                            .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .steps_page7 .step_page7 .stepPart1_page7 .stepPart1Text_page7 span {
+                                font-weight: bold;
+                            }
+                                        /* 1 секция. Контент. 2 часть. Общие стили контента. Контейнер. 2 часть. Монтаж */
+                            .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .steps_page7 .step_page7 .stepPart2Img_page7 {
+                                max-width: 758px;
+                                height: 400px;
+                                display: inline-block;
+                                margin-left: 10px;
+                            }
+                            /* 1 секция. Контент. 2 часть. Общие стили контента. Контейнер. 2 часть. Картинка. Монтаж */
+                            .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .steps_page7 .step_page7 .stepPart2Img_page7 img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                            }
+                            

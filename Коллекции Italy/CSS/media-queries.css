@@ -1,0 +1,809 @@
+/* ШАПКА (общие стили для всех страниц) */
+@media screen and (max-width: 1583px) {
+    .listElement1 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .listElement2 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .listElement3 {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 115px;
+    }
+    .listElement4 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .listElement5 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 1427px) {
+    .nav-item:nth-of-type(1) {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .nav-item:nth-of-type(2) {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .nav-item:nth-of-type(3) {
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100px;
+    }
+    .nav-item:nth-of-type(4) {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .nav-item:nth-of-type(5) {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    body {
+        padding-top: 0px;
+    }
+    .navbar {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .navbar-brand {
+        margin-right: -50px;
+    }
+    .navigationsButtons {
+        display: flex !important;
+    }
+    .navbar-collapse ul {
+        height: 100vh;
+        overflow: scroll;
+    }
+    .navbar-toggler {
+        margin-left: 16px;
+    }
+    .nav-item:not(:first-of-type) {
+        border-left: none;
+    }
+    .navbar-nav {
+        padding-top: 20px;
+        padding-bottom: 90px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .nav-item {
+        padding-left: 16px;
+    }
+    .nav-item:nth-of-type(1) {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .nav-item:nth-of-type(2) {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .nav-item:nth-of-type(3) {
+        padding-left: 16px;
+        padding-right: 16px;
+        width: 100%;
+    }
+    .nav-item:nth-of-type(4) {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .nav-item:nth-of-type(5) {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .nav-item:first-of-type a {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-item:nth-of-type(2) a {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .listElement10 {
+        padding-right: 16px;
+    }
+    .listElement10 a {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-item:nth-of-type(3):hover {
+        background-color: #d0672f;
+    }
+    .nav-item:nth-of-type(4):hover {
+        background-color: #d0672f;
+    }
+    .nav-item:nth-of-type(5):hover {
+        background-color: #d0672f;
+    }
+    .nav-item:nth-of-type(3):active {
+        background-color: #d0672f;
+    }
+    .nav-item:nth-of-type(4):active {
+        background-color: #d0672f;
+    }
+    .nav-item:nth-of-type(5):active {
+        background-color: #d0672f;
+    }
+    .nav-item:nth-of-type(6) {
+        margin: 0px auto;
+    }
+    .nav-item:nth-of-type(7) {
+        display: none;
+    }
+    .nav-item:nth-of-type(9) {
+        display: none;
+    }
+    .listElement8 {
+        padding: 0px;
+        width: 110px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .listElement1 {
+        order: -8;
+    }
+    .listElement2 {
+        order: -7;
+    }
+    .listElement3 {
+        order: -6;
+    }
+    .listElement4 {
+        order: -5;
+    }
+    .listElement5 {
+        order: -4;
+    }
+    .listElement8 {
+        order: -1;
+    }
+    .listElement10 {
+        order: -2;
+    }
+    .dropdown:hover {
+        background-color: #3a3a3a;
+    }
+    .dropdown:hover .dropdown-menu {
+        width: 100%;
+        background-color: #3a3a3a;
+        border: none;
+    }
+    .dropdown .dropdown-menu {
+        width: 100%;
+        background-color: #3a3a3a !important;
+        border: none;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .navbar-brand {
+        margin-right: 0px;
+    }
+}
+                                        /* ПОДВАЛ (общие стили для всех страниц) */
+@media screen and (max-width: 1432px) {
+                                /* 2 раздел подвала */
+    footer .footerMenu .footerMenu2 {
+        height: 338px;
+    }
+        /* 2 раздел подвала. Список раздела */
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 300px;
+    }
+    /* 2 раздел подвала. Список раздела. 4 элемент списка */
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) {
+        height: 48px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) span {
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 1371px) {
+                                /* 4 раздел подвала */
+    footer .footerMenu .footerMenuMap {
+        height: 339px;
+    }
+    footer .footerMenu .footerMenuMap .footerMenuMap_headline {
+        height: 56px;
+    }
+}
+
+@media screen and (max-width: 1157px) {
+                                /* 2 раздел подвала */
+    footer .footerMenu .footerMenu2 {
+        height: 362px;
+    }
+        /* 2 раздел подвала. Список раздела */
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 324px;
+    }
+    /* 2 раздел подвала. Список раздела. 3 элемент списка */
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(3) {
+        height: 48px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(3) span {
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 1076px) {
+                                /* 3 раздел подвала */
+    footer .footerMenu .footerMenu3 {
+        height: 254px;
+    }
+        /* 3 раздел подвала. Список раздела */
+    footer .footerMenu .footerMenu3 .footerMenu3_list {
+        height: 216px;
+    }
+    /* 3 раздел подвала. Список раздела. 5 элемент списка */
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(5) {
+        height: 48px;
+    }
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(5) span {
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 1072px) {
+                                /* 3 раздел подвала */
+    footer .footerMenu .footerMenu3 {
+        height: 278px;
+    }
+        /* 3 раздел подвала. Список раздела */
+    footer .footerMenu .footerMenu3 .footerMenu3_list {
+        height: 240px;
+    }
+    /* 3 раздел подвала. Список раздела. 1 элемент списка */
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(1) {
+        height: 48px;
+    }
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(1) span {
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    footer {
+        height: 950px;
+    }
+    footer .footerMenu {
+        height: 806px;
+        flex-wrap: wrap;
+        padding-right: 35px;
+    }
+            /* 1 раздел подвала */
+    footer .footerMenu .footerMenu1 {
+        flex: 1;
+    }
+            /* 2 раздел подвала */
+    footer .footerMenu .footerMenu2 {
+        height: 362px;
+        flex: 1;
+    }
+        /* 2 раздел подвала. Список раздела */
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 317px;
+    }
+    /* 2 раздел подвала. Список раздела. 4 элемент списка */
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) {
+        height: 24px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) span {
+        padding-left: 0px;
+    }
+    /* 2 раздел подвала. Список раздела. 3 элемент списка */
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(3) {
+        height: 24px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(3) span {
+        padding-left: 0px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 324px;
+    }
+            /* 3 раздел подвала */
+    footer .footerMenu .footerMenu3 {
+        flex: 1;
+    }
+            /* Первый разрыв строки */
+    .footerBreak1 {
+        flex-basis: 100%;
+        height: 0px;
+    }
+            /* Карта подвала */
+    footer .footerMenu .footerMenuMap {
+        flex: 1;
+    }
+            /* 3 раздел подвала */
+    footer .footerMenu .footerMenu3 {
+        height: 230px;
+    }
+        /* 3 раздел подвала. Список раздела */
+    footer .footerMenu .footerMenu3 .footerMenu3_list {
+        height: 192px;
+    }
+    /* 3 раздел подвала. Список раздела. 1 элемент списка */
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(1) {
+        height: 24px;
+    }
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(1) span {
+        padding-left: 0px;
+    }
+    /* 3 раздел подвала. Список раздела. 5 элемент списка */
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(5) {
+        height: 24px;
+    }
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(5) span {
+        padding-left: 0px;
+    }
+            /* 4 раздел подвала */
+    footer .footerMenu .footerMenuMap {
+        height: 311px;
+    }
+    footer .footerMenu .footerMenuMap .footerMenuMap_headline {
+        height: 28px;
+    }
+}
+
+@media screen and (max-width: 742px) {
+            /* 2 раздел подвала */
+    footer .footerMenu .footerMenu2 {
+        height: 362px;
+        flex: 1;
+    }
+        /* 2 раздел подвала. Список раздела */
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 324px;
+    }
+    /* 2 раздел подвала. Список раздела. 4 элемент списка */
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) {
+        height: 48px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) span {
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 711px) {
+    footer {
+        height: 1006px;
+    }
+    footer .footerMenu {
+        height: 862px;
+    }
+            /* 4 раздел меню */
+    footer .footerMenu .footerMenuMap {
+        height: 345px;
+    }
+    /* 4 раздел меню. Заголовок */
+    footer .footerMenu .footerMenuMap .footerMenuMap_headline {
+        height: 56px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    footer {
+        height: 1450px;
+    }
+    footer .footerMenu {
+        height: 1250px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .footerBreak1 {
+        display: none;
+    }
+            /* 1 раздел меню */
+    footer .footerMenu .footerMenu1 {
+        width: 100%;
+        height: 174px;
+        flex: 0 1 auto;
+    }
+    footer .footerMenu .footerMenu1 .footerMenu1_list {
+        height: 136px;
+    }
+            /* 2 раздел меню */
+    footer .footerMenu .footerMenu2 {
+        width: 100%;
+        height: 314px;
+        flex: 0 1 auto;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 276px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) {
+        height: 24px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) span {
+        padding-left: 0px;
+    }
+            /* 3 раздел меню */
+    footer .footerMenu .footerMenu3 {
+        width: 100%;
+        height: 230px;
+        flex: 0 1 auto;
+    }
+    footer .footerMenu .footerMenu3 .footerMenu3_list {
+        height: 192px;
+    }
+            /* 4 раздел меню */
+    footer .footerMenu .footerMenuMap {
+        width: 100%;
+        height: 311px;
+        flex: 0 1 auto;
+    }
+    footer .footerMenu .footerMenuMap .footerMap {
+        height: 270px;
+    }
+}
+
+@media screen and (max-width: 406px) {
+        /* 2 раздел подвала */
+    footer .footerMenu .footerMenu2 {
+        height: 338px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 300px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) {
+        height: 48px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) span {
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 337px) {
+    /* 2 раздел подвала */
+    footer .footerMenu .footerMenu2 {
+        height: 362px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 324px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(3) {
+        height: 48px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(3) span {
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    footer {
+        height: 1460px;
+    }
+    footer .footerMenu {
+        height: 1280px;
+    }
+        /* 4 раздел меню */
+    footer .footerMenu .footerMenuMap {
+        height: 340px;
+    }
+}
+                                        /* КОЛЛЕКЦИЯ ITALY */
+@media screen and (max-width: 1583px) {
+        /* Хлебные крошки */
+    .sectionOne_page18 .contentFirstSection_page18 .contentBreadcrum_page18 {
+        padding-top: 33px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+        /* Хлебные крошки */
+    .sectionOne_page18 .contentFirstSection_page18 .contentBreadcrum_page18 {
+        padding-top: 15px;
+    }
+}
+
+@media screen and (max-width: 344px) {
+        /* 1 секция. Готовые решения */
+    .sectionOne_page18 .contentFirstSection_page18 {
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .wrapper_page18 {
+        width: 70%;
+        margin: 0px auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .wrapper_page18 {
+        width: 85%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+        /* 1 секция. Контент. Коллекция Italy */
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 {
+        padding-top: 50px;
+    }
+        /* 1 секция. Контент. Заголовок. Коллекция Italy */
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .wrapper_page18 .headline_page18 {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+        /* 1 секция. Контент. Общие стили. Секция. Коллекция Italy */
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18 {
+        padding-top: 40px;
+        min-height: auto;
+        padding-bottom: 40px;
+    }
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18:last-child {
+        padding-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper_page18 {
+        width: 100%;
+    }
+        /* 1 секция. Контент. Общие стили. Обертка секции. Коллекция Italy */
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18 .wrapper_page18 .contentPartContent_page18 {
+        flex-direction: column;
+    }
+        /* Скрытый заголовок */
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18 .wrapper_page18 .contentPartContent_page18 .sliderBlock_page18 .partCalculatorHeadlineHidden_page18 {
+        display: flex;
+    }
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18 .wrapper_page18 .contentPartContent_page18 .sliderBlock_page18 .partCalculatorHeadlineHidden_page18 .partHeadlineHidden_page18 {
+        flex-grow: 1;
+        max-width: 60%;
+    }
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18 .wrapper_page18 .contentPartContent_page18 .sliderBlock_page18 .partCalculatorHeadlineHidden_page18 {
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18 .wrapper_page18 .contentPartContent_page18 .sliderBlock_page18 .partCalculatorHeadlineHidden_page18 .partHeadlineHidden_page18 .partHeadlineTextHidden_page18 {
+        text-align: right;
+    }
+        /* 1 секция. Контент. Общие стили. Контейнер слайдера. Коллекция Italy */
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18 .wrapper_page18 .contentPartContent_page18 .sliderBlock_page18 {
+        width: 80%;
+        margin-right: 0px;
+        margin: 0px auto;
+        margin-bottom: 30px;
+    }
+        /* Стрелка */
+    .slider2_page18 .slick-arrow {
+        margin: -30px 0px 0px 0px;
+    }
+        /* 1 секция. Контент. Общие стили. Калькулятор. Коллекция Italy */
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18 .wrapper_page18 .contentPartContent_page18 .partCalculator_page18 {
+        width: 80%;
+        margin-left: 0px;
+        margin: 0px auto;
+    }
+        /* 1 секция. Контент. Общие стили. Калькулятор. Блок заголовка. Коллекция Italy */
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18 .wrapper_page18 .contentPartContent_page18 .partCalculator_page18 .partCalculatorHeadline_page18 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 574px) {
+        /* Хлебные крошки */
+    .sectionOne_page18 .contentFirstSection_page18 .contentBreadcrum_page18 {
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding-bottom: 10px;
+    }
+        /* Скрытый заголовок */
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18 .wrapper_page18 .contentPartContent_page18 .sliderBlock_page18 .partCalculatorHeadlineHidden_page18 .partHeadlineHidden_page18 {
+        max-width: 65%;
+    }
+        /* 1 секция. Контент. Общие стили. Контейнер слайдера. Коллекция Italy */
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18 .wrapper_page18 .contentPartContent_page18 .sliderBlock_page18 {
+        min-height: auto;
+    }
+        /* 1 секция. Контент. Общие стили. Слайдер 1. Коллекция Italy */
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18 .wrapper_page18 .contentPartContent_page18 .sliderBlock_page18 .slider1_page18 {
+        height: 260px;
+    }
+        /* Ограничивающая оболочка */
+    /*1-*/
+    .slider1_page18 .slick-list {
+        height: 260px;
+    }
+    /* Лента слайдов */
+    .slider1_page18 .slick-track {
+        height: 260px;
+    }
+        /* 1 секция. Контент. Общие стили. Слайдер 2. Коллекция Italy */
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18 .wrapper_page18 .contentPartContent_page18 .sliderBlock_page18 .slider2_page18 {
+        height: 80px;
+    }
+        /* Ограничивающая оболочка */
+    /*2-*/
+    .slider2_page18 .slick-list {
+        height: 80px;
+    }
+    /* Лента слайдов */
+    .slider2_page18 .slick-track {
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+        /* 1 секция. Контент. Коллекция Italy */
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 {
+        padding-top: 40px;
+    }
+        /* 1 секция. Контент. Заголовок. Коллекция Italy */
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .wrapper_page18 .headline_page18 {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+        /* 1 секция. Контент. Общие стили. Секция. Коллекция Italy */
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+        /* 1 секция. Контент. Общие стили. Секция. Коллекция Italy */
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18:last-child {
+        padding-bottom: 40px;
+    }
+        /* 1 секция. Контент. Общие стили. Контейнер слайдера. Коллекция Italy */
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18 .wrapper_page18 .contentPartContent_page18 .sliderBlock_page18 {
+        width: 100%;
+        margin: 0px;
+    }
+        /* Скрытый заголовок */
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18 .wrapper_page18 .contentPartContent_page18 .sliderBlock_page18 .partCalculatorHeadlineHidden_page18 {
+        padding-bottom: 20px;
+    }
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18 .wrapper_page18 .contentPartContent_page18 .sliderBlock_page18 .partCalculatorHeadlineHidden_page18 .partHeadlineHidden_page18 .partHeadlineTextHidden_page18 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    /* 1 секция. Контент. Общие стили. Слайдер 1. Коллекция Italy */
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18 .wrapper_page18 .contentPartContent_page18 .sliderBlock_page18 .slider1_page18 {
+        height: 200px;
+    }
+        /* Ограничивающая оболочка */
+    /*1-*/
+    .slider1_page18 .slick-list {
+        height: 200px;
+    }
+    /* Лента слайдов */
+    .slider1_page18 .slick-track {
+        height: 200px;
+    }
+        /* 1 секция. Контент. Общие стили. Слайдер 2. Коллекция Italy */
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18 .wrapper_page18 .contentPartContent_page18 .sliderBlock_page18 .slider2_page18 {
+        height: 70px;
+    }
+        /* 1 секция. Контент. Общие стили. Слайдер 2. Слайд. Коллекция Italy */
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18 .wrapper_page18 .contentPartContent_page18 .sliderBlock_page18 .slider2_page18 .slider2Slide_page18 {
+        min-width: 100px;
+        max-width: 100px;
+    }
+        /* Ограничивающая оболочка */
+    /*2-*/
+    .slider2_page18 .slick-list {
+        height: 70px;
+    }
+    /* Лента слайдов */
+    .slider2_page18 .slick-track {
+        height: 70px;
+    }
+        /* Слайд */
+    .slider2_page18 .slick-slide {
+        min-width: 100px;
+        max-width: 100px;
+    }
+    /* Стрелка */
+    .slider2_page18 .slick-arrow {
+        margin: -10px 0px 0px 0px;
+    }
+    /* 1 секция. Контент. Общие стили. Контейнер слайдера. Коллекция Italy */
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18 .wrapper_page18 .contentPartContent_page18 .sliderBlock_page18 {
+        margin-bottom: 20px;
+    }
+        /* 1 секция. Контент. Общие стили. Калькулятор. Коллекция Italy */
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18 .wrapper_page18 .contentPartContent_page18 .partCalculator_page18 {
+        width: 100%;
+        margin: 0px;
+    }
+        /* 1 секция. Контент. Общие стили. Калькулятор. Строка с 2 формами. Коллекция Italy */
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18 .wrapper_page18 .contentPartContent_page18 .partCalculator_page18 .partRow1_page18 {
+        padding-bottom: 20px;
+    }
+        /* 1 секция. Контент. Общие стили. Калькулятор. Строка с 2 формами. 1 форма. Поле ввода. Коллекция Italy */
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18 .wrapper_page18 .contentPartContent_page18 .partCalculator_page18 .partRow1_page18 .partRow1Field1_page18 .partRow1InputField1_page18 {
+        height: 40px;
+    }
+        /* 1 секция. Контент. Общие стили. Калькулятор. Строка с 2 формами. 2 форма. Поле ввода. Коллекция Italy */
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18 .wrapper_page18 .contentPartContent_page18 .partCalculator_page18 .partRow1_page18 .partRow1Field2_page18 .partRow1Input2Field1_page18 {
+        height: 40px;
+    }
+        /* 1 секция. Контент. Общие стили. Калькулятор. Строка с 1 формой. Коллекция Italy */
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18 .wrapper_page18 .contentPartContent_page18 .partCalculator_page18 .partRow2_page18 {
+        padding-bottom: 20px;
+    }
+        /* 1 секция. Контент. Общие стили. Калькулятор. Строка с 1 формой. Поле ввода. Коллекция Italy */
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18 .wrapper_page18 .contentPartContent_page18 .partCalculator_page18 .partRow2_page18 .partRow2InputField3_page18 {
+        height: 40px;
+    }
+        /* 1 секция. Контент. Общие стили. Калькулятор. Строка с итоговой стоимостью. Коллекция Italy */
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18 .wrapper_page18 .contentPartContent_page18 .partCalculator_page18 .partRow3_page18 {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+        /* 1 секция. Контент. Общие стили. Калькулятор. Строка с кнопками. Кнопка "Купить". Коллекция Italy */
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18 .wrapper_page18 .contentPartContent_page18 .partCalculator_page18 .partRow4_page18 .partRow4ByBtn_page18 {
+        height: 40px;
+    }
+        /* 1 секция. Контент. Общие стили. Калькулятор. Строка с кнопками. Кнопка "Хочу задать вопрос". Коллекция Italy */
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18 .wrapper_page18 .contentPartContent_page18 .partCalculator_page18 .partRow4_page18 .partRow4WantAskAQuestion_page18 {
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+        /* 1 секция. Контент. Коллекция Italy */
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 {
+        padding-top: 30px;
+    }
+        /* 1 секция. Контент. Общие стили. Секция. Коллекция Italy */
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18:last-child {
+        padding-bottom: 30px;
+    }
+        /* Скрытый заголовок */
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18 .wrapper_page18 .contentPartContent_page18 .sliderBlock_page18 .partCalculatorHeadlineHidden_page18 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18 .wrapper_page18 .contentPartContent_page18 .sliderBlock_page18 .partCalculatorHeadlineHidden_page18 .partHeadlineHidden_page18 {
+        margin-right: 0px;
+    }
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18 .wrapper_page18 .contentPartContent_page18 .sliderBlock_page18 .partCalculatorHeadlineHidden_page18 .partHeadlineHidden_page18 .partHeadlineTextHidden_page18 {
+        text-align: center;
+    }
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18 .wrapper_page18 .contentPartContent_page18 .sliderBlock_page18 .partCalculatorHeadlineHidden_page18 .partHeadlineHidden_page18 .partUnderTextHidden_page18 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 321px) {
+        /* 1 секция. Контент. Коллекция Italy */
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 {
+        padding-top: 20px;
+    }
+        /* 1 секция. Контент. Общие стили. Секция. Коллекция Italy */
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18:last-child {
+        padding-bottom: 20px;
+    }
+        /* 1 секция. Контент. Общие стили. Слайдер 2. Слайд. Коллекция Italy */
+    .sectionOne_page18 .contentFirstSection_page18 .contentSection_page18 .contentPart_page18 .wrapper_page18 .contentPartContent_page18 .sliderBlock_page18 .slider2_page18 .slider2Slide_page18 {
+        min-width: 120px;
+        max-width: 120px;
+    }
+        /* Лента слайдов */
+    .slider2_page18 .slick-track {
+        justify-content: space-around;
+    }
+        /* Слайд */
+    .slider2_page18 .slick-slide {
+        min-width: 120px;
+        max-width: 120px;
+    }
+}

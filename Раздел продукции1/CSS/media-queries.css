@@ -1,0 +1,875 @@
+                                        /* ШАПКА (общие стили для всех страниц) */
+@media screen and (max-width: 1583px) {
+    .listElement1 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .listElement2 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .listElement3 {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 115px;
+    }
+    .listElement4 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .listElement5 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 1427px) {
+    .nav-item:nth-of-type(1) {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .nav-item:nth-of-type(2) {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .nav-item:nth-of-type(3) {
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100px;
+    }
+    .nav-item:nth-of-type(4) {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .nav-item:nth-of-type(5) {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    body {
+        padding-top: 0px;
+    }
+    .navbar {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .navbar-brand {
+        margin-right: -50px;
+    }
+    .navigationsButtons {
+        display: flex !important;
+    }
+    .navbar-collapse ul {
+        height: 100vh;
+        overflow: scroll;
+    }
+    .navbar-toggler {
+        margin-left: 16px;
+    }
+    .nav-item:not(:first-of-type) {
+        border-left: none;
+    }
+    .navbar-nav {
+        padding-top: 20px;
+        padding-bottom: 90px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .nav-item {
+        padding-left: 16px;
+    }
+    .nav-item:nth-of-type(1) {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .nav-item:nth-of-type(2) {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .nav-item:nth-of-type(3) {
+        padding-left: 16px;
+        padding-right: 16px;
+        width: 100%;
+    }
+    .nav-item:nth-of-type(4) {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .nav-item:nth-of-type(5) {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .nav-item:first-of-type a {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-item:nth-of-type(2) a {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .listElement10 {
+        padding-right: 16px;
+    }
+    .listElement10 a {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-item:nth-of-type(3):hover {
+        background-color: #d0672f;
+    }
+    .nav-item:nth-of-type(4):hover {
+        background-color: #d0672f;
+    }
+    .nav-item:nth-of-type(5):hover {
+        background-color: #d0672f;
+    }
+    .nav-item:nth-of-type(3):active {
+        background-color: #d0672f;
+    }
+    .nav-item:nth-of-type(4):active {
+        background-color: #d0672f;
+    }
+    .nav-item:nth-of-type(5):active {
+        background-color: #d0672f;
+    }
+    .nav-item:nth-of-type(6) {
+        margin: 0px auto;
+    }
+    .nav-item:nth-of-type(7) {
+        display: none;
+    }
+    .nav-item:nth-of-type(9) {
+        display: none;
+    }
+    .listElement8 {
+        padding: 0px;
+        width: 110px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .listElement1 {
+        order: -8;
+    }
+    .listElement2 {
+        order: -7;
+    }
+    .listElement3 {
+        order: -6;
+    }
+    .listElement4 {
+        order: -5;
+    }
+    .listElement5 {
+        order: -4;
+    }
+    .listElement8 {
+        order: -1;
+    }
+    .listElement10 {
+        order: -2;
+    }
+    .dropdown:hover {
+        background-color: #3a3a3a;
+    }
+    .dropdown:hover .dropdown-menu {
+        width: 100%;
+        background-color: #3a3a3a;
+        border: none;
+    }
+    .dropdown .dropdown-menu {
+        width: 100%;
+        background-color: #3a3a3a !important;
+        border: none;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .navbar-brand {
+        margin-right: 0px;
+    }
+}
+                                        /* ПОДВАЛ (общие стили для всех страниц) */
+@media screen and (max-width: 1432px) {
+                                /* 2 раздел подвала */
+    footer .footerMenu .footerMenu2 {
+        height: 338px;
+    }
+        /* 2 раздел подвала. Список раздела */
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 300px;
+    }
+    /* 2 раздел подвала. Список раздела. 4 элемент списка */
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) {
+        height: 48px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) span {
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 1371px) {
+                                /* 4 раздел подвала */
+    footer .footerMenu .footerMenuMap {
+        height: 339px;
+    }
+    footer .footerMenu .footerMenuMap .footerMenuMap_headline {
+        height: 56px;
+    }
+}
+
+@media screen and (max-width: 1157px) {
+                                /* 2 раздел подвала */
+    footer .footerMenu .footerMenu2 {
+        height: 362px;
+    }
+        /* 2 раздел подвала. Список раздела */
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 324px;
+    }
+    /* 2 раздел подвала. Список раздела. 3 элемент списка */
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(3) {
+        height: 48px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(3) span {
+        padding-left: 16px;
+    }
+}
+@media screen and (max-width: 1076px) {
+                                /* 3 раздел подвала */
+    footer .footerMenu .footerMenu3 {
+        height: 254px;
+    }
+        /* 3 раздел подвала. Список раздела */
+    footer .footerMenu .footerMenu3 .footerMenu3_list {
+        height: 216px;
+    }
+    /* 3 раздел подвала. Список раздела. 5 элемент списка */
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(5) {
+        height: 48px;
+    }
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(5) span {
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 1072px) {
+                                /* 3 раздел подвала */
+    footer .footerMenu .footerMenu3 {
+        height: 278px;
+    }
+        /* 3 раздел подвала. Список раздела */
+    footer .footerMenu .footerMenu3 .footerMenu3_list {
+        height: 240px;
+    }
+    /* 3 раздел подвала. Список раздела. 1 элемент списка */
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(1) {
+        height: 48px;
+    }
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(1) span {
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    footer {
+        height: 950px;
+    }
+    footer .footerMenu {
+        height: 806px;
+        flex-wrap: wrap;
+        padding-right: 35px;
+    }
+            /* 1 раздел подвала */
+    footer .footerMenu .footerMenu1 {
+        flex: 1;
+    }
+            /* 2 раздел подвала */
+    footer .footerMenu .footerMenu2 {
+        height: 362px;
+        flex: 1;
+    }
+        /* 2 раздел подвала. Список раздела */
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 317px;
+    }
+    /* 2 раздел подвала. Список раздела. 4 элемент списка */
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) {
+        height: 24px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) span {
+        padding-left: 0px;
+    }
+    /* 2 раздел подвала. Список раздела. 3 элемент списка */
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(3) {
+        height: 24px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(3) span {
+        padding-left: 0px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 324px;
+    }
+            /* 3 раздел подвала */
+    footer .footerMenu .footerMenu3 {
+        flex: 1;
+    }
+            /* Первый разрыв строки */
+    .footerBreak1 {
+        flex-basis: 100%;
+        height: 0px;
+    }
+            /* Карта подвала */
+    footer .footerMenu .footerMenuMap {
+        flex: 1;
+    }
+            /* 3 раздел подвала */
+    footer .footerMenu .footerMenu3 {
+        height: 230px;
+    }
+        /* 3 раздел подвала. Список раздела */
+    footer .footerMenu .footerMenu3 .footerMenu3_list {
+        height: 192px;
+    }
+    /* 3 раздел подвала. Список раздела. 1 элемент списка */
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(1) {
+        height: 24px;
+    }
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(1) span {
+        padding-left: 0px;
+    }
+    /* 3 раздел подвала. Список раздела. 5 элемент списка */
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(5) {
+        height: 24px;
+    }
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(5) span {
+        padding-left: 0px;
+    }
+            /* 4 раздел подвала */
+    footer .footerMenu .footerMenuMap {
+        height: 311px;
+    }
+    footer .footerMenu .footerMenuMap .footerMenuMap_headline {
+        height: 28px;
+    }
+}
+
+@media screen and (max-width: 742px) {
+            /* 2 раздел подвала */
+    footer .footerMenu .footerMenu2 {
+        height: 362px;
+        flex: 1;
+    }
+        /* 2 раздел подвала. Список раздела */
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 324px;
+    }
+    /* 2 раздел подвала. Список раздела. 4 элемент списка */
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) {
+        height: 48px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) span {
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 711px) {
+    footer {
+        height: 1006px;
+    }
+    footer .footerMenu {
+        height: 862px;
+    }
+            /* 4 раздел меню */
+    footer .footerMenu .footerMenuMap {
+        height: 345px;
+    }
+    /* 4 раздел меню. Заголовок */
+    footer .footerMenu .footerMenuMap .footerMenuMap_headline {
+        height: 56px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    footer {
+        height: 1450px;
+    }
+    footer .footerMenu {
+        height: 1250px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .footerBreak1 {
+        display: none;
+    }
+            /* 1 раздел меню */
+    footer .footerMenu .footerMenu1 {
+        width: 100%;
+        height: 174px;
+        flex: 0 1 auto;
+    }
+    footer .footerMenu .footerMenu1 .footerMenu1_list {
+        height: 136px;
+    }
+            /* 2 раздел меню */
+    footer .footerMenu .footerMenu2 {
+        width: 100%;
+        height: 314px;
+        flex: 0 1 auto;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 276px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) {
+        height: 24px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) span {
+        padding-left: 0px;
+    }
+            /* 3 раздел меню */
+    footer .footerMenu .footerMenu3 {
+        width: 100%;
+        height: 230px;
+        flex: 0 1 auto;
+    }
+    footer .footerMenu .footerMenu3 .footerMenu3_list {
+        height: 192px;
+    }
+            /* 4 раздел меню */
+    footer .footerMenu .footerMenuMap {
+        width: 100%;
+        height: 311px;
+        flex: 0 1 auto;
+    }
+    footer .footerMenu .footerMenuMap .footerMap {
+        height: 270px;
+    }
+}
+
+@media screen and (max-width: 406px) {
+        /* 2 раздел подвала */
+    footer .footerMenu .footerMenu2 {
+        height: 338px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 300px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) {
+        height: 48px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) span {
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 337px) {
+    /* 2 раздел подвала */
+    footer .footerMenu .footerMenu2 {
+        height: 362px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 324px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(3) {
+        height: 48px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(3) span {
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    footer {
+        height: 1460px;
+    }
+    footer .footerMenu {
+        height: 1280px;
+    }
+        /* 4 раздел меню */
+    footer .footerMenu .footerMenuMap {
+        height: 340px;
+    }
+}
+                                        /* РАЗДЕЛ ПРОДУКЦИИ */
+@media screen and (max-width: 1514px) {
+                                    /* 1 секция. 1.2.2 часть. Раздел продукции */
+    /*Оющие стили для карточки продукта*/
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart2Main_page2 .productCard_page2:nth-last-of-type(2) {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 1442px) {
+                /* 1 секция. Раздел продукции */
+    .sectionOne_page2 {
+        height: auto;
+    }
+            /* 1 секция. 1 часть. Раздел продукции */
+    .sectionOne_page2 .content1FirstSection_page2 {
+        height: auto;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 {
+        height: auto;
+    }
+        /* 1 секция. 1.2.2 часть. Раздел продукции */
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 {
+        height: auto;
+        max-width: 1605px;
+        padding-right: 30px;
+    }
+            /* 1 секция. 2.2 часть. Основной контент */
+        /* Общие стили для карточки продукта */
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart2Main_page2 .productCard_page2 {
+        margin-bottom: 50px;
+    }
+        /* 1 секция. 2.3 часть. Основной контент */
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 {
+        height: auto;
+        padding-top: 50px;
+    }
+        /* 1 секция. 2.3_1 часть. Основной контент */
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_1Main_page2 {
+        height: auto;
+    }
+        /* 2.3_1 часть */
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_1Main_page2 .content1MenuP3_1_1_page2 {
+        flex-wrap: wrap;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_1Main_page2 .content1MenuP3_1_1_page2 .content1MenuP3_1_1Text_page2 {
+        width: 100%;
+        height: auto;
+        margin-right: 0px;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_1Main_page2 .content1MenuP3_1_1_page2 .content1MenuP3_1_1Text_page2 .content1MenuP3_1_1TextHeadline_page2 {
+        height: auto;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_1Main_page2 .content1MenuP3_1_1_page2 .content1MenuP3_1_1Text_page2 .content1MenuP3_1_1TextDesc_page2 {
+        height: auto;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_1Main_page2 .content1MenuP3_1_1_page2 .content1MenuP3_1_1Text_page2 .content1MenuP3_1_1TextDesc_page2 {
+        margin-bottom: 20px;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_1Main_page2 .content1MenuP3_1_1_page2 .content1MenuP3_1_1Img_page2 {
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+    }
+        /* 1 секция. 2.3_2 часть. Основной контент */
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 {
+        height: auto;
+        padding-top: 50px;
+    }
+        /* 2.3_2 часть */
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_1Main_page2 .content1MenuP3_1_2_page2 {
+        flex-wrap: wrap;
+        height: auto;
+        flex-direction: column-reverse;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_1Main_page2 .content1MenuP3_1_2_page2 .content1MenuP3_1_2Img_page2 {
+        width: 100%;
+        height: auto;
+        margin-right: 0px;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_1Main_page2 .content1MenuP3_1_2_page2 .content1MenuP3_1_2Text_page2 {
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_1Main_page2 .content1MenuP3_1_2_page2 .content1MenuP3_1_2Text_page2 .content1MenuP3_1_2TextHeadline_page2 {
+        height: auto;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_1Main_page2 .content1MenuP3_1_2_page2 .content1MenuP3_1_2Text_page2 .content1MenuP3_1_2TextDesc_page2 {
+        height: auto;
+        margin-bottom: 20px;
+    }
+        /* 1 секция. 2.3_2 часть. Основной контент */
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 {
+        height: auto;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+        /* 2.3_2_1 */
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_1_page2 {
+        width: 100%;
+        padding-right: 0px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_1_page2 .content1MenuP3_2_1Headline_page2 {
+        margin-bottom: 15px;
+        height: auto;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_1_page2 .content1MenuP3_2_1Text_page2 {
+        height: auto;
+    }
+        /* 2.3_2_2 */
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_2_page2 {
+        width: 100%;
+        height: auto;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_2_page2 .content1MenuP3_2_2Column1_page2 {
+        height: auto;
+        margin-right: 10px;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_2_page2 .content1MenuP3_2_2Column1_page2 .p3_2_2Col1Headline_page2 {
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_2_page2 .content1MenuP3_2_2Column1_page2 .p3_2_2Col1List_page2 {
+        height: auto;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_2_page2 .content1MenuP3_2_2Column1_page2 .p3_2_2Col1List_page2 li {
+        height: auto;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_2_page2 .content1MenuP3_2_2Column2_page2 {
+        height: auto;
+        margin-right: 10px;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_2_page2 .content1MenuP3_2_2Column2_page2 .p3_2_2Col2Headline_page2 {
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_2_page2 .content1MenuP3_2_2Column2_page2 .p3_2_2Col2List_page2 {
+        height: auto;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_2_page2 .content1MenuP3_2_2Column2_page2 .p3_2_2Col2List_page2 li {
+        height: auto;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_2_page2 .content1MenuP3_2_2Column3_page2 {
+        height: auto;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_2_page2 .content1MenuP3_2_2Column3_page2 .p3_2_2Col3Headline_page2 {
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_2_page2 .content1MenuP3_2_2Column3_page2 .p3_2_2Col3List_page2 {
+        height: auto;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_2_page2 .content1MenuP3_2_2Column3_page2 .p3_2_2Col3List_page2 li {
+        height: auto;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+}
+
+@media screen and (max-width: 1229px) {
+                                /* 1 секция. 1.2.2 часть. Раздел продукции */
+    /*Оющие стили для карточки продукта*/
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart2Main_page2 .productCard_page2:last-of-type {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    /* 1 секция. 2.2 часть. Заголовок */
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart2Headline_page2 .content1MenuPart2Headline1_page2 {
+        text-align: center;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart2Headline_page2 .content1MenuPart2Headline2_page2 {
+        text-align: center;
+    }
+                /* 1 секция. 1.2.1 часть. Раздел продукции */
+            /* Навигационное меню*/
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart1_page2 {
+        display: none;
+    }
+                /* 1 секция. 1.2.2 часть. Раздел продукции */
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 {
+        padding-top: 20px;
+    }
+    /* Скрытое меню-фильтр */
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .panel-group {
+        display: block;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .panel-group .panel .panel-heading {
+        display: flex;
+    }
+            /* 1 секция. 2.3_1 часть. Основной контент */
+    /* 2.3_1_1 часть */
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_1Main_page2 .content1MenuP3_1_1_page2 .content1MenuP3_1_1Text_page2 .content1MenuP3_1_1TextHeadline_page2 {
+        text-align: center;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_1Main_page2 .content1MenuP3_1_1_page2 .content1MenuP3_1_1Img_page2 {
+        margin: 0px auto;
+    }
+    /* 2.3_1_2 часть */
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_1Main_page2 .content1MenuP3_1_2_page2 .content1MenuP3_1_2Text_page2 .content1MenuP3_1_2TextHeadline_page2 {
+        text-align: center;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_1Main_page2 .content1MenuP3_1_2_page2 .content1MenuP3_1_2Img_page2 {
+        margin: 0px auto;
+    }
+            /* 1 секция. 2.3_2 часть. Основной контент */
+    /* 2.3_2_1 */
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_1_page2 .content1MenuP3_2_1Headline_page2 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    /* 2.3_2_2 */
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_2_page2 .content1MenuP3_2_2Column1_page2 .p3_2_2Col1List_page2 li:nth-of-type(2) {
+        margin-bottom: 3px;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_2_page2 .content1MenuP3_2_2Column2_page2 .p3_2_2Col2List_page2 li:nth-of-type(2) {
+        margin-bottom: 3px;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_2_page2 .content1MenuP3_2_2Column3_page2 .p3_2_2Col3List_page2 li:nth-of-type(2) {
+        margin-bottom: 3px;
+    }
+}
+
+@media screen and (max-width: 629px) {
+                                /* 1 секция. 1.2.2 часть. Раздел продукции */
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+                            /* 1 секция. 2.2 часть. Основной контент */
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart2Main_page2 {
+        justify-content: center;
+    }
+        /* Общие стили для карточки продукта */
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart2Main_page2 .productCard_page2 {
+        min-width: none;
+        max-width: 80%;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart2Main_page2 .productCard_page2 .productCardName_page2 {
+        text-align: center;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart2Main_page2 .productCard_page2:nth-last-of-type(2) {
+        margin-left: 0px;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart2Main_page2 .productCard_page2:last-of-type {
+        margin-left: 0px;
+    }
+            /* 1 секция. 2.3_2 часть. Основной контент */
+        /* 2.3_2_2 */
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_2_page2 {
+        flex-wrap: wrap;
+    }
+        /* 1 колонка */
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_2_page2 .content1MenuP3_2_2Column1_page2 {
+        flex-basis: 285px;
+        min-width: 230px;
+        flex: 1;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_2_page2 .content1MenuP3_2_2Column1_page2 .p3_2_2Col1List_page2 {
+        padding-top: 0px;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_2_page2 .content1MenuP3_2_2Column1_page2 .p3_2_2Col1List_page2 li:nth-of-type(2) {
+        margin-bottom: 3px;
+    }
+        /* 2 колонка */
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_2_page2 .content1MenuP3_2_2Column2_page2 {
+        flex-basis: 285px;
+        min-width: 230px;
+        margin-right: 0px;
+        flex: 1;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_2_page2 .content1MenuP3_2_2Column2_page2 .p3_2_2Col2List_page2 {
+        padding-top: 0px;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_2_page2 .content1MenuP3_2_2Column2_page2 .p3_2_2Col2List_page2 li:nth-of-type(2) {
+        margin-bottom: 3px;
+    }
+        /* 3 колонка */
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_2_page2 .content1MenuP3_2_2Column3_page2 {
+        flex-basis: 285px;
+        min-width: 230px;
+        margin-right: 0px;
+        align-items: center;
+        flex: 1;
+        padding-top: 20px;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_2_page2 .content1MenuP3_2_2Column3_page2 .p3_2_2Col3Headline_page2 {
+        text-align: center;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_2_page2 .content1MenuP3_2_2Column3_page2 .p3_2_2Col3List_page2 {
+        padding-top: 0px;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_2_page2 .content1MenuP3_2_2Column3_page2 .p3_2_2Col3List_page2 li:nth-of-type(2) {
+        margin-bottom: 3px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+                                /* 1 секция. 2.3_2 часть. Основной контент */
+        /* 2.3_2_2 */
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_2_page2 {
+        width: 100%;
+        flex-direction: column;
+    }
+        /* 1 колонка */
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_2_page2 .content1MenuP3_2_2Column1_page2 {
+        width: 100%;
+        align-items: center;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_2_page2 .content1MenuP3_2_2Column1_page2 .p3_2_2Col1Headline_page2 {
+        text-align: center;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_2_page2 .content1MenuP3_2_2Column1_page2 .p3_2_2Col1List_page2 {
+        padding-top: 0px;
+    }
+        /* 2 колонка */
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_2_page2 .content1MenuP3_2_2Column2_page2 {
+        width: 100%;
+        align-items: center;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_2_page2 .content1MenuP3_2_2Column2_page2 .p3_2_2Col2Headline_page2 {
+        text-align: center;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_2_page2 .content1MenuP3_2_2Column2_page2 .p3_2_2Col2List_page2 {
+        padding-top: 0px;
+    }
+        /* 3 колонка */
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_2_page2 .content1MenuP3_2_2Column3_page2 {
+        width: 100%;
+        align-items: center;
+        margin-right: 0px;
+        padding-top: 0px;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_2_page2 .content1MenuP3_2_2Column3_page2 .p3_2_2Col3Headline_page2 {
+        text-align: center;
+    }
+    .sectionOne_page2 .content1FirstSection_page2 .content1Menu_page2 .content1MenuPart2_page2 .content1MenuPart3Main_page2 .content1MenuPart3_2Main_page2 .content1MenuP3_2_2_page2 .content1MenuP3_2_2Column3_page2 .p3_2_2Col3List_page2 {
+        padding-top: 0px;
+    }
+}
+
+@media screen and (max-width: 364px) {
+        /* Хлебные крошки */
+    .sectionOne_page2 .content1FirstSection_page2 .content1Breadcrum_page2 {
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    /* 1 секция. Раздел продукции */
+    .sectionOne_page2 {
+        padding-top: 100px;
+    }
+}
+

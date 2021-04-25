@@ -1,0 +1,725 @@
+                                        /* ШАПКА (общие стили для всех страниц) */
+@media screen and (max-width: 1583px) {
+    .listElement1 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .listElement2 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .listElement3 {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 115px;
+    }
+    .listElement4 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .listElement5 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 1427px) {
+    .nav-item:nth-of-type(1) {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .nav-item:nth-of-type(2) {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .nav-item:nth-of-type(3) {
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100px;
+    }
+    .nav-item:nth-of-type(4) {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .nav-item:nth-of-type(5) {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    body {
+        padding-top: 0px;
+    }
+    .navbar {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .navbar-brand {
+        margin-right: -50px;
+    }
+    .navigationsButtons {
+        display: flex !important;
+    }
+    .navbar-collapse ul {
+        height: 100vh;
+        overflow: scroll;
+    }
+    .navbar-toggler {
+        margin-left: 16px;
+    }
+    .nav-item:not(:first-of-type) {
+        border-left: none;
+    }
+    .navbar-nav {
+        padding-top: 20px;
+        padding-bottom: 90px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .nav-item {
+        padding-left: 16px;
+    }
+    .nav-item:nth-of-type(1) {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .nav-item:nth-of-type(2) {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .nav-item:nth-of-type(3) {
+        padding-left: 16px;
+        padding-right: 16px;
+        width: 100%;
+    }
+    .nav-item:nth-of-type(4) {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .nav-item:nth-of-type(5) {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .nav-item:first-of-type a {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-item:nth-of-type(2) a {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .listElement10 {
+        padding-right: 16px;
+    }
+    .listElement10 a {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-item:nth-of-type(3):hover {
+        background-color: #d0672f;
+    }
+    .nav-item:nth-of-type(4):hover {
+        background-color: #d0672f;
+    }
+    .nav-item:nth-of-type(5):hover {
+        background-color: #d0672f;
+    }
+    .nav-item:nth-of-type(3):active {
+        background-color: #d0672f;
+    }
+    .nav-item:nth-of-type(4):active {
+        background-color: #d0672f;
+    }
+    .nav-item:nth-of-type(5):active {
+        background-color: #d0672f;
+    }
+    .nav-item:nth-of-type(6) {
+        margin: 0px auto;
+    }
+    .nav-item:nth-of-type(7) {
+        display: none;
+    }
+    .nav-item:nth-of-type(9) {
+        display: none;
+    }
+    .listElement8 {
+        padding: 0px;
+        width: 110px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .listElement1 {
+        order: -8;
+    }
+    .listElement2 {
+        order: -7;
+    }
+    .listElement3 {
+        order: -6;
+    }
+    .listElement4 {
+        order: -5;
+    }
+    .listElement5 {
+        order: -4;
+    }
+    .listElement8 {
+        order: -1;
+    }
+    .listElement10 {
+        order: -2;
+    }
+    .dropdown:hover {
+        background-color: #3a3a3a;
+    }
+    .dropdown:hover .dropdown-menu {
+        width: 100%;
+        background-color: #3a3a3a;
+        border: none;
+    }
+    .dropdown .dropdown-menu {
+        width: 100%;
+        background-color: #3a3a3a !important;
+        border: none;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .navbar-brand {
+        margin-right: 0px;
+    }
+}
+                                        /* ПОДВАЛ (общие стили для всех страниц) */
+@media screen and (max-width: 1432px) {
+                                /* 2 раздел подвала */
+    footer .footerMenu .footerMenu2 {
+        height: 338px;
+    }
+        /* 2 раздел подвала. Список раздела */
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 300px;
+    }
+    /* 2 раздел подвала. Список раздела. 4 элемент списка */
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) {
+        height: 48px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) span {
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 1371px) {
+                                /* 4 раздел подвала */
+    footer .footerMenu .footerMenuMap {
+        height: 339px;
+    }
+    footer .footerMenu .footerMenuMap .footerMenuMap_headline {
+        height: 56px;
+    }
+}
+
+@media screen and (max-width: 1157px) {
+                                /* 2 раздел подвала */
+    footer .footerMenu .footerMenu2 {
+        height: 362px;
+    }
+        /* 2 раздел подвала. Список раздела */
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 324px;
+    }
+    /* 2 раздел подвала. Список раздела. 3 элемент списка */
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(3) {
+        height: 48px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(3) span {
+        padding-left: 16px;
+    }
+}
+@media screen and (max-width: 1076px) {
+                                /* 3 раздел подвала */
+    footer .footerMenu .footerMenu3 {
+        height: 254px;
+    }
+        /* 3 раздел подвала. Список раздела */
+    footer .footerMenu .footerMenu3 .footerMenu3_list {
+        height: 216px;
+    }
+    /* 3 раздел подвала. Список раздела. 5 элемент списка */
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(5) {
+        height: 48px;
+    }
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(5) span {
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 1072px) {
+                                /* 3 раздел подвала */
+    footer .footerMenu .footerMenu3 {
+        height: 278px;
+    }
+        /* 3 раздел подвала. Список раздела */
+    footer .footerMenu .footerMenu3 .footerMenu3_list {
+        height: 240px;
+    }
+    /* 3 раздел подвала. Список раздела. 1 элемент списка */
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(1) {
+        height: 48px;
+    }
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(1) span {
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    footer {
+        height: 950px;
+    }
+    footer .footerMenu {
+        height: 806px;
+        flex-wrap: wrap;
+        padding-right: 35px;
+    }
+            /* 1 раздел подвала */
+    footer .footerMenu .footerMenu1 {
+        flex: 1;
+    }
+            /* 2 раздел подвала */
+    footer .footerMenu .footerMenu2 {
+        height: 362px;
+        flex: 1;
+    }
+        /* 2 раздел подвала. Список раздела */
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 317px;
+    }
+    /* 2 раздел подвала. Список раздела. 4 элемент списка */
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) {
+        height: 24px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) span {
+        padding-left: 0px;
+    }
+    /* 2 раздел подвала. Список раздела. 3 элемент списка */
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(3) {
+        height: 24px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(3) span {
+        padding-left: 0px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 324px;
+    }
+            /* 3 раздел подвала */
+    footer .footerMenu .footerMenu3 {
+        flex: 1;
+    }
+            /* Первый разрыв строки */
+    .footerBreak1 {
+        flex-basis: 100%;
+        height: 0px;
+    }
+            /* Карта подвала */
+    footer .footerMenu .footerMenuMap {
+        flex: 1;
+    }
+            /* 3 раздел подвала */
+    footer .footerMenu .footerMenu3 {
+        height: 230px;
+    }
+        /* 3 раздел подвала. Список раздела */
+    footer .footerMenu .footerMenu3 .footerMenu3_list {
+        height: 192px;
+    }
+    /* 3 раздел подвала. Список раздела. 1 элемент списка */
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(1) {
+        height: 24px;
+    }
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(1) span {
+        padding-left: 0px;
+    }
+    /* 3 раздел подвала. Список раздела. 5 элемент списка */
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(5) {
+        height: 24px;
+    }
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(5) span {
+        padding-left: 0px;
+    }
+            /* 4 раздел подвала */
+    footer .footerMenu .footerMenuMap {
+        height: 311px;
+    }
+    footer .footerMenu .footerMenuMap .footerMenuMap_headline {
+        height: 28px;
+    }
+}
+
+@media screen and (max-width: 742px) {
+            /* 2 раздел подвала */
+    footer .footerMenu .footerMenu2 {
+        height: 362px;
+        flex: 1;
+    }
+        /* 2 раздел подвала. Список раздела */
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 324px;
+    }
+    /* 2 раздел подвала. Список раздела. 4 элемент списка */
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) {
+        height: 48px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) span {
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 711px) {
+    footer {
+        height: 1006px;
+    }
+    footer .footerMenu {
+        height: 862px;
+    }
+            /* 4 раздел меню */
+    footer .footerMenu .footerMenuMap {
+        height: 345px;
+    }
+    /* 4 раздел меню. Заголовок */
+    footer .footerMenu .footerMenuMap .footerMenuMap_headline {
+        height: 56px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    footer {
+        height: 1450px;
+    }
+    footer .footerMenu {
+        height: 1250px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .footerBreak1 {
+        display: none;
+    }
+            /* 1 раздел меню */
+    footer .footerMenu .footerMenu1 {
+        width: 100%;
+        height: 174px;
+        flex: 0 1 auto;
+    }
+    footer .footerMenu .footerMenu1 .footerMenu1_list {
+        height: 136px;
+    }
+            /* 2 раздел меню */
+    footer .footerMenu .footerMenu2 {
+        width: 100%;
+        height: 314px;
+        flex: 0 1 auto;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 276px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) {
+        height: 24px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) span {
+        padding-left: 0px;
+    }
+            /* 3 раздел меню */
+    footer .footerMenu .footerMenu3 {
+        width: 100%;
+        height: 230px;
+        flex: 0 1 auto;
+    }
+    footer .footerMenu .footerMenu3 .footerMenu3_list {
+        height: 192px;
+    }
+            /* 4 раздел меню */
+    footer .footerMenu .footerMenuMap {
+        width: 100%;
+        height: 311px;
+        flex: 0 1 auto;
+    }
+    footer .footerMenu .footerMenuMap .footerMap {
+        height: 270px;
+    }
+}
+
+@media screen and (max-width: 406px) {
+        /* 2 раздел подвала */
+    footer .footerMenu .footerMenu2 {
+        height: 338px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 300px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) {
+        height: 48px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) span {
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 337px) {
+    /* 2 раздел подвала */
+    footer .footerMenu .footerMenu2 {
+        height: 362px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 324px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(3) {
+        height: 48px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(3) span {
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    footer {
+        height: 1460px;
+    }
+    footer .footerMenu {
+        height: 1280px;
+    }
+        /* 4 раздел меню */
+    footer .footerMenu .footerMenuMap {
+        height: 340px;
+    }
+}
+
+                                        /* СОТРУДНИЧЕСТВО ДИЗАЙНЕРЫ 2 */
+@media screen and (max-width: 1583px) {
+                            /* 1 секция. Раздел продукции */
+    .sectionOne_page5 .contentFirstSection_page5 {
+        padding-top: 90px;
+    }
+}
+@media screen and (max-width: 1025px) {
+                            /* 1 секция. Контент. Сотрудничество дизайнеры */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 {
+        flex-direction: column-reverse;
+    }
+                            /* 1 секция. 2 часть контента. Сотрудничество дизайнеры */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 .contentSectionPart2_page5 {
+        width: 70%;
+        margin: 0px auto;
+        margin-bottom: 50px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        min-height: auto;
+    }
+        /* Заголовок */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 .contentSectionPart2_page5 .contentSectionPart2_1Headline_page5 {
+        text-align: center;
+        height: 27px;
+        margin-bottom: 30px;
+    }
+        /* Кнопка "стать партнёром" */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 .contentSectionPart2_page5 .contentSectionPart2_2Btn1_page5 {
+        width: 40%;
+        height: 50px;
+    }
+        /* Кнопка "хочу задать вопрос" */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 .contentSectionPart2_page5 .contentSectionPart2_3Btn2_page5 {
+        width: 40%;
+        height: 50px;
+        text-align: center;
+    }
+        /* 1 секция. 1 часть контента. Сотрудничество дизайнеры */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 .contentSectionPart1_page5 {
+        width: 100%;
+        margin-right: 0px;
+    }
+        /* 1 секция. 1 часть контента. Раздел 2. Сотрудничество дизайнеры */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 .contentSectionPart1_page5 .contentSectionPart1_2_page5 {
+        padding-bottom: 35px;
+    }
+        /* 1 секция. 1 часть контента. Раздел 3. Сотрудничество дизайнеры */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 .contentSectionPart1_page5 .contentSectionPart1_3_page5 {
+        padding-top: 35px;
+        flex-direction: column;
+    }
+        /* 1 секция. 1 часть контента. Раздел 3.1. Сотрудничество дизайнеры */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 .contentSectionPart1_page5 .contentSectionPart1_3_page5 .contentSectionPart1_3_1_page5 {
+        max-width: 100%;
+        text-align: center;
+        margin-right: 0px;
+        margin-bottom: 40px;
+    }
+        /* 1 секция. 1 часть контента. Раздел 3.2. Сотрудничество дизайнеры */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 .contentSectionPart1_page5 .contentSectionPart1_3_page5 .contentSectionPart1_3_2_page5 {
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        margin-left: 0px;
+    }
+            /* 1 секция. 1 часть контента. Раздел 3.2. 1 строка. Сотрудничество дизайнеры */
+        /* Заголовок */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 .contentSectionPart1_page5 .contentSectionPart1_3_page5 .contentSectionPart1_3_2_page5 .contentSectionPart1_3_2Row1_page5 .contentSectionPart1_3_2Row1Icon_page5 {
+        justify-content: center;
+    }
+            /* 1 секция. 1 часть контента. Раздел 3.2. 2 строка. Сотрудничество дизайнеры */
+        /* Заголовок */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 .contentSectionPart1_page5 .contentSectionPart1_3_page5 .contentSectionPart1_3_2_page5 .contentSectionPart1_3_2Row2_page5 .contentSectionPart1_3_2Row2Icon_page5 {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 769px) {
+                            /* 1 секция. 1 часть контента. Раздел 1. Сотрудничество дизайнеры */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 .contentSectionPart1_page5 .contentSectionPart1_1_page5 {
+        flex-direction: column;
+    }
+        /* 1 секция. 1 часть контента. Раздел 1.1. Сотрудничество дизайнеры */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 .contentSectionPart1_page5 .contentSectionPart1_1_page5 .contentSectionPart1_1_1_page5 {
+        width: 100%;
+        min-height: auto;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+        /* Заголовок */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 .contentSectionPart1_page5 .contentSectionPart1_1_page5 .contentSectionPart1_1_1_page5 .contentSectionPart1_1_1Headline_page5 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+        /* Текст 1 */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 .contentSectionPart1_page5 .contentSectionPart1_1_page5 .contentSectionPart1_1_1_page5 .contentSectionPart1_1_1Text1_page5 {
+        margin-bottom: 0px;
+    }
+        /* 1 секция. 1 часть контента. Раздел 1.2. Сотрудничество дизайнеры */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 .contentSectionPart1_page5 .contentSectionPart1_1_page5 .contentSectionPart1_1_2_page5 {
+        width: 100%;
+        margin-left: 0px;
+    }
+        /* 1 секция. 1 часть контента. Раздел 2. Сотрудничество дизайнеры */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 .contentSectionPart1_page5 .contentSectionPart1_2_page5 {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+        /* Общие стили для колонок */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 .contentSectionPart1_page5 .contentSectionPart1_2_page5 .contentSectionPart1_2Column_page5 {
+        min-height: auto;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+        /* Заголовок */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 .contentSectionPart1_page5 .contentSectionPart1_2_page5 .contentSectionPart1_2Column_page5 .contentSectionPart1_2ColumnHeadline_page5 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 610px) {
+        /* Хлебные крошки */
+    .sectionOne_page5 .contentFirstSection_page5 .contentBreadcrum_page5 {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    /* Кнопка "стать партнёром" */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 .contentSectionPart2_page5 .contentSectionPart2_2Btn1_page5 {
+        width: 100%;
+        height: 50px;
+    }
+    /* Кнопка "хочу задать вопрос" */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 .contentSectionPart2_page5 .contentSectionPart2_3Btn2_page5 {
+        width: 100%;
+        height: 50px;
+    }
+            /* 1 секция. 1 часть контента. Раздел 1.1. Сотрудничество дизайнеры */
+    /* Текст 1 */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 .contentSectionPart1_page5 .contentSectionPart1_1_page5 .contentSectionPart1_1_1_page5 .contentSectionPart1_1_1Text1_page5 {
+        margin-bottom: 20px;
+    }
+        /* 1 секция. 1 часть контента. Раздел 1.2. Сотрудничество дизайнеры */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 .contentSectionPart1_page5 .contentSectionPart1_1_page5 .contentSectionPart1_1_2_page5 {
+        height: 200px;
+    }
+        /* 1 секция. 1 часть контента. Раздел 2. Сотрудничество дизайнеры */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 .contentSectionPart1_page5 .contentSectionPart1_2_page5 {
+        padding-top: 40px;
+    }
+        /* Общие стили для колонок */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 .contentSectionPart1_page5 .contentSectionPart1_2_page5 .contentSectionPart1_2Column_page5 {
+        max-width: 100%;
+    }
+        /* Элемент списка */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 .contentSectionPart1_page5 .contentSectionPart1_2_page5 .contentSectionPart1_2Column_page5 .contentSectionPart1_2ColumnList_page5 li {
+        justify-content: flex-start;
+    }
+        /* Заголовок */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 .contentSectionPart1_page5 .contentSectionPart1_2_page5 .contentSectionPart1_2Column_page5 .contentSectionPart1_2ColumnHeadline_page5 {
+        margin-bottom: 15px;
+    }
+        /* 1 секция. 1 часть контента. Раздел 3. Сотрудничество дизайнеры */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 .contentSectionPart1_page5 .contentSectionPart1_3_page5 {
+        padding-top: 0px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+                            /* 1 секция. 1 часть контента. Раздел 1.1. Сотрудничество дизайнеры */
+        /* Текст 1 */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 .contentSectionPart1_page5 .contentSectionPart1_1_page5 .contentSectionPart1_1_1_page5 .contentSectionPart1_1_1Text1_page5 {
+        text-align: center;
+    }
+        /* Текст 2 */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 .contentSectionPart1_page5 .contentSectionPart1_1_page5 .contentSectionPart1_1_1_page5 .contentSectionPart1_1_1Text2_page5 {
+        text-align: center;
+    }
+        /* 1 секция. 1 часть контента. Раздел 1.2. Сотрудничество дизайнеры */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 .contentSectionPart1_page5 .contentSectionPart1_1_page5 .contentSectionPart1_1_2_page5 {
+        width: 80%;
+        height: 150px;
+        margin: 0px auto;
+    }
+                            /* 1 секция. 1 часть контента. Раздел 3.2. 1 строка. Сотрудничество дизайнеры */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 .contentSectionPart1_page5 .contentSectionPart1_3_page5 .contentSectionPart1_3_2_page5 .contentSectionPart1_3_2Row1_page5 {
+        margin-bottom: 10px;
+    }
+        /* Заголовок */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 .contentSectionPart1_page5 .contentSectionPart1_3_page5 .contentSectionPart1_3_2_page5 .contentSectionPart1_3_2Row1_page5 .contentSectionPart1_3_2Row1Icon_page5 {
+        margin-bottom: 10px;
+    }
+        /* Текст */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 .contentSectionPart1_page5 .contentSectionPart1_3_page5 .contentSectionPart1_3_2_page5 .contentSectionPart1_3_2Row1_page5 .contentSectionPart1_3_2Row1Text_page5 {
+        text-align: center;
+    }
+                            /* 1 секция. 1 часть контента. Раздел 3.2. 2 строка. Сотрудничество дизайнеры */
+        /* Заголовок */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 .contentSectionPart1_page5 .contentSectionPart1_3_page5 .contentSectionPart1_3_2_page5 .contentSectionPart1_3_2Row2_page5 .contentSectionPart1_3_2Row2Icon_page5 {
+        margin-bottom: 10px;
+    }
+        /* Текст */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 .contentSectionPart1_page5 .contentSectionPart1_3_page5 .contentSectionPart1_3_2_page5 .contentSectionPart1_3_2Row2_page5 .contentSectionPart1_3_2Row2Text_page5 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 345px) {
+                            /* 1 секция. Раздел продукции */
+    .sectionOne_page5 .contentFirstSection_page5 {
+        padding-top: 100px;
+    }
+        /* 1 секция. Контент. Сотрудничество дизайнеры */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 {
+        padding-top: 40px;
+    }
+                            /* 1 секция. 2 часть контента. Сотрудничество дизайнеры */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 .contentSectionPart2_page5 {
+        width: 100%;
+    }
+                            /* 1 секция. 1 часть контента. Раздел 1.2. Сотрудничество дизайнеры */
+    .sectionOne_page5 .contentFirstSection_page5 .wrapper .contentSection_page5 .contentSectionPart1_page5 .contentSectionPart1_1_page5 .contentSectionPart1_1_2_page5 {
+        width: 100%;
+    }
+}

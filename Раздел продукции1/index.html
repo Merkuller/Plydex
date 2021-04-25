@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Раздел продукции</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/media-queries.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-xl navbar-dark fixed-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#my-nav">
+                <svg class="ham hamRotate ham1" viewBox="27 13 70 70" width="40" onclick="this.classList.toggle('active')">
+                    <path
+                          class="line top"
+                          d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+                    <path
+                          class="line middle"
+                          d="m 30,50 h 40" />
+                    <path
+                          class="line bottom"
+                          d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+                </svg>
+            </button>
+            <a href="#" class="navbar-brand ml-auto">
+                <img src="./img/svg/header_logo.svg" alt="">
+            </a>
+            <div class="navigationsButtons d-sm-flex d-flex ml-auto">
+                <a href="#" class="mapPosition">
+                    <img src="./img/svg/header_markerIcon.svg" alt="">
+                </a>
+                <a href="#" class="orderCounter">
+                    <img src="./img/svg/header_orderIcon.svg" alt="">
+                </a>
+                <a href="#" class="search">
+                    <img src="./img/svg/header_searchIcon.svg" alt="">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="my-nav">
+                <ul class="navbar-nav text-left">
+                    <li class="nav-item listElement1 dropdown navbar-text">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">ПРОДУКЦИЯ</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item listElement1Dropdown_element1 listElement1Dropdown_element">link1</a>
+                            <a href="#" class="dropdown-item listElement1Dropdown_element2 listElement1Dropdown_element">link2</a>
+                            <a href="#" class="dropdown-item listElement1Dropdown_element3 listElement1Dropdown_element">link3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item listElement2 dropdown navbar-text">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbardrop2" data-toggle="dropdown">КОЛЛЕКЦИИ</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item listElement2Dropdown_element1 listElement1Dropdown_element">link1</a>
+                            <a href="#" class="dropdown-item listElement2Dropdown_element2 listElement1Dropdown_element">link2</a>
+                            <a href="#" class="dropdown-item listElement2Dropdown_element3 listElement1Dropdown_element">link3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item listElement3 navbar-text">
+                        <a href="#" class="nav-link">ГОТОВЫЕ РЕШЕНИЯ</a>
+                    </li>
+                    <li class="nav-item listElement4 navbar-text">
+                        <a href="#" class="nav-link">МОНТАЖ</a>
+                    </li>
+                    <li class="nav-item listElement5 navbar-text">
+                        <a href="#" class="nav-link">КАЛЬКУЛЯТОР</a>
+                    </li>
+                    <li class="nav-item listElement6 text-center navbar-text">
+                        <a href="#" class="nav-link">
+                            <img src="./img/svg/header_phoneIcon.svg" alt="">
+                            8(800)550-22-79
+                        </a>
+                    </li>
+                    <li class="nav-item listElement7">
+                        <a href="#" class="nav-link">
+                            <img src="./img/svg/header_orderIcon.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="nav-item listElement8 text-center" style="display: flex; margin: 0px auto;">
+                        <a href="#" class="nav-link">
+                            <img src="./img/svg/header_facebookIcon.svg" alt="">
+                        </a>
+                        <a href="#" class="nav-link">
+                            <img src="./img/svg/header_youtubeIcon.svg" alt="">
+                        </a>
+                        <a href="#" class="nav-link">
+                            <img src="./img/svg/header_instaIcon.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="nav-item listElement9">
+                        <a href="#" class="nav-link">
+                            <img src="./img/svg/header_searchIcon.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="nav-item listElement10 dropdown navbar-text">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbardrop3" data-toggle="dropdown">RU</a>
+                        <div class="dropdown-menu dropdown-menu-right text-center">
+                            <a href="#" class="dropdown-item listElement1Dropdown_element1 listElement1Dropdown_element">PL</a>
+                            <a href="#" class="dropdown-item listElement1Dropdown_element2 listElement1Dropdown_element">EN</a>
+                            <a href="#" class="dropdown-item listElement1Dropdown_element3 listElement1Dropdown_element">UA</a>
+                            <a href="#" class="dropdown-item listElement1Dropdown_element4 listElement1Dropdown_element">RO</a>
+                            <a href="#" class="dropdown-item listElement1Dropdown_element5 listElement1Dropdown_element">DE</a>
+                            <a href="#" class="dropdown-item listElement1Dropdown_element6 listElement1Dropdown_element">SE</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="sectionOne_page2">
+            <div class="content1FirstSection_page2">
+                <ul class="content1Breadcrum_page2">
+                    <li><a href="#">ГЛАВНАЯ СТРАНИЦА</a></li>
+                    <li><a href="#">ПРОДУКЦИЯ</a></li>
+                </ul>
+                <div class="content1Menu_page2">
+                    <div class="content1MenuPart1_page2">
+                        <div class="accordion" id="accordionExample">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            СТЕНОВЫЕ ПАНЕЛИ
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <ul class="content1MP1List1_page2">
+                                            <li class="content1MP1List1Element_page2 content1MP1ListElement_page2">
+                                                <a href="#">
+                                                    Все коллекции
+                                                </a>
+                                            </li>
+                                            <li class="content1MP1List1Element_page2 content1MP1ListElement_page2">
+                                                <a href="#">
+                                                    Панели из коллекции BASIC
+                                                </a>
+                                            </li>
+                                            <li class="content1MP1List1Element_page2 content1MP1ListElement_page2">
+                                                <a href="#">
+                                                    Панели из коллекции ITALY
+                                                </a>
+                                            </li>
+                                            <li class="content1MP1List1Element_page2 content1MP1ListElement_page2">
+                                                <a href="#">
+                                                    Панели из коллекции CUBA
+                                                </a>
+                                            </li>
+                                            <li class="content1MP1List1Element_page2 content1MP1ListElement_page2">
+                                                <a href="#">
+                                                    Панели из коллекции  NORWAY
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            ПАННО
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <ul class="content1MP1List2_page2">
+                                            <li class="content1MP1List2Element_page2 content1MP1ListElement_page2">
+                                                <a href="#">
+                                                    Элемент списка 1
+                                                </a>
+                                            </li>
+                                            <li class="content1MP1List2Element_page2 content1MP1ListElement_page2">
+                                                <a href="#">
+                                                    Элемент списка 2
+                                                </a>
+                                            </li>
+                                            <li class="content1MP1List2Element_page2 content1MP1ListElement_page2">
+                                                <a href="#">
+                                                    Элемент списка 3
+                                                </a>
+                                            </li>
+                                            <li class="content1MP1List2Element_page2 content1MP1ListElement_page2">
+                                                <a href="#">
+                                                    Элемент списка 4
+                                                </a>
+                                            </li>
+                                            <li class="content1MP1List2Element_page2 content1MP1ListElement_page2">
+                                                <a href="#">
+                                                    Элемент списка 5
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            СТОЛЕШНИЦЫ И ПОЛКИ
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <ul class="content1MP1List3_page2">
+                                            <li class="content1MP1List3Element_page2 content1MP1ListElement_page2">
+                                                <a href="#">
+                                                    Элемент списка 1
+                                                </a>
+                                            </li>
+                                            <li class="content1MP1List3Element_page2 content1MP1ListElement_page2">
+                                                <a href="#">
+                                                    Элемент списка 2
+                                                </a>
+                                            </li>
+                                            <li class="content1MP1List3Element_page2 content1MP1ListElement_page2">
+                                                <a href="#">
+                                                    Элемент списка 3
+                                                </a>
+                                            </li>
+                                            <li class="content1MP1List3Element_page2 content1MP1ListElement_page2">
+                                                <a href="#">
+                                                    Элемент списка 4
+                                                </a>
+                                            </li>
+                                            <li class="content1MP1List3Element_page2 content1MP1ListElement_page2">
+                                                <a href="#">
+                                                    Элемент списка 5
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingFour">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                            ДВЕРИ И ОТКОСЫ 
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <ul class="content1MP1List4_page2">
+                                            <li class="content1MP1List4Element_page2 content1MP1ListElement_page2">
+                                                <a href="#">
+                                                    Элемент списка 1
+                                                </a>
+                                            </li>
+                                            <li class="content1MP1List4Element_page2 content1MP1ListElement_page2">
+                                                <a href="#">
+                                                    Элемент списка 2
+                                                </a>
+                                            </li>
+                                            <li class="content1MP1List4Element_page2 content1MP1ListElement_page2">
+                                                <a href="#">
+                                                    Элемент списка 3
+                                                </a>
+                                            </li>
+                                            <li class="content1MP1List4Element_page2 content1MP1ListElement_page2">
+                                                <a href="#">
+                                                    Элемент списка 4
+                                                </a>
+                                            </li>
+                                            <li class="content1MP1List4Element_page2 content1MP1ListElement_page2">
+                                                <a href="#">
+                                                    Элемент списка 5
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingFive">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                            КРЕСЛА И ДИВАНЫ 
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <ul class="content1MP1List5_page2">
+                                            <li class="content1MP1List5Element_page2 content1MP1ListElement_page2">
+                                                <a href="#">
+                                                    Элемент списка 1
+                                                </a>
+                                            </li>
+                                            <li class="content1MP1List5Element_page2 content1MP1ListElement_page2">
+                                                <a href="#">
+                                                    Элемент списка 2
+                                                </a>
+                                            </li>
+                                            <li class="content1MP1List5Element_page2 content1MP1ListElement_page2">
+                                                <a href="#">
+                                                    Элемент списка 3
+                                                </a>
+                                            </li>
+                                            <li class="content1MP1List5Element_page2 content1MP1ListElement_page2">
+                                                <a href="#">
+                                                    Элемент списка 4
+                                                </a>
+                                            </li>
+                                            <li class="content1MP1List5Element_page2 content1MP1ListElement_page2">
+                                                <a href="#">
+                                                    Элемент списка 5
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingSix">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                            ПРОИФЛЬ Г,П,О-ОБРАЗНЫЕ 
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <ul class="content1MP1List6_page2">
+                                            <li class="content1MP1List6Element_page2 content1MP1ListElement_page2">
+                                                <a href="#">
+                                                    Элемент списка 1
+                                                </a>
+                                            </li>
+                                            <li class="content1MP1List6Element_page2 content1MP1ListElement_page2">
+                                                <a href="#">
+                                                    Элемент списка 2
+                                                </a>
+                                            </li>
+                                            <li class="content1MP1List6Element_page2 content1MP1ListElement_page2">
+                                                <a href="#">
+                                                    Элемент списка 3
+                                                </a>
+                                            </li>
+                                            <li class="content1MP1List6Element_page2 content1MP1ListElement_page2">
+                                                <a href="#">
+                                                    Элемент списка 4
+                                                </a>
+                                            </li>
+                                            <li class="content1MP1List6Element_page2 content1MP1ListElement_page2">
+                                                <a href="#">
+                                                    Элемент списка 5
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingSeven">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                            ПРОИФЛЬ Г,П,О-ОБРАЗНЫЕ 
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <ul class="content1MP1List7_page2">
+                                            <li class="content1MP1List7Element_page2 content1MP1ListElement_page2">
+                                                <a href="#">
+                                                    Элемент списка 1
+                                                </a>
+                                            </li>
+                                            <li class="content1MP1List7Element_page2 content1MP1ListElement_page2">
+                                                <a href="#">
+                                                    Элемент списка 2
+                                                </a>
+                                            </li>
+                                            <li class="content1MP1List7Element_page2 content1MP1ListElement_page2">
+                                                <a href="#">
+                                                    Элемент списка 3
+                                                </a>
+                                            </li>
+                                            <li class="content1MP1List7Element_page2 content1MP1ListElement_page2">
+                                                <a href="#">
+                                                    Элемент списка 4
+                                                </a>
+                                            </li>
+                                            <li class="content1MP1List7Element_page2 content1MP1ListElement_page2">
+                                                <a href="#">
+                                                    Элемент списка 5
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content1MenuPart2_page2">
+                        <div class="panel-group">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a  data-toggle="collapse" href="#collapse1">Фильтр</a>
+                                    </h4>
+                                </div>
+                                <div class="panel-collapse collapse" id="collapse1">
+                                    <ul class="list-group">
+                                        <li class="list-group-item">
+                                            <div class="panel_2 panel-default">
+                                                <div class="panel-heading_2">
+                                                  <h4 class="panel-title_2">
+                                                    <a data-toggle="collapse" href="#collapse2" class="panelTitle2_page2">
+                                                        СТЕНОВЫЕ ПАНЕЛИ
+                                                        <img src="./img/svg/firstSection_page1/caretDownFill_page2.svg" alt="" class="collapse2Icon_page2">
+                                                    </a>
+                                                  </h4>
+                                                </div>
+                                                <div id="collapse2" class="panel-collapse collapse">
+                                                  <div class="panel-body"><a href="#">Все коллекции</a></div>
+                                                  <div class="panel-body"><a href="#">Панели из коллекции BASIC</a></div>
+                                                  <div class="panel-body"><a href="#">Панели из коллекции ITALY</a></div>
+                                                  <div class="panel-body"><a href="#">Панели из коллекции CUBA</a></div>
+                                                  <div class="panel-body"><a href="#">Панели из коллекции  NORWAY</a></div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="panel_3 panel-default">
+                                                <div class="panel-heading_3">
+                                                  <h4 class="panel-title_3">
+                                                    <a data-toggle="collapse" href="#collapse3" class="panelTitle3_page2">
+                                                        ПАННО
+                                                        <img src="./img/svg/firstSection_page1/caretDownFill_page2.svg" alt="" class="collapse3Icon_page2">
+                                                    </a>
+                                                  </h4>
+                                                </div>
+                                                <div id="collapse3" class="panel-collapse collapse">
+                                                  <div class="panel-body"><a href="#">Элемент списка 1</a></div>
+                                                  <div class="panel-body"><a href="#">Элемент списка 2</a></div>
+                                                  <div class="panel-body"><a href="#">Элемент списка 3</a></div>
+                                                  <div class="panel-body"><a href="#">Элемент списка 4</a></div>
+                                                  <div class="panel-body"><a href="#">Элемент списка 5</a></div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="panel_4 panel-default">
+                                                <div class="panel-heading_4">
+                                                  <h4 class="panel-title_4">
+                                                    <a data-toggle="collapse" href="#collapse4" class="panelTitle4_page2">
+                                                        СТОЛЕШНИЦЫ И ПОЛКИ
+                                                        <img src="./img/svg/firstSection_page1/caretDownFill_page2.svg" alt="" class="collapse4Icon_page2">
+                                                    </a>
+                                                  </h4>
+                                                </div>
+                                                <div id="collapse4" class="panel-collapse collapse">
+                                                  <div class="panel-body"><a href="#">Элемент списка 1</a></div>
+                                                  <div class="panel-body"><a href="#">Элемент списка 2</a></div>
+                                                  <div class="panel-body"><a href="#">Элемент списка 3</a></div>
+                                                  <div class="panel-body"><a href="#">Элемент списка 4</a></div>
+                                                  <div class="panel-body"><a href="#">Элемент списка 5</a></div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="panel_5 panel-default">
+                                                <div class="panel-heading_5">
+                                                  <h4 class="panel-title_5">
+                                                    <a data-toggle="collapse" href="#collapse5" class="panelTitle5_page2">
+                                                        ДВЕРИ И ОТКОСЫ
+                                                        <img src="./img/svg/firstSection_page1/caretDownFill_page2.svg" alt="" class="collapse5Icon_page2">
+                                                    </a>
+                                                  </h4>
+                                                </div>
+                                                <div id="collapse5" class="panel-collapse collapse">
+                                                  <div class="panel-body"><a href="#">Элемент списка 1</a></div>
+                                                  <div class="panel-body"><a href="#">Элемент списка 2</a></div>
+                                                  <div class="panel-body"><a href="#">Элемент списка 3</a></div>
+                                                  <div class="panel-body"><a href="#">Элемент списка 4</a></div>
+                                                  <div class="panel-body"><a href="#">Элемент списка 5</a></div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="panel_6 panel-default">
+                                                <div class="panel-heading_6">
+                                                  <h4 class="panel-title_6">
+                                                    <a data-toggle="collapse" href="#collapse6" class="panelTitle6_page2">
+                                                        КРЕСЛА И ДИВАНЫ
+                                                        <img src="./img/svg/firstSection_page1/caretDownFill_page2.svg" alt="" class="collapse6Icon_page2">
+                                                    </a>
+                                                  </h4>
+                                                </div>
+                                                <div id="collapse6" class="panel-collapse collapse">
+                                                  <div class="panel-body"><a href="#">Элемент списка 1</a></div>
+                                                  <div class="panel-body"><a href="#">Элемент списка 2</a></div>
+                                                  <div class="panel-body"><a href="#">Элемент списка 3</a></div>
+                                                  <div class="panel-body"><a href="#">Элемент списка 4</a></div>
+                                                  <div class="panel-body"><a href="#">Элемент списка 5</a></div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="panel_7 panel-default">
+                                                <div class="panel-heading_7">
+                                                  <h4 class="panel-title_7">
+                                                    <a data-toggle="collapse" href="#collapse7" class="panelTitle7_page2">
+                                                        ПРОФИЛЬ Г,П,О-ОБРАЗНЫЕ
+                                                        <img src="./img/svg/firstSection_page1/caretDownFill_page2.svg" alt="" class="collapse7Icon_page2">
+                                                    </a>
+                                                  </h4>
+                                                </div>
+                                                <div id="collapse7" class="panel-collapse collapse">
+                                                  <div class="panel-body"><a href="#">Элемент списка 1</a></div>
+                                                  <div class="panel-body"><a href="#">Элемент списка 2</a></div>
+                                                  <div class="panel-body"><a href="#">Элемент списка 3</a></div>
+                                                  <div class="panel-body"><a href="#">Элемент списка 4</a></div>
+                                                  <div class="panel-body"><a href="#">Элемент списка 5</a></div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="panel_8 panel-default">
+                                                <div class="panel-heading_8">
+                                                  <h4 class="panel-title_8">
+                                                    <a data-toggle="collapse" href="#collapse8" class="panelTitle8_page2">
+                                                        ПРИСТЕННЫЕ РЕЙКИ
+                                                        <img src="./img/svg/firstSection_page1/caretDownFill_page2.svg" alt="" class="collapse8Icon_page2">
+                                                    </a>
+                                                  </h4>
+                                                </div>
+                                                <div id="collapse8" class="panel-collapse collapse">
+                                                  <div class="panel-body"><a href="#">Элемент списка 1</a></div>
+                                                  <div class="panel-body"><a href="#">Элемент списка 2</a></div>
+                                                  <div class="panel-body"><a href="#">Элемент списка 3</a></div>
+                                                  <div class="panel-body"><a href="#">Элемент списка 4</a></div>
+                                                  <div class="panel-body"><a href="#">Элемент списка 5</a></div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content1MenuPart2Headline_page2">
+                            <a href="">
+                                <div class="content1MenuPart2Headline1_page2">СТЕНОВЫЕ ПАНЕЛИ</div>
+                                <div class="content1MenuPart2Headline2_page2">ВСЕ КОЛЛЕКЦИИ</div>
+                            </a>
+                        </div>
+                        <div class="content1MenuPart2Main_page2">
+                            <div class="productCard1_page2 productCard_page2">
+                                <a href="#"><div class="productCard1Img_page2 productCardImg_page2"><img src="./img/jpg/firstSection_page2/content1FirstSection_page2/productCard1Img_page2.jpg" alt=""></div></a>
+                                <div class="productCard1Name_page2 productCardName_page2"><a href="#">LANDSBY</a></div>             
+                            </div>
+                            <div class="productCard2_page2 productCard_page2">
+                                <a href="#"><div class="productCard2Img_page2 productCardImg_page2"><img src="./img/jpg/firstSection_page2/content1FirstSection_page2/productCard2Img_page2.jpg" alt=""></div></a>
+                                <div class="productCard2Name_page2 productCardName_page2"><a href="#">ROCK</a></div>
+                            </div>
+                            <div class="productCard3_page2 productCard_page2">
+                                <a href="#"><div class="productCard3Img_page2 productCardImg_page2"><img src="./img/jpg/firstSection_page2/content1FirstSection_page2/productCard3Img_page2.jpg" alt=""></div></a>
+                                <div class="productCard3Name_page2 productCardName_page2"><a href="#">KOMFORT</a></div>
+                            </div>
+                            <div class="productCard4_page2 productCard_page2">
+                                <a href=""><div class="productCard4Img_page2 productCardImg_page2"><img src="./img/jpg/firstSection_page2/content1FirstSection_page2/productCard4Img_page2.jpg" alt=""></div></a>
+                                <div class="productCard4Name_page2 productCardName_page2"><a href="#">ALBATROSS</a></div>
+                            </div>
+                            <div class="productCard5_page2 productCard_page2">
+                                <a href=""><div class="productCard5Img_page2 productCardImg_page2"><img src="./img/jpg/firstSection_page2/content1FirstSection_page2/productCard5Img_page2.jpg" alt=""></div></a>
+                                <div class="productCard5Name_page2 productCardName_page2"><a href="#">PIANO</a></div>
+                            </div>
+                            <div class="productCard6_page2 productCard_page2">
+                                <a href="#"><div class="productCard6Img_page2 productCardImg_page2"><img src="./img/jpg/firstSection_page2/content1FirstSection_page2/productCard6Img_page2.jpg" alt=""></div></a>
+                                <div class="productCard6Name_page2 productCardName_page2"><a href="#">LINDRING</a></div>
+                            </div>
+                            <div class="productCard7_page2 productCard_page2">
+                                <a href="#"><div class="productCard7Img_page2 productCardImg_page2"><img src="./img/jpg/firstSection_page2/content1FirstSection_page2/productCard7Img_page2.jpg" alt=""></div></a>
+                                <div class="productCard7Name_page2 productCardName_page2"><a href="#">KRABBE</a></div>
+                            </div>
+                            <div class="productCard8_page2 productCard_page2">
+                                <a href="#"><div class="productCard8Img_page2 productCardImg_page2"><img src="./img/jpg/firstSection_page2/content1FirstSection_page2/productCard8Img_page2.jpg" alt=""></div></a>
+                                <div class="productCard8Name_page2 productCardName_page2"><a href="#">ABETE</a></div>
+                            </div>
+                            <div class="productCard9_page2 productCard_page2">
+                                <a href="#"><div class="productCard9Img_page2 productCardImg_page2"><img src="./img/jpg/firstSection_page2/content1FirstSection_page2/productCard9Img_page2.jpg" alt=""></div></a>
+                                <div class="productCard9Name_page2 productCardName_page2"><a href="#">LARISE</a></div>
+                            </div>
+                            <div class="productCard10_page2 productCard_page2">
+                                <a href="#"><div class="productCard10Img_page2 productCardImg_page2"><img src="./img/jpg/firstSection_page2/content1FirstSection_page2/productCard10Img_page2.jpg" alt=""></div></a>
+                                <div class="productCard10Name_page2 productCardName_page2"><a href="#">CUBETTI</a></div>
+                            </div>
+                            <div class="productCard11_page2 productCard_page2">
+                                <a href="#"><div class="productCard11Img_page2 productCardImg_page2"><img src="./img/jpg/firstSection_page2/content1FirstSection_page2/productCard11Img_page2.jpg" alt=""></div></a>
+                                <div class="productCard11Name_page2 productCardName_page2"><a href="#">PARTITO</a></div>
+                            </div>
+                            <div class="productCard12_page2 productCard_page2">
+                                <a href="#"><div class="productCard12Img_page2 productCardImg_page2"><img src="./img/jpg/firstSection_page2/content1FirstSection_page2/productCard12Img_page2.jpg" alt=""></div></a>
+                                <div class="productCard12Name_page2 productCardName_page2"><a href="#">CUCITURA</a></div>
+                            </div>
+                            <div class="productCard13_page2 productCard_page2">
+                                <a href="#"><div class="productCard13Img_page2 productCardImg_page2"><img src="./img/jpg/firstSection_page2/content1FirstSection_page2/productCard13Img_page2.jpg" alt=""></div></a>
+                                <div class="productCard13Name_page2 productCardName_page2"><a href="#">ESAEDRO</a></div>
+                            </div>
+                            <div class="productCard14_page2 productCard_page2">
+                                <a href="#"><div class="productCard14Img_page2 productCardImg_page2"><img src="./img/jpg/firstSection_page2/content1FirstSection_page2/productCard14Img_page2.jpg" alt=""></div></a>
+                                <div class="productCard14Name_page2 productCardName_page2"><a href="#">CELLA</a></div>
+                            </div>
+                            <div class="productCard15_page2 productCard_page2">
+                                <a href="#"><div class="productCard15Img_page2 productCardImg_page2"><img src="./img/jpg/firstSection_page2/content1FirstSection_page2/productCard15Img_page2.jpg" alt=""></div></a>
+                                <div class="productCard15Name_page2 productCardName_page2"><a href="#">CEDRO</a></div>
+                            </div>
+                            <div class="productCard16_page2 productCard_page2">
+                                <a href="#"><div class="productCard16Img_page2 productCardImg_page2"><img src="./img/jpg/firstSection_page2/content1FirstSection_page2/productCard16Img_page2.jpg" alt=""></div></a>
+                                <div class="productCard16Name_page2 productCardName_page2"><a href="#">CUCETTA</a></div>
+                            </div>
+                            <div class="productCard17_page2 productCard_page2">
+                                <a href="#"><div class="productCard17Img_page2 productCardImg_page2"><img src="./img/jpg/firstSection_page2/content1FirstSection_page2/productCard17Img_page2.jpg" alt=""></div></a>
+                                <div class="productCard17Name_page2 productCardName_page2"><a href="#">LA HAVANA</a></div>
+                            </div>
+                            <div class="productCard18_page2 productCard_page2">
+                                <a href="#"><div class="productCard18Img_page2 productCardImg_page2"><img src="./img/jpg/firstSection_page2/content1FirstSection_page2/productCard18Img_page2.jpg" alt=""></div></a>
+                                <div class="productCard18Name_page2 productCardName_page2"><a href="#">AZULEJO</a></div>
+                            </div>
+                            <div class="productCard19_page2 productCard_page2">
+                                <a href="#"><div class="productCard19Img_page2 productCardImg_page2"><img src="./img/jpg/firstSection_page2/content1FirstSection_page2/productCard19Img_page2.jpg" alt=""></div></a>
+                                <div class="productCard19Name_page2 productCardName_page2"><a href="#">LABERINTO</a></div>
+                            </div>
+                            <div class="productCard20_page2 productCard_page2">
+                                <a href="#"><div class="productCard20Img_page2 productCardImg_page2"><img src="./img/jpg/firstSection_page2/content1FirstSection_page2/productCard20Img_page2.jpg" alt=""></div></a>
+                                <div class="productCard20Name_page2 productCardName_page2"><a href="#">ISLANDS</a></div>
+                            </div>
+                            <div class="productCard21_page2 productCard_page2">
+                                <a href="#"><div class="productCard21Img_page2 productCardImg_page2"><img src="./img/jpg/firstSection_page2/content1FirstSection_page2/productCard21Img_page2.jpg" alt=""></div></a>
+                                <div class="productCard21Name_page2 productCardName_page2"><a href="#">CHOKOLATTO</a></div>
+                            </div>
+                            <div class="productCard22_page2 productCard_page2">
+                                <a href="#"><div class="productCard22Img_page2 productCardImg_page2"><img src="./img/jpg/firstSection_page2/content1FirstSection_page2/productCard22Img_page2.jpg" alt=""></div></a>
+                                <div class="productCard22Name_page2 productCardName_page2"><a href="#">ROBLE</a></div>
+                            </div>
+                        </div>
+                        <div class="content1MenuPart3Main_page2">
+                            <div class="content1MenuPart3_1Main_page2">
+                                <div class="content1MenuP3_1_1_page2">
+                                    <div class="content1MenuP3_1_1Text_page2">
+                                        <div class="content1MenuP3_1_1TextHeadline_page2">Панели CUBA создадут интерьер в классическом стиле</div>
+                                        <div class="content1MenuP3_1_1TextDesc_page2">
+                                            Добро пожаловать на сайт ведущего европейского производителя напольных покрытий! Паркетная доска компании «Барлинек» уверенно выходит на лидирующие позиции на рынке и становится хитом продаж. И это неудивительно: покупатели и дизайнеры все чаще отдают предпочтение природным акцентам в интерьере. Поэтому паркетная доска, которая создается из натуральной древесины, является долговечной и эстетичной, существует в огромном количестве разнообразных моделей и вариантов отделки, пользуется спросом.
+                                        </div>
+                                    </div>
+                                    <div class="content1MenuP3_1_1Img_page2">
+                                        <img src="./img/jpg/firstSection_page2/content2FirstSection_page2/content2FSP1Pic_page2.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="content1MenuP3_1_2_page2">
+                                    <div class="content1MenuP3_1_2Img_page2">
+                                        <img src="./img/jpg/firstSection_page2/content2FirstSection_page2/content2FSP2Pic_page2.jpg" alt="">
+                                    </div>
+                                    <div class="content1MenuP3_1_2Text_page2">
+                                        <div class="content1MenuP3_1_2TextHeadline_page2">Панели BASIC создадут интерьер в классическом стиле</div>
+                                        <div class="content1MenuP3_1_2TextDesc_page2">
+                                            Наша компания выпускает в настоящее время шесть концептуальных дизайнерских линий. В каждой из них доступны различные виды отделки. Паркетная доска, обработанная маслом, приобретает дополнительную прочность, а при отвердевании под УФ-лучами покрытие становится антистатическим, теплым и полуматовым. Лакирование придает блеск полу и повышает его износостойкость, при этом простота в уходе и отличные эстетические достоинства становятся главным критерием выбора этой доски.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content1MenuPart3_2Main_page2">
+                                <div class="content1MenuP3_2_1_page2">
+                                    <div class="content1MenuP3_2_1Headline_page2">
+                                        Интенсивность природных характеристик материала
+                                    </div>
+                                    <div class="content1MenuP3_2_1Text_page2">
+                                        Материал Plydex имеет натуральный шпон лиственницы, в котором каждая деталь имеет свой уникальный внешний вид. Сучки придают панели большую привлекательность и раскрывают внешний вид.<br><br> Материал Plydex имеет натуральный шпон лиственницы, в котором каждая деталь имеет свой уникальный внешний вид. Сучки придают панели большую.
+                                    </div>
+                                </div>
+                                <div class="content1MenuP3_2_2_page2">
+                                    <div class="content1MenuP3_2_2Column1_page2">
+                                        <div class="p3_2_2Col1Pic_page2"><img src="./img/jpg/firstSection_page2/content3FirstSection_page2/p3_2_2Col3Pic_page2.jpg" alt=""></div>
+                                        <div class="p3_2_2Col1Headline_page2">Очень много сучков</div>
+                                        <ul class="p3_2_2Col1List_page2">
+                                            <li>
+                                                <img src="./img/svg/firstSection_page1/leftMarker_p3_2_2ColList_page2.svg" alt="">
+                                                <a href="#">Разнообразие цветов</a>
+                                            </li>
+                                            <li>
+                                                <img src="./img/svg/firstSection_page1/leftMarker_p3_2_2ColList_page2.svg" alt="">
+                                                <a href="#">Здоровые сучки малого, среднего и больших размеров</a>
+                                            </li>
+                                            <li>
+                                                <img src="./img/svg/firstSection_page1/leftMarker_p3_2_2ColList_page2.svg" alt="">
+                                                <a href="#">Малые, средние и большие сучки</a>
+                                            </li>
+                                            <li>
+                                                <img src="./img/svg/firstSection_page1/leftMarker_p3_2_2ColList_page2.svg" alt="">
+                                                <a href="#">Зашпаклеванные трещины</a>
+                                            </li>
+                                            <li>
+                                                <img src="./img/svg/firstSection_page1/leftMarker_p3_2_2ColList_page2.svg" alt="">
+                                                <a href="#">Заболонь</a>
+                                            </li>
+                                            <li>
+                                                <img src="./img/svg/firstSection_page1/leftMarker_p3_2_2ColList_page2.svg" alt="">
+                                                <a href="#">Блеск</a>
+                                            </li>
+                                            <li>
+                                                <img src="./img/svg/firstSection_page1/leftMarker_p3_2_2ColList_page2.svg" alt="">
+                                                <a href="#">Выразительный рисунок ядра</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="content1MenuP3_2_2Column2_page2">
+                                        <div class="p3_2_2Col2Pic_page2"><img src="./img/jpg/firstSection_page2/content3FirstSection_page2/p3_2_2Col3Pic_page2.jpg" alt=""></div>
+                                        <div class="p3_2_2Col2Headline_page2">Много сучков</div>
+                                        <ul class="p3_2_2Col2List_page2">
+                                            <li>
+                                                <img src="./img/svg/firstSection_page1/leftMarker_p3_2_2ColList_page2.svg" alt="">
+                                                <a href="#">Разнообразие цветов</a>
+                                            </li>
+                                            <li>
+                                                <img src="./img/svg/firstSection_page1/leftMarker_p3_2_2ColList_page2.svg" alt="">
+                                                <a href="#">Здоровые сучки малого, среднего и больших размеров</a>
+                                            </li>
+                                            <li>
+                                                <img src="./img/svg/firstSection_page1/leftMarker_p3_2_2ColList_page2.svg" alt="">
+                                                <a href="#">Малые, средние и большие сучки</a>
+                                            </li>
+                                            <li>
+                                                <img src="./img/svg/firstSection_page1/leftMarker_p3_2_2ColList_page2.svg" alt="">
+                                                <a href="#">Зашпаклеванные трещины</a>
+                                            </li>
+                                            <li>
+                                                <img src="./img/svg/firstSection_page1/leftMarker_p3_2_2ColList_page2.svg" alt="">
+                                                <a href="#">Заболонь</a>
+                                            </li>
+                                            <li>
+                                                <img src="./img/svg/firstSection_page1/leftMarker_p3_2_2ColList_page2.svg" alt="">
+                                                <a href="#">Блеск</a>
+                                            </li>
+                                            <li>
+                                                <img src="./img/svg/firstSection_page1/leftMarker_p3_2_2ColList_page2.svg" alt="">
+                                                <a href="#">Выразительный рисунок ядра</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="content1MenuP3_2_2Column3_page2">
+                                        <div class="p3_2_2Col3Pic_page2"><img src="./img/jpg/firstSection_page2/content3FirstSection_page2/p3_2_2Col3Pic_page2.jpg" alt=""></div>
+                                        <div class="p3_2_2Col3Headline_page2">Мало сучков</div>
+                                        <ul class="p3_2_2Col3List_page2">
+                                            <li>
+                                                <img src="./img/svg/firstSection_page1/leftMarker_p3_2_2ColList_page2.svg" alt="">
+                                                <a href="#">Разнообразие цветов</a>
+                                            </li>
+                                            <li>
+                                                <img src="./img/svg/firstSection_page1/leftMarker_p3_2_2ColList_page2.svg" alt="">
+                                                <a href="#">Здоровые сучки малого, среднего и больших размеров</a>
+                                            </li>
+                                            <li>
+                                                <img src="./img/svg/firstSection_page1/leftMarker_p3_2_2ColList_page2.svg" alt="">
+                                                <a href="#">Малые, средние и большие сучки</a>
+                                            </li>
+                                            <li>
+                                                <img src="./img/svg/firstSection_page1/leftMarker_p3_2_2ColList_page2.svg" alt="">
+                                                <a href="#">Зашпаклеванные трещины</a>
+                                            </li>
+                                            <li>
+                                                <img src="./img/svg/firstSection_page1/leftMarker_p3_2_2ColList_page2.svg" alt="">
+                                                <a href="#">Заболонь</a>
+                                            </li>
+                                            <li>
+                                                <img src="./img/svg/firstSection_page1/leftMarker_p3_2_2ColList_page2.svg" alt="">
+                                                <a href="#">Блеск</a>
+                                            </li>
+                                            <li>
+                                                <img src="./img/svg/firstSection_page1/leftMarker_p3_2_2ColList_page2.svg" alt="">
+                                                <a href="#">Выразительный рисунок ядра</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footerMenu">
+                <div class="footerMenu1">
+                    <div class="footerMenu1_headline">
+                        ПЛАЙДЕКС
+                    </div>
+                    <ul class="footerMenu1_list">
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Девелоперам, строителям</a></li>
+                        <li><a href="#">Дизайнерам, архитекторам</a></li>
+                        <li><a href="#">Шоурум</a></li>
+                    </ul>
+                </div>
+                <div class="footerMenu2">
+                    <div class="footerMenu2_headline">
+                        ПРОДУКЦИЯ
+                    </div>
+                    <ul class="footerMenu2_list">
+                        <li><a href="#">Пристенная рейка оптима</a></li>
+                        <li><a href="#">Панно</a></li>
+                        <li><a href="#">Панель настенная <span>нестандартная</span></a></li>
+                        <li><a href="#">Профиль Г,П-образный, <span>четырёхсторонний</span></a></li>
+                        <li><a href="#">Столешницы, полка</a></li>
+                        <li><a href="#">Дверь</a></li>
+                        <li><a href="#">Откос для двери <span><nobr>П-образный</nobr></span></a></li>
+                        <li><a href="#">Кресло, диван</a></li>
+                        <li><a href="#">Панель</a></li>
+                        <li><a href="#">Лист</a></li>
+                    </ul>
+                </div>
+                <div class="footerBreak1"></div>
+                <div class="footerMenu3">
+                    <div class="footerMenu3_headline">
+                        ИНФОРМАЦИЯ
+                    </div>
+                    <ul class="footerMenu3_list">
+                        <li><a href="#">Каталог Plydex в PDF <span>формате</span></a></li>
+                        <li><a href="#">Дизайнерам</a></li>
+                        <li><a href="#">Монтаж панелей</a></li>
+                        <li><a href="#">Техническая документация</a></li>
+                        <li><a href="#">Политика <span>конциденциальности</span></a></li>
+                        <li><a href="#">Вдохновение</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footerMenuMap">
+                    <div class="footerMenuMap_headline">
+                        АДРЕС ГЛАВНОГО ОФИСА
+                    </div>
+                    <div class="footerMap">
+                        <a href="#"><img src="./img/jpg/footer/footerMap.jpg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footerAdditionalInf">
+                <div class="footerLinks">
+                    <a href="#" class="footerFacebookLink"><img src="./img/svg/footer/footerFacebookLink.svg" alt=""></a>
+                    <a href="#" class="footerYoutubeLink"><img src="./img/svg/footer/footerYoutubeLink.svg" alt=""></a>
+                    <a href="#" class="footerInstaLink"><img src="./img/svg/footer/footerInstaLink.svg" alt=""></a>
+                </div>
+                <div class="footerCopyright">
+                    © Decor Plydex 2019
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="./script/caretRotate_page2.js"></script>
+</body>
+</html>

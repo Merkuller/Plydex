@@ -1,0 +1,234 @@
+.wrapper_page9 {
+    width: 82.5523%;
+    margin: 0px auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+                                /* 1 секция. Экология */
+.sectionOne_page9 {
+    width: 100%;
+    display: block;
+}
+.sectionOne_page9 .contentFirstSection_page9 {
+    width: 100%;
+    display: block;
+}
+                            /* 1 секция. Контент. Экология */
+.sectionOne_page9 .contentFirstSection_page9 .wrapper_page9 .contentSection_page9 {
+    width: 100%;
+    display: block;
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+    /* 1 секция. Контент. Экология. Заглавие */
+.sectionOne_page9 .contentFirstSection_page9 .wrapper_page9 .contentSection_page9 .contentSectionHeadline_page9 {
+    width: 100%;
+    display: block;
+}
+.sectionOne_page9 .contentFirstSection_page9 .wrapper_page9 .contentSection_page9 .contentSectionHeadline_page9 .contentSectionTitle_page9 {
+    width: 100%;
+    margin-bottom: 30px;
+    display: inline-block;
+    font-size: 32px;
+    line-height: 37px;
+    color: #0A0A0A;
+    font-weight: bold;
+}
+.sectionOne_page9 .contentFirstSection_page9 .wrapper_page9 .contentSection_page9 .contentSectionHeadline_page9 .sontentSectionText_page9 {
+    width: 100%;
+    font-size: 16px;
+    line-height: 150%;
+    color: #0A0A0A;
+}
+        /* 1 секция. Контент. 1 часть. Экология */
+.sectionOne_page9 .contentFirstSection_page9 .wrapper_page9 .contentSection_page9 .content1Section_page9 {
+    min-height: 530px;
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+/* 1 секция. Контент. 1.1 часть. Экология */
+.sectionOne_page9 .contentFirstSection_page9 .wrapper_page9 .contentSection_page9 .content1Section_page9 .content1SectionPart1_page9 {
+    display: block;
+    width: 49.382%;
+    margin-right: 10px;
+    padding-top: 89px;
+}
+.sectionOne_page9 .contentFirstSection_page9 .wrapper_page9 .contentSection_page9 .content1Section_page9 .content1SectionPart1_page9 .content1SectionPart1Desc_page9 {
+    width: 100%;
+    display: block;
+}
+/* 1 секция. Контент. 1.1 часть. Заголовок. Экология */
+.sectionOne_page9 .contentFirstSection_page9 .wrapper_page9 .contentSection_page9 .content1Section_page9 .content1SectionPart1_page9 .content1SectionPart1Headline_page9 {
+    width: 100%;
+    display: inline-block;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0A0A0A;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+/* 1 секция. Контент. 1.1 часть. Текст. Экология */
+.sectionOne_page9 .contentFirstSection_page9 .wrapper_page9 .contentSection_page9 .content1Section_page9 .content1SectionPart1_page9 .content1SectionPart1Text_page9 {
+    width: 100%;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 150%;
+    color: #0A0A0A;
+}
+/* 1 секция. Контент. 1.2 часть. Экология */
+.sectionOne_page9 .contentFirstSection_page9 .wrapper_page9 .contentSection_page9 .content1Section_page9 .content1SectionPart2_page9 {
+    width: 49.317%;
+    display: inline-block;
+    margin-left: 10px;
+}
+.sectionOne_page9 .contentFirstSection_page9 .wrapper_page9 .contentSection_page9 .content1Section_page9 .content1SectionPart2_page9 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+        /* 1 секция. Контент. 2 часть. Экология */
+.sectionOne_page9 .contentFirstSection_page9 .wrapper_page9 .contentSection_page9 .content2Section_page9 {
+    min-height: 530px;
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+/* 1 секция. Контент. 2.1 часть. Экология */
+.sectionOne_page9 .contentFirstSection_page9 .wrapper_page9 .contentSection_page9 .content2Section_page9 .content2SectionPart1_page9 {
+    width: 49.382%;
+    display: inline-block;
+    margin-right: 10px;
+}
+.sectionOne_page9 .contentFirstSection_page9 .wrapper_page9 .contentSection_page9 .content2Section_page9 .content2SectionPart1_page9 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* 1 секция. Контент. 2.2 часть. Экология */
+.sectionOne_page9 .contentFirstSection_page9 .wrapper_page9 .contentSection_page9 .content2Section_page9 .content2SectionPart2_page9 {
+    display: block;
+    width: 49.317%;
+    margin-left: 10px;
+    padding-top: 89px;
+}
+.sectionOne_page9 .contentFirstSection_page9 .wrapper_page9 .contentSection_page9 .content2Section_page9 .content2SectionPart2_page9 .content2SectionPart2Desc_page9 {
+    width: 100%;
+    display: block;
+}
+/* 1 секция. Контент. 2.2 часть. Заголовок. Экология */
+.sectionOne_page9 .contentFirstSection_page9 .wrapper_page9 .contentSection_page9 .content2Section_page9 .content2SectionPart2_page9 .content2SectionPart2Headline_page9 {
+    width: 100%;
+    display: inline-block;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0A0A0A;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+/* 1 секция. Контент. 2.2 часть. Текст. Экология */
+.sectionOne_page9 .contentFirstSection_page9 .wrapper_page9 .contentSection_page9 .content2Section_page9 .content2SectionPart2_page9 .content2SectionPart2Text_page9 {
+    width: 100%;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 150%;
+    color: #0A0A0A;
+}
+        /* 1 секция. Контент. 3 часть. Экология */
+.sectionOne_page9 .contentFirstSection_page9 .wrapper_page9 .contentSection_page9 .content3Section_page9 {
+    min-height: 530px;
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+/* 1 секция. Контент. 3.1 часть. Экология */
+.sectionOne_page9 .contentFirstSection_page9 .wrapper_page9 .contentSection_page9 .content3Section_page9 .content3SectionPart1_page9 {
+    display: block;
+    width: 49.382%;
+    margin-right: 10px;
+    padding-top: 89px;
+}
+.sectionOne_page9 .contentFirstSection_page9 .wrapper_page9 .contentSection_page9 .content3Section_page9 .content3SectionPart1_page9 .content3SectionPart1Desc_page9 {
+    width: 100%;
+    display: block;
+}
+/* 1 секция. Контент. 3.1 часть. Заголовок. Экология */
+.sectionOne_page9 .contentFirstSection_page9 .wrapper_page9 .contentSection_page9 .content3Section_page9 .content3SectionPart1_page9 .content3SectionPart1Headline_page9 {
+    width: 100%;
+    display: inline-block;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0A0A0A;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+/* 1 секция. Контент. 3.1 часть. Текст. Экология */
+.sectionOne_page9 .contentFirstSection_page9 .wrapper_page9 .contentSection_page9 .content3Section_page9 .content3SectionPart1_page9 .content3SectionPart1Text_page9 {
+    width: 100%;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 150%;
+    color: #0A0A0A;
+}
+/* 1 секция. Контент. 3.2 часть. Экология */
+.sectionOne_page9 .contentFirstSection_page9 .wrapper_page9 .contentSection_page9 .content3Section_page9 .content3SectionPart2_page9 {
+    width: 49.317%;
+    display: inline-block;
+    margin-left: 10px;
+}
+.sectionOne_page9 .contentFirstSection_page9 .wrapper_page9 .contentSection_page9 .content3Section_page9 .content3SectionPart2_page9 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+        /* 1 секция. Контент. 4 часть. Экология */
+.sectionOne_page9 .contentFirstSection_page9 .wrapper_page9 .contentSection_page9 .content4Section_page9 {
+    min-height: 530px;
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+/* 1 секция. Контент. 4.1 часть. Экология */
+.sectionOne_page9 .contentFirstSection_page9 .wrapper_page9 .contentSection_page9 .content4Section_page9 .content4SectionPart1_page9 {
+    width: 49.382%;
+    display: inline-block;
+    margin-right: 10px;
+}
+.sectionOne_page9 .contentFirstSection_page9 .wrapper_page9 .contentSection_page9 .content4Section_page9 .content4SectionPart1_page9 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* 1 секция. Контент. 4.2 часть. Экология */
+.sectionOne_page9 .contentFirstSection_page9 .wrapper_page9 .contentSection_page9 .content4Section_page9 .content4SectionPart2_page9 {
+    display: block;
+    width: 49.317%;
+    margin-left: 10px;
+    padding-top: 89px;
+}
+.sectionOne_page9 .contentFirstSection_page9 .wrapper_page9 .contentSection_page9 .content4Section_page9 .content4SectionPart2_page9 .content4SectionPart2Desc_page9 {
+    width: 100%;
+    display: block;
+}
+/* 1 секция. Контент. 4.2 часть. Заголовок. Экология */
+.sectionOne_page9 .contentFirstSection_page9 .wrapper_page9 .contentSection_page9 .content4Section_page9 .content4SectionPart2_page9 .content4SectionPart2Headline_page9 {
+    width: 100%;
+    display: inline-block;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0A0A0A;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+/* 1 секция. Контент. 4.2 часть. Текст. Экология */
+.sectionOne_page9 .contentFirstSection_page9 .wrapper_page9 .contentSection_page9 .content4Section_page9 .content4SectionPart2_page9 .content4SectionPart2Text_page9 {
+    width: 100%;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 150%;
+    color: #0A0A0A;
+}

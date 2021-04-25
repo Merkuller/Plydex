@@ -1,0 +1,181 @@
+                        /* Основные стили */
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    max-width: 1920px;
+    margin: 0px auto;
+    font-family: Arial;
+    font-style: normal;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #010101;
+    padding-top: 71px;
+}
+                        /* Шапка */
+.navbar {
+    background-color: #1D1D1D;
+}
+.navigationsButtons {
+    width: 117px;
+    justify-content: space-around;
+    margin-right: 10px;
+    display: none !important;
+}
+.navigationsButtons a {
+    display: flex;
+    align-items: center;
+}
+.navigationsButtons a:nth-of-type(2) {
+    border-left: 1.5px solid #3E3E3E;
+    border-right: 1.5px solid #3E3E3E;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.navigationsButtons .mapPosition img {
+    width: 24px;
+    height: 24px;
+}
+.navbar-toggler {
+    outline: none !important;
+    border: none;
+    padding: 0px;
+}
+                                /* Анимация бургера */
+/* Анимация бургера */
+.ham {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transition: transform 400ms;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.hamRotate.active1 {
+    transform: rotate(45deg);
+}
+.hamRotate180.active1 {
+    transform: rotate(180deg);
+}
+.line {
+    fill: none;
+    transition: stroke-dasharray 500ms, stroke-dashoffset 500ms;
+    stroke: #FFFFFF;
+    stroke-width: 4;
+    stroke-linecap: round;
+}
+.ham1 .top {
+    stroke-dasharray: 40 139;
+}
+.ham1 .bottom {
+    stroke-dasharray: 40 180;
+}
+.ham1.active1 .top {
+    stroke-dashoffset: -98px;
+}
+.ham1.active1 .bottom {
+    stroke-dashoffset: -138px;
+}
+.navbar .navbar-collapse {
+    background-color: #1D1D1D;
+}
+.dropdown-menu {
+    background-color: #1D1D1D !important;
+}
+.dropDownMenu2_page3 {
+    display: flex !important;
+    padding: 25px 50px !important;
+    position: absolute !important;
+    left: -170px !important; 
+}
+.dropDownMenu2_page3 .dropdown-item {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    text-transform: uppercase;
+    padding-left: 13px;
+    padding-right: 13px;
+    font-size: 16px;
+    line-height: 150%;
+}
+.dropDownMenu2_page3 .dropdown-item:focus {
+    background-color: #1D1D1D;
+}
+.dropDownMenu2_page3 .dropdown-item img {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 10px;
+}
+.dropdown-item:hover {
+    background-color: #1D1D1D !important;
+    color: rgba(255,255,255,.5) !important;
+}
+.dropdown-item:active {
+    color: rgba(255,255,255,.5) !important;
+}
+.navbar .navbar-collapse .navbar-nav .listElement7 {
+    padding-top: 3px;
+}
+.navbar .navbar-collapse .navbar-nav .listElement8 {
+    padding-top: 3px;
+}
+.navbar .navbar-collapse .navbar-nav .listElement9 {
+    padding-top: 3px;
+}
+.dropdown-menu {
+    background-color:#0d0d0d;
+    border-top: none;
+}
+#navbardrop2 .dropdown-menu {
+    display: flex;
+}
+.nav-item:not(:first-of-type) {
+    border-left: 1.5px solid #3E3E3E;
+}
+.listElement1 {
+    padding-left: 17px;
+    padding-right: 17px;
+}
+.listElement2 {
+    padding-left: 17px;
+    padding-right: 17px;
+}
+.listElement3 {
+    padding-left: 17px;
+    padding-right: 17px;
+}
+.listElement4 {
+    padding-left: 17px;
+    padding-right: 17px;
+}
+.listElement5 {
+    padding-left: 17px;
+    padding-right: 17px;
+}
+.nav-link {
+    color: #FFFFFF !important;
+}
+.nav-link:hover {
+    color: rgba(255,255,255,.5) !important;
+}
+.dropdown .dropdown-menu {
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    transform-origin: top center;
+    transform: scale(1,0);
+    display: block;
+    height: 0px;
+}
+.dropdown:hover .dropdown-menu {
+    transform: scale(1);
+    visibility: visible;
+    height: auto;
+}

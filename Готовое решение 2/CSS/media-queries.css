@@ -1,0 +1,984 @@
+                                        /* ШАПКА (общие стили для всех страниц) */
+@media screen and (max-width: 1583px) {
+    .listElement1 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .listElement2 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .listElement3 {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 115px;
+    }
+    .listElement4 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .listElement5 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 1427px) {
+    .nav-item:nth-of-type(1) {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .nav-item:nth-of-type(2) {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .nav-item:nth-of-type(3) {
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100px;
+    }
+    .nav-item:nth-of-type(4) {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .nav-item:nth-of-type(5) {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    body {
+        padding-top: 0px;
+    }
+    .navbar {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .navbar-brand {
+        margin-right: -50px;
+    }
+    .navigationsButtons {
+        display: flex !important;
+    }
+    .navbar-collapse ul {
+        height: 100vh;
+        overflow: scroll;
+    }
+    .navbar-toggler {
+        margin-left: 16px;
+    }
+    .nav-item:not(:first-of-type) {
+        border-left: none;
+    }
+    .navbar-nav {
+        padding-top: 20px;
+        padding-bottom: 90px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .nav-item {
+        padding-left: 16px;
+    }
+    .nav-item:nth-of-type(1) {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .nav-item:nth-of-type(2) {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .nav-item:nth-of-type(3) {
+        padding-left: 16px;
+        padding-right: 16px;
+        width: 100%;
+    }
+    .nav-item:nth-of-type(4) {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .nav-item:nth-of-type(5) {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .nav-item:first-of-type a {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-item:nth-of-type(2) a {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .listElement10 {
+        padding-right: 16px;
+    }
+    .listElement10 a {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-item:nth-of-type(3):hover {
+        background-color: #d0672f;
+    }
+    .nav-item:nth-of-type(4):hover {
+        background-color: #d0672f;
+    }
+    .nav-item:nth-of-type(5):hover {
+        background-color: #d0672f;
+    }
+    .nav-item:nth-of-type(3):active {
+        background-color: #d0672f;
+    }
+    .nav-item:nth-of-type(4):active {
+        background-color: #d0672f;
+    }
+    .nav-item:nth-of-type(5):active {
+        background-color: #d0672f;
+    }
+    .nav-item:nth-of-type(6) {
+        margin: 0px auto;
+    }
+    .nav-item:nth-of-type(7) {
+        display: none;
+    }
+    .nav-item:nth-of-type(9) {
+        display: none;
+    }
+    .listElement8 {
+        padding: 0px;
+        width: 110px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .listElement1 {
+        order: -8;
+    }
+    .listElement2 {
+        order: -7;
+    }
+    .listElement3 {
+        order: -6;
+    }
+    .listElement4 {
+        order: -5;
+    }
+    .listElement5 {
+        order: -4;
+    }
+    .listElement8 {
+        order: -1;
+    }
+    .listElement10 {
+        order: -2;
+    }
+    .dropdown:hover {
+        background-color: #3a3a3a;
+    }
+    .dropdown:hover .dropdown-menu {
+        width: 100%;
+        background-color: #3a3a3a;
+        border: none;
+    }
+    .dropdown .dropdown-menu {
+        width: 100%;
+        background-color: #3a3a3a !important;
+        border: none;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .navbar-brand {
+        margin-right: 0px;
+    }
+}
+                                        /* ПОДВАЛ (общие стили для всех страниц) */
+@media screen and (max-width: 1432px) {
+                                /* 2 раздел подвала */
+    footer .footerMenu .footerMenu2 {
+        height: 338px;
+    }
+        /* 2 раздел подвала. Список раздела */
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 300px;
+    }
+    /* 2 раздел подвала. Список раздела. 4 элемент списка */
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) {
+        height: 48px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) span {
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 1371px) {
+                                /* 4 раздел подвала */
+    footer .footerMenu .footerMenuMap {
+        height: 339px;
+    }
+    footer .footerMenu .footerMenuMap .footerMenuMap_headline {
+        height: 56px;
+    }
+}
+
+@media screen and (max-width: 1157px) {
+                                /* 2 раздел подвала */
+    footer .footerMenu .footerMenu2 {
+        height: 362px;
+    }
+        /* 2 раздел подвала. Список раздела */
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 324px;
+    }
+    /* 2 раздел подвала. Список раздела. 3 элемент списка */
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(3) {
+        height: 48px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(3) span {
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 1076px) {
+                                /* 3 раздел подвала */
+    footer .footerMenu .footerMenu3 {
+        height: 254px;
+    }
+        /* 3 раздел подвала. Список раздела */
+    footer .footerMenu .footerMenu3 .footerMenu3_list {
+        height: 216px;
+    }
+    /* 3 раздел подвала. Список раздела. 5 элемент списка */
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(5) {
+        height: 48px;
+    }
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(5) span {
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 1072px) {
+                                /* 3 раздел подвала */
+    footer .footerMenu .footerMenu3 {
+        height: 278px;
+    }
+        /* 3 раздел подвала. Список раздела */
+    footer .footerMenu .footerMenu3 .footerMenu3_list {
+        height: 240px;
+    }
+    /* 3 раздел подвала. Список раздела. 1 элемент списка */
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(1) {
+        height: 48px;
+    }
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(1) span {
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    footer {
+        height: 950px;
+    }
+    footer .footerMenu {
+        height: 806px;
+        flex-wrap: wrap;
+        padding-right: 35px;
+    }
+            /* 1 раздел подвала */
+    footer .footerMenu .footerMenu1 {
+        flex: 1;
+    }
+            /* 2 раздел подвала */
+    footer .footerMenu .footerMenu2 {
+        height: 362px;
+        flex: 1;
+    }
+        /* 2 раздел подвала. Список раздела */
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 317px;
+    }
+    /* 2 раздел подвала. Список раздела. 4 элемент списка */
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) {
+        height: 24px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) span {
+        padding-left: 0px;
+    }
+    /* 2 раздел подвала. Список раздела. 3 элемент списка */
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(3) {
+        height: 24px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(3) span {
+        padding-left: 0px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 324px;
+    }
+            /* 3 раздел подвала */
+    footer .footerMenu .footerMenu3 {
+        flex: 1;
+    }
+            /* Первый разрыв строки */
+    .footerBreak1 {
+        flex-basis: 100%;
+        height: 0px;
+    }
+            /* Карта подвала */
+    footer .footerMenu .footerMenuMap {
+        flex: 1;
+    }
+            /* 3 раздел подвала */
+    footer .footerMenu .footerMenu3 {
+        height: 230px;
+    }
+        /* 3 раздел подвала. Список раздела */
+    footer .footerMenu .footerMenu3 .footerMenu3_list {
+        height: 192px;
+    }
+    /* 3 раздел подвала. Список раздела. 1 элемент списка */
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(1) {
+        height: 24px;
+    }
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(1) span {
+        padding-left: 0px;
+    }
+    /* 3 раздел подвала. Список раздела. 5 элемент списка */
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(5) {
+        height: 24px;
+    }
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(5) span {
+        padding-left: 0px;
+    }
+            /* 4 раздел подвала */
+    footer .footerMenu .footerMenuMap {
+        height: 311px;
+    }
+    footer .footerMenu .footerMenuMap .footerMenuMap_headline {
+        height: 28px;
+    }
+}
+
+@media screen and (max-width: 742px) {
+            /* 2 раздел подвала */
+    footer .footerMenu .footerMenu2 {
+        height: 362px;
+        flex: 1;
+    }
+        /* 2 раздел подвала. Список раздела */
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 324px;
+    }
+    /* 2 раздел подвала. Список раздела. 4 элемент списка */
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) {
+        height: 48px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) span {
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 711px) {
+    footer {
+        height: 1006px;
+    }
+    footer .footerMenu {
+        height: 862px;
+    }
+            /* 4 раздел меню */
+    footer .footerMenu .footerMenuMap {
+        height: 345px;
+    }
+    /* 4 раздел меню. Заголовок */
+    footer .footerMenu .footerMenuMap .footerMenuMap_headline {
+        height: 56px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    footer {
+        height: 1450px;
+    }
+    footer .footerMenu {
+        height: 1250px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .footerBreak1 {
+        display: none;
+    }
+            /* 1 раздел меню */
+    footer .footerMenu .footerMenu1 {
+        width: 100%;
+        height: 174px;
+        flex: 0 1 auto;
+    }
+    footer .footerMenu .footerMenu1 .footerMenu1_list {
+        height: 136px;
+    }
+            /* 2 раздел меню */
+    footer .footerMenu .footerMenu2 {
+        width: 100%;
+        height: 314px;
+        flex: 0 1 auto;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 276px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) {
+        height: 24px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) span {
+        padding-left: 0px;
+    }
+            /* 3 раздел меню */
+    footer .footerMenu .footerMenu3 {
+        width: 100%;
+        height: 230px;
+        flex: 0 1 auto;
+    }
+    footer .footerMenu .footerMenu3 .footerMenu3_list {
+        height: 192px;
+    }
+            /* 4 раздел меню */
+    footer .footerMenu .footerMenuMap {
+        width: 100%;
+        height: 311px;
+        flex: 0 1 auto;
+    }
+    footer .footerMenu .footerMenuMap .footerMap {
+        height: 270px;
+    }
+}
+
+@media screen and (max-width: 406px) {
+        /* 2 раздел подвала */
+    footer .footerMenu .footerMenu2 {
+        height: 338px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 300px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) {
+        height: 48px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) span {
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 337px) {
+    /* 2 раздел подвала */
+    footer .footerMenu .footerMenu2 {
+        height: 362px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 324px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(3) {
+        height: 48px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(3) span {
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    footer {
+        height: 1460px;
+    }
+    footer .footerMenu {
+        height: 1280px;
+    }
+        /* 4 раздел меню */
+    footer .footerMenu .footerMenuMap {
+        height: 340px;
+    }
+}
+                                        /* ГОТОВЫЕ РЕШЕНИЯ 2 */
+@media screen and (max-width: 1583px) {
+        /* Хлебные крошки */
+    .sectionOne_page14 .contentFirstSection_page14 .contentBreadcrum_page14 {
+        padding-top: 33px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+        /* Хлебные крошки */
+    .sectionOne_page14 .contentFirstSection_page14 .contentBreadcrum_page14 {
+        padding-top: 15px;
+    }
+}
+
+@media screen and (max-width: 344px) {
+        /* 1 секция. Готовые решения */
+    .sectionOne_page14 .contentFirstSection_page14 {
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .wrapper {
+        width: 90%;
+    }
+        /* 1 секция. Контент. 1 часть. Содержание. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part1_page14 .part1Content_page14 {
+        margin-bottom: 80px;
+    }
+        /* 1 секция. Контент. 1 часть. Содержание 1. Блок слайдера. Слайдер. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part1_page14 .part1Content_page14 .part1Content1_page14 .part1Content1Slider_page14 .slides_page14 {
+        width: 80%;
+        margin: 0px auto;
+    }
+        /* 1 секция. Контент. 1 часть. Содержание 1. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part1_page14 .part1Content_page14 .part1Content1_page14 {
+        width: 100%;
+        margin-right: 0px;
+    }             
+        /* 1 секция. Контент. 1 часть. Содержание 2. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part1_page14 .part1Content_page14 .part1Content2_page14 {
+        display: none;
+    }
+        /* 1 секция. Контент. 1 часть. Содержание 1. Блок слайдера. Заголовок. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part1_page14 .part1Content_page14 .part1Content1_page14 .part1Content1Slider_page14 .sliderName_page14 {
+        text-align: center;
+    }
+        /* Общие стили для слайдов */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part1_page14 .part1Content_page14 .part1Content1_page14 .part1Content1Slider_page14 .slides_page14 .slide_page14:first-of-type {
+        margin-left: 0px;
+    }
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part1_page14 .part1Content_page14 .part1Content1_page14 .part1Content1Slider_page14 .slides_page14 .slide_page14:last-of-type {
+        margin-right: 0px;
+    }
+        /* Стрелка влево */
+    .slides_page14 .slick-arrow.slick-prev {
+        left: 40px;
+    }
+        /* Стрелка вправо */
+    .slides_page14 .slick-arrow.slick-next {
+        right: 40px;
+    }
+        /* 1 секция. Контент. 2 часть. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 {
+        margin-bottom: 80px;
+        flex-direction: column-reverse;
+    }
+        /* 1 секция. Контент. 2 часть. Содержание 1. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content1_page14 {
+        width: 100%;
+        height: 500px;
+        margin-right: 0px;
+    }
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content1_page14 img {
+        object-fit: contain;
+    }
+        /* 1 секция. Контент. 2 часть. Содержание 2. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 {
+        width: 100%;
+        margin-left: 0px;
+        padding-top: 0px;
+        padding-bottom: 60px;
+    }
+        /* 1 секция. Контент. 3 часть. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part3_page14 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 80px;
+    }
+        /* 1 секция. Контент. 3 часть. Содержание 1. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part3_page14 .part3Content1_page14 {
+        width: 100%;
+        margin-right: 0px;
+        padding-top: 0px;
+        padding-bottom: 60px;
+    }
+        /* 1 секция. Контент. 3 часть. Содержание 2. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part3_page14 .part3Content2_page14 {
+        width: 100%;
+        margin-left: 0px;
+        height: 500px;
+    }
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part3_page14 .part3Content2_page14 img {
+        object-fit: contain;
+    }
+        /* 1 секция. Контент. 4 часть. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part4_page14 {
+        flex-direction: column-reverse;
+        margin-bottom: 80px;
+    }
+        /* 1 секция. Контент. 4 часть. Содержание 2. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part4_page14 .part4Content2_page14 {
+        width: 100%;
+        margin-left: 0px;
+        padding-top: 0px;
+        padding-bottom: 60px;
+    }
+        /* 1 секция. Контент. 4 часть. Содержание 2. 2 строка. Общие стили для карточек. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part4_page14 .part4Content2_page14 .part4Content2Row2_page14 .part4Content2Row2Card_page14 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part4_page14 .part4Content2_page14 .part4Content2Row2_page14 .part4Content2Row2Card_page14 .part4Content2Row2CardIcon_page14 {
+        margin-bottom: 40px;
+    }
+        /* 1 секция. Контент. 4 часть. Содержание 1. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part4_page14 .part4Content1_page14 {
+        width: 100%;
+        margin-right: 0px;
+        height: 500px;
+    }
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part4_page14 .part4Content1_page14 img {
+        object-fit: contain;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+        /* 1 секция. Контент. 1 часть. Содержание 1. Блок слайдера. Слайдер. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part1_page14 .part1Content_page14 .part1Content1_page14 .part1Content1Slider_page14 .slides_page14 {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        width: 100%;
+    }
+        /* 1 секция. Контент. 1 часть. Заголовок. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part1_page14 .part1Headline_page14 {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+        /* 1 секция. Контент. 1 часть. Содержание. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part1_page14 .part1Content_page14 {
+        margin-bottom: 50px;
+    }
+        /* 1 секция. Контент. 1 часть. Содержание 1. Текст. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part1_page14 .part1Content_page14 .part1Content1_page14 .part1Content1Text_page14 {
+        padding-bottom: 20px;
+    }
+        /* Стрелка влево */
+    .slides_page14 .slick-arrow.slick-prev {
+        left: 60px;
+    }
+    /* Стрелка вправо */
+    .slides_page14 .slick-arrow.slick-next {
+        right: 60px;
+    }
+        /* 1 секция. Контент. 1 часть. Содержание 1. Блок слайдера. Подсказка. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part1_page14 .part1Content_page14 .part1Content1_page14 .part1Content1Slider_page14 .part1Content1Hint_page14 {
+        text-align: center;
+        padding-top: 0px;
+    }
+        /* 1 секция. Контент. 2 часть. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 {
+        margin-bottom: 50px;
+    }
+    /* 1 секция. Контент. 2 часть. Содержание 2. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 {
+        padding-bottom: 50px;
+    }
+        /* 1 секция. Контент. 2 часть. Содержание 2. 1 строка. Заголовок. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row1_page14 .part2Content2Row1Headline_page14 {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+        /* 1 секция. Контент. 2 часть. Содержание 2. 1 строка. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row1_page14 {
+        padding-bottom: 20px;
+    }
+        /* 1 секция. Контент. 2 часть. Содержание 2. 2 строка. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row2_page14 {
+        padding-bottom: 20px;
+    }
+        /* 1 секция. Контент. 2 часть. Содержание 2. 3 строка. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row3_page14 {
+        padding-bottom: 20px;
+    }
+        /* 1 секция. Контент. 2 часть. Содержание 2. 3 строка. Текст. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row3_page14 .part2Content2Row3Text_page14 {
+        padding-top: 0px;
+    }
+        /* 1 секция. Контент. 2 часть. Содержание 2. 4 строка. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row4_page14 {
+        padding-bottom: 30px;
+    }
+        /* 1 секция. Контент. 2 часть. Содержание 2. 4 строка. Текст. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row4_page14 .part2Content2Row4Text_page14 {
+        padding-top: 0px;
+    }
+        /* 1 секция. Контент. 2 часть. Содержание 2. Кнопка. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Btn_page14 {
+        margin: 0px auto;
+    }
+        /* 1 секция. Контент. 3 часть. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part3_page14 {
+        margin-bottom: 50px;
+    }
+        /* 1 секция. Контент. 3 часть. Содержание 1. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part3_page14 .part3Content1_page14 {
+        padding-bottom: 50px;
+    }
+        /* 1 секция. Контент. 3 часть. Содержание 1. 1 строка. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part3_page14 .part3Content1_page14 .part3Content1Row1_page14 {
+        padding-bottom: 20px;
+    }
+        /* 1 секция. Контент. 3 часть. Содержание 1. 1 строка. Заголовок. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part3_page14 .part3Content1_page14 .part3Content1Row1_page14 .part3Content1Row1Headline_page14 {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+        /* 1 секция. Контент. 3 часть. Содержание 1. 2 строка. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part3_page14 .part3Content1_page14 .part3Content1Row2_page14 {
+        padding-bottom: 30px;
+    }
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part3_page14 .part3Content1_page14 .part3Content1Row2_page14 .part3Content1Row2Card_page14 .part3Content1Row2Cardtext_page14 {
+        padding: 20px;
+    }
+        /* 1 секция. Контент. 3 часть. Содержание 1. Кнопка. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part3_page14 .part3Content1_page14 .part3Content1Row2Btn_page14 {
+        margin: 0px auto;
+    }
+        /* 1 секция. Контент. 4 часть. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part4_page14 {
+        margin-bottom: 0px;
+    }
+    /* 1 секция. Контент. 4 часть. Содержание 2. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part4_page14 .part4Content2_page14 {
+        padding-bottom: 50px;
+    }
+        /* 1 секция. Контент. 4 часть. Содержание 2. 1 строка. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part4_page14 .part4Content2_page14 .part4Content2Row1_page14 {
+        margin-bottom: 30px;
+    }
+        /* 1 секция. Контент. 4 часть. Содержание 2. 1 строка. Заголовок. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part4_page14 .part4Content2_page14 .part4Content2Row1_page14 .part4Content2Row1Headline_page14 {
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    /* 1 секция. Контент. 4 часть. Содержание 2. 2 строка. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part4_page14 .part4Content2_page14 .part4Content2Row2_page14 {
+        margin-bottom: 30px;
+    }
+        /* 1 секция. Контент. 4 часть. Содержание 2. Кнопка. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part4_page14 .part4Content2_page14 .part4Content2Row2Btn_page14 {
+        margin: 0px auto;
+    }
+}
+
+@media screen and (max-width: 601px) {
+        /* Хлебные крошки */
+    .sectionOne_page14 .contentFirstSection_page14 .contentBreadcrum_page14 {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+        /* Общие стили для слайдов */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part1_page14 .part1Content_page14 .part1Content1_page14 .part1Content1Slider_page14 .slides_page14 .slide_page14 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part1_page14 .part1Content_page14 .part1Content1_page14 .part1Content1Slider_page14 .slides_page14 .slide_page14 .slideName_page14 {
+        display: inline-block;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 425px) {
+        /* 1 секция. Контент. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+        /* 1 секция. Контент. 1 часть. Содержание. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part1_page14 .part1Content_page14 {
+        margin-bottom: 30px;
+    }
+        /* 1 секция. Контент. 1 часть. Содержание 1. Блок слайдера. Слайдер. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part1_page14 .part1Content_page14 .part1Content1_page14 .part1Content1Slider_page14 .slides_page14 {
+        height: 250px;
+    }
+        /* Стрелка влево */
+    .slides_page14 .slick-arrow.slick-prev {
+        left: 0px;
+    }
+    /* Стрелка вправо */
+    .slides_page14 .slick-arrow.slick-next {
+        right: 0px;
+    }    
+        /* 1 секция. Контент. 2 часть. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 {
+        margin-bottom: 30px;
+    }
+        /* 1 секция. Контент. 2 часть. Содержание 1. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content1_page14 {
+        height: 300px;
+    }
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content1_page14 img {
+        object-fit: cover;
+    }
+        /* 1 секция. Контент. 2 часть. Содержание 2. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 {
+        padding-bottom: 30px;
+    }
+        /* 1 секция. Контент. 2 часть. Содержание 2. 2 строка. Заголовок. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row2_page14 .part2Content2Row2Headline_page14 {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row2_page14 .part2Content2Row2Headline_page14::before {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row2_page14 .part2Content2Row2Text_page14 {
+        padding-left: 0px;
+    }
+        /* 1 секция. Контент. 2 часть. Содержание 2. 3 строка. Заголовок. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row3_page14 .part2Content2Row3Headline_page14 {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row3_page14 .part2Content2Row3Headline_page14::before {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row3_page14 .part2Content2Row3Text_page14 {
+        padding-left: 0px;
+    }
+        /* 1 секция. Контент. 2 часть. Содержание 2. 4 строка. Заголовок. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row4_page14 .part2Content2Row4Headline_page14 {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row4_page14 .part2Content2Row4Headline_page14::before {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row4_page14 .part2Content2Row4Text_page14 {
+        padding-left: 0px;
+    }
+        /* 1 секция. Контент. 2 часть. Содержание 2. Кнопка. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Btn_page14 {
+        width: 100%;
+    }
+        /* 1 секция. Контент. 3 часть. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part3_page14 {
+        margin-bottom: 30px;
+    }
+        /* 1 секция. Контент. 3 часть. Содержание 1. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part3_page14 .part3Content1_page14 {
+        padding-bottom: 30px;
+    }
+    /* 1 секция. Контент. 3 часть. Содержание 2. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part3_page14 .part3Content2_page14 {
+        height: 300px;
+    }
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part3_page14 .part3Content2_page14 img {
+        object-fit: cover;
+    }
+        /* 1 секция. Контент. 3 часть. Содержание 1. Кнопка. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part3_page14 .part3Content1_page14 .part3Content1Row2Btn_page14 {
+        width: 100%;
+    }
+        /* 1 секция. Контент. 4 часть. Содержание 2. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part4_page14 .part4Content2_page14 {
+        padding-bottom: 30px;
+    }
+        /* 1 секция. Контент. 4 часть. Содержание 2. Кнопка. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part4_page14 .part4Content2_page14 .part4Content2Row2Btn_page14 {
+        width: 100%;
+    }
+        /* 1 секция. Контент. 4 часть. Содержание 1. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part4_page14 .part4Content1_page14 {
+        height: 300px;
+    }
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part4_page14 .part4Content1_page14 img {
+        object-fit: cover;
+    }
+        /* 1 секция. Контент. 4 часть. Содержание 2. 2 строка. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part4_page14 .part4Content2_page14 .part4Content2Row2_page14 {
+        flex-direction: column;
+    }
+    /* 1 секция. Контент. 4 часть. Содержание 2. 2 строка. Общие стили для карточек. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part4_page14 .part4Content2_page14 .part4Content2Row2_page14 .part4Content2Row2Card_page14 {
+        margin-right: 0px;
+        margin-bottom: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part4_page14 .part4Content2_page14 .part4Content2Row2_page14 .part4Content2Row2Card_page14:last-of-type {
+        margin-bottom: 0px;
+    }
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part4_page14 .part4Content2_page14 .part4Content2Row2_page14 .part4Content2Row2Card_page14:not(:last-of-type) {
+        margin-right: 0px;
+    }
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part4_page14 .part4Content2_page14 .part4Content2Row2_page14 .part4Content2Row2Card_page14 .part4Content2Row2CardIcon_page14 {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+            /* 1 секция. Контент. 1 часть. Содержание 1. Блок слайдера. Слайдер. Готовое решение 2 */
+        /* Стрелка влево */
+    .slides_page14 .slick-arrow.slick-prev {
+        left: -20px;
+    }
+    /* Стрелка вправо */
+    .slides_page14 .slick-arrow.slick-next {
+        right: -20px;
+    } 
+    /* 1 секция. Контент. 2 часть. Содержание 1. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content1_page14 {
+        height: 250px;
+    }
+        /* 1 секция. Контент. 2 часть. Содержание 2. 4 строка. Заголовок. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row4_page14 .part2Content2Row4Headline_page14 {
+        text-align: center;
+    }
+        /* 1 секция. Контент. 3 часть. Содержание 1. 2 строка. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part3_page14 .part3Content1_page14 .part3Content1Row2_page14 {
+        flex-direction: column;
+    }
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part3_page14 .part3Content1_page14 .part3Content1Row2_page14 .part3Content1Row2Card_page14:first-of-type {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    
+    /* 1 секция. Контент. 3 часть. Содержание 2. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part3_page14 .part3Content2_page14 {
+        height: 250px;
+    }
+    /* 1 секция. Контент. 4 часть. Содержание 1. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part4_page14 .part4Content1_page14 {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+            /* 1 секция. Контент. 1 часть. Содержание 1. Блок слайдера. Слайдер. Готовое решение 2 */
+        /* Стрелка влево */
+    .slides_page14 .slick-arrow.slick-prev {
+        left: -40px;
+    }
+        /* Стрелка вправо */
+    .slides_page14 .slick-arrow.slick-next {
+        right: -40px;
+    } 
+        /* 1 секция. Контент. 2 часть. Содержание 1. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content1_page14 {
+        height: 200px;
+    }
+        /* 1 секция. Контент. 3 часть. Содержание 2. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part3_page14 .part3Content2_page14 {
+        height: 200px;
+    }
+        /* 1 секция. Контент. 4 часть. Содержание 1. Готовое решение 2 */
+    .sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part4_page14 .part4Content1_page14 {
+        height: 200px;
+    }
+}

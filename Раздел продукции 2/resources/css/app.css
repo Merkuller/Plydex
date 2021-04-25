@@ -1,0 +1,3187 @@
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-weight: normal;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+article, aside, figure, footer, header, nav, section, details, summary {display: block;}
+
+/* Handle box-sizing while better addressing child elements:
+   https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+/* consider resetting the default cursor: https://gist.github.com/murtaugh/5247154 */
+
+/* Responsive images and other embedded objects
+*/
+img,
+object,
+embed {max-width: 100%;}
+
+/*
+   Note: keeping IMG here will cause problems if you're using foreground images as sprites.
+	 In fact, it *will* cause problems with Google Maps' controls at small size.
+	If this is the case for you, try uncommenting the following:
+
+#map img {
+		max-width: none;
+}
+*/
+
+/* force a vertical scrollbar to prevent a jumpy page */
+html {overflow-y: scroll;}
+
+/* we use a lot of ULs that aren't bulleted.
+	don't forget to restore the bullets within content. */
+ul {list-style: none;}
+
+blockquote, q {quotes: none;}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {content: ''; content: none;}
+
+a {margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent;}
+
+del {text-decoration: line-through;}
+
+abbr[title], dfn[title] {border-bottom: 1px dotted #000; cursor: help;}
+
+/* tables still need cellspacing="0" in the markup */
+table {border-collapse: collapse; border-spacing: 0;}
+th {font-weight: bold; vertical-align: bottom;}
+td {font-weight: normal; vertical-align: top;}
+
+hr {display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0;}
+
+input, select {vertical-align: middle;}
+
+pre {
+    white-space: pre; /* CSS2 */
+    white-space: pre-wrap; /* CSS 2.1 */
+    white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */
+    word-wrap: break-word; /* IE */
+}
+
+input[type="radio"] {vertical-align: text-bottom;}
+input[type="checkbox"] {vertical-align: bottom;}
+.ie7 input[type="checkbox"] {vertical-align: baseline;}
+.ie6 input {vertical-align: text-bottom;}
+
+select, input, textarea {font: 99% sans-serif;}
+
+table {font-size: inherit; font: 100%;}
+
+small {font-size: 85%;}
+
+strong {font-weight: bold;}
+
+td, td img {vertical-align: top;}
+
+/* Make sure sup and sub don't mess with your line-heights https://gist.github.com/413930 */
+sub, sup {font-size: 75%; line-height: 0; position: relative;}
+sup {top: -0.5em;}
+sub {bottom: -0.25em;}
+
+/* standardize any monospaced elements */
+pre, code, kbd, samp {font-family: monospace, sans-serif;}
+
+/* hand cursor on clickable elements */
+.clickable,
+label,
+input[type=button],
+input[type=submit],
+input[type=file],
+button {cursor: pointer;}
+
+/* Webkit browsers add a 2px margin outside the chrome of form elements */
+button, input, select, textarea {margin: 0;}
+
+/* make buttons play nice in IE */
+button,
+input[type=button] {width: auto; overflow: visible;}
+
+/* scale images in IE7 more attractively */
+.ie7 img {-ms-interpolation-mode: bicubic;}
+
+/* prevent BG image flicker upon hover
+   (commented out as usage is rare, and the filter syntax messes with some pre-processors)
+.ie6 html {filter: expression(document.execCommand("BackgroundImageCache", false, true));}
+*/
+
+/* let's clear some floats */
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+/* Основные стили */
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.wrapper {
+    max-width: 1545px;
+    margin: 0px auto;
+}
+
+body {
+    max-width: 1920px;
+    margin: 0px auto;
+    font-family: Arial;
+    font-style: normal;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #010101;
+    overflow: hidden;
+}
+                                /* Шапка */
+.navbar {
+    padding: 0px;
+}
+.navbar .container-fluid {
+    padding: 0px;
+    background-color: #1D1D1D;
+}
+/* Логотип меню */
+.navbar .container-fluid .navbar-brand {
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 21px;
+    margin-left: 35px;
+}
+.navbar .container-fluid .navbar-brand img {
+    width: 162px;
+    height: 40px;    
+    padding: 0px;
+}
+/* Бургер меню */
+.navbar .container-fluid .navbar-toggler {
+    margin-right: 35px;
+}
+    /* Список меню */
+/* Элементы списка */
+.navbar .container-fluid .navbar-nav .nav-item {
+    border-left: 2px solid rgba(62, 62, 62, 0.4);
+    height: 81px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar .container-fluid .navbar-nav .nav-item:nth-of-type(1) {
+    width: 165px;
+}
+.navbar .container-fluid .navbar-nav .nav-item:nth-of-type(1) .nav-link {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+}
+.navbar .container-fluid .navbar-nav .nav-item:nth-of-type(2) {
+    width: 163px;
+}
+.navbar .container-fluid .navbar-nav .nav-item:nth-of-type(2) .nav-link {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+}
+.navbar .container-fluid .navbar-nav .nav-item:nth-of-type(3) {
+    width: 215px;
+}
+.navbar .container-fluid .navbar-nav .nav-item:nth-of-type(3) .nav-link {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+}
+.navbar .container-fluid .navbar-nav .nav-item:nth-of-type(4) {
+    width: 123px;
+}
+.navbar .container-fluid .navbar-nav .nav-item:nth-of-type(4) .nav-link {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+}
+.navbar .container-fluid .navbar-nav .nav-item:nth-of-type(5) {
+    width: 166px;
+}
+.navbar .container-fluid .navbar-nav .nav-item:nth-of-type(5) .nav-link {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+}
+.navbar .container-fluid .navbar-nav .nav-item:nth-of-type(6) {
+    width: 170px;
+}
+.navbar .container-fluid .navbar-nav .nav-item:nth-of-type(6) .header_phoneNumber {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+.navbar .container-fluid .navbar-nav .nav-item:nth-of-type(6) .header_phoneNumber::before {
+    content: "";
+    display: inline-block;
+    background-image: url("/public/img/svg/header_phoneIcon.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+.navbar .container-fluid .navbar-nav .nav-item:nth-of-type(7) {
+    width: 57px;
+}
+.navbar .container-fluid .navbar-nav .nav-item:nth-of-type(7) .header_counter {
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.navbar .container-fluid .navbar-nav .nav-item:nth-of-type(7) .header_counter::before {
+    content: "";
+    display: flex;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    background-image: url("/public/img/svg/header_orderIcon.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.navbar .container-fluid .navbar-nav .nav-item:nth-of-type(8) {
+    width: 122px;
+}
+.navbar .container-fluid .navbar-nav .nav-item:nth-of-type(8) .header_socialMedia {
+    width: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .container-fluid .navbar-nav .nav-item:nth-of-type(9) {
+    width: 45px;
+}
+.navbar .container-fluid .navbar-nav .nav-item:nth-of-type(9) .header_Search {
+    width: 25px;
+    height: 25px;
+    border: none;
+    outline: none;
+    background: inherit;
+    padding: 0px;
+}
+.navbar .container-fluid .navbar-nav .nav-item:nth-of-type(10) {
+    width: 84px;
+}
+.navbar .container-fluid .navbar-nav .nav-item:nth-of-type(10) .header_lang {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+            /* Слайдер. Главная страница */
+.slider_page1 {
+    position: relative;
+    width: 100%;
+    height: 608px;
+    z-index: 1;
+}
+    /* Панель управления слайдером */
+.slider_page1 .slick-arrow {
+    position: absolute;
+    top: 50%;
+    margin: -30px 0px 0px 0px;
+    z-index: 12;
+    font-size: 0;
+    width: 40px;
+    height: 40px;
+    outline: none;
+    border: none;
+}
+/* Левая стрелка слайдера */
+.slider_page1 .slick-arrow.slick-prev {
+    left: 36px;
+    background: url('/public/img/svg/slider_page1/leftArrowSlider_page1.svg') 0 0 / 100% no-repeat;
+}
+/* Правая стрелка слайдера */
+.slider_page1 .slick-arrow.slick-next {
+    right: 36px;
+    background: url('/public/img/svg/slider_page1/rightArrowSlider_page1.svg') 0 0 / 100% no-repeat;
+}
+/* Ограничивающая оболочка */
+.slider_page1 .slick-list {
+    overflow: hidden;
+}
+/* Лента слайдов */
+.slider_page1 .slick-track {
+    display: flex;
+    width: 100%;
+    height: 608px;
+}
+/* Слайд */
+.slider_page1 .carousel_page1 .slider_item {
+    width: 100%;
+    height: 608px;
+}
+.slider_page1 .carousel_page1 .slider_item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+                                /* 1 секция. Главная */
+.sectionOne_page1 {
+    width: 100%;
+    display: inline-block;
+}
+.sectionOne_page1 .content1FirstSection_page1 {
+    width: 100%;
+    height: 439px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6px;
+    padding-bottom: 3px;
+}
+        /* 1 продукт */
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent1_page1 {
+    height: 430px;
+    width: 636px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent1_page1:hover > .content1Product1Picture img {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+/* Описание 1 продукта */
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent1_page1 .content1Product1Title_page1 {
+    height: 140px;
+    width: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 55px;
+    display: flex;
+    flex-direction: column;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent1_page1 .content1Product1Title_page1 .content1Product1Link1_page1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 32px;
+    line-height: 37px;
+    color: #8D8D8D;
+    text-decoration: none;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent1_page1 .content1Product1Title_page1 .content1Product1Link2_page1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 16px;
+    line-height: 18px;
+    color: #8D8D8D;
+    text-decoration: none;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent1_page1 .content1Product1Title_page1 .content1Product1Link2_page1::before {
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    background-image: url('/public/img/svg/firstSection_page1/content1ArrowLinkProduct1_page1.svg');
+    margin-bottom: 1px;
+}
+/* Изображение 1 продукта */
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent1_page1 .content1Product1Picture {
+    width: 100%;
+    height: 290px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent1_page1 .content1Product1Picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent1_page1 .content1Product1Picture img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent1_page1 .content1Product1Picture::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    width: 40px;
+    height: 30px;
+    background-image: url('/public/img/svg/firstSection_page1/content1Product1DescriptionElement_page1.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    bottom: 268px;
+    left: 40px;
+}
+        /* 2 продукт */
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent2_page1 {
+    height: 430px;
+    width: 636px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent2_page1:hover > .content2Product2Picture img {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+/* Описание 2 продукта */
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent2_page1 .content2Product2Title_page1 {
+    height: 140px;
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 35px;
+    display: flex;
+    flex-direction: column;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent2_page1 .content2Product2Title_page1 .content2Product2Link1_page1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 32px;
+    margin: 0px auto;
+    line-height: 37px;
+    color: #8D8D8D;
+    text-decoration: none;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent2_page1 .content2Product2Title_page1 .content2Product2Link2_page1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 16px;
+    margin: 0px auto;
+    line-height: 18px;
+    color: #8D8D8D;
+    text-decoration: none;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent2_page1 .content2Product2Title_page1 .content2Product2Link2_page1::before {
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    background-image: url('/public/img/svg/firstSection_page1/content1ArrowLinkProduct1_page1.svg');
+    margin-bottom: 1px;
+}
+/* Изображение 2 продукта */
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent2_page1 .content2Product2Picture {
+    width: 100%;
+    height: 290px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent2_page1 .content2Product2Picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent2_page1 .content2Product2Picture img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent2_page1 .content2Product2Picture::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    width: 40px;
+    height: 30px;
+    background-image: url('/public/img/svg/firstSection_page1/content1Product1DescriptionElement_page1.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    top: 268px;
+    left: 41px;
+}
+        /* 3 продукт */
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent3_page1 {
+    height: 430px;
+    width: 636px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+    cursor: pointer;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent3_page1:hover > .content3Product3Picture img {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+/* Описание 3 продукта */
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent3_page1 .content3Product3Title_page1 {
+    height: 140px;
+    width: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 55px;
+    display: flex;
+    flex-direction: column;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent3_page1 .content3Product3Title_page1 .content3Product3Link1_page1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 32px;
+    line-height: 37px;
+    color: #8D8D8D;
+    text-decoration: none;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent3_page1 .content3Product3Title_page1 .content3Product3Link2_page1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 16px;
+    line-height: 18px;
+    color: #8D8D8D;
+    text-decoration: none;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent3_page1 .content3Product3Title_page1 .content3Product3Link2_page1::before {
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    background-image: url('/public/img/svg/firstSection_page1/content1ArrowLinkProduct1_page1.svg');
+    margin-bottom: 1px;
+}
+/* Изображение 3 продукта */
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent3_page1 .content3Product3Picture {
+    width: 100%;
+    height: 290px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent3_page1 .content3Product3Picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent3_page1 .content3Product3Picture img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content1FirstSection_page1 .firstSectionContent3_page1 .content3Product3Picture::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    width: 40px;
+    height: 30px;
+    background-image: url('/public/img/svg/firstSection_page1/content1Product1DescriptionElement_page1.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    bottom: 268px;
+    left: 40px;
+}
+                                /* 2 секция. Главная */
+.sectionOne_page1 .content2FirstSection_page1 {
+    width: 100%;
+    height: 646px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+        /* 2 секция. 1 часть. Главная */
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1278px;
+    height: 646px;
+    margin-right: 6px;
+    padding-top: 0px;
+    padding-bottom: 6px;
+}
+    /* 2 секция. 1 часть. 1 продукт. Главная */
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content1 {
+    width: 100%;
+    height: 425px;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content1 img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content1 .part1Content1Title_page1 {
+    width: 100%;
+    height: 152px;
+    position: absolute;
+    z-index: 6;
+    top: 178px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content1 .part1Content1Title_page1 .part1Content1Title1_page1 {
+    display: flex;
+    height: 114px;
+    align-items: center;
+    justify-content: center;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content1 .part1Content1Title_page1 .part1Content1Title1_page1 img {
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    object-fit: cover;
+    position: relative;
+    z-index: 555;
+    transform: none;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content1 .part1Content1Title_page1 .part1Content1Title2_page1 {
+    width: 100%;
+    text-align: center;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content1 .part1Content1Title_page1 .part1Content1Title2_page1 a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+    /* 2 секция. 1 часть. 2 продукт. Главная */
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content2_page1 {
+    width: 100%;
+    height: 209px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* 2 секция. 1 часть. 2.1 продукт. Главная */
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content2_page1 .content2FirstSectionPart1Content2_1_page1 {
+    width: 100%;
+    height: 209px;
+    display: inline-block;
+    margin-right: 6px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content2_page1 .content2FirstSectionPart1Content2_1_page1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content2_page1 .content2FirstSectionPart1Content2_1_page1 img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content2_page1 .content2FirstSectionPart1Content2_1_page1 .content2Part1Content2_1Links_page1 {
+    position: absolute;
+    top: 58px;
+    z-index: 2;
+    width: 100%;
+    height: 92px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content2_page1 .content2FirstSectionPart1Content2_1_page1 .content2Part1Content2_1Links_page1 .content2Part1Content2_1Link1_page1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 74px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content2_page1 .content2FirstSectionPart1Content2_1_page1 .content2Part1Content2_1Links_page1 .content2Part1Content2_1Link2_page1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content2_page1 .content2FirstSectionPart1Content2_1_page1 .content2Part1Content2_1Links_page1 .content2Part1Content2_1Link2_page1::before {
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    margin-bottom: 1px;
+    background-image: url('/public/img/svg/firstSection_page1/content2Part1Content2_1Link2_page1.svg');
+}
+/* 2 секция. 1 часть. 2.2 продукт. Главная */
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content2_page1 .content2FirstSectionPart1Content2_2_page1 {
+    width: 100%;
+    height: 209px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content2_page1 .content2FirstSectionPart1Content2_2_page1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content2_page1 .content2FirstSectionPart1Content2_2_page1 img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart1_page1 .content2FirstSectionPart1Content2_page1 .content2FirstSectionPart1Content2_2_page1 .content2Part1Content2_2Link1_page1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 74px;
+    color: #FFFFFF;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    top: 68px;
+    left: 0px;
+    z-index: 3;
+}
+        /* 2 секция. 2 часть. Главная */
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart2_page1 {
+    width: 636px;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart2_page1:hover > .content2Part2ProductPicture_page1 img {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+/* Описание продукта */
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart2_page1 .content2FirstSectionPart2Title_page1 {
+    width: 100%;
+    height: 215px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+    padding-top: 130px;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart2_page1 .content2FirstSectionPart2Title_page1 .content2Part2ProductLink1_page1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+    color: #8D8D8D;
+    width: 100%;
+    text-decoration: none;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart2_page1 .content2FirstSectionPart2Title_page1 .content2Part2ProductLink2_page1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: #8D8D8D;
+    width: 100%;
+    text-decoration: none;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart2_page1 .content2FirstSectionPart2Title_page1 .content2Part2ProductLink2_page1::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    background-image: url('/public/img/svg/firstSection_page1/content1ArrowLinkProduct1_page1.svg');
+    margin-bottom: 1px;
+}
+/* Изображение продукта */
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart2_page1 .content2Part2ProductPicture_page1 {
+    width: 100%;
+    height: 425px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart2_page1 .content2Part2ProductPicture_page1 img {
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart2_page1 .content2Part2ProductPicture_page1 img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content2FirstSection_page1 .content2FirstSectionPart2_page1 .content2Part2ProductPicture_page1::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    background-image: url('/public/img/svg/firstSection_page1/content1Product1DescriptionElement_page1.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 30px;
+    z-index: 2;
+    bottom: 403px;
+    left: 40px;
+}
+                                /* 3 секция. Главная */
+.sectionOne_page1 .content3FirstSection_page1 {
+    width: 100%;
+    height: 436px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+        /* 1 продукт */
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_1_page1 {
+    height: 430px;
+    width: 636px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_1_page1:hover > .content3Product1Picture img {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+/* Описание 1 продукта */
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_1_page1 .content3Product1Title_page1 {
+    height: 140px;
+    width: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 55px;
+    display: flex;
+    flex-direction: column;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_1_page1 .content3Product1Title_page1 .content3Product1Link1_page1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 32px;
+    line-height: 37px;
+    color: #8D8D8D;
+    text-decoration: none;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_1_page1 .content3Product1Title_page1 .content3Product1Link2_page1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 16px;
+    line-height: 18px;
+    color: #8D8D8D;
+    text-decoration: none;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_1_page1 .content3Product1Title_page1 .content3Product1Link2_page1::before {
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    background-image: url('/public/img/svg/firstSection_page1/content1ArrowLinkProduct1_page1.svg');
+    margin-bottom: 1px;
+}
+/* Изображение 1 продукта */
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_1_page1 .content3Product1Picture {
+    width: 100%;
+    height: 290px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_1_page1 .content3Product1Picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_1_page1 .content3Product1Picture img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_1_page1 .content3Product1Picture::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    width: 40px;
+    height: 30px;
+    background-image: url('/public/img/svg/firstSection_page1/content1Product1DescriptionElement_page1.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    bottom: 268px;
+    left: 40px;
+}
+        /* 2 продукт */
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_2_page1 {
+    height: 430px;
+    width: 636px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_2_page1:hover > .content3Product2Picture img {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+/* Описание 2 продукта */
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_2_page1 .content3Product2Title_page1 {
+    height: 140px;
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 35px;
+    display: inline-block;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_2_page1 .content3Product2Title_page1 .content3Product2Link1_page1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 32px;
+    margin: 0px auto;
+    line-height: 37px;
+    color: #8D8D8D;
+    text-decoration: none;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_2_page1 .content3Product2Title_page1 .content3Product2Link2_page1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 16px;
+    margin: 0px auto;
+    line-height: 18px;
+    color: #8D8D8D;
+    text-decoration: none;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_2_page1 .content3Product2Title_page1 .content3Product2Link2_page1::before {
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    background-image: url('/public/img/svg/firstSection_page1/content1ArrowLinkProduct1_page1.svg');
+    margin-bottom: 1px;
+}
+/* Изображение 2 продукта */
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_2_page1 .content3Product2Picture {
+    width: 100%;
+    height: 290px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_2_page1 .content3Product2Picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_2_page1 .content3Product2Picture img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_2_page1 .content3Product2Picture::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    width: 40px;
+    height: 30px;
+    background-image: url('/public/img/svg/firstSection_page1/content1Product1DescriptionElement_page1.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    top: 268px;
+    left: 41px;
+}
+        /* 3 продукт */
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_3_page1 {
+    height: 430px;
+    width: 636px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+    cursor: pointer;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_3_page1:hover > .content3Product3Picture img {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+/* Описание 3 продукта */
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_3_page1 .content3Product3Title_page1 {
+    height: 140px;
+    width: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 55px;
+    display: inline-block;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_3_page1 .content3Product3Title_page1 .content3Product3Link1_page1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 32px;
+    line-height: 37px;
+    color: #8D8D8D;
+    text-decoration: none;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_3_page1 .content3Product3Title_page1 .content3Product3Link2_page1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 16px;
+    line-height: 18px;
+    color: #8D8D8D;
+    text-decoration: none;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_3_page1 .content3Product3Title_page1 .content3Product3Link2_page1::before {
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    background-image: url('/public/img/svg/firstSection_page1/content1ArrowLinkProduct1_page1.svg');
+    margin-bottom: 1px;
+}
+/* Изображение 3 продукта */
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_3_page1 .content3Product3Picture {
+    width: 100%;
+    height: 290px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_3_page1 .content3Product3Picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_3_page1 .content3Product3Picture img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content3FirstSection_page1 .firstSectionContent3_3_page1 .content3Product3Picture::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    width: 40px;
+    height: 30px;
+    background-image: url('/public/img/svg/firstSection_page1/content1Product1DescriptionElement_page1.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    bottom: 268px;
+    left: 40px;
+}
+                                /* 4 секция. Главная */
+.sectionOne_page1 .content4FirstSection_page1 {
+    width: 100%;
+    height: 646px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+        /* 4 секция. 1 часть. Главная */
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1278px;
+    height: 646px;
+    margin-right: 6px;
+    padding-top: 0px;
+    padding-bottom: 6px;
+}
+    /* 4 секция. 1 часть. 1 продукт. Главная */
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_1 {
+    width: 100%;
+    height: 425px;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_1 img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_1 .part1Content4_1Title_page1 {
+    width: 100%;
+    height: 92px;
+    position: absolute;
+    z-index: 6;
+    top: 167px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_1 .part1Content4_1Title_page1 .part1Content4_1Title1_page1 {
+    display: flex;
+    height: 74px;
+    align-items: center;
+    justify-content: center;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_1 .part1Content4_1Title_page1 .part1Content4_1Title1_page1 a {
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 74px;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 555;
+    transform: none;
+    text-decoration: none;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_1 .part1Content4_1Title_page1 .part1Content4_1Title2_page1 {
+    width: 100%;
+    text-align: center;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_1 .part1Content4_1Title_page1 .part1Content4_1Title2_page1 a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_1 .part1Content4_1Title_page1 .part1Content4_1Title2_page1 a::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    margin-bottom: 1px;
+    background-image: url('/public/img/svg/firstSection_page1/content2Part1Content2_1Link2_page1.svg');
+}
+    /* 4 секция. 1 часть. 2 продукт. Главная */
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_2_page1 {
+    width: 100%;
+    height: 209px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* 4 секция. 1 часть. 2.1 продукт. Главная */
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_2_page1 .content4FirstSectionPart1Content4_2_1_page1 {
+    width: 100%;
+    height: 209px;
+    display: inline-block;
+    margin-right: 6px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_2_page1 .content4FirstSectionPart1Content4_2_1_page1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_2_page1 .content4FirstSectionPart1Content4_2_1_page1 img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_2_page1 .content4FirstSectionPart1Content4_2_1_page1 .content4Part1Content4_2_1Links_page1 {
+    position: absolute;
+    top: 58px;
+    z-index: 2;
+    width: 100%;
+    height: 92px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_2_page1 .content4FirstSectionPart1Content4_2_1_page1 .content4Part1Content4_2_1Links_page1 .content4Part1Content4_2_1Link1_page1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 74px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_2_page1 .content4FirstSectionPart1Content4_2_1_page1 .content4Part1Content4_2_1Links_page1 .content4Part1Content4_2_1Link2_page1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_2_page1 .content4FirstSectionPart1Content4_2_1_page1 .content4Part1Content4_2_1Links_page1 .content4Part1Content4_2_1Link2_page1::before {
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    margin-bottom: 1px;
+    background-image: url('/public/img/svg/firstSection_page1/content2Part1Content2_1Link2_page1.svg');
+}
+/* 4 секция. 1 часть. 2.2 продукт. Главная */
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_2_page1 .content4FirstSectionPart1Content4_2_2_page1 {
+    width: 100%;
+    height: 209px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_2_page1 .content4FirstSectionPart1Content4_2_2_page1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_2_page1 .content4FirstSectionPart1Content4_2_2_page1 img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart1_page1 .content4FirstSectionPart1Content4_2_page1 .content4FirstSectionPart1Content4_2_2_page1 .content4Part1Content4_2_2Link1_page1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 74px;
+    color: #FFFFFF;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    top: 68px;
+    left: 0px;
+    z-index: 3;
+}
+        /* 4 секция. 2 часть. Главная */
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart2_page1 {
+    width: 636px;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart2_page1:hover > .content4Part2ProductPicture_page1 img {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+/* Описание продукта */
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart2_page1 .content4FirstSectionPart2Title_page1 {
+    width: 100%;
+    height: 215px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+    padding-top: 130px;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart2_page1 .content4FirstSectionPart2Title_page1 .content4Part2ProductLink1_page1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+    color: #8D8D8D;
+    width: 100%;
+    text-decoration: none;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart2_page1 .content4FirstSectionPart2Title_page1 .content4Part2ProductLink2_page1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: #8D8D8D;
+    width: 100%;
+    text-decoration: none;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart2_page1 .content4FirstSectionPart2Title_page1 .content4Part2ProductLink2_page1::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    background-image: url('/public/img/svg/firstSection_page1/content1ArrowLinkProduct1_page1.svg');
+    margin-bottom: 1px;
+}
+/* Изображение продукта */
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart2_page1 .content4Part2ProductPicture_page1 {
+    width: 100%;
+    height: 425px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart2_page1 .content4Part2ProductPicture_page1 img {
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart2_page1 .content4Part2ProductPicture_page1 img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content4FirstSection_page1 .content4FirstSectionPart2_page1 .content4Part2ProductPicture_page1::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    background-image: url('/public/img/svg/firstSection_page1/content1Product1DescriptionElement_page1.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 30px;
+    z-index: 2;
+    bottom: 403px;
+    left: 40px;
+}
+                                /* 5 секция. Главная */
+.sectionOne_page1 .content5FirstSection_page1 {
+    width: 100%;
+    height: 436px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+        /* 1 продукт */
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_1_page1 {
+    height: 430px;
+    width: 636px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_1_page1:hover > .content5Product1Picture img {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+/* Описание 1 продукта */
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_1_page1 .content5Product1Title_page1 {
+    height: 140px;
+    width: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 55px;
+    display: flex;
+    flex-direction: column;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_1_page1 .content5Product1Title_page1 .content5Product1Link1_page1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 32px;
+    line-height: 37px;
+    color: #8D8D8D;
+    text-decoration: none;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_1_page1 .content5Product1Title_page1 .content5Product1Link2_page1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 16px;
+    line-height: 18px;
+    color: #8D8D8D;
+    text-decoration: none;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_1_page1 .content5Product1Title_page1 .content5Product1Link2_page1::before {
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    background-image: url('/public/img/svg/firstSection_page1/content1ArrowLinkProduct1_page1.svg');
+    margin-bottom: 1px;
+}
+/* Изображение 1 продукта */
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_1_page1 .content5Product1Picture {
+    width: 100%;
+    height: 290px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_1_page1 .content5Product1Picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_1_page1 .content5Product1Picture img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_1_page1 .content5Product1Picture::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    width: 40px;
+    height: 30px;
+    background-image: url('/public/img/svg/firstSection_page1/content1Product1DescriptionElement_page1.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    bottom: 268px;
+    left: 40px;
+}
+        /* 2 продукт */
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_2_page1 {
+    height: 430px;
+    width: 636px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_2_page1:hover > .content5Product2Picture img {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+/* Описание 2 продукта */
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_2_page1 .content5Product2Title_page1 {
+    height: 140px;
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 35px;
+    display: flex;
+    flex-direction: column;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_2_page1 .content5Product2Title_page1 .content5Product2Link1_page1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 32px;
+    margin: 0px auto;
+    line-height: 37px;
+    color: #8D8D8D;
+    text-decoration: none;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_2_page1 .content5Product2Title_page1 .content5Product2Link2_page1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    width: 100%;
+    margin: 0px auto;
+    color: #8D8D8D;
+    text-decoration: none;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_2_page1 .content5Product2Title_page1 .content5Product2Link2_page1::before {
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    background-image: url('/public/img/svg/firstSection_page1/content1ArrowLinkProduct1_page1.svg');
+    margin-bottom: 1px;
+}
+/* Изображение 2 продукта */
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_2_page1 .content5Product2Picture {
+    width: 100%;
+    height: 290px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_2_page1 .content5Product2Picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_2_page1 .content5Product2Picture img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_2_page1 .content5Product2Picture::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    width: 40px;
+    height: 30px;
+    background-image: url('/public/img/svg/firstSection_page1/content1Product1DescriptionElement_page1.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    top: 268px;
+    left: 41px;
+}
+        /* 3 продукт */
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_3_page1 {
+    height: 430px;
+    width: 636px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+    cursor: pointer;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_3_page1:hover > .content5Product3Picture img {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+/* Описание 3 продукта */
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_3_page1 .content5Product3Title_page1 {
+    height: 140px;
+    width: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 55px;
+    display: flex;
+    flex-direction: column;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_3_page1 .content5Product3Title_page1 .content5Product3Link1_page1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 32px;
+    line-height: 37px;
+    color: #8D8D8D;
+    text-decoration: none;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_3_page1 .content5Product3Title_page1 .content5Product3Link2_page1 {
+    font-style: normal;
+    font-weight: bold;
+    width: 100%;
+    font-size: 16px;
+    line-height: 18px;
+    color: #8D8D8D;
+    text-decoration: none;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_3_page1 .content5Product3Title_page1 .content5Product3Link2_page1::before {
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    background-image: url('/public/img/svg/firstSection_page1/content1ArrowLinkProduct1_page1.svg');
+    margin-bottom: 1px;
+}
+/* Изображение 3 продукта */
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_3_page1 .content5Product3Picture {
+    width: 100%;
+    height: 290px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_3_page1 .content5Product3Picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_3_page1 .content5Product3Picture img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content5FirstSection_page1 .firstSectionContent5_3_page1 .content5Product3Picture::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    width: 40px;
+    height: 30px;
+    background-image: url('/public/img/svg/firstSection_page1/content1Product1DescriptionElement_page1.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    bottom: 268px;
+    left: 40px;
+}
+                                /* 6 секция. Главная */
+.sectionOne_page1 .content6FirstSection_page1 {
+    width: 100%;
+    height: 649px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3px;
+    padding-bottom: 6px;
+}
+        /* 6 секция. 1 часть. Главная */
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1278px;
+    height: 646px;
+    margin-right: 6px;
+    padding-top: 0px;
+    padding-bottom: 6px;
+}
+    /* 6 секция. 1 часть. 1 продукт. Главная */
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_1 {
+    width: 100%;
+    height: 425px;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_1 img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_1 .part1Content6_1Title_page1 {
+    width: 100%;
+    height: 92px;
+    position: absolute;
+    z-index: 6;
+    top: 167px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_1 .part1Content6_1Title_page1 .part1Content6_1Title1_page1 {
+    display: flex;
+    height: 74px;
+    align-items: center;
+    justify-content: center;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_1 .part1Content6_1Title_page1 .part1Content6_1Title1_page1 a {
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 74px;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 555;
+    transform: none;
+    text-decoration: none;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_1 .part1Content6_1Title_page1 .part1Content6_1Title2_page1 {
+    width: 100%;
+    text-align: center;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_1 .part1Content6_1Title_page1 .part1Content6_1Title2_page1 a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_1 .part1Content6_1Title_page1 .part1Content6_1Title2_page1 a::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    margin-bottom: 1px;
+    background-image: url('/public/img/svg/firstSection_page1/content2Part1Content2_1Link2_page1.svg');
+}
+    /* 6 секция. 1 часть. 2 продукт. Главная */
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_2_page1 {
+    width: 100%;
+    height: 209px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* 6 секция. 1 часть. 2.1 продукт. Главная */
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_2_page1 .content6FirstSectionPart1Content6_2_1_page1 {
+    width: 100%;
+    height: 209px;
+    display: inline-block;
+    margin-right: 6px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_2_page1 .content6FirstSectionPart1Content6_2_1_page1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_2_page1 .content6FirstSectionPart1Content6_2_1_page1 img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_2_page1 .content6FirstSectionPart1Content6_2_1_page1 .content6Part1Content6_2_1Links_page1 {
+    position: absolute;
+    top: 58px;
+    z-index: 2;
+    width: 100%;
+    height: 92px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_2_page1 .content6FirstSectionPart1Content6_2_1_page1 .content6Part1Content6_2_1Links_page1 .content6Part1Content6_2_1Link1_page1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 74px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_2_page1 .content6FirstSectionPart1Content6_2_1_page1 .content6Part1Content6_2_1Links_page1 .content6Part1Content6_2_1Link2_page1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_2_page1 .content6FirstSectionPart1Content6_2_1_page1 .content6Part1Content6_2_1Links_page1 .content6Part1Content6_2_1Link2_page1::before {
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    margin-bottom: 1px;
+    background-image: url('/public/img/svg/firstSection_page1/content2Part1Content2_1Link2_page1.svg');
+}
+/* 6 секция. 1 часть. 2.2 продукт. Главная */
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_2_page1 .content6FirstSectionPart1Content6_2_2_page1 {
+    width: 100%;
+    height: 209px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_2_page1 .content6FirstSectionPart1Content6_2_2_page1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_2_page1 .content6FirstSectionPart1Content6_2_2_page1 img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart1_page1 .content6FirstSectionPart1Content6_2_page1 .content6FirstSectionPart1Content6_2_2_page1 .content6Part1Content6_2_2Link1_page1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 74px;
+    color: #FFFFFF;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    top: 68px;
+    left: 0px;
+    z-index: 3;
+}
+        /* 6 секция. 2 часть. Главная */
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart2_page1 {
+    width: 636px;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart2_page1:hover > .content6Part2ProductPicture_page1 img {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+/* Описание продукта */
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart2_page1 .content6FirstSectionPart2Title_page1 {
+    width: 100%;
+    height: 215px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+    padding-top: 130px;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart2_page1 .content6FirstSectionPart2Title_page1 .content6Part2ProductLink1_page1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+    color: #8D8D8D;
+    width: 100%;
+    text-decoration: none;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart2_page1 .content6FirstSectionPart2Title_page1 .content6Part2ProductLink2_page1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: #8D8D8D;
+    width: 100%;
+    text-decoration: none;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart2_page1 .content6FirstSectionPart2Title_page1 .content6Part2ProductLink2_page1::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    background-image: url('/public/img/svg/firstSection_page1/content1ArrowLinkProduct1_page1.svg');
+    margin-bottom: 1px;
+}
+/* Изображение продукта */
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart2_page1 .content6Part2ProductPicture_page1 {
+    width: 100%;
+    height: 425px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart2_page1 .content6Part2ProductPicture_page1 img {
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart2_page1 .content6Part2ProductPicture_page1 img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-out transform;
+}
+.sectionOne_page1 .content6FirstSection_page1 .content6FirstSectionPart2_page1 .content6Part2ProductPicture_page1::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    background-image: url('/public/img/svg/firstSection_page1/content1Product1DescriptionElement_page1.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 30px;
+    z-index: 2;
+    bottom: 403px;
+    left: 40px;
+}
+                                /* Подвал */
+footer {
+    width: 100%;
+    height: 466px;
+    display: block;
+    position: relative;
+    background-color: #1D1D1D;
+}
+footer .footerMenu {
+    width: 100%;
+    height: 466px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 35px;
+    padding-right: 53px;
+    padding-top: 60px;
+    background-color: inherit;
+}
+/* 1 раздел подвала */
+footer .footerMenu .footerMenu1 {
+    width: 440px;
+    height: 174px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer .footerMenu .footerMenu1 .footerMenu1_headline {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    width: 100%;
+    height: 28px;
+    color: #BDBDBD;
+}
+footer .footerMenu .footerMenu1 .footerMenu1_list {
+    width: 100%;
+    height: 136px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer .footerMenu .footerMenu1 .footerMenu1_list li {
+    width: 100%;
+    height: 24px;
+}
+footer .footerMenu .footerMenu1 .footerMenu1_list li a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #BDBDBD;
+    width: 100%;
+    text-decoration: none;
+}
+footer .footerMenu .footerMenu1 .footerMenu1_list li a:hover {
+    color: #D5B36A;
+}
+footer .footerMenu .footerMenu1 .footerMenu1_list li a::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    background-image: url('/public/img/svg/footer/leftArrowFooter.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 1px;
+}
+/* 2 раздел подвала */
+footer .footerMenu .footerMenu2 {
+    width: 440px;
+    height: 314px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer .footerMenu .footerMenu2 .footerMenu2_headline {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    width: 100%;
+    height: 28px;
+    color: #BDBDBD;
+}
+footer .footerMenu .footerMenu2 .footerMenu2_list {
+    width: 100%;
+    height: 276px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer .footerMenu .footerMenu2 .footerMenu2_list li {
+    width: 100%;
+    height: 24px;
+}
+footer .footerMenu .footerMenu2 .footerMenu2_list li a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #BDBDBD;
+    width: 100%;
+    text-decoration: none;
+}
+footer .footerMenu .footerMenu2 .footerMenu2_list li a:hover {
+    color: #D5B36A;
+}
+footer .footerMenu .footerMenu2 .footerMenu2_list li a::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    background-image: url('/public/img/svg/footer/leftArrowFooter.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 1px;
+}
+/* 3 раздел подвала */
+footer .footerMenu .footerMenu3 {
+    width: 440px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer .footerMenu .footerMenu3 .footerMenu3_headline {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    width: 100%;
+    height: 28px;
+    color: #BDBDBD;
+}
+footer .footerMenu .footerMenu3 .footerMenu3_list {
+    width: 100%;
+    height: 192px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer .footerMenu .footerMenu3 .footerMenu3_list li {
+    width: 100%;
+    height: 24px;
+}
+footer .footerMenu .footerMenu3 .footerMenu3_list li a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #BDBDBD;
+    width: 100%;
+    text-decoration: none;
+}
+footer .footerMenu .footerMenu3 .footerMenu3_list li a:hover {
+    color: #D5B36A;
+}
+footer .footerMenu .footerMenu3 .footerMenu3_list li a::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    background-image: url('/public/img/svg/footer/leftArrowFooter.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 1px;
+}
+/* 4 раздел меню */
+footer .footerMenu .footerMenuMap {
+    width: 440px;
+    height: 311px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer .footerMenu .footerMenuMap .footerMenuMap_headline {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    width: 100%;
+    height: 28px;
+    color: #BDBDBD;
+    display: inline-block;
+}
+footer .footerMenu .footerMenuMap .footerMap {
+    width: 100%;
+    height: 270px;
+    display: inline-block;
+}
+footer .footerMenu .footerMenuMap .footerMap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+        /* Дополнительная информация подвала */
+footer .footerAdditionalInf {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+    position: absolute;
+    bottom: 20px;
+}
+    /* Ссылки подвала */
+footer .footerAdditionalInf .footerLinks {
+    height: 15px;
+    width: 67px;
+    display: flex;
+    justify-content: space-between;
+}
+/* Facebook */
+footer .footerAdditionalInf .footerLinks .footerFacebookLink {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+}
+/* Youtube */
+footer .footerAdditionalInf .footerLinks .footerYoutubeLink {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+}
+/* Instagram */
+footer .footerAdditionalInf .footerLinks .footerInstaLink {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+}
+/* Авторское право */
+footer .footerAdditionalInf .footerCopyright {
+    height: 15px;
+    width: 114px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+
+    /* 1 секция. Экология */
+    .sectionOne_page9 {
+        width: 100%;
+        display: block;
+    }
+    .sectionOne_page9 .contentFirstSection_page9 {
+        width: 100%;
+        height: 2409px;
+        display: flex;
+        flex-direction: column;
+    }
+        /* Хлебные крошки */
+    .sectionOne_page9 .contentFirstSection_page9 .contentBreadcrum_page9 {
+        width: 100%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        border-bottom: 1px solid #E8E8E8;;
+    }
+    /* Общие стили ссылок */
+    .sectionOne_page9 .contentFirstSection_page9 .contentBreadcrum_page9 li a {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        display: inline-block;
+        text-align: none;
+        text-decoration: none;
+        margin-right: 20px;
+        color: #BDBDBD;
+    }
+    .sectionOne_page9 .contentFirstSection_page9 .contentBreadcrum_page9 li:last-of-type a {
+        color: #0A0A0A;
+    }
+    .sectionOne_page9 .contentFirstSection_page9 .contentBreadcrum_page9 li:not(:last-of-type) a::after {
+        content: "";
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        margin-left: 20px;
+        background-image: url('/public/img/svg/firstSection_page9/breadCrumRightArrow_page9.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+                                /* 1 секция. Контент. Экология */
+    .sectionOne_page9 .contentFirstSection_page9 .wrapper .contentSection_page9 {
+        width: 100%;
+        height: 2355px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 70px;
+    }
+        /* 1 секция. Контент. Экология. Заглавие */
+    .sectionOne_page9 .contentFirstSection_page9 .wrapper .contentSection_page9 .contentSectionHeadline_page9 {
+        width: 100%;
+        height: 115px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .sectionOne_page9 .contentFirstSection_page9 .wrapper .contentSection_page9 .contentSectionHeadline_page9 .contentSectionTitle_page9 {
+        width: 100%;
+        height: 37px;
+        display: inline-block;
+        font-size: 32px;
+        line-height: 37px;
+        color: #0A0A0A;
+        font-weight: bold;
+    }
+    .sectionOne_page9 .contentFirstSection_page9 .wrapper .contentSection_page9 .contentSectionHeadline_page9 .sontentSectionText_page9 {
+        width: 100%;
+        height: 48px;
+        font-size: 16px;
+        line-height: 150%;
+        color: #0A0A0A;
+    }
+            /* 1 секция. Контент. 1 часть. Экология */
+    .sectionOne_page9 .contentFirstSection_page9 .wrapper .contentSection_page9 .content1Section_page9 {
+        height: 530px;
+        padding-top: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    /* 1 секция. Контент. 1.1 часть. Экология */
+    .sectionOne_page9 .contentFirstSection_page9 .wrapper .contentSection_page9 .content1Section_page9 .content1SectionPart1_page9 {
+        display: flex;
+        align-items: center;
+        max-width: 758px;
+        height: 500px;
+        margin-right: 10px;
+    }
+    .sectionOne_page9 .contentFirstSection_page9 .wrapper .contentSection_page9 .content1Section_page9 .content1SectionPart1_page9 .content1SectionPart1Desc_page9 {
+        width: 100%;
+        height: 322px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    /* 1 секция. Контент. 1.1 часть. Заголовок. Экология */
+    .sectionOne_page9 .contentFirstSection_page9 .wrapper .contentSection_page9 .content1Section_page9 .content1SectionPart1_page9 .content1SectionPart1Headline_page9 {
+        width: 100%;
+        height: 28px;
+        display: inline-block;
+        font-size: 24px;
+        line-height: 28px;
+        color: #0A0A0A;
+        margin-bottom: 15px;
+        font-weight: bold;
+    }
+    /* 1 секция. Контент. 1.1 часть. Текст. Экология */
+    .sectionOne_page9 .contentFirstSection_page9 .wrapper .contentSection_page9 .content1Section_page9 .content1SectionPart1_page9 .content1SectionPart1Text_page9 {
+        width: 100%;
+        height: 264px;
+        display: inline-block;
+        font-size: 16px;
+        line-height: 150%;
+        color: #0A0A0A;
+    }
+    /* 1 секция. Контент. 1.2 часть. Экология */
+    .sectionOne_page9 .contentFirstSection_page9 .wrapper .contentSection_page9 .content1Section_page9 .content1SectionPart2_page9 {
+        max-width: 757px;
+        height: 500px;
+        display: inline-block;
+        margin-left: 10px;
+    }
+    .sectionOne_page9 .contentFirstSection_page9 .wrapper .contentSection_page9 .content1Section_page9 .content1SectionPart2_page9 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+            /* 1 секция. Контент. 2 часть. Экология */
+    .sectionOne_page9 .contentFirstSection_page9 .wrapper .contentSection_page9 .content2Section_page9 {
+        height: 520px;
+        padding-top: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    /* 1 секция. Контент. 2.1 часть. Экология */
+    .sectionOne_page9 .contentFirstSection_page9 .wrapper .contentSection_page9 .content2Section_page9 .content2SectionPart1_page9 {
+        max-width: 758px;
+        height: 500px;
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .sectionOne_page9 .contentFirstSection_page9 .wrapper .contentSection_page9 .content2Section_page9 .content2SectionPart1_page9 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    /* 1 секция. Контент. 2.2 часть. Экология */
+    .sectionOne_page9 .contentFirstSection_page9 .wrapper .contentSection_page9 .content2Section_page9 .content2SectionPart2_page9 {
+        display: flex;
+        align-items: center;
+        max-width: 758px;
+        height: 500px;
+        margin-left: 10px;
+    }
+    .sectionOne_page9 .contentFirstSection_page9 .wrapper .contentSection_page9 .content2Section_page9 .content2SectionPart2_page9 .content2SectionPart2Desc_page9 {
+        width: 100%;
+        height: 370px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    /* 1 секция. Контент. 2.2 часть. Заголовок. Экология */
+    .sectionOne_page9 .contentFirstSection_page9 .wrapper .contentSection_page9 .content2Section_page9 .content2SectionPart2_page9 .content2SectionPart2Headline_page9 {
+        width: 100%;
+        height: 28px;
+        display: inline-block;
+        font-size: 24px;
+        line-height: 28px;
+        color: #0A0A0A;
+        margin-bottom: 15px;
+        font-weight: bold;
+    }
+    /* 1 секция. Контент. 2.2 часть. Текст. Экология */
+    .sectionOne_page9 .contentFirstSection_page9 .wrapper .contentSection_page9 .content2Section_page9 .content2SectionPart2_page9 .content2SectionPart2Text_page9 {
+        width: 100%;
+        height: 312px;
+        display: inline-block;
+        font-size: 16px;
+        line-height: 150%;
+        color: #0A0A0A;
+    }
+            /* 1 секция. Контент. 3 часть. Экология */
+    .sectionOne_page9 .contentFirstSection_page9 .wrapper .contentSection_page9 .content3Section_page9 {
+        height: 520px;
+        padding-top: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    /* 1 секция. Контент. 3.1 часть. Экология */
+    .sectionOne_page9 .contentFirstSection_page9 .wrapper .contentSection_page9 .content3Section_page9 .content3SectionPart1_page9 {
+        display: flex;
+        align-items: center;
+        max-width: 758px;
+        height: 500px;
+        margin-right: 10px;
+    }
+    .sectionOne_page9 .contentFirstSection_page9 .wrapper .contentSection_page9 .content3Section_page9 .content3SectionPart1_page9 .content3SectionPart1Desc_page9 {
+        width: 100%;
+        height: 322px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    /* 1 секция. Контент. 3.1 часть. Заголовок. Экология */
+    .sectionOne_page9 .contentFirstSection_page9 .wrapper .contentSection_page9 .content3Section_page9 .content3SectionPart1_page9 .content3SectionPart1Headline_page9 {
+        width: 100%;
+        height: 28px;
+        display: inline-block;
+        font-size: 24px;
+        line-height: 28px;
+        color: #0A0A0A;
+        margin-bottom: 15px;
+        font-weight: bold;
+    }
+    /* 1 секция. Контент. 3.1 часть. Текст. Экология */
+    .sectionOne_page9 .contentFirstSection_page9 .wrapper .contentSection_page9 .content3Section_page9 .content3SectionPart1_page9 .content3SectionPart1Text_page9 {
+        width: 100%;
+        height: 264px;
+        display: inline-block;
+        font-size: 16px;
+        line-height: 150%;
+        color: #0A0A0A;
+    }
+    /* 1 секция. Контент. 3.2 часть. Экология */
+    .sectionOne_page9 .contentFirstSection_page9 .wrapper .contentSection_page9 .content3Section_page9 .content3SectionPart2_page9 {
+        max-width: 757px;
+        height: 500px;
+        display: inline-block;
+        margin-left: 10px;
+    }
+    .sectionOne_page9 .contentFirstSection_page9 .wrapper .contentSection_page9 .content3Section_page9 .content3SectionPart2_page9 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+            /* 1 секция. Контент. 4 часть. Экология */
+    .sectionOne_page9 .contentFirstSection_page9 .wrapper .contentSection_page9 .content4Section_page9 {
+        height: 520px;
+        padding-top: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    /* 1 секция. Контент. 4.1 часть. Экология */
+    .sectionOne_page9 .contentFirstSection_page9 .wrapper .contentSection_page9 .content4Section_page9 .content4SectionPart1_page9 {
+        max-width: 758px;
+        height: 500px;
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .sectionOne_page9 .contentFirstSection_page9 .wrapper .contentSection_page9 .content4Section_page9 .content4SectionPart1_page9 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    /* 1 секция. Контент. 4.2 часть. Экология */
+    .sectionOne_page9 .contentFirstSection_page9 .wrapper .contentSection_page9 .content4Section_page9 .content4SectionPart2_page9 {
+        display: flex;
+        align-items: center;
+        max-width: 758px;
+        height: 500px;
+        margin-left: 10px;
+    }
+    .sectionOne_page9 .contentFirstSection_page9 .wrapper .contentSection_page9 .content4Section_page9 .content4SectionPart2_page9 .content4SectionPart2Desc_page9 {
+        width: 100%;
+        height: 370px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    /* 1 секция. Контент. 4.2 часть. Заголовок. Экология */
+    .sectionOne_page9 .contentFirstSection_page9 .wrapper .contentSection_page9 .content4Section_page9 .content4SectionPart2_page9 .content4SectionPart2Headline_page9 {
+        width: 100%;
+        height: 28px;
+        display: inline-block;
+        font-size: 24px;
+        line-height: 28px;
+        color: #0A0A0A;
+        margin-bottom: 15px;
+        font-weight: bold;
+    }
+    /* 1 секция. Контент. 4.2 часть. Текст. Экология */
+    .sectionOne_page9 .contentFirstSection_page9 .wrapper .contentSection_page9 .content4Section_page9 .content4SectionPart2_page9 .content4SectionPart2Text_page9 {
+        width: 100%;
+        height: 312px;
+        display: inline-block;
+        font-size: 16px;
+        line-height: 150%;
+        color: #0A0A0A;
+    }
+
+
+                                   /* 1 секция. Готовое решение 2 */
+.sectionOne_page14 {
+    width: 100%;
+    display: block;
+}
+.sectionOne_page14 .contentFirstSection_page14 {
+    width: 100%;
+    height: 3701px;
+    display: flex;
+    flex-direction: column;
+}
+    /* Хлебные крошки */
+.sectionOne_page14 .contentFirstSection_page14 .contentBreadcrum_page14 {
+    width: 100%;
+    height: 54px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1px solid #E8E8E8;;
+}
+/* Общие стили ссылок */
+.sectionOne_page14 .contentFirstSection_page14 .contentBreadcrum_page14 li a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    display: inline-block;
+    text-align: none;
+    text-decoration: none;
+    margin-right: 20px;
+    color: #BDBDBD;
+}
+.sectionOne_page14 .contentFirstSection_page14 .contentBreadcrum_page14 li:last-of-type a {
+    color: #666666;
+}
+.sectionOne_page14 .contentFirstSection_page14 .contentBreadcrum_page14 li:not(:last-of-type) a::after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-left: 20px;
+    background-image: url('/public/img/svg/firstSection_page14/breadCrumRightArrow_page14.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+                            /* 1 секция. Контент. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 {
+    width: 100%;
+    height: 3647px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-bottom: 90px;
+}
+                        /* 1 секция. Контент. 1 часть. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part1_page14 {
+    width: 100%;
+    height: 577px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+                    /* 1 секция. Контент. 1 часть. Заголовок. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part1_page14 .part1Headline_page14 {
+    width: 100%;
+    height: 37px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+}
+                    /* 1 секция. Контент. 1 часть. Содержание. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part1_page14 .part1Content_page14 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+                /* 1 секция. Контент. 1 часть. Содержание 1. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part1_page14 .part1Content_page14 .part1Content1_page14 {
+    max-width: 757px;
+    height: 500px;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}             
+            /* 1 секция. Контент. 1 часть. Содержание 1. Текст. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part1_page14 .part1Content_page14 .part1Content1_page14 .part1Content1Text_page14 {
+    width: 100%;
+    height: 120px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1D1D1D;
+    margin-bottom: 50px;
+}
+            /* 1 секция. Контент. 1 часть. Содержание 1. Блок слайдера. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part1_page14 .part1Content_page14 .part1Content1_page14 .part1Content1Slider_page14 {
+    width: 100%;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* 1 секция. Контент. 1 часть. Содержание 1. Блок слайдера. Заголовок. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part1_page14 .part1Content_page14 .part1Content1_page14 .part1Content1Slider_page14 .sliderName_page14 {
+    width: 100%;
+    height: 28px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1D1D1D;
+}
+/* 1 секция. Контент. 1 часть. Содержание 1. Блок слайдера. Слайдер. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part1_page14 .part1Content_page14 .part1Content1_page14 .part1Content1Slider_page14 .slides_page14 {
+    width: 100%;
+    height: 234px;
+    display: inline-block;
+    position: relative;
+}
+/* 1 секция. Контент. 1 часть. Содержание 1. Блок слайдера. Слайдер. Стилизация слайдера. Готовое решение 2 */
+/* Ограничивающая оболочка */
+.slides_page14 .slick-list {
+    overflow: hidden;
+}
+/* Лента слайдов */
+.slides_page14 .slick-track {
+    display: flex;
+    justify-content: space-between;
+}
+/* Общие стили для слайдов */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part1_page14 .part1Content_page14 .part1Content1_page14 .part1Content1Slider_page14 .slides_page14 .slide_page14 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 232px;
+    height: 234px;
+}
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part1_page14 .part1Content_page14 .part1Content1_page14 .part1Content1Slider_page14 .slides_page14 .slide_page14 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part1_page14 .part1Content_page14 .part1Content1_page14 .part1Content1Slider_page14 .slides_page14 .slide_page14 .slideName_page14 {
+    width: 100%;
+    height: 24px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+}
+/* Стрелка. Общие стили */
+.slides_page14 .slick-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 8;
+    font-size: 0px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #FFFFFF;
+    border: none;
+    outline: mediumvioletred;
+    width: 50px;
+    height: 50px;
+    margin: -37px 0px 0px 0px;
+}
+/* Стрелка влево */
+.slides_page14 .slick-arrow.slick-prev {
+    left: 20px;
+    background-image: url('/public/img/svg/firstSection_page14/sliderLeftArrow_page14.svg');
+    background-position: 43% 50%;
+    background-repeat: no-repeat;
+}
+/* Стрелка вправо */
+.slides_page14 .slick-arrow.slick-next {
+    right: 20px;
+    background-image: url('/public/img/svg/firstSection_page14/sliderRightArrow_page14.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slides_page14 .slick-slide {
+    width: 100%;
+}
+/* 1 секция. Контент. 1 часть. Содержание 1. Блок слайдера. Подсказка. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part1_page14 .part1Content_page14 .part1Content1_page14 .part1Content1Slider_page14 .part1Content1Hint_page14 {
+    width: 100%;
+    height: 24px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #8D8D8D;
+}
+                /* 1 секция. Контент. 1 часть. Содержание 2. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part1_page14 .part1Content_page14 .part1Content2_page14 {
+    max-width: 758px;
+    height: 500px;
+    display: inline-block;
+    margin-left: 15px;
+}
+/* 1 секция. Контент. 1 часть. Содержание 2. Картинка. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part1_page14 .part1Content_page14 .part1Content2_page14 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+                        /* 1 секция. Контент. 2 часть. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 {
+    width: 100%;
+    height: 850px;
+    display: flex;
+    justify-content: space-between;
+}
+                    /* 1 секция. Контент. 2 часть. Содержание 1. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content1_page14 {
+    max-width: 757px;
+    height: 850px;
+    display: inline-block;
+    margin-right: 15px;
+}
+/* 1 секция. Контент. 2 часть. Содержание 1. Картинка. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content1_page14 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+                    /* 1 секция. Контент. 2 часть. Содержание 2. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 {
+    max-width: 757px;
+    margin-left: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+        /* 1 секция. Контент. 2 часть. Содержание 2. 1 строка. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row1_page14 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 178px;
+}
+/* 1 секция. Контент. 2 часть. Содержание 2. 1 строка. Заголовок. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row1_page14 .part2Content2Row1Headline_page14 {
+    width: 100%;
+    height: 28px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1D1D1D;
+}
+/* 1 секция. Контент. 2 часть. Содержание 2. 1 строка. Текст. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row1_page14 .part2Content2Row1Text_page14 {
+    width: 100%;
+    height: 120px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1D1D1D;
+}
+        /* 1 секция. Контент. 2 часть. Содержание 2. 2 строка. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row2_page14 {
+    width: 100%;
+    height: 129px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* 1 секция. Контент. 2 часть. Содержание 2. 2 строка. Заголовок. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row2_page14 .part2Content2Row2Headline_page14 {
+    width: 100%;
+    height: 61px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+}
+/* 1 секция. Контент. 2 часть. Содержание 2. 2 строка. Иконка. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row2_page14 .part2Content2Row2Headline_page14::before {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 61px;
+    background-image: url('/public/img/svg/firstSection_page14/part2Content2Row2Icon_page14.svg');
+    margin-right: 30px;
+    background-position: center;
+}
+/* 1 секция. Контент. 2 часть. Содержание 2. 2 строка. Текст. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row2_page14 .part2Content2Row2Text_page14 {
+    width: 100%;
+    height: 71px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+    padding-left: 90px;
+}
+        /* 1 секция. Контент. 2 часть. Содержание 2. 3 строка. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row3_page14 {
+    width: 100%;
+    height: 122px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* 1 секция. Контент. 2 часть. Содержание 2. 3 строка. Заголовок. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row3_page14 .part2Content2Row3Headline_page14 {
+    width: 100%;
+    height: 60px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+}
+/* 1 секция. Контент. 2 часть. Содержание 2. 3 строка. Иконка. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row3_page14 .part2Content2Row3Headline_page14::before {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-image: url('/public/img/svg/firstSection_page14/part4Content2Row2Card2Icon_page14.svg');
+    margin-right: 30px;
+}
+/* 1 секция. Контент. 2 часть. Содержание 2. 3 строка. Текст. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row3_page14 .part2Content2Row3Text_page14 {
+    width: 100%;
+    height: 48px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+    padding-left: 90px;
+}
+        /* 1 секция. Контент. 2 часть. Содержание 2. 4 строка. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row4_page14 {
+    width: 100%;
+    height: 146px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* 1 секция. Контент. 2 часть. Содержание 2. 4 строка. Заголовок. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row4_page14 .part2Content2Row4Headline_page14 {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+/* 1 секция. Контент. 2 часть. Содержание 2. 4 строка. Иконка. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row4_page14 .part2Content2Row4Headline_page14::before {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-image: url('/public/img/svg/firstSection_page14/part4Content2Row2Card3Icon_page14.svg');
+    margin-right: 30px;
+}
+/* 1 секция. Контент. 2 часть. Содержание 2. 4 строка. Текст. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Row4_page14 .part2Content2Row4Text_page14 {
+    width: 100%;
+    height: 72px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+    padding-left: 90px;
+}
+        /* 1 секция. Контент. 2 часть. Содержание 2. Кнопка. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Btn_page14 {
+    max-width: 285px;
+    height: 58px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Btn_page14 .part2Content2BtnText_page14 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    height: 24px;
+    display: flex;
+    align-items: center;
+}
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part2_page14 .part2Content2_page14 .part2Content2Btn_page14 .part2Content2BtnText_page14::after {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('/public/img/svg/firstSection_page14/linkArrow_page14.svg');
+    margin-left: 15px;
+}
+                        /* 1 секция. Контент. 3 часть. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part3_page14 {
+    width: 100%;
+    height: 850px;
+    display: flex;
+    justify-content: space-between;
+}
+                    /* 1 секция. Контент. 3 часть. Содержание 1. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part3_page14 .part3Content1_page14 {
+    max-width: 757px;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 15px;
+    padding-top: 117px;
+    padding-bottom: 112px;
+
+}
+        /* 1 секция. Контент. 3 часть. Содержание 1. 1 строка. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part3_page14 .part3Content1_page14 .part3Content1Row1_page14 {
+    height: 178px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* 1 секция. Контент. 3 часть. Содержание 1. 1 строка. Заголовок. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part3_page14 .part3Content1_page14 .part3Content1Row1_page14 .part3Content1Row1Headline_page14 {
+    width: 100%;
+    height: 28px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1D1D1D;
+}
+/* 1 секция. Контент. 3 часть. Содержание 1. 1 строка. Текст. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part3_page14 .part3Content1_page14 .part3Content1Row1_page14 .part3Content1Row1Text_page14 {
+    width: 100%;
+    height: 120px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1D1D1D;
+}
+        /* 1 секция. Контент. 3 часть. Содержание 1. 2 строка. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part3_page14 .part3Content1_page14 .part3Content1Row2_page14 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+/* 1 секция. Контент. 3 часть. Содержание 1. 2 строка. Общие стили для карточки. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part3_page14 .part3Content1_page14 .part3Content1Row2_page14 .part3Content1Row2Card_page14 {
+    max-width: 363px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part3_page14 .part3Content1_page14 .part3Content1Row2_page14 .part3Content1Row2Card_page14:first-of-type {
+    margin-right: 30px;
+}
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part3_page14 .part3Content1_page14 .part3Content1Row2_page14 .part3Content1Row2Card_page14 .part3Content1Row2CardImg_page14 {
+    width: 100%;
+    height: 170px;
+    display: inline-block;
+}
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part3_page14 .part3Content1_page14 .part3Content1Row2_page14 .part3Content1Row2Card_page14 .part3Content1Row2CardImg_page14 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part3_page14 .part3Content1_page14 .part3Content1Row2_page14 .part3Content1Row2Card_page14 .part3Content1Row2Cardtext_page14 {
+    width: 100%;
+    padding: 30px;
+    display: inline-block;
+    background-color: #E8E8E8;
+    color: #666666;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+}
+        /* 1 секция. Контент. 3 часть. Содержание 1. Кнопка. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part3_page14 .part3Content1_page14 .part3Content1Row2Btn_page14 {
+    max-width: 285px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0A0A0A;
+    text-decoration: none;
+}
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part3_page14 .part3Content1_page14 .part3Content1Row2Btn_page14 .part3Content1Row2BtnText_page14 {
+    height: 24px;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part3_page14 .part3Content1_page14 .part3Content1Row2Btn_page14 .part3Content1Row2BtnText_page14::after {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('/public/img/svg/firstSection_page14/linkArrow_page14.svg');
+    margin-left: 15px;
+}
+                    /* 1 секция. Контент. 3 часть. Содержание 2. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part3_page14 .part3Content2_page14 {
+    max-width: 757px;
+    height: 850px;
+    margin-left: 15px;
+    display: inline-block;
+}
+/* 1 секция. Контент. 3 часть. Содержание 2. Картинка. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part3_page14 .part3Content2_page14 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+                        /* 1 секция. Контент. 4 часть. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part4_page14 {
+    width: 100%;
+    height: 850px;
+    display: flex;
+    justify-content: space-between;
+}
+                    /* 1 секция. Контент. 4 часть. Содержание 1. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part4_page14 .part4Content1_page14 {
+    max-width: 757px;
+    height: 850px;
+    margin-right: 15px;
+    display: inline-block;
+}
+/* 1 секция. Контент. 4 часть. Содержание 1. Картинка. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part4_page14 .part4Content1_page14 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+                    /* 1 секция. Контент. 4 часть. Содержание 2. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part4_page14 .part4Content2_page14 {
+    max-width: 757px;
+    height: 850px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+        /* 1 секция. Контент. 4 часть. Содержание 2. 1 строка. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part4_page14 .part4Content2_page14 .part4Content2Row1_page14 {
+    width: 100%;
+    height: 178px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 38px;
+}
+/* 1 секция. Контент. 4 часть. Содержание 2. 1 строка. Заголовок. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part4_page14 .part4Content2_page14 .part4Content2Row1_page14 .part4Content2Row1Headline_page14 {
+    width: 100%;
+    height: 28px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1D1D1D;
+}
+/* 1 секция. Контент. 4 часть. Содержание 2. 1 строка. Текст. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part4_page14 .part4Content2_page14 .part4Content2Row1_page14 .part4Content2Row1Text_page14 {
+    width: 100%;
+    height: 120px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1D1D1D;
+}
+        /* 1 секция. Контент. 4 часть. Содержание 2. 2 строка. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part4_page14 .part4Content2_page14 .part4Content2Row2_page14 {
+    width: 100%;
+    height: 305px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 42px;
+}
+/* 1 секция. Контент. 4 часть. Содержание 2. 2 строка. Общие стили для карточек. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part4_page14 .part4Content2_page14 .part4Content2Row2_page14 .part4Content2Row2Card_page14 {
+    width: 100%;
+    height: 305px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 84px;
+    background-color: #E8E8E8;
+}
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part4_page14 .part4Content2_page14 .part4Content2Row2_page14 .part4Content2Row2Card_page14:not(:last-of-type) {
+    margin-right: 30px;
+}
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part4_page14 .part4Content2_page14 .part4Content2Row2_page14 .part4Content2Row2Card_page14 .part4Content2Row2CardIcon_page14 {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    margin: 0px auto;
+    margin-bottom: 83px;
+}
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part4_page14 .part4Content2_page14 .part4Content2Row2_page14 .part4Content2Row2Card_page14 .part4Content2Row2CardText_page14 {
+    max-width: 172px;
+    height: 48px;
+    margin: 0px auto;
+    text-align: center;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+}
+        /* 1 секция. Контент. 4 часть. Содержание 2. Кнопка. Готовое решение 2 */
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part4_page14 .part4Content2_page14 .part4Content2Row2Btn_page14 {
+    max-width: 285px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0A0A0A;
+    text-decoration: none;
+}
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part4_page14 .part4Content2_page14 .part4Content2Row2Btn_page14 .part4Content2Row2BtnText_page14 {
+    height: 24px;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.sectionOne_page14 .contentFirstSection_page14 .wrapper .contentSection_page14 .part4_page14 .part4Content2_page14 .part4Content2Row2Btn_page14 .part4Content2Row2BtnText_page14::after {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('/public/img/svg/firstSection_page14/linkArrow_page14.svg');
+    margin-left: 27px;
+}
+
+
+
+
+
+
+

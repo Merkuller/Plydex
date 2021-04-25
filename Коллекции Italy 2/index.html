@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Коллекция Italy 2</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/media-queries.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-xl navbar-dark fixed-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#my-nav">
+                <svg class="ham hamRotate ham1" viewBox="27 13 70 70" width="40" onclick="this.classList.toggle('active1')">
+                    <path
+                          class="line top"
+                          d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+                    <path
+                          class="line middle"
+                          d="m 30,50 h 40" />
+                    <path
+                          class="line bottom"
+                          d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+                </svg>
+            </button>
+            <a href="#" class="navbar-brand ml-auto">
+                <img src="./img/svg/header_logo.svg" alt="">
+            </a>
+            <div class="navigationsButtons d-sm-flex d-flex ml-auto">
+                <a href="#" class="mapPosition">
+                    <img src="./img/svg/header_markerIcon.svg" alt="">
+                </a>
+                <a href="#" class="orderCounter">
+                    <img src="./img/svg/header_orderIcon.svg" alt="">
+                </a>
+                <a href="#" class="search">
+                    <img src="./img/svg/header_searchIcon.svg" alt="">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="my-nav">
+                <ul class="navbar-nav text-left">
+                    <li class="nav-item listElement1 dropdown navbar-text">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">ПРОДУКЦИЯ</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item listElement1Dropdown_element1 listElement1Dropdown_element">link1</a>
+                            <a href="#" class="dropdown-item listElement1Dropdown_element2 listElement1Dropdown_element">link2</a>
+                            <a href="#" class="dropdown-item listElement1Dropdown_element3 listElement1Dropdown_element">link3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item listElement2 dropdown navbar-text">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbardrop2" data-toggle="dropdown">КОЛЛЕКЦИИ</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item listElement2Dropdown_element1 listElement1Dropdown_element">link1</a>
+                            <a href="#" class="dropdown-item listElement2Dropdown_element2 listElement1Dropdown_element">link2</a>
+                            <a href="#" class="dropdown-item listElement2Dropdown_element3 listElement1Dropdown_element">link3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item listElement3 navbar-text">
+                        <a href="#" class="nav-link">ГОТОВЫЕ РЕШЕНИЯ</a>
+                    </li>
+                    <li class="nav-item listElement4 navbar-text">
+                        <a href="#" class="nav-link">МОНТАЖ</a>
+                    </li>
+                    <li class="nav-item listElement5 navbar-text">
+                        <a href="#" class="nav-link">КАЛЬКУЛЯТОР</a>
+                    </li>
+                    <li class="nav-item listElement6 text-center navbar-text">
+                        <a href="#" class="nav-link">
+                            <img src="./img/svg/header_phoneIcon.svg" alt="">
+                            8(800)550-22-79
+                        </a>
+                    </li>
+                    <li class="nav-item listElement7">
+                        <a href="#" class="nav-link">
+                            <img src="./img/svg/header_orderIcon.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="nav-item listElement8 text-center" style="display: flex; margin: 0px auto;">
+                        <a href="#" class="nav-link">
+                            <img src="./img/svg/header_facebookIcon.svg" alt="">
+                        </a>
+                        <a href="#" class="nav-link">
+                            <img src="./img/svg/header_youtubeIcon.svg" alt="">
+                        </a>
+                        <a href="#" class="nav-link">
+                            <img src="./img/svg/header_instaIcon.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="nav-item listElement9">
+                        <a href="#" class="nav-link">
+                            <img src="./img/svg/header_searchIcon.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="nav-item listElement10 dropdown navbar-text">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbardrop3" data-toggle="dropdown">RU</a>
+                        <div class="dropdown-menu dropdown-menu-right text-center">
+                            <a href="#" class="dropdown-item listElement1Dropdown_element1 listElement1Dropdown_element">PL</a>
+                            <a href="#" class="dropdown-item listElement1Dropdown_element2 listElement1Dropdown_element">EN</a>
+                            <a href="#" class="dropdown-item listElement1Dropdown_element3 listElement1Dropdown_element">UA</a>
+                            <a href="#" class="dropdown-item listElement1Dropdown_element4 listElement1Dropdown_element">RO</a>
+                            <a href="#" class="dropdown-item listElement1Dropdown_element5 listElement1Dropdown_element">DE</a>
+                            <a href="#" class="dropdown-item listElement1Dropdown_element6 listElement1Dropdown_element">SE</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="sectionOne_page19">
+            <div class="contentFirstSection_page19">
+                <ul class="contentBreadcrum_page19">
+                    <li><a href="#">ГЛАВНАЯ СТРАНИЦА</a></li>
+                    <li><a href="#">КАЛЬКУЛЯТОР</a></li>
+                    <li><a href="#">КОЛЛЕКЦИЯ ITALY</a></li>
+                </ul>
+                <div class="contentSection_page19">
+                    <div class="wrapper_page19">
+                        <div class="headline_page19">
+                            КАЛЬКУЛЯТОРЫ ПО КОЛЛЕКЦИИ ITALY
+                        </div>
+                    </div>
+                    <div class="contentPart1_page19 contentPart_page19">
+                        <div class="wrapper_page19">
+                            <div class="contentPart1Content_page19 contentPartContent_page19">
+                                <div class="slider1Block_page19 sliderBlock_page19">
+                                    <div class="contentPart1ContentHiddenHeadline_page19 contentPartContentHiddenHeadline_page19">
+                                        <div class="contentPart1ContentHiddenHeadlineText1_page19 contentPartContentHiddenHeadlineText1_page19">
+                                            abete
+                                        </div>
+                                        <div class="contentPart1ContentHiddenHeadlineText2_page19 contentPartContentHiddenHeadlineText2_page19">
+                                            <div class="contentPart1ContentHiddenHeadlineText2Price_page19 contentPartContentHiddenHeadlineText2Price_page19">
+                                                1960 р./м2
+                                            </div>
+                                            <div class="contentPart1ContentHiddenHeadlineText2Collection_page19 contentPartContentHiddenHeadlineText2Collection_page19">
+                                                Панель из коллекции <a href="#" class="contentPartContentHiddenHeadlineText2CollectionName_page19">Italy</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slider1_1_page19 slider1_page19">
+                                        <div class="slider1_1Slide1_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider1_page19/slider1Slide1_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider1_1Slide2_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider1_page19/slider1Slide2_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider1_1Slide3_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider1_page19/slider1Slide3_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider1_1Slide4_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider1_page19/slider1Slide4_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider1_1Slide5_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider1_page19/slider1Slide1_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider1_1Slide6_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider1_page19/slider1Slide2_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider1_1Slide7_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider1_page19/slider1Slide3_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider1_1Slide8_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider1_page19/slider1Slide4_page19.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="slider1_2_page19 slider2_page19">
+                                        <div class="slider1_2Slide1_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider1_page19/slider1Slide1_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider1_2Slide2_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider1_page19/slider1Slide2_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider1_2Slide3_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider1_page19/slider1Slide3_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider1_2Slide4_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider1_page19/slider1Slide4_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider1_2Slide5_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider1_page19/slider1Slide1_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider1_2Slide6_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider1_page19/slider1Slide2_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider1_2Slide7_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider1_page19/slider1Slide3_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider1_2Slide8_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider1_page19/slider1Slide4_page19.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="part1Menu_page19 partMenu_page19">
+                                    <div class="part1MenuColumn1_page19 partMenuColumn1_page19">
+                                        <div class="part1MenuColumn1Headline_page19 partMenuColumn1Headline_page19">
+                                            Характеристики
+                                        </div>
+                                        <ul class="part1MenuColumn1List_page19 partMenuColumn1List_page19">
+                                            <li class="part1MenuColumn1ListElement1_page19 partMenuColumn1ListElement_page19">РАЗМЕР ПАНЕЛИ (ШХДХТ)</li>
+                                            <li class="part1MenuColumn1ListElement2_page19 partMenuColumn1ListElement_page19">ОБЛИЦОВКА ПАНЕЛИ</li>
+                                            <li class="part1MenuColumn1ListElement3_page19 partMenuColumn1ListElement_page19">ОСНОВАНИЕ ПАНЕЛИ</li>
+                                            <li class="part1MenuColumn1ListElement4_page19 partMenuColumn1ListElement_page19">ПОКРЫТИЕ</li>
+                                            <li class="part1MenuColumn1ListElement5_page19 partMenuColumn1ListElement_page19">СОЕДИНЕНИЕ</li>
+                                            <li class="part1MenuColumn1ListElement6_page19 partMenuColumn1ListElement_page19">ГАРАНТИЯ</li>
+                                        </ul>
+                                    </div>
+                                    <div class="part1MenuColumn2_page19 partMenuColumn2_page19">
+                                        <ul class="part1MenuColumn2List_page19 partMenuColumn2List_page19">
+                                            <li class="part1MenuColumn2ListElement1_page19 partMenuColumn2ListElement_page19">1200х600х9 см;</li>
+                                            <li class="part1MenuColumn2ListElement1_page19 partMenuColumn2ListElement_page19">Шпон лиственницы 2мм;</li>
+                                            <li class="part1MenuColumn2ListElement1_page19 partMenuColumn2ListElement_page19">4-ех слойная конструкция из древесины хвойных пород;</li>
+                                            <li class="part1MenuColumn2ListElement1_page19 partMenuColumn2ListElement_page19"><span>Масло</span> 4100 р./панель,<br> <span>Пропитка и лак</span> 4 041 р./панель,<br> <span>Лофт</span> 4 248 р./панель;</li>
+                                            <li class="part1MenuColumn2ListElement1_page19 partMenuColumn2ListElement_page19"><span>«Стык в стык»</span>, <span>клей;</span></li>
+                                            <li class="part1MenuColumn2ListElement1_page19 partMenuColumn2ListElement_page19"><span>30 лет.</span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="part1MenuColumn3_page19 partMenuColumn3_page19">
+                                        <div class="part1MenuColumn3Headline_page19 partMenuColumn3Headline_page19">
+                                            ABETE
+                                        </div>
+                                        <div class="part1MenuColumn3Cost_page19 partMenuColumn3Cost_page19">
+                                            1 960 р./м2
+                                        </div>
+                                        <div class="part1MenuColumn3Collection_page19 partMenuColumn3Collection_page19">
+                                            Панель из коллекции <a href="#" class="part1MenuColumn3CollectionText_page19 partMenuColumn3CollectionText_page19">Italy</a>
+                                        </div>
+                                        <button class="part1MenuColumn3BuyBtn_page19 partMenuColumn3BuyBtn_page19" type="button">
+                                            КУПИТЬ
+                                        </button>
+                                        <a href="#" class="part1MenuColumn3WantAskQuestionBtn_page19 partMenuColumn3WantAskQuestionBtn_page19">
+                                            ХОЧУ ЗАДАТЬ ВОПРОС
+                                        </a>
+                                        <a href="#" class="part1MenuColumn3DownloadMaterial_page19 partMenuColumn3DownloadMaterial_page19">
+                                            <span class="part1MenuColumn3El1_page19 partMenuColumn3El1_page19">
+                                                <img src="./img/svg/firstSection_page19/partMenuColumn3DownloadMaterial_page19.svg" alt="">
+                                            </span>
+                                            <span class="part1MenuColumn3El2_page19 partMenuColumn3El2_page19">
+                                                Скачать 3D модель в 3Dsmax (150 мб)
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contentPart2_page19 contentPart_page19">
+                        <div class="wrapper_page19">
+                            <div class="contentPart2Content_page19 contentPartContent_page19">
+                                <div class="slider2Block_page19 sliderBlock_page19">
+                                    <div class="contentPart2ContentHiddenHeadline_page19 contentPartContentHiddenHeadline_page19">
+                                        <div class="contentPart2ContentHiddenHeadlineText1_page19 contentPartContentHiddenHeadlineText1_page19">
+                                            larise
+                                        </div>
+                                        <div class="contentPart2ContentHiddenHeadlineText2_page19 contentPartContentHiddenHeadlineText2_page19">
+                                            <div class="contentPart2ContentHiddenHeadlineText2Price_page19 contentPartContentHiddenHeadlineText2Price_page19">
+                                                1760 р./м2
+                                            </div>
+                                            <div class="contentPart2ContentHiddenHeadlineText2Collection_page19 contentPartContentHiddenHeadlineText2Collection_page19">
+                                                Панель из коллекции <a href="#" class="contentPartContentHiddenHeadlineText2CollectionName_page19">Italy</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slider2_1_page19 slider1_page19">
+                                        <div class="slider2_1Slide1_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider2_page19/slider2Slide1_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider2_1Slide2_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider2_page19/slider2Slide2_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider2_1Slide3_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider2_page19/slider2Slide3_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider2_1Slide4_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider2_page19/slider2Slide4_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider2_1Slide5_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider2_page19/slider2Slide1_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider2_1Slide6_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider2_page19/slider2Slide2_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider2_1Slide7_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider2_page19/slider2Slide3_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider2_1Slide8_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider2_page19/slider2Slide4_page19.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="slider2_2_page19 slider2_page19">
+                                        <div class="slider2_2Slide1_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider2_page19/slider2Slide1_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider2_2Slide2_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider2_page19/slider2Slide2_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider2_2Slide3_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider2_page19/slider2Slide3_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider2_2Slide4_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider2_page19/slider2Slide4_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider2_2Slide5_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider2_page19/slider2Slide1_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider2_2Slide6_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider2_page19/slider2Slide2_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider2_2Slide7_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider2_page19/slider2Slide3_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider2_2Slide8_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider2_page19/slider2Slide4_page19.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="part2Menu_page19 partMenu_page19">
+                                    <div class="part2MenuColumn1_page19 partMenuColumn1_page19">
+                                        <div class="part2MenuColumn1Headline_page19 partMenuColumn1Headline_page19">
+                                            Характеристики
+                                        </div>
+                                        <ul class="part2MenuColumn1List_page19 partMenuColumn1List_page19">
+                                            <li class="part2MenuColumn1ListElement1_page19 partMenuColumn1ListElement_page19">РАЗМЕР ПАНЕЛИ (ШХДХТ)</li>
+                                            <li class="part2MenuColumn1ListElement2_page19 partMenuColumn1ListElement_page19">ОБЛИЦОВКА ПАНЕЛИ</li>
+                                            <li class="part2MenuColumn1ListElement3_page19 partMenuColumn1ListElement_page19">ОСНОВАНИЕ ПАНЕЛИ</li>
+                                            <li class="part2MenuColumn1ListElement4_page19 partMenuColumn1ListElement_page19">ПОКРЫТИЕ</li>
+                                            <li class="part2MenuColumn1ListElement5_page19 partMenuColumn1ListElement_page19">СОЕДИНЕНИЕ</li>
+                                            <li class="part2MenuColumn1ListElement6_page19 partMenuColumn1ListElement_page19">ГАРАНТИЯ</li>
+                                        </ul>
+                                    </div>
+                                    <div class="part2MenuColumn2_page19 partMenuColumn2_page19">
+                                        <ul class="part2MenuColumn2List_page19 partMenuColumn2List_page19">
+                                            <li class="part2MenuColumn2ListElement1_page19 partMenuColumn2ListElement_page19">1200х600х9 см;</li>
+                                            <li class="part2MenuColumn2ListElement1_page19 partMenuColumn2ListElement_page19">Шпон лиственницы 2мм;</li>
+                                            <li class="part2MenuColumn2ListElement1_page19 partMenuColumn2ListElement_page19">4-ех слойная конструкция из древесины хвойных пород;</li>
+                                            <li class="part2MenuColumn2ListElement1_page19 partMenuColumn2ListElement_page19">Масло 4100 р./панель,<br> Пропитка и лак 4 041 р./панель,<br> Лофт 4 248 р./панель;</li>
+                                            <li class="part2MenuColumn2ListElement1_page19 partMenuColumn2ListElement_page19">«Стык в стык», клей;</li>
+                                            <li class="part2MenuColumn2ListElement1_page19 partMenuColumn2ListElement_page19">30 лет.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="part2MenuColumn3_page19 partMenuColumn3_page19">
+                                        <div class="part2MenuColumn3Headline_page19 partMenuColumn3Headline_page19">
+                                            LARISE
+                                        </div>
+                                        <div class="part2MenuColumn3Cost_page19 partMenuColumn3Cost_page19">
+                                            1 760 р./м2
+                                        </div>
+                                        <div class="part2MenuColumn3Collection_page19 partMenuColumn3Collection_page19">
+                                            Панель из коллекции <a href="#" class="part2MenuColumn3CollectionText_page19 partMenuColumn3CollectionText_page19">Italy</a>
+                                        </div>
+                                        <button class="part2MenuColumn3BuyBtn_page19 partMenuColumn3BuyBtn_page19" type="button">
+                                            КУПИТЬ
+                                        </button>
+                                        <a href="#" class="part2MenuColumn3WantAskQuestionBtn_page19 partMenuColumn3WantAskQuestionBtn_page19">
+                                            ХОЧУ ЗАДАТЬ ВОПРОС
+                                        </a>
+                                        <a href="#" class="part2MenuColumn3DownloadMaterial_page19 partMenuColumn3DownloadMaterial_page19">
+                                            <span class="part2MenuColumn3El1_page19 partMenuColumn3El1_page19">
+                                                <img src="./img/svg/firstSection_page19/partMenuColumn3DownloadMaterial_page19.svg" alt="">
+                                            </span>
+                                            <span class="part2MenuColumn3El2_page19 partMenuColumn3El2_page19">
+                                                Скачать 3D модель в 3Dsmax (150 мб)
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contentPart3_page19 contentPart_page19">
+                        <div class="wrapper_page19">
+                            <div class="contentPart3Content_page19 contentPartContent_page19">
+                                <div class="slider3Block_page19 sliderBlock_page19">
+                                    <div class="contentPart3ContentHiddenHeadline_page19 contentPartContentHiddenHeadline_page19">
+                                        <div class="contentPart3ContentHiddenHeadlineText1_page19 contentPartContentHiddenHeadlineText1_page19">
+                                            cubetti
+                                        </div>
+                                        <div class="contentPart3ContentHiddenHeadlineText2_page19 contentPartContentHiddenHeadlineText2_page19">
+                                            <div class="contentPart3ContentHiddenHeadlineText2Price_page19 contentPartContentHiddenHeadlineText2Price_page19">
+                                                1960 р./м2
+                                            </div>
+                                            <div class="contentPart3ContentHiddenHeadlineText2Collection_page19 contentPartContentHiddenHeadlineText2Collection_page19">
+                                                Панель из коллекции <a href="#" class="contentPartContentHiddenHeadlineText2CollectionName_page19">Italy</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slider3_1_page19 slider1_page19">
+                                        <div class="slider3_1Slide1_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider3_page19/slider3Slide1_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider3_1Slide2_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider3_page19/slider3Slide2_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider3_1Slide3_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider3_page19/slider3Slide3_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider3_1Slide4_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider3_page19/slider3Slide4_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider3_1Slide5_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider3_page19/slider3Slide1_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider3_1Slide6_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider3_page19/slider3Slide2_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider3_1Slide7_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider3_page19/slider3Slide3_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider3_1Slide8_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider3_page19/slider3Slide4_page19.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="slider3_2_page19 slider2_page19">
+                                        <div class="slider3_2Slide1_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider3_page19/slider3Slide1_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider3_2Slide2_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider3_page19/slider3Slide2_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider3_2Slide3_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider3_page19/slider3Slide3_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider3_2Slide4_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider3_page19/slider3Slide4_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider3_2Slide5_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider3_page19/slider3Slide1_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider3_2Slide6_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider3_page19/slider3Slide2_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider3_2Slide7_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider3_page19/slider3Slide3_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider3_2Slide8_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider3_page19/slider3Slide4_page19.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="part3Menu_page19 partMenu_page19">
+                                    <div class="part3MenuColumn1_page19 partMenuColumn1_page19">
+                                        <div class="part3MenuColumn1Headline_page19 partMenuColumn1Headline_page19">
+                                            Характеристики
+                                        </div>
+                                        <ul class="part3MenuColumn1List_page19 partMenuColumn1List_page19">
+                                            <li class="part3MenuColumn1ListElement1_page19 partMenuColumn1ListElement_page19">РАЗМЕР ПАНЕЛИ (ШХДХТ)</li>
+                                            <li class="part3MenuColumn1ListElement2_page19 partMenuColumn1ListElement_page19">ОБЛИЦОВКА ПАНЕЛИ</li>
+                                            <li class="part3MenuColumn1ListElement3_page19 partMenuColumn1ListElement_page19">ОСНОВАНИЕ ПАНЕЛИ</li>
+                                            <li class="part3MenuColumn1ListElement4_page19 partMenuColumn1ListElement_page19">ПОКРЫТИЕ</li>
+                                            <li class="part3MenuColumn1ListElement5_page19 partMenuColumn1ListElement_page19">СОЕДИНЕНИЕ</li>
+                                            <li class="part3MenuColumn1ListElement6_page19 partMenuColumn1ListElement_page19">ГАРАНТИЯ</li>
+                                        </ul>
+                                    </div>
+                                    <div class="part3MenuColumn2_page19 partMenuColumn2_page19">
+                                        <ul class="part3MenuColumn2List_page19 partMenuColumn2List_page19">
+                                            <li class="part3MenuColumn2ListElement1_page19 partMenuColumn2ListElement_page19">1200х600х9 см;</li>
+                                            <li class="part3MenuColumn2ListElement1_page19 partMenuColumn2ListElement_page19">Шпон лиственницы 2мм;</li>
+                                            <li class="part3MenuColumn2ListElement1_page19 partMenuColumn2ListElement_page19">4-ех слойная конструкция из древесины хвойных пород;</li>
+                                            <li class="part3MenuColumn2ListElement1_page19 partMenuColumn2ListElement_page19">Масло 4100 р./панель,<br> Пропитка и лак 4 041 р./панель,<br> Лофт 4 248 р./панель;</li>
+                                            <li class="part3MenuColumn2ListElement1_page19 partMenuColumn2ListElement_page19">«Стык в стык», клей;</li>
+                                            <li class="part3MenuColumn2ListElement1_page19 partMenuColumn2ListElement_page19">30 лет.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="part3MenuColumn3_page19 partMenuColumn3_page19">
+                                        <div class="part3MenuColumn3Headline_page19 partMenuColumn3Headline_page19">
+                                            CUBETTI
+                                        </div>
+                                        <div class="part3MenuColumn3Cost_page19 partMenuColumn3Cost_page19">
+                                            1 960 р./м2
+                                        </div>
+                                        <div class="part3MenuColumn3Collection_page19 partMenuColumn3Collection_page19">
+                                            Панель из коллекции <a href="#" class="part3MenuColumn3CollectionText_page19 partMenuColumn3CollectionText_page19">Italy</a>
+                                        </div>
+                                        <button class="part3MenuColumn3BuyBtn_page19 partMenuColumn3BuyBtn_page19" type="button">
+                                            КУПИТЬ
+                                        </button>
+                                        <a href="#" class="part3MenuColumn3WantAskQuestionBtn_page19 partMenuColumn3WantAskQuestionBtn_page19">
+                                            ХОЧУ ЗАДАТЬ ВОПРОС
+                                        </a>
+                                        <a href="#" class="part3MenuColumn3DownloadMaterial_page19 partMenuColumn3DownloadMaterial_page19">
+                                            <span class="part3MenuColumn3El1_page19 partMenuColumn3El1_page19">
+                                                <img src="./img/svg/firstSection_page19/partMenuColumn3DownloadMaterial_page19.svg" alt="">
+                                            </span>
+                                            <span class="part3MenuColumn3El2_page19 partMenuColumn3El2_page19">
+                                                Скачать 3D модель в 3Dsmax (150 мб)
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contentPart4_page19 contentPart_page19">
+                        <div class="wrapper_page19">
+                            <div class="contentPart4Content_page19 contentPartContent_page19">
+                                <div class="slider4Block_page19 sliderBlock_page19">
+                                    <div class="contentPart4ContentHiddenHeadline_page19 contentPartContentHiddenHeadline_page19">
+                                        <div class="contentPart4ContentHiddenHeadlineText1_page19 contentPartContentHiddenHeadlineText1_page19">
+                                            partito
+                                        </div>
+                                        <div class="contentPart4ContentHiddenHeadlineText2_page19 contentPartContentHiddenHeadlineText2_page19">
+                                            <div class="contentPart4ContentHiddenHeadlineText2Price_page19 contentPartContentHiddenHeadlineText2Price_page19">
+                                                1760 р./м2
+                                            </div>
+                                            <div class="contentPart4ContentHiddenHeadlineText2Collection_page19 contentPartContentHiddenHeadlineText2Collection_page19">
+                                                Панель из коллекции <a href="#" class="contentPartContentHiddenHeadlineText2CollectionName_page19">Italy</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slider4_1_page19 slider1_page19">
+                                        <div class="slider4_1Slide1_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider4_page19/slider4Slide1_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider4_1Slide2_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider4_page19/slider4Slide2_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider4_1Slide3_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider4_page19/slider4Slide3_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider4_1Slide4_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider4_page19/slider4Slide4_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider4_1Slide5_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider4_page19/slider4Slide1_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider4_1Slide6_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider4_page19/slider4Slide2_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider4_1Slide7_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider4_page19/slider4Slide3_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider4_1Slide8_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider4_page19/slider4Slide4_page19.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="slider4_2_page19 slider2_page19">
+                                        <div class="slider4_2Slide1_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider4_page19/slider4Slide1_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider4_2Slide2_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider4_page19/slider4Slide2_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider4_2Slide3_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider4_page19/slider4Slide3_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider4_2Slide4_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider4_page19/slider4Slide4_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider4_2Slide5_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider4_page19/slider4Slide1_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider4_2Slide6_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider4_page19/slider4Slide2_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider4_2Slide7_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider4_page19/slider4Slide3_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider4_2Slide8_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider4_page19/slider4Slide4_page19.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="part4Menu_page19 partMenu_page19">
+                                    <div class="part4MenuColumn1_page19 partMenuColumn1_page19">
+                                        <div class="part4MenuColumn1Headline_page19 partMenuColumn1Headline_page19">
+                                            Характеристики
+                                        </div>
+                                        <ul class="part4MenuColumn1List_page19 partMenuColumn1List_page19">
+                                            <li class="part4MenuColumn1ListElement1_page19 partMenuColumn1ListElement_page19">РАЗМЕР ПАНЕЛИ (ШХДХТ)</li>
+                                            <li class="part4MenuColumn1ListElement2_page19 partMenuColumn1ListElement_page19">ОБЛИЦОВКА ПАНЕЛИ</li>
+                                            <li class="part4MenuColumn1ListElement3_page19 partMenuColumn1ListElement_page19">ОСНОВАНИЕ ПАНЕЛИ</li>
+                                            <li class="part4MenuColumn1ListElement4_page19 partMenuColumn1ListElement_page19">ПОКРЫТИЕ</li>
+                                            <li class="part4MenuColumn1ListElement5_page19 partMenuColumn1ListElement_page19">СОЕДИНЕНИЕ</li>
+                                            <li class="part4MenuColumn1ListElement6_page19 partMenuColumn1ListElement_page19">ГАРАНТИЯ</li>
+                                        </ul>
+                                    </div>
+                                    <div class="part4MenuColumn2_page19 partMenuColumn2_page19">
+                                        <ul class="part4MenuColumn2List_page19 partMenuColumn2List_page19">
+                                            <li class="part4MenuColumn2ListElement1_page19 partMenuColumn2ListElement_page19">1200х600х9 см;</li>
+                                            <li class="part4MenuColumn2ListElement1_page19 partMenuColumn2ListElement_page19">Шпон лиственницы 2мм;</li>
+                                            <li class="part4MenuColumn2ListElement1_page19 partMenuColumn2ListElement_page19">4-ех слойная конструкция из древесины хвойных пород;</li>
+                                            <li class="part4MenuColumn2ListElement1_page19 partMenuColumn2ListElement_page19">Масло 4100 р./панель,<br> Пропитка и лак 4 041 р./панель,<br> Лофт 4 248 р./панель;</li>
+                                            <li class="part4MenuColumn2ListElement1_page19 partMenuColumn2ListElement_page19">«Стык в стык», клей;</li>
+                                            <li class="part4MenuColumn2ListElement1_page19 partMenuColumn2ListElement_page19">30 лет.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="part4MenuColumn3_page19 partMenuColumn3_page19">
+                                        <div class="part4MenuColumn3Headline_page19 partMenuColumn3Headline_page19">
+                                            PARTITO
+                                        </div>
+                                        <div class="part4MenuColumn3Cost_page19 partMenuColumn3Cost_page19">
+                                            1 760 р./м2
+                                        </div>
+                                        <div class="part4MenuColumn3Collection_page19 partMenuColumn3Collection_page19">
+                                            Панель из коллекции <a href="#" class="part4MenuColumn3CollectionText_page19 partMenuColumn3CollectionText_page19">Italy</a>
+                                        </div>
+                                        <button class="part4MenuColumn3BuyBtn_page19 partMenuColumn3BuyBtn_page19" type="button">
+                                            КУПИТЬ
+                                        </button>
+                                        <a href="#" class="part4MenuColumn3WantAskQuestionBtn_page19 partMenuColumn3WantAskQuestionBtn_page19">
+                                            ХОЧУ ЗАДАТЬ ВОПРОС
+                                        </a>
+                                        <a href="#" class="part4MenuColumn3DownloadMaterial_page19 partMenuColumn3DownloadMaterial_page19">
+                                            <span class="part4MenuColumn3El1_page19 partMenuColumn3El1_page19">
+                                                <img src="./img/svg/firstSection_page19/partMenuColumn3DownloadMaterial_page19.svg" alt="">
+                                            </span>
+                                            <span class="part4MenuColumn3El2_page19 partMenuColumn3El2_page19">
+                                                Скачать 3D модель в 3Dsmax (150 мб)
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contentPart5_page19 contentPart_page19">
+                        <div class="wrapper_page19">
+                            <div class="contentPart5Content_page19 contentPartContent_page19">
+                                <div class="slider5Block_page19 sliderBlock_page19">
+                                    <div class="contentPart5ContentHiddenHeadline_page19 contentPartContentHiddenHeadline_page19">
+                                        <div class="contentPart5ContentHiddenHeadlineText1_page19 contentPartContentHiddenHeadlineText1_page19">
+                                            cucitura
+                                        </div>
+                                        <div class="contentPart5ContentHiddenHeadlineText2_page19 contentPartContentHiddenHeadlineText2_page19">
+                                            <div class="contentPart5ContentHiddenHeadlineText2Price_page19 contentPartContentHiddenHeadlineText2Price_page19">
+                                                1960 р./м2
+                                            </div>
+                                            <div class="contentPart5ContentHiddenHeadlineText2Collection_page19 contentPartContentHiddenHeadlineText2Collection_page19">
+                                                Панель из коллекции <a href="#" class="contentPartContentHiddenHeadlineText2CollectionName_page19">Italy</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slider5_1_page19 slider1_page19">
+                                        <div class="slider5_1Slide1_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider5_page19/slider5Slide1_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider5_1Slide2_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider5_page19/slider5Slide2_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider5_1Slide3_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider5_page19/slider5Slide3_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider5_1Slide4_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider5_page19/slider5Slide4_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider5_1Slide5_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider5_page19/slider5Slide1_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider5_1Slide6_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider5_page19/slider5Slide2_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider5_1Slide7_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider5_page19/slider5Slide3_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider5_1Slide8_page19 slider1Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider5_page19/slider5Slide4_page19.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="slider5_2_page19 slider2_page19">
+                                        <div class="slider5_2Slide1_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider5_page19/slider5Slide1_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider5_2Slide2_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider5_page19/slider5Slide2_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider5_2Slide3_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider5_page19/slider5Slide3_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider5_2Slide4_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider5_page19/slider5Slide4_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider5_2Slide5_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider5_page19/slider5Slide1_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider5_2Slide6_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider5_page19/slider5Slide2_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider5_2Slide7_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider5_page19/slider5Slide3_page19.jpg" alt="">
+                                        </div>
+                                        <div class="slider5_2Slide8_page19 slider2Slide_page19">
+                                            <img src="./img/jpg/contentSection_page19/slider5_page19/slider5Slide4_page19.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="part5Menu_page19 partMenu_page19">
+                                    <div class="part5MenuColumn1_page19 partMenuColumn1_page19">
+                                        <div class="part5MenuColumn1Headline_page19 partMenuColumn1Headline_page19">
+                                            Характеристики
+                                        </div>
+                                        <ul class="part5MenuColumn1List_page19 partMenuColumn1List_page19">
+                                            <li class="part5MenuColumn1ListElement1_page19 partMenuColumn1ListElement_page19">РАЗМЕР ПАНЕЛИ (ШХДХТ)</li>
+                                            <li class="part5MenuColumn1ListElement2_page19 partMenuColumn1ListElement_page19">ОБЛИЦОВКА ПАНЕЛИ</li>
+                                            <li class="part5MenuColumn1ListElement3_page19 partMenuColumn1ListElement_page19">ОСНОВАНИЕ ПАНЕЛИ</li>
+                                            <li class="part5MenuColumn1ListElement4_page19 partMenuColumn1ListElement_page19">ПОКРЫТИЕ</li>
+                                            <li class="part5MenuColumn1ListElement5_page19 partMenuColumn1ListElement_page19">СОЕДИНЕНИЕ</li>
+                                            <li class="part5MenuColumn1ListElement6_page19 partMenuColumn1ListElement_page19">ГАРАНТИЯ</li>
+                                        </ul>
+                                    </div>
+                                    <div class="part5MenuColumn2_page19 partMenuColumn2_page19">
+                                        <ul class="part5MenuColumn2List_page19 partMenuColumn2List_page19">
+                                            <li class="part5MenuColumn2ListElement1_page19 partMenuColumn2ListElement_page19">1200х600х9 см;</li>
+                                            <li class="part5MenuColumn2ListElement1_page19 partMenuColumn2ListElement_page19">Шпон лиственницы 2мм;</li>
+                                            <li class="part5MenuColumn2ListElement1_page19 partMenuColumn2ListElement_page19">4-ех слойная конструкция из древесины хвойных пород;</li>
+                                            <li class="part5MenuColumn2ListElement1_page19 partMenuColumn2ListElement_page19">Масло 4100 р./панель,<br> Пропитка и лак 4 041 р./панель,<br> Лофт 4 248 р./панель;</li>
+                                            <li class="part5MenuColumn2ListElement1_page19 partMenuColumn2ListElement_page19">«Стык в стык», клей;</li>
+                                            <li class="part5MenuColumn2ListElement1_page19 partMenuColumn2ListElement_page19">30 лет.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="part5MenuColumn3_page19 partMenuColumn3_page19">
+                                        <div class="part5MenuColumn3Headline_page19 partMenuColumn3Headline_page19">
+                                            CUCITURA
+                                        </div>
+                                        <div class="part5MenuColumn3Cost_page19 partMenuColumn3Cost_page19">
+                                            1 960 р./м2
+                                        </div>
+                                        <div class="part5MenuColumn3Collection_page19 partMenuColumn3Collection_page19">
+                                            Панель из коллекции <a href="#" class="part5MenuColumn3CollectionText_page19 partMenuColumn3CollectionText_page19">Italy</a>
+                                        </div>
+                                        <button class="part5MenuColumn3BuyBtn_page19 partMenuColumn3BuyBtn_page19" type="button">
+                                            КУПИТЬ
+                                        </button>
+                                        <a href="#" class="part5MenuColumn3WantAskQuestionBtn_page19 partMenuColumn3WantAskQuestionBtn_page19">
+                                            ХОЧУ ЗАДАТЬ ВОПРОС
+                                        </a>
+                                        <a href="#" class="part5MenuColumn3DownloadMaterial_page19 partMenuColumn3DownloadMaterial_page19">
+                                            <span class="part5MenuColumn3El1_page19 partMenuColumn3El1_page19">
+                                                <img src="./img/svg/firstSection_page19/partMenuColumn3DownloadMaterial_page19.svg" alt="">
+                                            </span>
+                                            <span class="part5MenuColumn3El2_page19 partMenuColumn3El2_page19">
+                                                Скачать 3D модель в 3Dsmax (150 мб)
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footerMenu">
+                <div class="footerMenu1">
+                    <div class="footerMenu1_headline">
+                        ПЛАЙДЕКС
+                    </div>
+                    <ul class="footerMenu1_list">
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Девелоперам, строителям</a></li>
+                        <li><a href="#">Дизайнерам, архитекторам</a></li>
+                        <li><a href="#">Шоурум</a></li>
+                    </ul>
+                </div>
+                <div class="footerMenu2">
+                    <div class="footerMenu2_headline">
+                        ПРОДУКЦИЯ
+                    </div>
+                    <ul class="footerMenu2_list">
+                        <li><a href="#">Пристенная рейка оптима</a></li>
+                        <li><a href="#">Панно</a></li>
+                        <li><a href="#">Панель настенная <span>нестандартная</span></a></li>
+                        <li><a href="#">Профиль Г,П-образный, <span>четырёхсторонний</span></a></li>
+                        <li><a href="#">Столешницы, полка</a></li>
+                        <li><a href="#">Дверь</a></li>
+                        <li><a href="#">Откос для двери <span>П-образный</span></a></li>
+                        <li><a href="#">Кресло, диван</a></li>
+                        <li><a href="#">Панель</a></li>
+                        <li><a href="#">Лист</a></li>
+                    </ul>
+                </div>
+                <div class="footerBreak1"></div>
+                <div class="footerMenu3">
+                    <div class="footerMenu3_headline">
+                        ИНФОРМАЦИЯ
+                    </div>
+                    <ul class="footerMenu3_list">
+                        <li><a href="#">Каталог Plydex в PDF <span>формате</span></a></li>
+                        <li><a href="#">Дизайнерам</a></li>
+                        <li><a href="#">Монтаж панелей</a></li>
+                        <li><a href="#">Техническая документация</a></li>
+                        <li><a href="#">Политика <span>конциденциальности</span></a></li>
+                        <li><a href="#">Вдохновение</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footerMenuMap">
+                    <div class="footerMenuMap_headline">
+                        АДРЕС ГЛАВНОГО ОФИСА
+                    </div>
+                    <div class="footerMap">
+                        <a href="#"><img src="./img/jpg/footer/footerMap.jpg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footerAdditionalInf">
+                <div class="footerLinks">
+                    <a href="#" class="footerFacebookLink"><img src="./img/svg/footer/footerFacebookLink.svg" alt=""></a>
+                    <a href="#" class="footerYoutubeLink"><img src="./img/svg/footer/footerYoutubeLink.svg" alt=""></a>
+                    <a href="#" class="footerInstaLink"><img src="./img/svg/footer/footerInstaLink.svg" alt=""></a>
+                </div>
+                <div class="footerCopyright">
+                    © Decor Plydex 2019
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./script/slick.min_page19.js"></script>
+    <script src="./script/slider1_page19.js"></script>
+    <script src="./script/slider2_page19.js"></script>
+    <script src="./script/slider3_page19.js"></script>
+    <script src="./script/slider4_page19.js"></script>
+    <script src="./script/slider5_page19.js"></script>
+</body>
+</html>

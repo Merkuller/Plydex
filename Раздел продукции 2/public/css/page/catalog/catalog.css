@@ -1,0 +1,232 @@
+    /* 1 секция. Раздел продукции */
+.sectionOne_page6 {
+    width: 100%;
+    display: block;
+}
+.sectionOne_page6 .contentFirstSection_page6 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 90px; */
+}
+                            /* 1 секция. Контент. Сотрудничество дизайнеры */
+.sectionOne_page6 .contentFirstSection_page6 .wrapper .contentSection_page6 {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    /* display: flex;
+    flex-direction: column; */
+    /* padding-top: 70px; */
+    padding-bottom: 80px;
+}
+                        /* 1 часть контента */
+.sectionOne_page6 .contentFirstSection_page6 .wrapper .contentSection_page6 .contentSection1_page6 {
+    width: 100%;
+}
+        /* Верхняя секция */
+.sectionOne_page6 .contentFirstSection_page6 .wrapper .contentSection_page6 .contentSection1_page6 .contentSection1Img_page6 {
+    width: 100%;
+    height: 220px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin:10px 0px;
+}
+.sectionOne_page6 .contentFirstSection_page6 .wrapper .contentSection_page6 .contentSection1_page6 .contentSection1Img_page6:hover > img {
+    transition: transform 1.9s ease-in-out;
+    transform: scale(1.2);
+    overflow: hidden;
+}
+.sectionOne_page6 .contentFirstSection_page6 .wrapper .contentSection_page6 .contentSection1_page6 .contentSection1Img_page6 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 1.9s ease-in-out;
+
+}
+    /* Ссылки */
+.sectionOne_page6 .contentFirstSection_page6 .wrapper .contentSection_page6 .contentSection1_page6 .contentSection1ImgLinks_page6 {
+    width: 100%;
+    min-height: 92px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 74px;
+}
+/* 1 ссылка */
+.sectionOne_page6 .contentFirstSection_page6 .wrapper .contentSection_page6 .contentSection1_page6 .contentSection1ImgLinks_page6 a:first-of-type {
+    width: 100%;
+    display: inline-block;
+    font-size: 64px;
+    line-height: 74px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+}
+/* 2 ссылка */
+.sectionOne_page6 .contentFirstSection_page6 .wrapper .contentSection_page6 .contentSection1_page6 .contentSection1ImgLinks_page6 a:last-of-type {
+    width: 100%;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+}
+.sectionOne_page6 .contentFirstSection_page6 .wrapper .contentSection_page6 .contentSection1_page6 .contentSection1ImgLinks_page6 a:last-of-type::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    margin-bottom: 1px;
+    background-image: url('/img/svg/firstSection_page6/arrowLink_page6.svg');
+}
+            /* Нижняя секция */
+.sectionOne_page6 .contentFirstSection_page6 .wrapper .contentSection_page6 .contentSection1_page6 .contentSection1Menu_page6 {
+    width: 100%;
+    min-height: 111px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E8E8E8;
+}
+/* Нижняя секция. Текст */
+.sectionOne_page6 .contentFirstSection_page6 .wrapper .contentSection_page6 .contentSection1_page6 .contentSection1Menu_page6 .contentSection1MenuText_page6 {
+    width: 100%;
+    min-height: 28px;
+    display: inline-block;
+    text-align: left;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0A0A0A;
+    font-weight: bold;
+}
+/* Нижняя секция. Кнопка "читать" */
+.sectionOne_page6 .contentFirstSection_page6 .wrapper .contentSection_page6 .contentSection1_page6 .contentSection1Menu_page6 .contentSection1MenuBtn_page6 {
+    width: 128px;
+    height: 40px;
+    display: inline-block;
+    background-color: #0A0A0A;
+    margin-left: 20px;
+}
+.sectionOne_page6 .contentFirstSection_page6 .wrapper .contentSection_page6 .contentSection1_page6 .contentSection1Menu_page6 .contentSection1MenuBtn_page6 a {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 150%;
+}
+                        /* 2 часть контента */
+.sectionOne_page6 .contentFirstSection_page6 .wrapper .contentSection_page6 .contentSection2_page6 {
+    width: 100%;
+    min-height: 405px;
+    display: flex;
+    flex-direction: column;
+}
+        /* Верхняя секция */
+.sectionOne_page6 .contentFirstSection_page6 .wrapper .contentSection_page6 .contentSection2_page6 .contentSection2Menu_page6 {
+    width: 100%;
+    min-height: 111px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E8E8E8;
+    margin-bottom: 70px;
+}
+/* Нижняя секция. Текст */
+.sectionOne_page6 .contentFirstSection_page6 .wrapper .contentSection_page6 .contentSection2_page6 .contentSection2Menu_page6 .contentSection2MenuText_page6 {
+    width: 100%;
+    min-height: 28px;
+    display: inline-block;
+    text-align: left;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0A0A0A;
+    font-weight: bold;
+}
+/* Нижняя секция. Кнопка "читать" */
+.sectionOne_page6 .contentFirstSection_page6 .wrapper .contentSection_page6 .contentSection2_page6 .contentSection2Menu_page6 .contentSection2MenuBtn_page6 {
+    width: 128px;
+    height: 40px;
+    display: inline-block;
+    background-color: #0A0A0A;
+    margin-left: 20px;
+}
+.sectionOne_page6 .contentFirstSection_page6 .wrapper .contentSection_page6 .contentSection2_page6 .contentSection2Menu_page6 .contentSection2MenuBtn_page6 a {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 150%;
+}
+        /* Нижняя секция */
+.sectionOne_page6 .contentFirstSection_page6 .wrapper .contentSection_page6 .contentSection2_page6 .contentSection2Img_page6 {
+    width: 100%;
+    height: 240px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.sectionOne_page6 .contentFirstSection_page6 .wrapper .contentSection_page6 .contentSection2_page6 .contentSection2Img_page6:hover > img {
+    transition: transform 1.9s ease-in-out;
+    transform: scale(1.5);
+}
+.sectionOne_page6 .contentFirstSection_page6 .wrapper .contentSection_page6 .contentSection2_page6 .contentSection2Img_page6 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 1.9s ease-in-out;
+}
+    /* Ссылки */
+.sectionOne_page6 .contentFirstSection_page6 .wrapper .contentSection_page6 .contentSection2_page6 .contentSection2ImgLinks_page6 {
+    width: 100%;
+    min-height: 92px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 74px;
+}
+/* 1 ссылка */
+.sectionOne_page6 .contentFirstSection_page6 .wrapper .contentSection_page6 .contentSection2_page6 .contentSection2ImgLinks_page6 a:first-of-type {
+    width: 100%;
+    display: inline-block;
+    font-size: 64px;
+    line-height: 74px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+}
+/* 2 ссылка */
+.sectionOne_page6 .contentFirstSection_page6 .wrapper .contentSection_page6 .contentSection2_page6 .contentSection2ImgLinks_page6 a:last-of-type {
+    width: 100%;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+}
+.sectionOne_page6 .contentFirstSection_page6 .wrapper .contentSection_page6 .contentSection2_page6 .contentSection2ImgLinks_page6 a:last-of-type::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    margin-bottom: 1px;
+    background-image: url('/img/svg/firstSection_page6/arrowLink_page6.svg');
+}

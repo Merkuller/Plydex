@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Список новостей</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/media-queries.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-xl navbar-dark fixed-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#my-nav">
+                <svg class="ham hamRotate ham1" viewBox="27 13 70 70" width="40" onclick="this.classList.toggle('active')">
+                    <path
+                          class="line top"
+                          d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+                    <path
+                          class="line middle"
+                          d="m 30,50 h 40" />
+                    <path
+                          class="line bottom"
+                          d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+                </svg>
+            </button>
+            <a href="#" class="navbar-brand ml-auto">
+                <img src="./img/svg/header_logo.svg" alt="">
+            </a>
+            <div class="navigationsButtons d-sm-flex d-flex ml-auto">
+                <a href="#" class="mapPosition">
+                    <img src="./img/svg/header_markerIcon.svg" alt="">
+                </a>
+                <a href="#" class="orderCounter">
+                    <img src="./img/svg/header_orderIcon.svg" alt="">
+                </a>
+                <a href="#" class="search">
+                    <img src="./img/svg/header_searchIcon.svg" alt="">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="my-nav">
+                <ul class="navbar-nav text-left">
+                    <li class="nav-item listElement1 dropdown navbar-text">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">ПРОДУКЦИЯ</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item listElement1Dropdown_element1 listElement1Dropdown_element">link1</a>
+                            <a href="#" class="dropdown-item listElement1Dropdown_element2 listElement1Dropdown_element">link2</a>
+                            <a href="#" class="dropdown-item listElement1Dropdown_element3 listElement1Dropdown_element">link3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item listElement2 dropdown navbar-text">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbardrop2" data-toggle="dropdown">КОЛЛЕКЦИИ</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item listElement2Dropdown_element1 listElement1Dropdown_element">link1</a>
+                            <a href="#" class="dropdown-item listElement2Dropdown_element2 listElement1Dropdown_element">link2</a>
+                            <a href="#" class="dropdown-item listElement2Dropdown_element3 listElement1Dropdown_element">link3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item listElement3 navbar-text">
+                        <a href="#" class="nav-link">ГОТОВЫЕ РЕШЕНИЯ</a>
+                    </li>
+                    <li class="nav-item listElement4 navbar-text">
+                        <a href="#" class="nav-link">МОНТАЖ</a>
+                    </li>
+                    <li class="nav-item listElement5 navbar-text">
+                        <a href="#" class="nav-link">КАЛЬКУЛЯТОР</a>
+                    </li>
+                    <li class="nav-item listElement6 text-center navbar-text">
+                        <a href="#" class="nav-link">
+                            <img src="./img/svg/header_phoneIcon.svg" alt="">
+                            8(800)550-22-79
+                        </a>
+                    </li>
+                    <li class="nav-item listElement7">
+                        <a href="#" class="nav-link">
+                            <img src="./img/svg/header_orderIcon.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="nav-item listElement8 text-center" style="display: flex; margin: 0px auto;">
+                        <a href="#" class="nav-link">
+                            <img src="./img/svg/header_facebookIcon.svg" alt="">
+                        </a>
+                        <a href="#" class="nav-link">
+                            <img src="./img/svg/header_youtubeIcon.svg" alt="">
+                        </a>
+                        <a href="#" class="nav-link">
+                            <img src="./img/svg/header_instaIcon.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="nav-item listElement9">
+                        <a href="#" class="nav-link">
+                            <img src="./img/svg/header_searchIcon.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="nav-item listElement10 dropdown navbar-text">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbardrop3" data-toggle="dropdown">RU</a>
+                        <div class="dropdown-menu dropdown-menu-right text-center">
+                            <a href="#" class="dropdown-item listElement1Dropdown_element1 listElement1Dropdown_element">PL</a>
+                            <a href="#" class="dropdown-item listElement1Dropdown_element2 listElement1Dropdown_element">EN</a>
+                            <a href="#" class="dropdown-item listElement1Dropdown_element3 listElement1Dropdown_element">UA</a>
+                            <a href="#" class="dropdown-item listElement1Dropdown_element4 listElement1Dropdown_element">RO</a>
+                            <a href="#" class="dropdown-item listElement1Dropdown_element5 listElement1Dropdown_element">DE</a>
+                            <a href="#" class="dropdown-item listElement1Dropdown_element6 listElement1Dropdown_element">SE</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="sectionOne_page11">
+            <div class="contentFirstSection_page11">
+                <ul class="contentBreadcrum_page11">
+                    <li><a href="#">ГЛАВНАЯ СТРАНИЦА</a></li>
+                    <li><a href="#">НОВОСТИ</a></li>
+                </ul>
+                <div class="wrapper">
+                    <div class="contentSection_page11">
+                        <div class="contentSectionPart1_page11">
+                            <div class="headline_page11">
+                                <div class="headlineText1_page11">
+                                    НОВОСТИ
+                                </div>
+                                <div class="headlineText2_page11">
+                                    Последние новости и обновления ассортимента от Plydex
+                                </div>
+                            </div>
+                            <div class="contentPart1_page11 content_page11">
+                                <div class="contentPart1_1_page11 contentPart1_page11">
+                                    <img src="./img/jpg/contentSection_page11/contentPart1_1Img_page11.jpg" alt="">
+                                </div>
+                                <div class="contentPart1_2_page11 contentPart2_page11">
+                                    <div class="contentPart1_2Row1_page11 contentPart2Row1_page11">
+                                        30 октября 2019 года
+                                    </div>
+                                    <div class="contentPart1_2Row2_page11 contentPart2Row2_page11">
+                                        Панели Plydex в передаче «Квартирный вопрос»
+                                    </div>
+                                    <div class="contentPart1_2Row3_page11 contentPart2Row3_page11">
+                                        <a href="#" class="contentPart1_2Row3Link1_page11 contentPart2Row3Link1_page11">
+                                            ~2 минуты
+                                        </a>
+                                        <a href="#" class="contentPart1_2Row3Link2_page11 contentPart2Row3Link2_page11">
+                                            4 фотографии
+                                        </a>
+                                    </div>
+                                    <div class="contentPart1_2Row4_page11 contentPart2Row4_page11">
+                                        В новом выпуске программы  «Квартирного вопроса»  дизайнеры выбрали 3D-панели Plydex из коллекции «Italia».<br><br> Однополосная брашированная доска с фаской, покрытая матовым лаком. Пол выполнен в интенсивных оттенках темношоколадного цвета, подчеркивающих его неповторимый характер. Проект называется: «Кухня в мыльных пузырях». При проектировании помещения основной...
+                                    </div>
+                                    <div class="contentPart1_2Row5_page11 contentPart2Row5_page11">
+                                        <a href="#" class="contentPart1_2Row5Link_page11 contentPart2Row5Link_page11">
+                                            Продолжить чтение
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contentPart2_page11 content_page11">
+                                <div class="contentPart2_1_page11 contentPart1_page11">
+                                    <img src="./img/jpg/contentSection_page11/contentPart1_2Img_page11.jpg" alt="">
+                                </div>
+                                <div class="contentPart2_2_page11 contentPart2_page11">
+                                    <div class="contentPart1_2Row1_page11 contentPart2Row1_page11">
+                                        15 октября 2019 года
+                                    </div>
+                                    <div class="contentPart2_2Row2_page11 contentPart2Row2_page11">
+                                        Встречайте пополнение в коллекции Куба - «ЛАБИРИНТ»
+                                    </div>
+                                    <div class="contentPart2_2Row3_page11 contentPart2Row3_page11">
+                                        <a href="#" class="contentPart2_2Row3Link1_page11 contentPart2Row3Link1_page11">
+                                            ~4 минуты
+                                        </a>
+                                        <a href="#" class="contentPart2_2Row3Link2_page11 contentPart2Row3Link2_page11">
+                                            3 фотографии
+                                        </a>
+                                    </div>
+                                    <div class="contentPart2_2Row4_page11 contentPart2Row4_page11">
+                                        Встреча прошла в конференц-зале исторического отеля  «Метрополь».<br><br>
+                                        Ведущими семинара были Мирослав Котомски и Лариса Сафронова — специалисты по обучению в компании Barlinek. Cеминар включал в себя теоретическую и практическую части. В рамках теории гости узнали  об основах производственного процесса  паркетной доски, услышали информацию о выполненных проектах Barlinek. Детально были  проработаны вопросы контроля качества продукции Barlinek в процессе производства...
+                                    </div>
+                                    <div class="contentPart2_2Row5_page11 contentPart2Row5_page11">
+                                        <a href="#" class="contentPart2_2Row5Link_page11 contentPart2Row5Link_page11">
+                                            Продолжить чтение
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contentPart3_page11 content_page11">
+                                <div class="contentPart3_1_page11 contentPart1_page11">
+                                    <img src="./img/jpg/contentSection_page11/contentPart1_1Img_page11.jpg" alt="">
+                                </div>
+                                <div class="contentPart3_2_page11 contentPart2_page11">
+                                    <div class="contentPart3_2Row1_page11 contentPart2Row1_page11">
+                                        30 октября 2019 года
+                                    </div>
+                                    <div class="contentPart3_2Row2_page11 contentPart2Row2_page11">
+                                        Панели Plydex в передаче «Квартирный вопрос»
+                                    </div>
+                                    <div class="contentPart3_2Row3_page11 contentPart2Row3_page11">
+                                        <a href="#" class="contentPart3_2Row3Link1_page11 contentPart2Row3Link1_page11">
+                                            ~2 минуты
+                                        </a>
+                                        <a href="#" class="contentPart3_2Row3Link2_page11 contentPart2Row3Link2_page11">
+                                            5 фотографий
+                                        </a>
+                                    </div>
+                                    <div class="contentPart3_2Row4_page11 contentPart2Row4_page11">
+                                        В новом выпуске программы  «Квартирного вопроса»  дизайнеры выбрали 3D-панели Plydex из коллекции «Italia».<br><br> Однополосная брашированная доска с фаской, покрытая матовым лаком. Пол выполнен в интенсивных оттенках темношоколадного цвета, подчеркивающих его неповторимый характер. Проект называется: «Кухня в мыльных пузырях». При проектировании помещения основной...
+                                    </div>
+                                    <div class="contentPart3_2Row5_page11 contentPart2Row5_page11">
+                                        <a href="#" class="contentPart3_2Row5Link_page11 contentPart2Row5Link_page11">
+                                            Продолжить чтение
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contentPart4_page11 content_page11">
+                                <div class="contentPart4_1_page11 contentPart1_page11">
+                                    <img src="./img/jpg/contentSection_page11/contentPart1_2Img_page11.jpg" alt="">
+                                </div>
+                                <div class="contentPart4_2_page11 contentPart2_page11">
+                                    <div class="contentPart4_2Row1_page11 contentPart2Row1_page11">
+                                        15 октября 2019 года
+                                    </div>
+                                    <div class="contentPart4_2Row2_page11 contentPart2Row2_page11">
+                                        Встречайте пополнение в коллекции Куба - «ЛАБИРИНТ»
+                                    </div>
+                                    <div class="contentPart4_2Row3_page11 contentPart2Row3_page11">
+                                        <a href="#" class="contentPart4_2Row3Link1_page11 contentPart2Row3Link1_page11">
+                                            ~4 минуты
+                                        </a>
+                                        <a href="#" class="contentPart4_2Row3Link2_page11 contentPart2Row3Link2_page11">
+                                            3 фотографии
+                                        </a>
+                                    </div>
+                                    <div class="contentPart4_2Row4_page11 contentPart2Row4_page11">
+                                        Встреча прошла в конференц-зале исторического отеля  «Метрополь».<br><br>
+                                        Ведущими семинара были Мирослав Котомски и Лариса Сафронова — специалисты по обучению в компании Barlinek. Cеминар включал в себя теоретическую и практическую части. В рамках теории гости узнали  об основах производственного процесса  паркетной доски.
+                                    </div>
+                                    <div class="contentPart4_2Row5_page11 contentPart2Row5_page11">
+                                        <a href="#" class="contentPart4_2Row5Link_page11 contentPart2Row5Link_page11">
+                                            Продолжить чтение
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contentPart5_page11 content_page11">
+                                <div class="contentPart5_1_page11 contentPart1_page11">
+                                    <img src="./img/jpg/contentSection_page11/contentPart1_1Img_page11.jpg" alt="">
+                                </div>
+                                <div class="contentPart5_2_page11 contentPart2_page11">
+                                    <div class="contentPart5_2Row1_page11 contentPart2Row1_page11">
+                                        30 октября 2019 года
+                                    </div>
+                                    <div class="contentPart5_2Row2_page11 contentPart2Row2_page11">
+                                        Панели Plydex в передаче «Квартирный вопрос»
+                                    </div>
+                                    <div class="contentPart5_2Row3_page11 contentPart2Row3_page11">
+                                        <a href="#" class="contentPart5_2Row3Link1_page11 contentPart2Row3Link1_page11">
+                                            ~2 минуты
+                                        </a>
+                                        <a href="#" class="contentPart5_2Row3Link2_page11 contentPart2Row3Link2_page11">
+                                            5 фотографий
+                                        </a>
+                                    </div>
+                                    <div class="contentPart5_2Row4_page11 contentPart2Row4_page11">
+                                        В новом выпуске программы  «Квартирного вопроса»  дизайнеры выбрали 3D-панели Plydex из коллекции «Italia».<br><br> Однополосная брашированная доска с фаской, покрытая матовым лаком. Пол выполнен в интенсивных оттенках темношоколадного цвета, подчеркивающих его неповторимый характер. Проект называется: «Кухня в мыльных пузырях». При проектировании помещения основной...
+                                    </div>
+                                    <div class="contentPart5_2Row5_page11 contentPart2Row5_page11">
+                                        <a href="#" class="contentPart5_2Row5Link_page11 contentPart2Row5Link_page11">
+                                            Продолжить чтение
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contentSectionPart2_page11">
+                            <div class="navigationPanel_page11">
+                                <button class="prevPage_page11" type="button"></button>
+                                <div class="pages_page11">
+                                    <a href="#" class="1page_page11 page_page11">1</a>
+                                    <a href="#" class="2page_page11 page_page11">2</a>
+                                    <a href="#" class="3page_page11 page_page11">3</a>
+                                    <a href="#" class="4page_page11 page_page11">4</a>
+                                    <a href="#" class="5page_page11 page_page11">5</a>
+                                    <a href="#" class="6page_page11 page_page11">6</a>
+                                    <a href="#" class="7page_page11 page_page11">7</a>
+                                    <a href="#" class="8page_page11 page_page11">8</a>
+                                    <a href="#" class="9page_page11 page_page11">9</a>
+                                    <a href="#" class="10page_page11 page_page11">10</a>
+                                    <a href="#" class="11page_page11 page_page11">11</a>
+                                    <a href="#" class="12page_page11 page_page11">12</a>
+                                    <a href="#" class="13page_page11 page_page11">13</a>
+                                    <a href="#" class="14page_page11 page_page11">14</a>
+                                    <a href="#" class="15page_page11 page_page11">15</a>
+                                    <a href="#" class="16page_page11 page_page11">16</a>
+                                    <a href="#" class="17page_page11 page_page11">17</a>
+                                    <a href="#" class="18page_page11 page_page11">18</a>
+                                    <a href="#" class="19page_page11 page_page11">19</a>
+                                    <a href="#" class="20page_page11 page_page11">20</a>
+                                    <a href="#" class="21page_page11 page_page11">21</a>
+                                    <a href="#" class="22page_page11 page_page11">22</a>
+                                    <a href="#" class="23page_page11 page_page11">23</a>
+                                    <a href="#" class="24page_page11 page_page11">24</a>
+                                    <a href="#" class="25page_page11 page_page11">25</a>
+                                    <a href="#" class="26page_page11 page_page11">26</a>
+                                    <a href="#" class="27page_page11 page_page11">27</a>
+                                    <a href="#" class="28page_page11 page_page11">28</a>
+                                    <a href="#" class="29page_page11 page_page11">29</a>
+                                    <a href="#" class="30page_page11 page_page11">30</a>
+                                    <a href="#" class="31page_page11 page_page11">31</a>
+                                    <a href="#" class="32page_page11 page_page11">32</a>
+                                    <a href="#" class="33page_page11 page_page11">33</a>
+                                    <a href="#" class="34page_page11 page_page11">34</a>
+                                    <a href="#" class="35page_page11 page_page11">35</a>
+                                    <a href="#" class="36page_page11 page_page11">36</a>
+                                    <a href="#" class="37page_page11 page_page11">37</a>
+                                </div>
+                                <button class="nextPage_page11" type="button"></button>
+                            </div>
+                            <div class="navigation_page11">
+                                Статьи <span class="curentNember_page11">n</span> из 37
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footerMenu">
+                <div class="footerMenu1">
+                    <div class="footerMenu1_headline">
+                        ПЛАЙДЕКС
+                    </div>
+                    <ul class="footerMenu1_list">
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Девелоперам, строителям</a></li>
+                        <li><a href="#">Дизайнерам, архитекторам</a></li>
+                        <li><a href="#">Шоурум</a></li>
+                    </ul>
+                </div>
+                <div class="footerMenu2">
+                    <div class="footerMenu2_headline">
+                        ПРОДУКЦИЯ
+                    </div>
+                    <ul class="footerMenu2_list">
+                        <li><a href="#">Пристенная рейка оптима</a></li>
+                        <li><a href="#">Панно</a></li>
+                        <li><a href="#">Панель настенная <span>нестандартная</span></a></li>
+                        <li><a href="#">Профиль Г,П-образный, <span>четырёхсторонний</span></a></li>
+                        <li><a href="#">Столешницы, полка</a></li>
+                        <li><a href="#">Дверь</a></li>
+                        <li><a href="#">Откос для двери <span><nobr>П-образный</nobr></span></a></li>
+                        <li><a href="#">Кресло, диван</a></li>
+                        <li><a href="#">Панель</a></li>
+                        <li><a href="#">Лист</a></li>
+                    </ul>
+                </div>
+                <div class="footerBreak1"></div>
+                <div class="footerMenu3">
+                    <div class="footerMenu3_headline">
+                        ИНФОРМАЦИЯ
+                    </div>
+                    <ul class="footerMenu3_list">
+                        <li><a href="#">Каталог Plydex в PDF <span>формате</span></a></li>
+                        <li><a href="#">Дизайнерам</a></li>
+                        <li><a href="#">Монтаж панелей</a></li>
+                        <li><a href="#">Техническая документация</a></li>
+                        <li><a href="#">Политика <span>конциденциальности</span></a></li>
+                        <li><a href="#">Вдохновение</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footerMenuMap">
+                    <div class="footerMenuMap_headline">
+                        АДРЕС ГЛАВНОГО ОФИСА
+                    </div>
+                    <div class="footerMap">
+                        <a href="#"><img src="./img/jpg/footer/footerMap.jpg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footerAdditionalInf">
+                <div class="footerLinks">
+                    <a href="#" class="footerFacebookLink"><img src="./img/svg/footer/footerFacebookLink.svg" alt=""></a>
+                    <a href="#" class="footerYoutubeLink"><img src="./img/svg/footer/footerYoutubeLink.svg" alt=""></a>
+                    <a href="#" class="footerInstaLink"><img src="./img/svg/footer/footerInstaLink.svg" alt=""></a>
+                </div>
+                <div class="footerCopyright">
+                    © Decor Plydex 2019
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./script/slick.min_page11.js"></script>
+    <script src="./script/slider_page11.js"></script>
+</body>
+</html>

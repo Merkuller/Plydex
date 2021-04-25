@@ -1,0 +1,628 @@
+                                        /* ШАПКА (общие стили для всех страниц) */
+@media screen and (max-width: 1583px) {
+    .listElement1 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .listElement2 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .listElement3 {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 115px;
+    }
+    .listElement4 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .listElement5 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 1427px) {
+    .nav-item:nth-of-type(1) {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .nav-item:nth-of-type(2) {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .nav-item:nth-of-type(3) {
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100px;
+    }
+    .nav-item:nth-of-type(4) {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .nav-item:nth-of-type(5) {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    body {
+        padding-top: 0px;
+    }
+    .navbar {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .navbar-brand {
+        margin-right: -50px;
+    }
+    .navigationsButtons {
+        display: flex !important;
+    }
+    .navbar-collapse ul {
+        height: 100vh;
+        overflow: scroll;
+    }
+    .navbar-toggler {
+        margin-left: 16px;
+    }
+    .nav-item:not(:first-of-type) {
+        border-left: none;
+    }
+    .navbar-nav {
+        padding-top: 20px;
+        padding-bottom: 90px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .nav-item {
+        padding-left: 16px;
+    }
+    .nav-item:nth-of-type(1) {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .nav-item:nth-of-type(2) {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .nav-item:nth-of-type(3) {
+        padding-left: 16px;
+        padding-right: 16px;
+        width: 100%;
+    }
+    .nav-item:nth-of-type(4) {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .nav-item:nth-of-type(5) {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .nav-item:first-of-type a {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-item:nth-of-type(2) a {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .listElement10 {
+        padding-right: 16px;
+    }
+    .listElement10 a {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-item:nth-of-type(3):hover {
+        background-color: #d0672f;
+    }
+    .nav-item:nth-of-type(4):hover {
+        background-color: #d0672f;
+    }
+    .nav-item:nth-of-type(5):hover {
+        background-color: #d0672f;
+    }
+    .nav-item:nth-of-type(3):active {
+        background-color: #d0672f;
+    }
+    .nav-item:nth-of-type(4):active {
+        background-color: #d0672f;
+    }
+    .nav-item:nth-of-type(5):active {
+        background-color: #d0672f;
+    }
+    .nav-item:nth-of-type(6) {
+        margin: 0px auto;
+    }
+    .nav-item:nth-of-type(7) {
+        display: none;
+    }
+    .nav-item:nth-of-type(9) {
+        display: none;
+    }
+    .listElement8 {
+        padding: 0px;
+        width: 110px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .listElement1 {
+        order: -8;
+    }
+    .listElement2 {
+        order: -7;
+    }
+    .listElement3 {
+        order: -6;
+    }
+    .listElement4 {
+        order: -5;
+    }
+    .listElement5 {
+        order: -4;
+    }
+    .listElement8 {
+        order: -1;
+    }
+    .listElement10 {
+        order: -2;
+    }
+    .dropdown:hover {
+        background-color: #3a3a3a;
+    }
+    .dropdown:hover .dropdown-menu {
+        width: 100%;
+        background-color: #3a3a3a;
+        border: none;
+    }
+    .dropdown .dropdown-menu {
+        width: 100%;
+        background-color: #3a3a3a !important;
+        border: none;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .navbar-brand {
+        margin-right: 0px;
+    }
+}
+                                        /* ПОДВАЛ (общие стили для всех страниц) */
+@media screen and (max-width: 1432px) {
+                                /* 2 раздел подвала */
+    footer .footerMenu .footerMenu2 {
+        height: 338px;
+    }
+        /* 2 раздел подвала. Список раздела */
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 300px;
+    }
+    /* 2 раздел подвала. Список раздела. 4 элемент списка */
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) {
+        height: 48px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) span {
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 1371px) {
+                                /* 4 раздел подвала */
+    footer .footerMenu .footerMenuMap {
+        height: 339px;
+    }
+    footer .footerMenu .footerMenuMap .footerMenuMap_headline {
+        height: 56px;
+    }
+}
+
+@media screen and (max-width: 1157px) {
+                                /* 2 раздел подвала */
+    footer .footerMenu .footerMenu2 {
+        height: 362px;
+    }
+        /* 2 раздел подвала. Список раздела */
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 324px;
+    }
+    /* 2 раздел подвала. Список раздела. 3 элемент списка */
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(3) {
+        height: 48px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(3) span {
+        padding-left: 16px;
+    }
+}
+@media screen and (max-width: 1076px) {
+                                /* 3 раздел подвала */
+    footer .footerMenu .footerMenu3 {
+        height: 254px;
+    }
+        /* 3 раздел подвала. Список раздела */
+    footer .footerMenu .footerMenu3 .footerMenu3_list {
+        height: 216px;
+    }
+    /* 3 раздел подвала. Список раздела. 5 элемент списка */
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(5) {
+        height: 48px;
+    }
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(5) span {
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 1072px) {
+                                /* 3 раздел подвала */
+    footer .footerMenu .footerMenu3 {
+        height: 278px;
+    }
+        /* 3 раздел подвала. Список раздела */
+    footer .footerMenu .footerMenu3 .footerMenu3_list {
+        height: 240px;
+    }
+    /* 3 раздел подвала. Список раздела. 1 элемент списка */
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(1) {
+        height: 48px;
+    }
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(1) span {
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    footer {
+        height: 950px;
+    }
+    footer .footerMenu {
+        height: 806px;
+        flex-wrap: wrap;
+        padding-right: 35px;
+    }
+            /* 1 раздел подвала */
+    footer .footerMenu .footerMenu1 {
+        flex: 1;
+    }
+            /* 2 раздел подвала */
+    footer .footerMenu .footerMenu2 {
+        height: 362px;
+        flex: 1;
+    }
+        /* 2 раздел подвала. Список раздела */
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 317px;
+    }
+    /* 2 раздел подвала. Список раздела. 4 элемент списка */
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) {
+        height: 24px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) span {
+        padding-left: 0px;
+    }
+    /* 2 раздел подвала. Список раздела. 3 элемент списка */
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(3) {
+        height: 24px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(3) span {
+        padding-left: 0px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 324px;
+    }
+            /* 3 раздел подвала */
+    footer .footerMenu .footerMenu3 {
+        flex: 1;
+    }
+            /* Первый разрыв строки */
+    .footerBreak1 {
+        flex-basis: 100%;
+        height: 0px;
+    }
+            /* Карта подвала */
+    footer .footerMenu .footerMenuMap {
+        flex: 1;
+    }
+            /* 3 раздел подвала */
+    footer .footerMenu .footerMenu3 {
+        height: 230px;
+    }
+        /* 3 раздел подвала. Список раздела */
+    footer .footerMenu .footerMenu3 .footerMenu3_list {
+        height: 192px;
+    }
+    /* 3 раздел подвала. Список раздела. 1 элемент списка */
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(1) {
+        height: 24px;
+    }
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(1) span {
+        padding-left: 0px;
+    }
+    /* 3 раздел подвала. Список раздела. 5 элемент списка */
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(5) {
+        height: 24px;
+    }
+    footer .footerMenu .footerMenu3 .footerMenu3_list li:nth-of-type(5) span {
+        padding-left: 0px;
+    }
+            /* 4 раздел подвала */
+    footer .footerMenu .footerMenuMap {
+        height: 311px;
+    }
+    footer .footerMenu .footerMenuMap .footerMenuMap_headline {
+        height: 28px;
+    }
+}
+
+@media screen and (max-width: 742px) {
+            /* 2 раздел подвала */
+    footer .footerMenu .footerMenu2 {
+        height: 362px;
+        flex: 1;
+    }
+        /* 2 раздел подвала. Список раздела */
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 324px;
+    }
+    /* 2 раздел подвала. Список раздела. 4 элемент списка */
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) {
+        height: 48px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) span {
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 711px) {
+    footer {
+        height: 1006px;
+    }
+    footer .footerMenu {
+        height: 862px;
+    }
+            /* 4 раздел меню */
+    footer .footerMenu .footerMenuMap {
+        height: 345px;
+    }
+    /* 4 раздел меню. Заголовок */
+    footer .footerMenu .footerMenuMap .footerMenuMap_headline {
+        height: 56px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    footer {
+        height: 1450px;
+    }
+    footer .footerMenu {
+        height: 1250px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .footerBreak1 {
+        display: none;
+    }
+            /* 1 раздел меню */
+    footer .footerMenu .footerMenu1 {
+        width: 100%;
+        height: 174px;
+        flex: 0 1 auto;
+    }
+    footer .footerMenu .footerMenu1 .footerMenu1_list {
+        height: 136px;
+    }
+            /* 2 раздел меню */
+    footer .footerMenu .footerMenu2 {
+        width: 100%;
+        height: 314px;
+        flex: 0 1 auto;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 276px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) {
+        height: 24px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) span {
+        padding-left: 0px;
+    }
+            /* 3 раздел меню */
+    footer .footerMenu .footerMenu3 {
+        width: 100%;
+        height: 230px;
+        flex: 0 1 auto;
+    }
+    footer .footerMenu .footerMenu3 .footerMenu3_list {
+        height: 192px;
+    }
+            /* 4 раздел меню */
+    footer .footerMenu .footerMenuMap {
+        width: 100%;
+        height: 311px;
+        flex: 0 1 auto;
+    }
+    footer .footerMenu .footerMenuMap .footerMap {
+        height: 270px;
+    }
+}
+
+@media screen and (max-width: 406px) {
+        /* 2 раздел подвала */
+    footer .footerMenu .footerMenu2 {
+        height: 338px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 300px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) {
+        height: 48px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(4) span {
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 337px) {
+    /* 2 раздел подвала */
+    footer .footerMenu .footerMenu2 {
+        height: 362px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list {
+        height: 324px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(3) {
+        height: 48px;
+    }
+    footer .footerMenu .footerMenu2 .footerMenu2_list li:nth-of-type(3) span {
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    footer {
+        height: 1460px;
+    }
+    footer .footerMenu {
+        height: 1280px;
+    }
+        /* 4 раздел меню */
+    footer .footerMenu .footerMenuMap {
+        height: 340px;
+    }
+}
+                                        /* МОНТАЖ */
+@media screen and (max-width: 768px) {
+        /* Хлебные крошки */
+    .sectionOne_page7 .contentFirstSection_page7 .contentBreadcrum_page7 {
+        min-height: 54px;
+        justify-content: space-around;
+    }
+                                /* 1 секция. Контент. Монтаж */
+    .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+                            /* 1 секция. Контент. 1 часть. Монтаж */
+    .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .whatItsAllAbout_page7 {
+        padding-bottom: 35px;
+    }
+        /* 1 секция. Контент. 2 часть. Монтаж */
+    .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .steps_page7 {
+        padding-top: 35px;
+    }
+                        /* 1 секция. Контент. 2 часть. Общие стили контента. Монтаж */
+                    /* 1 секция. Контент. 2 часть. Общие стили контента. Контейнер. Монтаж */
+    .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .steps_page7 .step_page7 {
+        flex-direction: column;
+        min-height: auto;
+    }
+        /* 1 секция. Контент. 2 часть. Общие стили контента. Контейнер. 1 часть. Монтаж */
+    .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .steps_page7 .step_page7 .stepPart1_page7 {
+        min-height: auto;
+        width: 100%;
+        display: flex;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+        /* 1 секция. Контент. 2 часть. Общие стили контента. Контейнер. 1 часть. Заголовок. Монтаж */
+    .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .steps_page7 .step_page7 .stepPart1_page7 .stepPart1Title_page7 {
+        align-self: center;
+    }
+        /* 1 секция. Контент. 2 часть. Общие стили контента. Контейнер. 1 часть. Текст. Монтаж */
+    .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .steps_page7 .step_page7 .stepPart1_page7 .stepPart1Text_page7 {
+        min-height: auto;
+    }
+        /* 1 секция. Контент. 2 часть. Общие стили контента. Контейнер. 2 часть. Монтаж */
+    .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .steps_page7 .step_page7 .stepPart2Img_page7 {
+        width: 100%;
+        min-height: 300px;
+        display: inline-block;
+        margin-left: 0px;
+    }
+    .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .steps_page7 .step_page7 .stepPart2Img_page7 img {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 651px) {
+                                /* 1 секция. Контент. 1 часть. 2 половина контейнера. Монтаж */
+    .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .whatItsAllAbout_page7 .additionalInf_page7 {
+        flex-direction: column;
+    }
+        /* 1 секция. Контент. 1 часть. 2.1 половина контейнера. Монтаж */
+    .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .whatItsAllAbout_page7 .additionalInf_page7 .addInfImportant_page7 {
+        width: 100%;
+        min-height: auto;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+        /* 1 секция. Контент. 1 часть. 2.1 половина контейнера. Заголовок. Монтаж */
+    .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .whatItsAllAbout_page7 .additionalInf_page7 .addInfImportant_page7 .addInfImportantHeadline_page7 {
+        margin-bottom: 10px;
+    }
+        /* 1 секция. Контент. 1 часть. 2.2 половина контейнера. Монтаж */
+    .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .whatItsAllAbout_page7 .additionalInf_page7 .addInfWarning_page7 {
+        width: 100%;
+        min-height: auto;
+        margin-left: 0px;
+    }
+        /* 1 секция. Контент. 1 часть. 2.2 половина контейнера. Заголовок. Монтаж */
+    .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .whatItsAllAbout_page7 .additionalInf_page7 .addInfWarning_page7 .addInfWarningHeadline_page7 {
+        margin-bottom: 10px;
+    }
+    /* 1 секция. Контент. 2 часть. Общие стили контента. Контейнер. 2 часть. Монтаж */
+    .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .steps_page7 .step_page7 .stepPart2Img_page7 {
+        min-height: 200px;
+    }
+    /* 1 секция. Контент. 2 часть. Общие стили контента. Контейнер. 2 часть. Картинка. Монтаж */
+    .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .steps_page7 .step_page7 .stepPart2Img_page7 img {
+        height: 200px;
+        object-fit: contain;
+    }
+}
+
+@media screen and (max-width: 492px) {
+        /* 1 секция. Контент. Монтаж */
+    .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 {
+        padding-top: 40px;
+    }
+        /* 1 секция. Контент. 1 часть. 1 половина контейнера. Заголовок. Монтаж */
+    .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .whatItsAllAbout_page7 .whatItsAllAboutContainer_page7 .whatItsAllAboutHeadline_page7 {
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+    }
+        /* 1 секция. Контент. 1 часть. 2.1 половина контейнера. Заголовок. Монтаж */
+    .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .whatItsAllAbout_page7 .additionalInf_page7 .addInfImportant_page7 .addInfImportantHeadline_page7 {
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+    }
+        /* 1 секция. Контент. 1 часть. 2.2 половина контейнера. Заголовок. Монтаж */
+    .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .whatItsAllAbout_page7 .additionalInf_page7 .addInfWarning_page7 .addInfWarningHeadline_page7 {
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+    }
+    /* 1 секция. Контент. 2 часть. Общие стили контента. Контейнер. 2 часть. Монтаж */
+    .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .steps_page7 .step_page7 .stepPart2Img_page7 {
+        min-height: 150px;
+    }
+    /* 1 секция. Контент. 2 часть. Общие стили контента. Контейнер. 2 часть. Картинка. Монтаж */
+    .sectionOne_page7 .contentFirstSection_page7 .wrapper .contentSection_page7 .steps_page7 .step_page7 .stepPart2Img_page7 img {
+        height: 150px;
+        object-fit: contain;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .sectionOne_page7 .contentFirstSection_page7 {
+        padding-top: 105px;
+    }
+}

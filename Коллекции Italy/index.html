@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Коллекция Italy</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/media-queries.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-xl navbar-dark fixed-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#my-nav">
+                <svg class="ham hamRotate ham1" viewBox="27 13 70 70" width="40" onclick="this.classList.toggle('active1')">
+                    <path
+                          class="line top"
+                          d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+                    <path
+                          class="line middle"
+                          d="m 30,50 h 40" />
+                    <path
+                          class="line bottom"
+                          d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+                </svg>
+            </button>
+            <a href="#" class="navbar-brand ml-auto">
+                <img src="./img/svg/header_logo.svg" alt="">
+            </a>
+            <div class="navigationsButtons d-sm-flex d-flex ml-auto">
+                <a href="#" class="mapPosition">
+                    <img src="./img/svg/header_markerIcon.svg" alt="">
+                </a>
+                <a href="#" class="orderCounter">
+                    <img src="./img/svg/header_orderIcon.svg" alt="">
+                </a>
+                <a href="#" class="search">
+                    <img src="./img/svg/header_searchIcon.svg" alt="">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="my-nav">
+                <ul class="navbar-nav text-left">
+                    <li class="nav-item listElement1 dropdown navbar-text">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">ПРОДУКЦИЯ</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item listElement1Dropdown_element1 listElement1Dropdown_element">link1</a>
+                            <a href="#" class="dropdown-item listElement1Dropdown_element2 listElement1Dropdown_element">link2</a>
+                            <a href="#" class="dropdown-item listElement1Dropdown_element3 listElement1Dropdown_element">link3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item listElement2 dropdown navbar-text">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbardrop2" data-toggle="dropdown">КОЛЛЕКЦИИ</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item listElement2Dropdown_element1 listElement1Dropdown_element">link1</a>
+                            <a href="#" class="dropdown-item listElement2Dropdown_element2 listElement1Dropdown_element">link2</a>
+                            <a href="#" class="dropdown-item listElement2Dropdown_element3 listElement1Dropdown_element">link3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item listElement3 navbar-text">
+                        <a href="#" class="nav-link">ГОТОВЫЕ РЕШЕНИЯ</a>
+                    </li>
+                    <li class="nav-item listElement4 navbar-text">
+                        <a href="#" class="nav-link">МОНТАЖ</a>
+                    </li>
+                    <li class="nav-item listElement5 navbar-text">
+                        <a href="#" class="nav-link">КАЛЬКУЛЯТОР</a>
+                    </li>
+                    <li class="nav-item listElement6 text-center navbar-text">
+                        <a href="#" class="nav-link">
+                            <img src="./img/svg/header_phoneIcon.svg" alt="">
+                            8(800)550-22-79
+                        </a>
+                    </li>
+                    <li class="nav-item listElement7">
+                        <a href="#" class="nav-link">
+                            <img src="./img/svg/header_orderIcon.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="nav-item listElement8 text-center" style="display: flex; margin: 0px auto;">
+                        <a href="#" class="nav-link">
+                            <img src="./img/svg/header_facebookIcon.svg" alt="">
+                        </a>
+                        <a href="#" class="nav-link">
+                            <img src="./img/svg/header_youtubeIcon.svg" alt="">
+                        </a>
+                        <a href="#" class="nav-link">
+                            <img src="./img/svg/header_instaIcon.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="nav-item listElement9">
+                        <a href="#" class="nav-link">
+                            <img src="./img/svg/header_searchIcon.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="nav-item listElement10 dropdown navbar-text">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbardrop3" data-toggle="dropdown">RU</a>
+                        <div class="dropdown-menu dropdown-menu-right text-center">
+                            <a href="#" class="dropdown-item listElement1Dropdown_element1 listElement1Dropdown_element">PL</a>
+                            <a href="#" class="dropdown-item listElement1Dropdown_element2 listElement1Dropdown_element">EN</a>
+                            <a href="#" class="dropdown-item listElement1Dropdown_element3 listElement1Dropdown_element">UA</a>
+                            <a href="#" class="dropdown-item listElement1Dropdown_element4 listElement1Dropdown_element">RO</a>
+                            <a href="#" class="dropdown-item listElement1Dropdown_element5 listElement1Dropdown_element">DE</a>
+                            <a href="#" class="dropdown-item listElement1Dropdown_element6 listElement1Dropdown_element">SE</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="sectionOne_page18">
+            <div class="contentFirstSection_page18">
+                <ul class="contentBreadcrum_page18">
+                    <li><a href="#">ГЛАВНАЯ СТРАНИЦА</a></li>
+                    <li><a href="#">КАЛЬКУЛЯТОР</a></li>
+                    <li><a href="#">КОЛЛЕКЦИЯ ITALY</a></li>
+                </ul>
+                <div class="contentSection_page18">
+                    <div class="wrapper_page18">
+                        <div class="headline_page18">
+                            РАССЧИТАЙТЕ СТОИМОСТЬ ПАНЕЛЕЙ ИЗ КОЛЛЕКЦИИ ITALY
+                        </div>
+                    </div>
+                    <div class="contentPart1_page18 contentPart_page18">
+                        <div class="wrapper_page18">
+                            <div class="contentPart1Content_page18 contentPartContent_page18">
+                                <div class="slider1Block_page18 sliderBlock_page18">
+                                    <div class="part1CalculatorHeadlineHidden_page18 partCalculatorHeadlineHidden_page18">
+                                        <div class="part1HeadlineHidden_page18 partHeadlineHidden_page18">
+                                            <div class="part1HeadlineTextHidden_page18 partHeadlineTextHidden_page18">
+                                                ISLANDS
+                                            </div>
+                                            <div class="part1UnderTextHidden_page18 partUnderTextHidden_page18">
+                                                от <span class="part1UnderTextCostFromHidden_page18 partUnderTextCostFromHidden_page18">3 546 р./м2</span> 
+                                            </div>
+                                        </div>
+                                        <a href="#" class="part1HeadlineLinkHidden_page18 partHeadlineLinkHidden_page18">
+                                            Узнать больше
+                                        </a>
+                                    </div>
+                                    <div class="slider1_1_page18 slider1_page18">
+                                        <div class="slider1_1Slide1_page18 slider1Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider1_page18/slider1Slide1_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider1_1Slide2_page18 slider1Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider1_page18/slider1Slide2_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider1_1Slide3_page18 slider1Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider1_page18/slider1Slide3_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider1_1Slide4_page18 slider1Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider1_page18/slider1Slide4_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider1_1Slide5_page18 slider1Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider1_page18/slider1Slide1_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider1_1Slide6_page18 slider1Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider1_page18/slider1Slide2_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider1_1Slide7_page18 slider1Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider1_page18/slider1Slide3_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider1_1Slide8_page18 slider1Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider1_page18/slider1Slide4_page18.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="slider1_2_page18 slider2_page18">
+                                        <div class="slider1_2Slide1_page18 slider2Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider1_page18/slider1Slide1_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider1_2Slide2_page18 slider2Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider1_page18/slider1Slide2_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider1_2Slide3_page18 slider2Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider1_page18/slider1Slide3_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider1_2Slide4_page18 slider2Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider1_page18/slider1Slide4_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider1_2Slide5_page18 slider2Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider1_page18/slider1Slide1_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider1_2Slide6_page18 slider2Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider1_page18/slider1Slide2_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider1_2Slide7_page18 slider2Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider1_page18/slider1Slide3_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider1_2Slide8_page18 slider2Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider1_page18/slider1Slide4_page18.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="part1Calculator_page18 partCalculator_page18">
+                                    <div class="part1CalculatorHeadline_page18 partCalculatorHeadline_page18">
+                                        <div class="part1Headline_page18 partHeadline_page18">
+                                            <div class="part1HeadlineText_page18 partHeadlineText_page18">
+                                                ISLANDS
+                                            </div>
+                                            <div class="part1UnderText_page18 partUnderText_page18">
+                                                от <span class="part1UnderTextCostFrom_page18 partUnderTextCostFrom_page18">3 546 р./м2</span> 
+                                            </div>
+                                        </div>
+                                        <a href="#" class="part1HeadlineLink_page18 partHeadlineLink_page18">
+                                            Узнать больше
+                                        </a>
+                                    </div>
+                                    <div class="part1Row1_page18 partRow1_page18">
+                                        <div class="part1Row1Field1_page18 partRow1Field1_page18">
+                                            <div class="part1Row1InputLabel_page18 partRow1InputLabel_page18">
+                                                Высота стены/помещения
+                                            </div>
+                                            <input type="text" class="part1Row1InputField1_page18 partRow1InputField1_page18">
+                                        </div>
+                                        <div class="part1Row1Field2_page18 partRow1Field2_page18">
+                                            <div class="part1Row1Input2Label_page18 partRow1Input2Label_page18">
+                                                Длина стены/помещения
+                                            </div>
+                                            <input type="text" class="part1Row1Input2Field1_page18 partRow1Input2Field1_page18">
+                                        </div>
+                                    </div>
+                                    <div class="part1Row2_page18 partRow2_page18">
+                                        <div class="part1Row2InputLabel_page18 partRow2InputLabel_page18">
+                                            Выберите тип покрытия
+                                        </div>
+                                        <select class="part1Row2InputField3_page18 partRow2InputField3_page18">
+                                            <option value="">Масло</option>
+                                            <option value="">Пропитка</option>
+                                            <option value="">Эмаль водная</option>
+                                        </select>
+                                    </div>
+                                    <div class="part1Row3_page18 partRow3_page18">
+                                        Итог: <span class="part1Row3Total_page18 partRow3Total_page18">20 815 р.</span>
+                                    </div>
+                                    <div class="part1Row4_page18 partRow4_page18">
+                                        <button class="part1Row4ByBtn_page18 partRow4ByBtn_page18">
+                                            КУПИТЬ
+                                        </button>
+                                        <a href="#" class="part1Row4WantAskAQuestion_page18 partRow4WantAskAQuestion_page18">
+                                            ХОЧУ ЗАДАТЬ ВОПРОС
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contentPart2_page18 contentPart_page18">
+                        <div class="wrapper_page18">
+                            <div class="contentPart2Content_page18 contentPartContent_page18">
+                                <div class="slider2Block_page18 sliderBlock_page18">
+                                    <div class="part2CalculatorHeadlineHidden_page18 partCalculatorHeadlineHidden_page18">
+                                        <div class="part2HeadlineHidden_page18 partHeadlineHidden_page18">
+                                            <div class="part2HeadlineTextHidden_page18 partHeadlineTextHidden_page18">
+                                                LARISE
+                                            </div>
+                                            <div class="part2UnderTextHidden_page18 partUnderTextHidden_page18">
+                                                от <span class="part2UnderTextCostFromHidden_page18 partUnderTextCostFromHidden_page18">3 546 р./м2</span> 
+                                            </div>
+                                        </div>
+                                        <a href="#" class="part2HeadlineLinkHidden_page18 partHeadlineLinkHidden_page18">
+                                            Узнать больше
+                                        </a>
+                                    </div>
+                                    <div class="slider2_1_page18 slider1_page18">
+                                        <div class="slider2_1Slide1_page18 slider1Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider2_page18/slider2Slide1_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider2_1Slide2_page18 slider1Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider2_page18/slider2Slide2_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider2_1Slide3_page18 slider1Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider2_page18/slider2Slide3_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider2_1Slide4_page18 slider1Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider2_page18/slider2Slide4_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider2_1Slide5_page18 slider1Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider2_page18/slider2Slide1_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider2_1Slide6_page18 slider1Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider2_page18/slider2Slide2_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider2_1Slide7_page18 slider1Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider2_page18/slider2Slide3_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider2_1Slide8_page18 slider1Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider2_page18/slider2Slide4_page18.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="slider2_2_page18 slider2_page18">
+                                        <div class="slider2_2Slide1_page18 slider2Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider2_page18/slider2Slide1_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider2_2Slide2_page18 slider2Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider2_page18/slider2Slide2_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider2_2Slide3_page18 slider2Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider2_page18/slider2Slide3_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider2_2Slide4_page18 slider2Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider2_page18/slider2Slide4_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider2_2Slide5_page18 slider2Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider2_page18/slider2Slide1_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider2_2Slide6_page18 slider2Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider2_page18/slider2Slide2_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider2_2Slide7_page18 slider2Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider2_page18/slider2Slide3_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider2_2Slide8_page18 slider2Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider2_page18/slider2Slide4_page18.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="part2Calculator_page18 partCalculator_page18">
+                                    <div class="part2CalculatorHeadline_page18 partCalculatorHeadline_page18">
+                                        <div class="part2Headline_page18 partHeadline_page18">
+                                            <div class="part2HeadlineText_page18 partHeadlineText_page18">
+                                                LARISE
+                                            </div>
+                                            <div class="part2UnderText_page18 partUnderText_page18">
+                                                от <span class="part2UnderTextCostFrom_page18 partUnderTextCostFrom_page18">3 546 р./м2</span> 
+                                            </div>
+                                        </div>
+                                        <a href="#" class="part2HeadlineLink_page18 partHeadlineLink_page18">
+                                            Узнать больше
+                                        </a>
+                                    </div>
+                                    <div class="part2Row1_page18 partRow1_page18">
+                                        <div class="part2Row1Field1_page18 partRow1Field1_page18">
+                                            <div class="part2Row1InputLabel_page18 partRow1InputLabel_page18">
+                                                Высота стены/помещения
+                                            </div>
+                                            <input type="text" class="part2Row1InputField1_page18 partRow1InputField1_page18">
+                                        </div>
+                                        <div class="part2Row1Field2_page18 partRow1Field2_page18">
+                                            <div class="part2Row1Input2Label_page18 partRow1Input2Label_page18">
+                                                Длина стены/помещения
+                                            </div>
+                                            <input type="text" class="part2Row1Input2Field1_page18 partRow1Input2Field1_page18">
+                                        </div>
+                                    </div>
+                                    <div class="part2Row2_page18 partRow2_page18">
+                                        <div class="part2Row2InputLabel_page18 partRow2InputLabel_page18">
+                                            Выберите тип покрытия
+                                        </div>
+                                        <select class="part2Row2InputField3_page18 partRow2InputField3_page18">
+                                            <option value="">Масло</option>
+                                            <option value="">Пропитка</option>
+                                            <option value="">Эмаль водная</option>
+                                        </select>
+                                    </div>
+                                    <div class="part2Row3_page18 partRow3_page18">
+                                        Итог: <span class="part2Row3Total_page18 partRow3Total_page18">20 815 р.</span>
+                                    </div>
+                                    <div class="part2Row4_page18 partRow4_page18">
+                                        <button class="part2Row4ByBtn_page18 partRow4ByBtn_page18">
+                                            КУПИТЬ
+                                        </button>
+                                        <a href="#" class="part2Row4WantAskAQuestion_page18 partRow4WantAskAQuestion_page18">
+                                            ХОЧУ ЗАДАТЬ ВОПРОС
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contentPart3_page18 contentPart_page18">
+                        <div class="wrapper_page18">
+                            <div class="contentPart3Content_page18 contentPartContent_page18">
+                                <div class="slider3Block_page18 sliderBlock_page18">
+                                    <div class="part3CalculatorHeadlineHidden_page18 partCalculatorHeadlineHidden_page18">
+                                        <div class="part3HeadlineHidden_page18 partHeadlineHidden_page18">
+                                            <div class="part3HeadlineTextHidden_page18 partHeadlineTextHidden_page18">
+                                                CUBETTI
+                                            </div>
+                                            <div class="part3UnderTextHidden_page18 partUnderTextHidden_page18">
+                                                от <span class="part3UnderTextCostFromHidden_page18 partUnderTextCostFromHidden_page18">3 546 р./м2</span> 
+                                            </div>
+                                        </div>
+                                        <a href="#" class="part3HeadlineLinkHidden_page18 partHeadlineLinkHidden_page18">
+                                            Узнать больше
+                                        </a>
+                                    </div>
+                                    <div class="slider3_1_page18 slider1_page18">
+                                        <div class="slider3_1Slide1_page18 slider1Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider3_page18/slider3Slide1_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider3_1Slide2_page18 slider1Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider3_page18/slider3Slide2_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider3_1Slide3_page18 slider1Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider3_page18/slider3Slide3_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider3_1Slide4_page18 slider1Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider3_page18/slider3Slide4_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider3_1Slide5_page18 slider1Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider3_page18/slider3Slide1_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider3_1Slide6_page18 slider1Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider3_page18/slider3Slide2_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider3_1Slide7_page18 slider1Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider3_page18/slider3Slide3_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider3_1Slide8_page18 slider1Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider3_page18/slider3Slide4_page18.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="slider3_2_page18 slider2_page18">
+                                        <div class="slider3_2Slide1_page18 slider2Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider3_page18/slider3Slide1_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider3_2Slide2_page18 slider2Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider3_page18/slider3Slide2_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider3_2Slide3_page18 slider2Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider3_page18/slider3Slide3_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider3_2Slide4_page18 slider2Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider3_page18/slider3Slide4_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider3_2Slide5_page18 slider2Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider3_page18/slider3Slide1_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider3_2Slide6_page18 slider2Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider3_page18/slider3Slide2_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider3_2Slide7_page18 slider2Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider3_page18/slider3Slide3_page18.jpg" alt="">
+                                        </div>
+                                        <div class="slider3_2Slide8_page18 slider2Slide_page18">
+                                            <img src="./img/jpg/contentSection_page18/slider3_page18/slider3Slide4_page18.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="part3Calculator_page18 partCalculator_page18">
+                                    <div class="part3CalculatorHeadline_page18 partCalculatorHeadline_page18">
+                                        <div class="part3Headline_page18 partHeadline_page18">
+                                            <div class="part3HeadlineText_page18 partHeadlineText_page18">
+                                                CUBETTI
+                                            </div>
+                                            <div class="part3UnderText_page18 partUnderText_page18">
+                                                от <span class="part3UnderTextCostFrom_page18 partUnderTextCostFrom_page18">3 546 р./м2</span> 
+                                            </div>
+                                        </div>
+                                        <a href="#" class="part3HeadlineLink_page18 partHeadlineLink_page18">
+                                            Узнать больше
+                                        </a>
+                                    </div>
+                                    <div class="part3Row1_page18 partRow1_page18">
+                                        <div class="part3Row1Field1_page18 partRow1Field1_page18">
+                                            <div class="part3Row1InputLabel_page18 partRow1InputLabel_page18">
+                                                Высота стены/помещения
+                                            </div>
+                                            <input type="text" class="part3Row1InputField1_page18 partRow1InputField1_page18">
+                                        </div>
+                                        <div class="part3Row1Field2_page18 partRow1Field2_page18">
+                                            <div class="part3Row1Input2Label_page18 partRow1Input2Label_page18">
+                                                Длина стены/помещения
+                                            </div>
+                                            <input type="text" class="part3Row1Input2Field1_page18 partRow1Input2Field1_page18">
+                                        </div>
+                                    </div>
+                                    <div class="part3Row2_page18 partRow2_page18">
+                                        <div class="part3Row2InputLabel_page18 partRow2InputLabel_page18">
+                                            Выберите тип покрытия
+                                        </div>
+                                        <select class="part3Row2InputField3_page18 partRow2InputField3_page18">
+                                            <option value="">Масло</option>
+                                            <option value="">Пропитка</option>
+                                            <option value="">Эмаль водная</option>
+                                        </select>
+                                    </div>
+                                    <div class="part3Row3_page18 partRow3_page18">
+                                        Итог: <span class="part3Row3Total_page18 partRow3Total_page18">20 815 р.</span>
+                                    </div>
+                                    <div class="part3Row4_page18 partRow4_page18">
+                                        <button class="part3Row4ByBtn_page18 partRow4ByBtn_page18">
+                                            КУПИТЬ
+                                        </button>
+                                        <a href="#" class="part3Row4WantAskAQuestion_page18 partRow4WantAskAQuestion_page18">
+                                            ХОЧУ ЗАДАТЬ ВОПРОС
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footerMenu">
+                <div class="footerMenu1">
+                    <div class="footerMenu1_headline">
+                        ПЛАЙДЕКС
+                    </div>
+                    <ul class="footerMenu1_list">
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Девелоперам, строителям</a></li>
+                        <li><a href="#">Дизайнерам, архитекторам</a></li>
+                        <li><a href="#">Шоурум</a></li>
+                    </ul>
+                </div>
+                <div class="footerMenu2">
+                    <div class="footerMenu2_headline">
+                        ПРОДУКЦИЯ
+                    </div>
+                    <ul class="footerMenu2_list">
+                        <li><a href="#">Пристенная рейка оптима</a></li>
+                        <li><a href="#">Панно</a></li>
+                        <li><a href="#">Панель настенная <span>нестандартная</span></a></li>
+                        <li><a href="#">Профиль Г,П-образный, <span>четырёхсторонний</span></a></li>
+                        <li><a href="#">Столешницы, полка</a></li>
+                        <li><a href="#">Дверь</a></li>
+                        <li><a href="#">Откос для двери <span>П-образный</span></a></li>
+                        <li><a href="#">Кресло, диван</a></li>
+                        <li><a href="#">Панель</a></li>
+                        <li><a href="#">Лист</a></li>
+                    </ul>
+                </div>
+                <div class="footerBreak1"></div>
+                <div class="footerMenu3">
+                    <div class="footerMenu3_headline">
+                        ИНФОРМАЦИЯ
+                    </div>
+                    <ul class="footerMenu3_list">
+                        <li><a href="#">Каталог Plydex в PDF <span>формате</span></a></li>
+                        <li><a href="#">Дизайнерам</a></li>
+                        <li><a href="#">Монтаж панелей</a></li>
+                        <li><a href="#">Техническая документация</a></li>
+                        <li><a href="#">Политика <span>конциденциальности</span></a></li>
+                        <li><a href="#">Вдохновение</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footerMenuMap">
+                    <div class="footerMenuMap_headline">
+                        АДРЕС ГЛАВНОГО ОФИСА
+                    </div>
+                    <div class="footerMap">
+                        <a href="#"><img src="./img/jpg/footer/footerMap.jpg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footerAdditionalInf">
+                <div class="footerLinks">
+                    <a href="#" class="footerFacebookLink"><img src="./img/svg/footer/footerFacebookLink.svg" alt=""></a>
+                    <a href="#" class="footerYoutubeLink"><img src="./img/svg/footer/footerYoutubeLink.svg" alt=""></a>
+                    <a href="#" class="footerInstaLink"><img src="/./img/svg/footer/footerInstaLink.svg" alt=""></a>
+                </div>
+                <div class="footerCopyright">
+                    © Decor Plydex 2019
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./script/slick.min_page18.js"></script>
+    <script src="./script/slider1_page18.js"></script>
+    <script src="./script/slider2_page18.js"></script>
+    <script src="./script/slider3_page18.js"></script>
+</body>
+</html>

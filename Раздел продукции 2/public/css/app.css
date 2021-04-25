@@ -1,0 +1,15 @@
+@import './common/reset.css';
+@import './common/header.css';
+
+@import './components/breadcrumbs/breadcrumbs.css';
+@import './components/leftmenu/leftmenu.css';
+
+@import './page/index/index.css';
+@import './page/assembling/assembling.css';
+@import './page/cases/cases.css';
+@import './page/products/products.css';
+@import './page/details/details.css';
+@import './page/catalog/catalog.css';
+@import './page/ecology/ecology.css';
+
+@import './common/footer.css';
