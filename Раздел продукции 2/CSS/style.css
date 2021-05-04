@@ -231,7 +231,7 @@ body {
     width: 10px;
     height: 10px;
     margin-left: 20px;
-    background-image: url('/./Раздел продукции 2/img/svg/firstSection_page1/breadcrumRightArrow_page3.svg');
+    background-image: url('../img/svg/firstSection_page1/breadcrumRightArrow_page3.svg');
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -334,7 +334,7 @@ body {
 /* Стрелка влево */
 .contentPart1_2MenuSlider_2_page3 .slick-arrow.slick-prev {
     left: 30px;
-    background: url('/./Раздел продукции 2/img/svg/firstSection_page1/contentPart1Menu_page3/slider1LeftArrow_page3.svg') center no-repeat;
+    background: url('../img/svg/firstSection_page1/contentPart1Menu_page3/slider1LeftArrow_page3.svg') center no-repeat;
     width: 20px;
     height: 20px;
     border: none;
@@ -343,7 +343,7 @@ body {
 /* Стрелка вправо */
 .contentPart1_2MenuSlider_2_page3 .slick-arrow.slick-next {
     right: 30px;
-    background: url('/./Раздел продукции 2/img/svg/firstSection_page1/contentPart1Menu_page3/slider1RightArrow_page3.svg') center no-repeat;
+    background: url('../img/svg/firstSection_page1/contentPart1Menu_page3/slider1RightArrow_page3.svg') center no-repeat;
     width: 20px;
     height: 20px;
     border: none;
@@ -1081,7 +1081,7 @@ body {
     display: inline-block;
     min-width: 50px;
     height: 50px;
-    background-image: url('/./Раздел продукции 2/img/svg/firstSection_page1/contentPart1Menu_page3/P1_1MenuDescriptionP3Element1_page3.svg');
+    background-image: url('../img/svg/firstSection_page1/contentPart1Menu_page3/P1_1MenuDescriptionP3Element1_page3.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-color:  #0A0A0A;
@@ -1111,7 +1111,7 @@ body {
     display: inline-block;
     min-width: 50px;
     height: 50px;
-    background-image: url('/./Раздел продукции 2/img/svg/firstSection_page1/contentPart1Menu_page3/P1_1MenuDescriptionP3Element1_page2.svg');
+    background-image: url('../img/svg/firstSection_page1/contentPart1Menu_page3/P1_1MenuDescriptionP3Element2_page3.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-color:  #0A0A0A;
@@ -1141,7 +1141,7 @@ body {
     display: inline-block;
     min-width: 50px;
     height: 50px;
-    background-image: url('/./Раздел продукции 2/img/svg/firstSection_page1/contentPart1Menu_page3/P1_1MenuDescriptionP3Element3_page3.svg');
+    background-image: url('../img/svg/firstSection_page1/contentPart1Menu_page3/P1_1MenuDescriptionP3Element3_page3.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-color:  #0A0A0A;
@@ -1170,7 +1170,7 @@ body {
     display: inline-block;
     min-width: 50px;
     height: 50px;
-    background-image: url('/./Раздел продукции 2/img/svg/firstSection_page1/contentPart1Menu_page3/P1_1MenuDescriptionP3Element41_page3.svg');
+    background-image: url('../img/svg/firstSection_page1/contentPart1Menu_page3/P1_1MenuDescriptionP3Element4_page3.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-color:  #0A0A0A;
@@ -1224,15 +1224,27 @@ body {
     margin-right: 20px;
 }
 .sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_2Menu_page3 .contentPart1_2Menu_2_page3 .contentPart1_2Menu_2Row_page3 .contentPart1_2Menu_2_Card_page3 .contentPart1_2Menu_2_CardImg_page3 {
-    max-width: 100%;
     height: 90px;
     display: inline-block;
 }
+.sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_2Menu_page3 .contentPart1_2Menu_2_page3 .contentPart1_2Menu_2Row_page3 .contentPart1_2Menu_2_Card_page3 .contentPart1_2Menu_2_CardImg_page3:hover {
+    cursor: pointer;
+}
+
+@keyframes fade {
+    0% { opacity: 1 }
+    50% { opacity: 0 }
+    100% { opacity: 1 }
+}
+
 .sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_2Menu_page3 .contentPart1_2Menu_2_page3 .contentPart1_2Menu_2Row_page3 .contentPart1_2Menu_2_Card_page3 .contentPart1_2Menu_2_CardImg_page3 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    /* animation: fade 1s linear;
+    animation-delay: 1.5s; */
 }
+
 .sectionOne_page3 .contentFirstSection_page3 .contentMenu_page3 .contentPart1Menu_page3 .contentPart1_2Menu_page3 .contentPart1_2Menu_2_page3 .contentPart1_2Menu_2Row_page3 .contentPart1_2Menu_2_Card_page3 .contentPart1_2Menu_2_CardText_page3 {
     width: 100%;
     min-height: 24px;
@@ -1270,7 +1282,7 @@ body {
     display: inline-block;
     width: 10px;
     height: 10px;
-    background-image: url('/./Раздел продукции 2/img/svg/firstSection_page1/contentPart1Menu_page3/contentPart1_2Menu_3Link_page3.svg');
+    background-image: url('../img/svg/firstSection_page1/contentPart1Menu_page3/contentPart1_2Menu_3Link_page3.svg');
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -1823,7 +1835,7 @@ body {
     height: 50px;
     display: inline-block;
     margin-right: 20px;
-    background-image: url('/./Раздел продукции 2/img/svg/firstSection_page1/contentPart2Menu_page3/contentPart2MenuDownloadFile_page3.svg');
+    background-image: url('../img/svg/firstSection_page1/contentPart2Menu_page3/contentPart2MenuDownloadFile_page3.svg');
     background-position: center;
     background-repeat: no-repeat;
     margin-right: 10px;
@@ -1892,7 +1904,7 @@ footer .footerMenu .footerMenu1 .footerMenu1_list li a::before {
     width: 10px;
     height: 10px;
     margin-right: 5px;
-    background-image: url('/./Раздел продукции 2/img/svg/footer/leftArrowFooter.svg');
+    background-image: url('../img/svg/footer/leftArrowFooter.svg');
     background-position: center;
     background-repeat: no-repeat;
     margin-bottom: 1px;
@@ -1943,7 +1955,7 @@ footer .footerMenu .footerMenu2 .footerMenu2_list li a::before {
     width: 10px;
     height: 10px;
     margin-right: 5px;
-    background-image: url('/./Раздел продукции 2/img/svg/footer/leftArrowFooter.svg');
+    background-image: url('../img/svg/footer/leftArrowFooter.svg');
     background-position: center;
     background-repeat: no-repeat;
     margin-bottom: 1px;
@@ -1994,7 +2006,7 @@ footer .footerMenu .footerMenu3 .footerMenu3_list li a::before {
     width: 10px;
     height: 10px;
     margin-right: 5px;
-    background-image: url('/./Раздел продукции 2/img/svg/footer/leftArrowFooter.svg');
+    background-image: url('../img/svg/footer/leftArrowFooter.svg');
     background-position: center;
     background-repeat: no-repeat;
     margin-bottom: 1px;
@@ -2077,3 +2089,90 @@ footer .footerAdditionalInf .footerCopyright {
 .dropdown-menu.collapsing {
     display: block;
 }
+
+/* Модальное окно */
+
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  
+  .popup .popupBody {
+    min-height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #010101;
+    padding: 30px 10px;
+  }
+  
+  .popup .popupBody .popupContent {
+    border-radius: 4px;
+    max-width: 750px;
+    position: relative;
+    opacity: 0;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    -webkit-transform: translate(-100%, 0px);
+            transform: translate(-100%, 0px);
+  }
+  
+  .popup .popupBody .popupContent .popupCloseBtn {
+    position: absolute;
+    background-image: url("../img/svg/closePopupIcon.svg");
+    background-position: center;
+    background-color: Transparent;
+    width: 15px;
+    height: 15px;
+    right: 10px;
+    top: 10px;
+    border: none;
+    outline: none;
+  }
+  
+  .popup .popupBody .popupContent .popupCloseBtn:focus {
+    outline: none;
+  }
+  
+  .popup .popupBody .popupContent img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .popup.showPopup {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .popup.showPopup .popupContent {
+    -webkit-transform: translate(0%, 0px);
+            transform: translate(0%, 0px);
+    opacity: 1;
+  }
+  
+  .lock {
+    overflow: hidden;
+  }
+  
+  .bodyPaddingRight {
+    padding-right: 17px;
+  }
+
