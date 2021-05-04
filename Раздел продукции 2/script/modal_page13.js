@@ -6,14 +6,17 @@ if (document.querySelector('.contentPart1_2Menu_2_CardImg_page3')) {
         closeBtn = popup.querySelector('.popupCloseBtn');
         modals = document.querySelectorAll('.contentPart1_2Menu_2_CardImg_page3');
         modalImg = popup.querySelector('img');
+        overlay = document.querySelector('.testBlur');
 
     let popupOpen = () => {
         popup.classList.add('showPopup');
+        overlay.style.display = 'block';
         bodyLock();
     };
 
     let popupClose = () => {
         popup.classList.remove('showPopup');
+        overlay.style.display = 'none';
     };
 
     let bodyLock = function () {
